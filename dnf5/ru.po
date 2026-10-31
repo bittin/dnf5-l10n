@@ -4,13 +4,14 @@
 # Aleksey Fedorov <aleksejfedorov963@gmail.com>, 2024, 2025, 2026.
 # Dmitry Kiryanov <kagaminep@yandex.ru>, 2024.
 # Andrei Stepanov <adem4ik@gmail.com>, 2026.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-30 06:13+0000\n"
-"PO-Revision-Date: 2026-10-22 07:58+0000\n"
-"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
+"PO-Revision-Date: 2026-11-01 18:18+0000\n"
+"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
 "Language: ru\n"
@@ -911,15 +912,17 @@ msgstr "Не удалось подключиться к шине D-Bus: {}"
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ожидание {0} процесса, блокирующего выключение ({1}/{2}с)"
+msgstr[1] "Ожидание {0} процессов, блокирующих выключение ({1}/{2}с)"
+msgstr[2] "Ожидание {0} процессов, блокирующих выключение ({1}/{2}с)"
 
 #: commands/offline/offline.cpp:348
 msgid ""
 "Timed out waiting for processes blocking shutdown. Continuing shutdown "
 "request."
 msgstr ""
+"Истекло время ожидания процессов, блокирующих завершение работы. "
+"Продолжается выполнение запроса на завершение работы."
 
 #: commands/offline/offline.cpp:411
 msgid ""
