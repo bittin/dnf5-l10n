@@ -5,14 +5,14 @@
 # Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Alexandre Juillard <alexandre@juillard.org>, 2026.
+# blutch112 <vincent.lefebvre59@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-30 06:13+0000\n"
 "PO-Revision-Date: 2026-11-01 18:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/fr/>\n"
 "Language: fr\n"
@@ -264,10 +264,8 @@ msgid "Groups"
 msgstr "Groupes"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
-#, fuzzy
-#| msgid "Installed size"
 msgid "installed"
-msgstr "Taille une fois installé"
+msgstr "installé"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
@@ -290,16 +288,12 @@ msgid "Installed Size"
 msgstr "Taille une fois installé"
 
 #: output/status.cpp:90
-#, fuzzy
-#| msgid "Repository"
 msgid "Enabled Repositories"
-msgstr "Dépôt"
+msgstr "Dépôts activés"
 
 #: output/status.cpp:101
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Last Transaction"
-msgstr "Résumé de la transaction :\n"
+msgstr "Dernière Transaction"
 
 #: output/transaction_table.cpp:129
 msgid "Transaction Summary:\n"
@@ -469,10 +463,8 @@ msgid "Upgrading groups:"
 msgstr "Mise à jour des groupes :"
 
 #: output/transaction_table.cpp:631
-#, fuzzy
-#| msgid "Changing reason:"
 msgid "Changing reason of installed groups:"
-msgstr "Changement du motif de :"
+msgstr "Modification du motif des groupes installés :"
 
 #: output/transaction_table.cpp:658
 msgid "Installing environmental groups:"
@@ -504,7 +496,7 @@ msgstr "Changement des flux de module :"
 
 #: output/transaction_table.cpp:776 output/transaction_table.cpp:777
 msgid "(none)"
-msgstr ""
+msgstr "(aucun)"
 
 #: output/transaction_table.cpp:783
 #, c++-format
@@ -532,11 +524,11 @@ msgstr "ID de transaction"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Heure de début"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr "Début de RPMDB :"
+msgstr "Début de rpmdb"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
@@ -555,10 +547,8 @@ msgid "Status"
 msgstr "Statut"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "Publication"
+msgstr "Version de publication"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
@@ -574,7 +564,7 @@ msgstr ""
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Environnements modifiés :"
 
 #: output/transactionlist.cpp:65
 msgid "ID"
@@ -611,7 +601,7 @@ msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
 msgstr ""
 "Date fournie invalide : \"{}\". Les dates sont attendues au format \"YYYY-MM-"
-"DD\"."
+"DD\""
 
 #: session.cpp:270
 #, c++-format
