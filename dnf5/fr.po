@@ -459,7 +459,7 @@ msgstr ""
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr "Rechercher des problèmes dans la packagedb"
+msgstr "identifier les problèmes dans packagedb"
 
 #: commands/check/check.cpp:335
 #, c++-format
