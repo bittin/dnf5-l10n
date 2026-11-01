@@ -1724,7 +1724,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:560
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Type de valeur incorrect dans le fichier \"{}\" à la ligne {} : {}"
 
 #: solv/vendor_change_manager.cpp:566
 #, fuzzy, c++-format
