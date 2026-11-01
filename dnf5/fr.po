@@ -2370,6 +2370,8 @@ msgstr ""
 #: main.cpp:1821
 msgid "Error: transient transactions are only supported on bootc systems."
 msgstr ""
+"Les transactions transitoires sont prises en charge uniquement sur les "
+"systèmes bootc."
 
 #: main.cpp:1862
 #, c++-format
