@@ -1999,15 +1999,15 @@ msgstr "version des données d'état incompatible"
 
 #: transaction/transaction.cpp:87
 msgid "Started"
-msgstr ""
+msgstr "Démarré"
 
 #: transaction/transaction.cpp:89
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: transaction/transaction.cpp:91
 msgid "Error"
-msgstr ""
+msgstr "Erreur"
 
 #: transaction/transaction.cpp:110
 #, c++-format
@@ -2025,11 +2025,11 @@ msgstr "Action d'élément de transaction invalide : {}"
 
 #: transaction/transaction_item_action.cpp:74
 msgid "Replaced"
-msgstr ""
+msgstr "Remplacer"
 
 #: transaction/transaction_item_action.cpp:84
 msgid "Switch"
-msgstr ""
+msgstr "Sélecteur"
 
 #: transaction/transaction_item_reason.cpp:30
 #, c++-format
@@ -2038,7 +2038,7 @@ msgstr "Motif d'élément de transaction invalide : {}"
 
 #: transaction/transaction_item_reason.cpp:56
 msgid "None"
-msgstr ""
+msgstr "Aucune"
 
 #: transaction/transaction_item_reason.cpp:58
 msgid "Dependency"
@@ -2046,11 +2046,11 @@ msgstr ""
 
 #: transaction/transaction_item_reason.cpp:60
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 #: transaction/transaction_item_reason.cpp:62
 msgid "Clean"
-msgstr ""
+msgstr "Nettoyage"
 
 #: transaction/transaction_item_reason.cpp:64
 msgid "Weak Dependency"
@@ -2058,11 +2058,11 @@ msgstr ""
 
 #: transaction/transaction_item_reason.cpp:66
 msgid "Group"
-msgstr ""
+msgstr "Groupe"
 
 #: transaction/transaction_item_reason.cpp:68
 msgid "External User"
-msgstr ""
+msgstr "Utilisateur externe"
 
 #: transaction/transaction_item_state.cpp:28
 #, c++-format
@@ -2295,10 +2295,8 @@ msgid ""
 msgstr ""
 
 #: utils/bootc.cpp:136
-#, fuzzy
-#| msgid "Failed to execute uname()"
 msgid "Failed to unshare mount namespace"
-msgstr "Échec de l'exécution de uname()"
+msgstr "Impossible d'annuler le partage d'un espace de nom de montage"
 
 #: utils/bootc.cpp:143
 #, fuzzy, c++-format
@@ -2573,10 +2571,8 @@ msgid "Failed to restore database \"{}\""
 msgstr "Échec de la restauration de la base de données \"{}\""
 
 #: utils/subprocess.cpp:29
-#, fuzzy
-#| msgid "cannot create temporary file"
 msgid "cannot create pipe"
-msgstr "impossible de créer un fichier temporaire"
+msgstr "Impossible de créer un pipe : {}"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
