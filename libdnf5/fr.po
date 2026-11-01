@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
 # Léane GRASSER <pierre.grasser@proton.me>, 2024.
 # Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
 # red max <redmax761@gmail.com>, 2026.
@@ -11,8 +11,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-30 06:13+0000\n"
-"PO-Revision-Date: 2026-10-09 14:53+0000\n"
-"Last-Translator: red max <redmax761@gmail.com>\n"
+"PO-Revision-Date: 2026-11-01 18:18+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fr/>\n"
 "Language: fr\n"
@@ -1328,10 +1329,9 @@ msgid "Cannot create directory \"{}\": {}"
 msgstr "Impossible de définir le répertoire racine à la valeur \"{}\""
 
 #: repo/repo_config_override.cpp:136 repo/repo_config_override.cpp:143
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot write to file \"{}\": {}"
-msgstr "Impossible de définir la locale \"{}\" : {}"
+msgstr "Impossible d'écrire la variable dans le fichier \"{}\" : {}"
 
 #: repo/repo_config_override.cpp:157
 #, fuzzy, c++-format
