@@ -4,13 +4,15 @@
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
 # Léane GRASSER <leane.grasser@proton.me>, 2024.
 # blutch112 <vincent.lefebvre59@gmail.com>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-30 06:13+0000\n"
 "PO-Revision-Date: 2026-11-01 18:18+0000\n"
-"Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/fr/>\n"
 "Language: fr\n"
@@ -244,7 +246,7 @@ msgstr "Ajouter les informations concernant la politique"
 
 #: listvendorpolicies.cpp:156
 msgid "Source"
-msgstr ""
+msgstr "Source"
 
 #: listvendorpolicies.cpp:157
 msgid "Distribution (read-only)"
@@ -256,11 +258,11 @@ msgstr ""
 
 #: listvendorpolicies.cpp:157
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: listvendorpolicies.cpp:160
 msgid "Masks"
-msgstr ""
+msgstr "Masque"
 
 #: listvendorpolicies.cpp:165
 msgid "Masked by"
@@ -272,7 +274,7 @@ msgstr ""
 
 #: listvendorpolicies.cpp:178 listvendorpolicies.cpp:183
 msgid "Compact"
-msgstr ""
+msgstr "Compact"
 
 #: removevendorpolicy.cpp:23
 msgid "Remove vendor change policy files"
