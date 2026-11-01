@@ -668,10 +668,8 @@ msgid "No matches found: no groups are available."
 msgstr "Aucune correspondance trouvée: aucun groupe n'est disponible."
 
 #: commands/group/group_list.cpp:118
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
-msgstr "Aucun résultat pour \"{}\"."
+msgstr "Aucune correspondance trouvée : aucun groupe n'est installé."
 
 #: commands/group/group_list.cpp:144
 #, c++-format
@@ -780,8 +778,6 @@ msgstr ""
 "paquets installés"
 
 #: commands/list/info.hpp:38
-#, fuzzy
-#| msgid "Lists packages depending on the packages' relation to the system"
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
