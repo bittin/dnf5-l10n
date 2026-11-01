@@ -2341,7 +2341,7 @@ msgstr ""
 #: main.cpp:1768
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "Attention :"
 
 #: main.cpp:1781
 msgid ""
