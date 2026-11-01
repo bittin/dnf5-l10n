@@ -552,7 +552,7 @@ msgstr "Utilisateur"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: output/transactioninfo.cpp:106
 #, fuzzy
@@ -562,11 +562,11 @@ msgstr "Publication"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "Commentaire"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "Paquets modifiés :"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
@@ -578,23 +578,23 @@ msgstr ""
 
 #: output/transactionlist.cpp:65
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: output/transactionlist.cpp:66
 msgid "Command line"
-msgstr ""
+msgstr "Ligne de commande"
 
 #: output/transactionlist.cpp:67
 msgid "Date and time"
-msgstr ""
+msgstr "Date et heure"
 
 #: output/transactionlist.cpp:68
 msgid "Action(s)"
-msgstr ""
+msgstr "Action(s)"
 
 #: output/transactionlist.cpp:69
 msgid "Altered"
-msgstr ""
+msgstr "Modifié"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
@@ -610,6 +610,8 @@ msgstr "Commande manquante"
 msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
 msgstr ""
+"Date fournie invalide : \"{}\". Les dates sont attendues au format \"YYYY-MM-"
+"DD\"."
 
 #: session.cpp:270
 #, c++-format
