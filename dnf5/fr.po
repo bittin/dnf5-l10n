@@ -1144,6 +1144,9 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
+"Aucune correspondance trouvée. Si vous recherchez un fichier, essayez de "
+"spécifier le chemin d'accès complet ou d'utiliser un préfixe joker (\"*/\") "
+"au début."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
