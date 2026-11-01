@@ -1681,7 +1681,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:509 solv/vendor_change_manager.cpp:734
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr ""
+msgstr "Clé \"{}\" inconnue dans le fichier \"{}\" à la ligne {} : {}"
 
 #: solv/vendor_change_manager.cpp:419
 #, c++-format
