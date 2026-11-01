@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Léane GRASSER <pierre.grasser@proton.me>, 2024.
 # Antoine BACK <antoine.back@hotmail.fr>, 2024.
 # Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
@@ -12,8 +12,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-30 06:13+0000\n"
-"PO-Revision-Date: 2026-10-09 14:53+0000\n"
-"Last-Translator: red max <redmax761@gmail.com>\n"
+"PO-Revision-Date: 2026-11-01 18:18+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
 "Language: fr\n"
@@ -241,7 +242,7 @@ msgstr "Type de valeur incorrect dans le fichier \"{}\" à la ligne {} : {}"
 #: cmdline_aliases.cpp:804
 #, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr "Erreur de syntaxe dans le fichier \"{}\" à la ligne {} :"
+msgstr "Erreur de syntaxe dans le fichier \"{}\" à la ligne {}"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -441,7 +442,7 @@ msgstr ""
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
-msgstr "Vérifier la disponibilité de mises à jour de paquets"
+msgstr "recherche les mises à jour de paquets disponibles"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -885,11 +886,11 @@ msgstr "Gérer les modules"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "Aucune correspondance trouvée : aucun dépôt n'est activé."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "Aucune correspondance trouvée : aucun dépôt n'est activé."
 
 #: commands/module/module_list.cpp:92
 #, fuzzy
