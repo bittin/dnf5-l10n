@@ -6,14 +6,14 @@
 # Léane GRASSER <pierre.grasser@proton.me>, 2024.
 # Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
 # red max <redmax761@gmail.com>, 2026.
+# blutch112 <vincent.lefebvre59@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-30 06:13+0000\n"
 "PO-Revision-Date: 2026-11-01 18:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fr/>\n"
 "Language: fr\n"
@@ -337,16 +337,14 @@ msgstr ""
 "disponibles."
 
 #: base/log_event.cpp:248
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Group \"{}\" is already installed."
-msgstr "Le paquet \"{}\" est déjà installé."
+msgstr "Le groupe \"{}\" est déjà installé."
 
 #: base/log_event.cpp:251
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Environmental group \"{}\" is already installed."
-msgstr "Le paquet \"{}\" est déjà installé."
+msgstr "Le groupe d'environnement \"{}\" est déjà installé."
 
 #: base/log_event.cpp:258
 #, c++-format
@@ -630,15 +628,13 @@ msgstr ""
 "L'opération aurait pour effet de supprimer les paquets protégés suivants : {}"
 
 #: base/solver_problems.cpp:75
-#, fuzzy, c++-format
-#| msgid ""
-#| "The operation would result in removing the following protected packages: "
-#| "{}"
+#, c++-format
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: {}"
 msgstr ""
-"L'opération aurait pour effet de supprimer les paquets protégés suivants : {}"
+"L'opération provoquerait des ruptures de dépendances pour les paquets "
+"protégés suivants : {}"
 
 #: base/solver_problems.cpp:78
 #, c++-format
@@ -797,18 +793,15 @@ msgid "poll failed during scriptlets pipe processing"
 msgstr ""
 
 #: base/transaction.cpp:1020
-#, fuzzy
-#| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
-msgstr ""
-"Échec de la définition du fichier scriptlet de sortie, impossible d'ouvrir "
-"le fichier \"{}\" : {}"
+msgstr "échec de la lecture de la sortie du scriptlet depuis le pipe"
 
 #: base/transaction.cpp:1103
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr "Échec du chargement du dépôt système à partir de la racine \"{}\" : {}"
+msgstr ""
+"Échec de l'acquisition du verrou du dépôt système en écriture, le verrou est "
+"situé à \"{}\""
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -861,36 +854,29 @@ msgstr[1] ""
 "Attention : vérifications OpenPGP ignorées pour {0} paquets des dépôts : {1}"
 
 #: base/vendor_change_manager.cpp:115
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot create directory: {path}: {msg}"
-msgstr "Impossible de définir la locale \"{}\" : {}"
+msgstr "{func}() : Impossible de créer le répertoire : {path} : {msg}"
 
 #: base/vendor_change_manager.cpp:164
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove file: {path}: {msg}"
-msgstr "Impossible de définir la locale \"{}\" : {}"
+msgstr "{func}() : impossible de supprimer le fichier {path} : {msg}"
 
 #: base/vendor_change_manager.cpp:170
 msgid "{func}(): File does not exist: {path}"
 msgstr ""
 
 #: base/vendor_change_manager.cpp:259
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove existing policy file: {path}"
-msgstr "Impossible de définir la locale \"{}\" : {}"
+msgstr ""
+"{func}() : impossible de supprimer le fichier de stratégie existant : {path}"
 
 #: base/vendor_change_manager.cpp:271
 msgid "{func}(): Cannot create file: {path}"
 msgstr ""
 
 #: base/vendor_change_manager.cpp:288
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot write to file: {path}"
-msgstr "Impossible de définir la locale \"{}\" : {}"
+msgstr "{func}() : impossible d'écrire dans le fichier : {path}"
 
 #: base/vendor_change_manager.cpp:325
 msgid "{func}(): Base filename cannot be empty"
@@ -914,16 +900,14 @@ msgid "General RuntimeError exception"
 msgstr "Exception RuntimeError générale"
 
 #: common/proc.cpp:88
-#, fuzzy, c++-format
-#| msgid "Cannot install package \"{}\""
+#, c++-format
 msgid "Cannot stat {}"
-msgstr "Impossible d'installer le paquet \"{}\""
+msgstr "Impossible d'obtenir les informations de {}"
 
 #: common/proc.cpp:124
-#, fuzzy, c++-format
-#| msgid "cannot open file"
+#, c++-format
 msgid "Cannot open {}"
-msgstr "impossible d'ouvrir le fichier"
+msgstr "impossible d'ouvrir {}"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
@@ -945,15 +929,15 @@ msgstr ""
 #, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
 msgstr ""
-"Échec de l'enregistrement du document xml pour le groupe \"{}\" dans le "
-"fichier \"{}\": {}"
+"Échec de l'enregistrement du document XML pour l'environnement \"{}\" dans "
+"le fichier \"{}\" : {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
 msgstr ""
 "Échec de l'enregistrement du document xml pour le groupe \"{}\" dans le "
-"fichier \"{}\": {}"
+"fichier \"{}\" : {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 #, c++-format
@@ -1199,10 +1183,8 @@ msgid "Cannot find plugin library \"{}\""
 msgstr "Impossible de trouver la bibliothèque de plugins \"{}\""
 
 #: plugin/plugins.cpp:181
-#, fuzzy
-#| msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgid "Plugins::load_plugins(): config_dirs cannot be empty"
-msgstr "Plugins::load_plugins(): config_dir_path ne peut pas être vide"
+msgstr "Plugins::load_plugins(): config_dirs ne peut pas être vide"
 
 #: plugin/plugins.cpp:194
 #, c++-format
@@ -1315,29 +1297,24 @@ msgid "Empty path to the repository cache directory."
 msgstr "Le chemin d'accès au répertoire du cache des dépôts est vide."
 
 #: repo/repo_config_override.cpp:69
-#, fuzzy, c++-format
-#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
+#, c++-format
 msgid "Cannot set option \"{}\" for repository \"{}\": {}"
-msgstr ""
-"Échec du téléchargement des métadonnées ({} : \"{}\") pour le dépôt \"{}\" : "
-"{}"
+msgstr "Impossible de définir l'option \"{}\" pour le dépôt \"{}\" : {}"
 
 #: repo/repo_config_override.cpp:84
-#, fuzzy, c++-format
-#| msgid "Cannot set root directory \"{}\""
+#, c++-format
 msgid "Cannot create directory \"{}\": {}"
-msgstr "Impossible de définir le répertoire racine à la valeur \"{}\""
+msgstr "Impossible de créer le répertoire \"{}\" : {}"
 
 #: repo/repo_config_override.cpp:136 repo/repo_config_override.cpp:143
 #, c++-format
 msgid "Cannot write to file \"{}\": {}"
-msgstr "Impossible d'écrire la variable dans le fichier \"{}\" : {}"
+msgstr "Impossible d'écrire dans le fichier \"{}\" : {}"
 
 #: repo/repo_config_override.cpp:157
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot set permissions on file \"{}\": {}"
-msgstr "Impossible de définir la locale \"{}\" : {}"
+msgstr "Impossible de définir les permissions sur le fichier \"{}\" : {}"
 
 #: repo/repo_downloader.cpp:224
 #, c++-format
@@ -1415,10 +1392,9 @@ msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "Échec du chargement du repomd du dépôt \"{}\" depuis \"{}\" : {}."
 
 #: repo/solv_repo.cpp:276
-#, fuzzy, c++-format
-#| msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
+#, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
-msgstr "Échec du chargement des primary du dépôt \"{}\" : {}."
+msgstr "Échec du chargement des primary du dépôt \"{}\" : {}."
 
 #: repo/solv_repo.cpp:324
 #, c++-format
@@ -1434,10 +1410,11 @@ msgstr ""
 "\" : {}"
 
 #: repo/solv_repo.cpp:436
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr "Échec du chargement du dépôt système à partir de la racine \"{}\" : {}"
+msgstr ""
+"Échec de l'acquisition du verrou du dépôt système en lecture, verrou situé à "
+"\"{}\""
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1636,10 +1613,9 @@ msgid "Cannot install package \"{}\""
 msgstr "Impossible d'installer le paquet \"{}\""
 
 #: rpm/versionlock_config.cpp:259
-#, fuzzy, c++-format
-#| msgid "Error parsing transaction info: {}"
+#, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr "Erreur lors de l'analyse des informations de transaction : {}"
+msgstr "Erreur d'analyse du fichier de verrouillage de version \"{}\" : {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
@@ -1658,10 +1634,9 @@ msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Échec de l'écriture des données debugsolver dans \"{}\" : {}"
 
 #: solv/vendor_change_manager.cpp:357
-#, fuzzy, c++-format
-#| msgid "Missing section header on line {}"
+#, c++-format
 msgid "Missing \"version\" key in \"{}\""
-msgstr "En-tête de section manquant à la ligne {}"
+msgstr "Clé \"version\" manquante dans \"{}\""
 
 #: solv/vendor_change_manager.cpp:369
 #, c++-format
@@ -1681,7 +1656,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:509 solv/vendor_change_manager.cpp:734
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr "Clé \"{}\" inconnue dans le fichier \"{}\" à la ligne {} : {}"
+msgstr "Clé '{}' inconnue dans \"{}\" à la ligne {}"
 
 #: solv/vendor_change_manager.cpp:419
 #, c++-format
@@ -1724,13 +1699,12 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:560
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr "Type de valeur incorrect dans le fichier \"{}\" à la ligne {} : {}"
+msgstr "Type de valeur incorrect dans \"{}\" à la ligne {} : {}"
 
 #: solv/vendor_change_manager.cpp:566
-#, fuzzy, c++-format
-#| msgid "An error occurred importing key \"{}\": {}"
+#, c++-format
 msgid "An error occurred when parsing \"{}\": {}"
-msgstr "Une erreur s'est produite lors de l'importation de la clé \"{}\" : {}"
+msgstr "Une erreur est survenue lors de l'analyse de \"{}\" : {}"
 
 #: solv/vendor_change_manager.cpp:580
 #, c++-format
@@ -1807,7 +1781,7 @@ msgstr ""
 
 #: solv/vendor_change_manager.cpp:873
 msgid "Unexpected end of input"
-msgstr ""
+msgstr "Fin de saisie inattendue"
 
 #: solv/vendor_change_manager.cpp:890
 #, c++-format
@@ -1831,7 +1805,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:969
 #, c++-format
 msgid "Unexpected character '{}'"
-msgstr "Id de dépôt \"{}\" invalide : caractère '{}' inattendu"
+msgstr "Caractère inattendu '{}'"
 
 #: solv/vendor_change_manager.cpp:1045
 msgid "Expected quoted string starting with '\"'"
@@ -1848,7 +1822,7 @@ msgstr ""
 
 #: solv/vendor_change_manager.cpp:1066
 msgid "Unterminated quoted string"
-msgstr ""
+msgstr "Chaîne entre guillemets non terminée"
 
 #: solv/vendor_change_manager.cpp:1101
 msgid "Expected direction prefix 'in', 'out', or 'eq'"
@@ -1872,20 +1846,18 @@ msgid "Invalid regex vendor pattern '{}': {}"
 msgstr ""
 
 #: solv/vendor_change_manager.cpp:1256
-#, fuzzy, c++-format
-#| msgid "Unknown time unit '{}'"
+#, c++-format
 msgid "Unknown filter field name '{}'"
-msgstr "Unité de temps '{}' inconnue"
+msgstr "Nom de champ de filtre inconnu '{}'"
 
 #: solv/vendor_change_manager.cpp:1266
 msgid "Expected filter field name"
 msgstr ""
 
 #: solv/vendor_change_manager.cpp:1295
-#, fuzzy, c++-format
-#| msgid "Invalid boolean value \"{}\""
+#, c++-format
 msgid "Invalid epoch value \"{}\""
-msgstr "Valeur booléenne \"{}\" invalide"
+msgstr "Valeur d'époque invalide \"{}\""
 
 #: solv/vendor_change_manager.cpp:1299
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
@@ -1913,10 +1885,9 @@ msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
 msgstr ""
 
 #: solv/vendor_change_manager.cpp:1330
-#, fuzzy, c++-format
-#| msgid "Invalid package type: {}"
+#, c++-format
 msgid "Invalid regex '{}': {}"
-msgstr "Type de paquet invalide : {}"
+msgstr "Regex invalide '{}' : {}"
 
 #: solv/vendor_change_manager.cpp:1341
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
@@ -1952,22 +1923,17 @@ msgstr ""
 "est \"{}\""
 
 #: system/state.cpp:798
-#, fuzzy, c++-format
-#| msgid "Error %i opening rpm database"
+#, c++-format
 msgid "Error {} opening rpm database"
-msgstr "Erreur %i lors de l'ouverture de la base de données rpm"
+msgstr "Erreur {} lors de l'ouverture de la base de données rpm"
 
 #: system/state.cpp:802
-#, fuzzy
-#| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
-msgstr "Échec de la restauration de la base de données \"{}\""
+msgstr "Échec de l'obtention de la base de données RPM"
 
 #: system/state.cpp:808
-#, fuzzy
-#| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"
-msgstr "Impossible d'initialiser l'itérateur de base de données rpm"
+msgstr "Échec de l'initialisation de l'itérateur d'index de la base de données"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2271,16 +2237,13 @@ msgid "Error checking bootc status: Failed to parse JSON output"
 msgstr ""
 
 #: utils/bootc.cpp:73
-#, fuzzy, c++-format
-#| msgid "Failed to update from string: {}"
+#, c++-format
 msgid "Failed to query status of bootc system: {}"
-msgstr "Échec de la mise à jour à partir de la chaîne : {}"
+msgstr "Échec de la consultation du statut du système bootc : {}"
 
 #: utils/bootc.cpp:90
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to stat /usr filesystem"
-msgstr "Échec du téléchargement des fichiers"
+msgstr "Impossible d'analyser le système de fichiers /usr"
 
 #: utils/bootc.cpp:125
 #, c++-format
@@ -2299,10 +2262,9 @@ msgid "Failed to unshare mount namespace"
 msgstr "Impossible d'annuler le partage d'un espace de nom de montage"
 
 #: utils/bootc.cpp:143
-#, fuzzy, c++-format
-#| msgid "Failed to resolve module metadata: {}"
+#, c++-format
 msgid "Failed to remount /usr as read-write: {}"
-msgstr "Échec de la résolution des métadonnées de module : {}"
+msgstr "Échec du remontage de /usr en lecture-écriture : {}"
 
 #: utils/fs/file.cpp:87
 msgid "cannot open file"
@@ -2422,46 +2384,39 @@ msgid "Failed to open lock file \"{}\""
 msgstr "Échec de l'ouverture du fichier verrou \"{}\""
 
 #: utils/locker.cpp:130 utils/locker.cpp:167
-#, fuzzy, c++-format
-#| msgid "The package is not signed."
+#, c++-format
 msgid "The lock file \"{}\" is not opened"
-msgstr "Le paquet n'est pas signé."
+msgstr "Le fichier de verrouillage \"{}\" n'est pas ouvert"
 
 #: utils/locker.cpp:135
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to truncate lock file \"{}\""
-msgstr "Échec de la fermeture du fichier verrou \"{}\""
+msgstr "Échec de la troncature du fichier de verrouillage \"{}\""
 
 #: utils/locker.cpp:138 utils/locker.cpp:175
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to seek lock file \"{}\""
-msgstr "Échec de la fermeture du fichier verrou \"{}\""
+msgstr "Impossible de rechercher le fichier de verrouillage \"{}\""
 
 #: utils/locker.cpp:146
-#, fuzzy, c++-format
-#| msgid "Failed to delete lock file \"{}\""
+#, c++-format
 msgid "Failed to write to lock file \"{}\""
-msgstr "Échec de la suppression du fichier verrou \"{}\""
+msgstr "Impossible d'écrire dans le fichier de verrouillage \"{}\""
 
 #: utils/locker.cpp:153
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to sync lock file \"{}\""
-msgstr "Échec de l'ouverture du fichier verrou \"{}\""
+msgstr "Impossible de synchroniser le fichier de verrouillage \"{}\""
 
 #: utils/locker.cpp:181
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to read from lock file \"{}\""
-msgstr "Échec de l'ouverture du fichier verrou \"{}\""
+msgstr "Impossible de lire depuis le fichier de verrouillage \"{}\""
 
 #: utils/locker.cpp:194
-#, fuzzy, c++-format
-#| msgid "The package is not signed."
+#, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr "Le paquet n'est pas signé."
+msgstr "Le fichier de verrouillage \"{}\" n'est pas verrouillé"
 
 #: utils/locker.cpp:207
 #, c++-format
@@ -2572,7 +2527,7 @@ msgstr "Échec de la restauration de la base de données \"{}\""
 
 #: utils/subprocess.cpp:29
 msgid "cannot create pipe"
-msgstr "Impossible de créer un pipe : {}"
+msgstr "Impossible de créer un pipe"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
@@ -2587,15 +2542,13 @@ msgid "cannot bind child stdout"
 msgstr ""
 
 #: utils/subprocess.cpp:177
-#, fuzzy
-#| msgid "cannot open file"
 msgid "cannot bind child stderr"
-msgstr "impossible d'ouvrir le fichier"
+msgstr "impossible de lier stderr à l'enfant"
 
 #: utils/subprocess.cpp:180
 #, c++-format
 msgid "failed to execute command: {}"
-msgstr "échec de l'exécution de la commande '%s' : %s"
+msgstr "Échec de l'exécution de la commande : {}"
 
 #: utils/subprocess.cpp:185
 #, c++-format
