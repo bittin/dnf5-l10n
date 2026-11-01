@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
 # Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Alexandre Juillard <alexandre@juillard.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-30 06:13+0000\n"
-"PO-Revision-Date: 2026-06-26 10:17+0000\n"
-"Last-Translator: Alexandre Juillard <alexandre@juillard.org>\n"
+"PO-Revision-Date: 2026-11-01 18:18+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/fr/>\n"
 "Language: fr\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: argument_parser.cpp:68
 #, c++-format
@@ -191,7 +192,7 @@ msgstr "Nom"
 
 #: output/packageinfo.cpp:68
 msgid "Epoch"
-msgstr "Epoch"
+msgstr "Époque"
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:291
 msgid "Version"
@@ -260,7 +261,7 @@ msgstr "Champs avec correspondance : "
 
 #: output/status.cpp:45
 msgid "Groups"
-msgstr ""
+msgstr "Groupes"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
 #, fuzzy
@@ -270,25 +271,21 @@ msgstr "Taille une fois installé"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
-msgstr ""
+msgstr "disponible"
 
 #: output/status.cpp:54
 msgid "Environments"
-msgstr ""
+msgstr "Environnements"
 
 #: output/status.cpp:71
-#, fuzzy
-#| msgid "Package"
 msgid "Packages"
-msgstr "Paquet"
+msgstr "Paquets"
 
 #: output/status.cpp:74
 msgid "user-installed"
 msgstr ""
 
 #: output/status.cpp:84
-#, fuzzy
-#| msgid "Installed size"
 msgid "Installed Size"
 msgstr "Taille une fois installé"
 
@@ -401,7 +398,7 @@ msgstr " <nom-indéfini>"
 
 #: output/transaction_table.cpp:482
 msgid "replacing "
-msgstr "remplacement de "
+msgstr "remplacement "
 
 #: output/transaction_table.cpp:495
 msgid "Skipping packages with conflicts:"
@@ -523,17 +520,15 @@ msgstr "Aucune tâche à effectuer."
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr ""
+msgstr "Action"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Raison"
 
 #: output/transactioninfo.cpp:98
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Transaction ID"
-msgstr "Résumé de la transaction :\n"
+msgstr "ID de transaction"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
@@ -541,7 +536,7 @@ msgstr ""
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "Début de RPMDB :"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
@@ -553,7 +548,7 @@ msgstr ""
 
 #: output/transactioninfo.cpp:104
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
@@ -623,11 +618,11 @@ msgstr ""
 
 #: utils/userconfirm.cpp:57
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Voulez-vous continuer ? [O/n] : "
 
 #: utils/userconfirm.cpp:60
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Voulez-vous continuer ? [o/N] : "
 
 #~ msgid "No matches found."
 #~ msgstr "Aucun résultat."
