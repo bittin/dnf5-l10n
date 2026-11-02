@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Joan Aymà <joan@ayma.cat>, 2025.
-# David Medina <dmedinacpnl@gmail.com>, 2025.
+# David Medina <dmedinacpnl@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2025-03-14 03:08+0000\n"
+"PO-Revision-Date: 2026-11-02 10:25+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: addrepo.cpp:115
 #, c++-format
@@ -117,92 +117,104 @@ msgstr "No es poden llegir els repositoris del directori {}: {}"
 #: addvendorpolicy.cpp:23
 msgid "Add a vendor change policy from a TOML file or compact format string"
 msgstr ""
+"Afegeix una política de canvi de proveïdor des d'un fitxer TOML o una cadena "
+"de format compacte"
 
 #: addvendorpolicy.cpp:29
 msgid "Policy base filename (without .conf extension)"
-msgstr ""
+msgstr "Nom de fitxer base de la política (sense extensió .conf)"
 
 #: addvendorpolicy.cpp:40
 msgid "URL or local path to the source TOML policy file"
-msgstr ""
+msgstr "URL o camí local al fitxer de política TOML d'origen"
 
 #: addvendorpolicy.cpp:52
 msgid "Vendor change policy in compact format"
-msgstr ""
+msgstr "Política de canvi de proveïdor en format compacte"
 
 #: addvendorpolicy.cpp:64
 msgid "Allow masking a distribution policy"
-msgstr ""
+msgstr "Permet emmascarar una política de distribució"
 
 #: addvendorpolicy.cpp:73
 msgid "Allow replacing an existing policy file"
-msgstr ""
+msgstr "Permet reemplaçar un fitxer de política existent"
 
 #: addvendorpolicy.cpp:82
 msgid "Require that the new policy masks a distribution policy"
-msgstr ""
+msgstr "Requereix que la nova política emmascari una política de distribució"
 
 #: addvendorpolicy.cpp:94
 msgid "Require that the new policy replaces an existing system policy file"
 msgstr ""
+"Requereix que la nova política substitueixi un fitxer de política del "
+"sistema existent"
 
 #: addvendorpolicy.cpp:123
 msgid "Option \"{option}\" with nonempty value is required"
-msgstr ""
+msgstr "Es requereix l'opció \"{option}\" amb un valor no buit"
 
 #: addvendorpolicy.cpp:129
 msgid "Either \"{option1}\" or non-empty \"{option2}\" is required"
-msgstr ""
+msgstr "Es requereix \"{option1}\" o \"{option2}\" no buida"
 
 #: addvendorpolicy.cpp:142
 msgid ""
 "Policy file \"{path}\" already exists. Use \"{option}\" to allow replacing "
 "it."
 msgstr ""
+"El fitxer de política \"{path}\" ja existeix. Utilitzeu «{option}» per a "
+"permetre la seva substitució."
 
 #: addvendorpolicy.cpp:150
 msgid ""
 "Distribution policy \"{name}\" already exists. Use \"{option}\" to allow "
 "masking it."
 msgstr ""
+"La política de distribució \"{name}\" ja existeix. Utilitzeu «{option}» per "
+"permetre l'emmascarament."
 
 #: addvendorpolicy.cpp:165
 msgid ""
 "Cannot add policy: option \"{option}\" requires masking a distribution "
 "policy, but no distribution policy named \"{name}\" exists."
 msgstr ""
+"No es pot afegir la política: l'opció \"{option}\" requereix emmascarar una "
+"política de distribució, però no existeix cap política de distribució "
+"anomenada \"{name}\"."
 
 #: addvendorpolicy.cpp:172
 msgid ""
 "Cannot add policy: option \"{option}\" requires replacing an existing system "
 "policy, but no system policy file named \"{name}\" exists."
 msgstr ""
+"No es pot afegir la política: l'opció \"{option}\" requereix substituir una "
+"política de sistema existent, però no existeix cap fitxer de política de "
+"sistema anomenat \"{name}\"."
 
 #: addvendorpolicy.cpp:191 addvendorpolicy.cpp:215 addvendorpolicy.cpp:244
 msgid "Replaced vendor policy file: {path}"
-msgstr ""
+msgstr "Fitxer de política de proveïdor reemplaçat: {path}"
 
 #: addvendorpolicy.cpp:196
 msgid "Created vendor policy file: {path}"
-msgstr ""
+msgstr "S'ha creat el fitxer de política del proveïdor: {path}"
 
 #: addvendorpolicy.cpp:204
-#, fuzzy
-#| msgid "from-repofile: \"{}\" file does not exist"
 msgid "Source file does not exist: {path}"
 msgstr "from-repofile: El fitxer \"{}\" no existeix"
 
 #: addvendorpolicy.cpp:222 addvendorpolicy.cpp:251
 msgid "Saved vendor policy file: {path}"
-msgstr ""
+msgstr "Fitxer de política del proveïdor desat: {path}"
 
 #: addvendorpolicy.cpp:260
 msgid "Masked distribution policy file: {path}"
-msgstr ""
+msgstr "Fitxer de política de distribució emmascarada: {path}"
 
 #: addvendorpolicy.cpp:264
 msgid "Failed to add vendor policy"
-msgstr ""
+msgstr "No s'ha pogut afegir la política del proveïdor"
 
 #: config-manager.cpp:47
 msgid "Manage configuration"
@@ -210,87 +222,91 @@ msgstr "Gestiona la configuració"
 
 #: listvendorpolicies.cpp:27
 msgid "List vendor change policy files"
-msgstr ""
+msgstr "Llista de fitxers de política de canvi del proveïdor"
 
 #: listvendorpolicies.cpp:33 removevendorpolicy.cpp:29
 msgid "Policy base filename pattern (supports globs)"
-msgstr ""
+msgstr "Patró de nom de fitxer base de política (suporta globs)"
 
 #: listvendorpolicies.cpp:42
 msgid "Show detailed information about the policies"
-msgstr ""
+msgstr "Mostra informació detallada sobre les polítiques"
 
 #: listvendorpolicies.cpp:61 removevendorpolicy.cpp:49
 msgid "No vendor policy files found"
-msgstr ""
+msgstr "No s'ha trobat cap fitxer de política de proveïdor"
 
 #: listvendorpolicies.cpp:80 removevendorpolicy.cpp:63
 msgid "No matching vendor policy files found for pattern: {pattern}"
 msgstr ""
+"No s'han trobat fitxers de política de proveïdor coincidents per al patró: "
+"{pattern}"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
 #: listvendorpolicies.cpp:149
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add policy info
 #: listvendorpolicies.cpp:155
 msgid "Policy"
-msgstr ""
+msgstr "Política"
 
 #: listvendorpolicies.cpp:156
 msgid "Source"
-msgstr ""
+msgstr "Font"
 
 #: listvendorpolicies.cpp:157
 msgid "Distribution (read-only)"
-msgstr ""
+msgstr "Distribució (només lectura)"
 
 #: listvendorpolicies.cpp:157
 msgid "System (manageable)"
-msgstr ""
+msgstr "Sistema (gestionable)"
 
 #: listvendorpolicies.cpp:157
 msgid "Type"
-msgstr ""
+msgstr "Tipus"
 
 #: listvendorpolicies.cpp:160
 msgid "Masks"
-msgstr ""
+msgstr "Màscares"
 
 #: listvendorpolicies.cpp:165
 msgid "Masked by"
-msgstr ""
+msgstr "Emmascarat per"
 
 #: listvendorpolicies.cpp:174
 msgid "<conversion failed: {what}>"
-msgstr ""
+msgstr "<conversion failed: {what}>"
 
 #: listvendorpolicies.cpp:178 listvendorpolicies.cpp:183
 msgid "Compact"
-msgstr ""
+msgstr "Compacta"
 
 #: removevendorpolicy.cpp:23
 msgid "Remove vendor change policy files"
-msgstr ""
+msgstr "Elimina els fitxers de política de canvi del proveïdor"
 
 #: removevendorpolicy.cpp:74
 msgid "Removed vendor policy file: {path}"
-msgstr ""
+msgstr "S'ha eliminat el fitxer de política del proveïdor: {path}"
 
 #: removevendorpolicy.cpp:78
 msgid "Unmasked distribution policy file: {path}"
-msgstr ""
+msgstr "Fitxer de política de distribució desemmascarat: {path}"
 
 #: removevendorpolicy.cpp:83
 msgid "Failed to remove policy file: {path}"
-msgstr ""
+msgstr "No s'ha pogut eliminar el fitxer de política: {path}"
 
 #: removevendorpolicy.cpp:87
 msgid ""
 "Cannot remove distribution policy file \"{path}\". To mask it, use: {command}"
 msgstr ""
+"No es pot eliminar el fitxer de política de distribució \"{path}\". Per "
+"emmascarar-lo, utilitzeu: {command}"
 
 #: repos.cpp:56 setopt.cpp:140
 #, c++-format
@@ -299,11 +315,11 @@ msgstr "No hi ha cap repositori coincident per modificar: {}"
 
 #: repos.hpp:42
 msgid "Enables repositories"
-msgstr ""
+msgstr "Habilita els repositoris"
 
 #: repos.hpp:50
 msgid "Disables repositories"
-msgstr ""
+msgstr "Desactiva els dipòsits"
 
 #: setopt.cpp:61 unsetopt.cpp:73
 #, c++-format
