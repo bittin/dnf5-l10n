@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-02 10:25+0000\n"
+"PO-Revision-Date: 2026-11-02 10:26+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -667,7 +667,7 @@ msgstr[1] "Disponible"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr "Identificador de la transacció"
+msgstr "ID de la transacció"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
