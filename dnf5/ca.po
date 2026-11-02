@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Joan Aymà <joan@ayma.cat>, 2024, 2025.
-# David Medina <dmedinacpnl@gmail.com>, 2025.
+# David Medina <dmedinacpnl@gmail.com>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # naly zzwd <xeanhort007@gmail.com>, 2025.
 msgid ""
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2025-12-25 11:09+0000\n"
-"Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
+"PO-Revision-Date: 2026-11-02 10:25+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
 "Language: ca\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
@@ -35,10 +35,7 @@ msgstr ""
 "fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:159
-#, fuzzy, c++-format
-#| msgid ""
-#| "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in "
-#| "file \"{}\" on line {}: {}"
+#, c++-format
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
@@ -251,8 +248,6 @@ msgstr "Llista els avisos"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
-#, fuzzy
-#| msgid "No matching repositories for {}"
 msgid "No matches found: no repositories are enabled."
 msgstr "No hi ha dipòsits coincidents per a {}"
 
@@ -423,6 +418,9 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"Paquet protegit innecessari: {0} (i les seves dependències) no es poden "
+"eliminar, o bé marcar-lo com a instal·lat per l'usuari o bé canviar l'opció "
+"de configuració de paquets protegits."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -527,8 +525,7 @@ msgid "Action was not defined"
 msgstr "No s'ha definit l'acció"
 
 #: commands/do/do.cpp:231
-#, fuzzy, c++-format
-#| msgid "Invalid Environmet/Group specification: {}"
+#, c++-format
 msgid "Invalid Environment/Group specification: {}"
 msgstr "Especificació d'entorn / grup no vàlida: {}"
 
@@ -537,8 +534,6 @@ msgid "Downgrading environments and groups is not supported."
 msgstr "No s'admet la baixada d'entorns i grups."
 
 #: commands/do/do.cpp:332
-#, fuzzy
-#| msgid "Reinstaling environments and groups is not supported."
 msgid "Reinstalling environments and groups is not supported."
 msgstr "No s'admet la reinstal·lació d'entorns i grups."
 
@@ -583,8 +578,6 @@ msgid "Show only installed environments."
 msgstr "Mostra només els entorns instal·lats."
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching environment identifiers."
 msgstr "Patró que coincideix amb els IDs d'entorn."
 
@@ -595,17 +588,15 @@ msgstr "Administra entorns de comps"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "No s'ha trobat cap coincidència: no hi ha cap entorn instal·lat."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "No s'ha trobat cap coincidència: no hi ha cap entorn disponible."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
 msgstr "Cap coincidència amb \"{}\"."
 
@@ -630,63 +621,45 @@ msgstr ""
 "tipus llista, suporta globs."
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
 msgstr "Patró coincident amb IDs dels grups."
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
 msgstr "Patró que coincideix amb els IDs d'entorn."
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
 msgstr "Inclou paquets opcionals del grup."
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
 msgstr "Opera sols en els grups, sense fer canvis als paquets."
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
 msgstr "Cap coincidència amb \"{}\"."
 
 #: commands/group/group_list.cpp:116
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
 msgstr "Cap coincidència amb \"{}\"."
 
 #: commands/group/group_list.cpp:118
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
 msgstr "Cap coincidència amb \"{}\"."
 
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "Grups: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
-#, fuzzy
-#| msgid "Installed"
 msgid "installed"
 msgid_plural "installed"
 msgstr[0] "Instal·lat"
 msgstr[1] "Instal·lat"
 
 #: commands/group/group_list.cpp:149
-#, fuzzy
-#| msgid "Available"
 msgid "available"
 msgid_plural "available"
 msgstr[0] "Disponible"
@@ -783,8 +756,6 @@ msgstr ""
 "paquet"
 
 #: commands/list/info.hpp:38
-#, fuzzy
-#| msgid "Lists packages depending on the packages' relation to the system"
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
@@ -891,15 +862,13 @@ msgstr "Gestiona els mòduls"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "No s'ha trobat cap coincidència: no s'ha habilitat cap mòdul de fluxos."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "No s'ha trobat cap coincidència: no s'ha desactivat cap flux de mòduls."
 
 #: commands/module/module_list.cpp:92
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no module streams exist."
 msgstr "Cap coincidència amb \"{}\"."
 
@@ -913,12 +882,11 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"No s'ha carregat cap dipòsit des de l'arrel de la instal·lació. Per usar la "
-"configuració i els dipòsits del sistema amfitrió, apliqueu --use-host-config."
+"No s'ha carregat cap repositori des de l'instal·lacióroot. Per a utilitzar "
+"la configuració i els repositoris del sistema amfitrió, passeu --use-host-"
+"config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found."
 msgstr "Cap coincidència amb \"{}\"."
 
@@ -939,6 +907,7 @@ msgstr ""
 msgid ""
 "The system has been modified since the offline transaction was prepared."
 msgstr ""
+"El sistema s'ha modificat des que es va preparar la transacció fora de línia."
 
 #: commands/offline/offline.cpp:271
 #, c++-format
@@ -946,6 +915,8 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
+"El sistema s'ha modificat des que es va preparar la transacció fora de "
+"línia. Per a reprogramar, executeu: {}"
 
 #: commands/offline/offline.cpp:293
 #, c++-format
@@ -956,14 +927,16 @@ msgstr "No s'ha pogut connectar a D-Bus: {}"
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "S'espera el procés {0} que bloqueja l'aturada ({1}/{2} s)"
+msgstr[1] "S'esperen {0} processos que bloquegen l'aturada ({1}/{2}s)"
 
 #: commands/offline/offline.cpp:348
 msgid ""
 "Timed out waiting for processes blocking shutdown. Continuing shutdown "
 "request."
 msgstr ""
+"S'ha excedit el temps a l'espera dels processos que bloquen l'aturada. Es "
+"continua enviant la sol·licitud de tancament."
 
 #: commands/offline/offline.cpp:411
 msgid ""
@@ -1022,8 +995,7 @@ msgstr "El fitxer activador no existeix. Se'n surt."
 
 #: commands/offline/offline.cpp:549
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
-"S'està executant una altra eina de transaccions fora de línia. Sortint."
+msgstr "S'executa una altra eina de transaccions fora de línia. Se surt."
 
 #: commands/offline/offline.cpp:581
 msgid "Starting offline transaction. This will take a while."
@@ -1093,10 +1065,6 @@ msgid "Show status of the current offline transaction"
 msgstr "Mostra l'estat de la transacció fora de línia actual"
 
 #: commands/offline/offline.cpp:838
-#, fuzzy
-#| msgid ""
-#| "The system will now reboot to perform the offline transaction initiated "
-#| "by the following command:"
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
@@ -1108,6 +1076,8 @@ msgstr ""
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
+"Per a reprogramar, executeu l'ordre anterior. Per a netejar, executeu .dnf5 "
+"offline clean.."
 
 #: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
@@ -1142,6 +1112,8 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
+"Si cerqueu un fitxer, proveu d'especificar el camí complet o utilitzant un "
+"prefix de comodí («*/») al començament."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1156,14 +1128,14 @@ msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
+"L'opció '--limit' ha de ser igual o superior a 1 (per mantenir almenys el "
+"paquet instal·lat més nou)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
-msgstr ""
+msgstr "L'opció «--limit» només es pot utilitzar amb «--oldinstallonly»."
 
 #: commands/remove/remove.cpp:242
-#, fuzzy
-#| msgid "{}. Add \"--help\" for more information about the arguments."
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
@@ -1176,6 +1148,9 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"Avís: el nucli actualment en execució «{}» no és l'última versió instal·lada "
+"i no s'ha eliminat. Torneu a arrencar al nucli més recent i executeu aquesta "
+"ordre de nou per completar la neteja."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1236,11 +1211,9 @@ msgstr "Cerca programari que coincideixi amb totes les cadenes especificades"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "Les opcions --name i --summary no es poden utilitzar juntes."
 
 #: commands/search/search.cpp:74
-#, fuzzy
-#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option --all cannot be used with --name or --summary."
 msgstr "L'opció \"--alldeps\" ha d'usar-se amb \"--resolve\""
 
@@ -1309,8 +1282,6 @@ msgid "Add new entry to versionlock configuration"
 msgstr "Afegeix una entrada nova a la configuració de blocatge de versions"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to remove versionlock for"
 msgid "List of packages to lock to their current versions"
 msgstr ""
 "Llista d'especificacions del paquet per suprimir del blocatge de versions"
@@ -1361,6 +1332,8 @@ msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
+"Llista de paquets a excloure. Si no s'especifica cap versió, s'exclouran "
+"totes les versions disponibles del paquet."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
@@ -1377,41 +1350,37 @@ msgstr "El paquet {} ja està exclòs."
 #, c++-format
 msgid "{} day, {}:{:02}:{:02}"
 msgid_plural "{} days, {}:{:02}:{:02}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} dia, {}:{:02}:{:02}"
+msgstr[1] "{} dies, {}:{:02}:{:02}"
 
 #: context.cpp:97
-#, fuzzy, c++-format
-#| msgid "Query Commands:"
+#, c++-format
 msgid "Command: {}"
 msgstr "Ordres de consulta:"
 
 #: context.cpp:105
 #, c++-format
 msgid "Process ID: {} (still running)"
-msgstr ""
+msgstr "ID del procés: {} (encara en execució)"
 
 #: context.cpp:107
 #, c++-format
 msgid "Process ID: {}"
-msgstr ""
+msgstr "ID del procés: {}"
 
 #: context.cpp:116
-#, fuzzy, c++-format
-#| msgid "setvar: {}"
+#, c++-format
 msgid "Started: {}"
 msgstr "setvar: {}"
 
 #: context.cpp:123
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "Comentari: {}"
 
 #: context.cpp:127
-#, fuzzy
-#| msgid "Show status of the current offline transaction"
 msgid "Details about the currently running transaction:\n"
-msgstr "Mostra l'estat de la transacció fora de línia actual"
+msgstr "Mostra l'estat de la transacció fora de línia actual\n"
 
 #: context.cpp:145
 #, c++-format
@@ -1500,16 +1469,20 @@ msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
+"S'espera un bloqueig al repositori del sistema; hi ha un altre procés que hi "
+"està accedint. Useu l'opció «--skip-file-locks» per a evitar el bloqueig."
 
 #: context.cpp:306
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
 msgstr ""
+"S'espera un bloqueig al repositori del sistema. Actualment hi estan accedint "
+"els processos següents:"
 
 #: context.cpp:316
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
-msgstr ""
+msgstr "Utilitzeu l'opció «--skip-file-locks» per a evitar el bloqueig."
 
 #. If we're only loading the system repo, we can skip the message.
 #: context.cpp:324
@@ -1519,7 +1492,7 @@ msgstr "Actualització i càrrega de dipòsits:"
 #: context.cpp:371
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr ""
+msgstr "Darrera comprovació de venciment de les metadades: {} fa {}."
 
 #: context.cpp:378
 msgid "Repositories loaded."
@@ -1576,15 +1549,13 @@ msgid "Running transaction"
 msgstr "S'executa la transacció"
 
 #: context.cpp:614
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: Pending offline transaction has been invalidated."
 msgstr "S'inicia la transacció fora de línia. Això trigarà una estona."
 
 #: context.cpp:616
 #, c++-format
 msgid "To reschedule, run: {}"
-msgstr ""
+msgstr "Per a reprogramar, executeu: {}"
 
 #: context.cpp:1034
 #, c++-format
@@ -1807,17 +1778,14 @@ msgstr "no limitis la transacció al millor candidat"
 
 #: main.cpp:357
 msgid "allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "permet reemplaçaments automàtics de paquets de diferents proveïdors"
 
 #: main.cpp:364
 msgid "do not allow automatic package replacements from different vendors"
 msgstr ""
+"no permetis reemplaçaments automàtics de paquets de diferents proveïdors"
 
 #: main.cpp:377
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
@@ -1826,10 +1794,6 @@ msgstr ""
 "especificar diverses vegades."
 
 #: main.cpp:396
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
@@ -1838,10 +1802,6 @@ msgstr ""
 "especificar diverses vegades."
 
 #: main.cpp:415
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
@@ -1850,10 +1810,6 @@ msgstr ""
 "es pot especificar diverses vegades."
 
 #: main.cpp:444
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
@@ -1865,12 +1821,10 @@ msgstr ""
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"Elimina totes les polítiques de canvi de proveïdor. Es pot combinar amb {} "
+"per reemplaçar-los."
 
 #: main.cpp:478
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
@@ -1969,14 +1923,10 @@ msgid "override the value of $releasever in config and repo files"
 msgstr "substitueix el valor de $releasever als fitxers config i repo"
 
 #: main.cpp:691
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_major in config and repo files"
 msgstr "substitueix el valor de $releasever als fitxers config i repo"
 
 #: main.cpp:704
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_minor in config and repo files"
 msgstr "substitueix el valor de $releasever als fitxers config i repo"
 
@@ -2008,8 +1958,6 @@ msgid "Print variable values to stdout"
 msgstr "Imprimeix els valors de les variables a la sortida estàndard"
 
 #: main.cpp:786
-#, fuzzy
-#| msgid "Print variable values to stdout"
 msgid "Print loaded vendor change policies to stdout"
 msgstr "Imprimeix els valors de les variables a la sortida estàndard"
 
@@ -2024,6 +1972,8 @@ msgstr "Força l'ús d'una arquitectura diferent."
 #: main.cpp:846
 msgid "Skip acquiring file locks, such as the lock on the system repository"
 msgstr ""
+"Omet l'adquisició de blocatges de fitxers, com ara el blocatge al repositori "
+"del sistema"
 
 #: main.cpp:861
 msgid "Software Management Commands:"
@@ -2082,10 +2032,6 @@ msgid "  API version: {}.{}"
 msgstr "  Versió de l'API: {}.{}"
 
 #: main.cpp:1012
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Loaded {} plugins:"
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
@@ -2138,21 +2084,21 @@ msgid "======== Variables: ========"
 msgstr "======== Variables: ========"
 
 #: main.cpp:1169
-#, fuzzy
-#| msgid "======== Variables: ========"
 msgid "======== Vendor Change Policies: ========"
 msgstr "======== Variables: ========"
 
 #: main.cpp:1173
 #, c++-format
 msgid "Policy #{}: source: {}"
-msgstr ""
+msgstr "Política  {}: font: {}"
 
 #: main.cpp:1179
 msgid ""
 "allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
 "vendor change policies will be ignored."
 msgstr ""
+"allowvendorchange està habilitat. Els paquets es poden reemplaçar per "
+"qualsevol proveïdor, i les polítiques de canvi de proveïdor s'ignoraran."
 
 #: main.cpp:1217
 msgid "New leaves:"
@@ -2206,25 +2152,22 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} per ometre paquets desinstal·lables"
 
 #: main.cpp:1394
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow switching to packages from VENDOR"
 msgstr "{} per permetre paquets addicionals a la transacció"
 
 #: main.cpp:1396
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow replacing packages from VENDOR"
 msgstr "{} per permetre paquets addicionals a la transacció"
 
 #: main.cpp:1398
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "{} per afegir regles específiques de canvi de proveïdor"
 
 #: main.cpp:1399
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow all vendor changes"
 msgstr "{} per permetre paquets addicionals a la transacció"
 
@@ -2298,6 +2241,8 @@ msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
+"{}. Se suprimeixen tots els registres. Per a redirigir la ubicació del "
+"fitxer de registre, useu l'opció de configuració «logdir»."
 
 #: main.cpp:1754
 msgid ""
@@ -2312,7 +2257,7 @@ msgstr ""
 #: main.cpp:1768
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "Avís: {}"
 
 #: main.cpp:1781
 msgid ""
@@ -2320,6 +2265,9 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
+"Error: /usr està configurat per a ser només de lectura. Podeu estar "
+"executant un sistema operatiu basat en imatges o immutable. Per a més "
+"informació, consulteu la documentació de la vostra distribució."
 
 #: main.cpp:1800
 msgid ""
@@ -2327,12 +2275,11 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
+"Error: les operacions persistents no estan admeses en els sistemes bootc. "
+"Passeu --transient per a realitzar aquesta operació en una superposició "
+"transitòria que es restablirà quan el sistema torni a arrencar."
 
 #: main.cpp:1810
-#, fuzzy
-#| msgid ""
-#| "Error: this bootc system is configured to be read-only. For more "
-#| "information, run `bootc --help`."
 msgid ""
 "Error: this bootc system is configured to be read-only. Pass --transient to "
 "perform this operation in a transient overlay which will reset when the "
@@ -2344,6 +2291,8 @@ msgstr ""
 #: main.cpp:1821
 msgid "Error: transient transactions are only supported on bootc systems."
 msgstr ""
+"Error: les transaccions transitòries només són compatibles amb els sistemes "
+"bootc."
 
 #: main.cpp:1862
 #, c++-format
@@ -2363,14 +2312,11 @@ msgstr ""
 "claus OpenPGP i comprovacions de transaccions."
 
 #: main.cpp:1878
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: A pending offline transaction will be invalidated."
 msgstr "S'inicia la transacció fora de línia. Això trigarà una estona."
 
 #: main.cpp:1881
-#, fuzzy, c++-format
-#| msgid "An offline transaction was initiated by the following command:"
+#, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
@@ -2382,12 +2328,17 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
+"Aquesta transacció modificaria els següents camins, possiblement introduint "
+"incoherències quan es descarta la superposició transitòria a /usr. Vegeu "
+"l'opció de configuració usrdriftprotectedpaths per a més informació."
 
 #: main.cpp:1917
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"S'ha interromput l'operació. Passeu --setopt.usrdriftprotectedpaths. per a "
+"desactivar aquesta comprovació i continuar de totes maneres."
 
 #: main.cpp:1926
 msgid ""
@@ -2395,6 +2346,9 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
+"Es crearà una superposició transitòria a /usr que es descartarà en "
+"reiniciar. Tingueu en compte que els canvis a /etc i /var encara "
+"persistiran, i els paquets normalment modifiquen aquests directoris."
 
 #: main.cpp:1963
 #, c++-format
@@ -2435,8 +2389,6 @@ msgid "REPO_ID,..."
 msgstr "REPO_ID..."
 
 #: shared_options.cpp:193
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_repo\" already defined with different value"
 msgstr "\"--from_repo\" ja està definit amb un valor diferent"
 
@@ -2449,16 +2401,10 @@ msgstr ""
 "instal·lar."
 
 #: shared_options.cpp:220
-#, fuzzy
-#| msgid "\"--installed-from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with different value"
 msgstr "\"--installed-from_repo\" ja està definit amb un valor diferent"
 
 #: shared_options.cpp:236
-#, fuzzy
-#| msgid ""
-#| "The following items can be selected only from the specified repositories. "
-#| "All enabled repositories will still be used to satisfy dependencies."
 msgid ""
 "The following items can be selected only from the specified vendors. The "
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
@@ -2469,14 +2415,10 @@ msgstr ""
 "dependències."
 
 #: shared_options.cpp:239
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "VENDOR,..."
 msgstr "CVE_ID,..."
 
 #: shared_options.cpp:248
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_vendor\" already defined with different value"
 msgstr "\"--from_repo\" ja està definit amb un valor diferent"
 
