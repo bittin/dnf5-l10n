@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-02 10:26+0000\n"
+"PO-Revision-Date: 2026-11-03 09:07+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
@@ -1641,12 +1641,12 @@ msgstr "Verificació dels fitxers dels paquets"
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr "No es pot carregar la biblioteca compartida {}: {}"
+msgstr "No es pot carregar la biblioteca compartida \"{}\": {}"
 
 #: library.cpp:47
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr "No es pot obtenir l'adreça del símbol {}: {}"
+msgstr "No es pot obtenir l'adreça del símbol \"{}\": {}"
 
 #: main.cpp:156
 msgid "Utility for packages maintaining"
