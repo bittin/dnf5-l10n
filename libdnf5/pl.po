@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:45+0000\n"
-"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
+"Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
 "Language: pl\n"
@@ -308,8 +308,8 @@ msgstr ""
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
-"Nie można wykonać {0}, ponieważ „{1}” jest zainstalowany w innej wersji: "
-"„{2}”."
+"Nie można wykonać {0}, ponieważ „{1}” jest zainstalowany w innej wersji: „{2}"
+"”."
 
 #: base/log_event.cpp:241
 #, c++-format
@@ -414,8 +414,8 @@ msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
-"Operacja spowoduje przełączenie strumienia modułu „{0}” „{1}” na strumień "
-"„{2}”\n"
+"Operacja spowoduje przełączenie strumienia modułu „{0}” „{1}” na strumień „"
+"{2}”\n"
 
 #: base/log_event.cpp:342
 msgid ""
@@ -2137,8 +2137,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already present at that "
 "point -> skipping it."
 msgstr ""
-"Nie można scalić akcji „{0}” „{1}”, ponieważ jest już obecna w tym momencie "
-"-> pominięto ją."
+"Nie można scalić akcji „{0}” „{1}”, ponieważ jest już obecna w tym "
+"momencie -> pominięto ją."
 
 #: transaction/transaction_merge.cpp:294
 #, c++-format
