@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # A S Alam <aalam@users.noreply.translate.fedoraproject.org>, 2024, 2025, 2026.
+# GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:45+0000\n"
-"Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
+"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pa/>\n"
 "Language: pa\n"
@@ -976,7 +977,8 @@ msgstr "ਮੌਜੂਦਾ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਦ
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
-msgstr "ਸਿਸਟਮ ਹੁਣ ਅੱਗੇ ਦਿੱਤੀ ਕਮਾਂਡ ਵਲੋਂ ਸ਼ੁਰੂ ਕੀਤੀ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਕਰਨ ਲਈ ਮੁੜ-ਚਾਲੂ ਹੋਵੇਗਾ:"
+msgstr ""
+"ਸਿਸਟਮ ਹੁਣ ਅੱਗੇ ਦਿੱਤੀ ਕਮਾਂਡ ਵਲੋਂ ਸ਼ੁਰੂ ਕੀਤੀ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਕਰਨ ਲਈ ਮੁੜ-ਚਾਲੂ ਹੋਵੇਗਾ:"
 
 #: commands/offline/offline.cpp:842
 msgid ""
