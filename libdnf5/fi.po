@@ -13,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:43+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Last-Translator: Jouko Tiilikainen "
+"<jti65@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
 "Language: fi\n"
@@ -2106,8 +2107,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> setting 'INSTALL'."
 msgstr ""
-"Toimintoa '{0}' '{1}' ei voida yhdistää, koska sitä ei ole siinä vaiheessa "
-"-> asetus 'INSTALL'."
+"Toimintoa '{0}' '{1}' ei voida yhdistää, koska sitä ei ole siinä "
+"vaiheessa -> asetus 'INSTALL'."
 
 #: transaction/transaction_merge.cpp:266
 #, c++-format
@@ -2133,8 +2134,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
-"Toimintoa '{0}' '{1}' ei voida yhdistää, koska se on jo asennettu versioon "
-"'{2}' -> säilytetään toiminto vanhemmasta tapahtumasta versiolla '{1}'."
+"Toimintoa '{0}' '{1}' ei voida yhdistää, koska se on jo asennettu versioon '"
+"{2}' -> säilytetään toiminto vanhemmasta tapahtumasta versiolla '{1}'."
 
 #: transaction/transaction_merge.cpp:304
 #, c++-format
