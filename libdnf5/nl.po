@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Sijmen Schoon <fedora@vijf.life>, 2025.
+# Sijmen Schoon <fedora@vijf.life>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2025-06-24 22:34+0000\n"
+"PO-Revision-Date: 2026-11-03 09:51+0000\n"
 "Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -313,8 +313,8 @@ msgstr ""
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
-"Kan {0} niet uitvoeren omdat '{1}' geïnstalleerd is in een andere versie: "
-"'{2}'."
+"Kan {0} niet uitvoeren omdat '{1}' geïnstalleerd is in een andere versie: '"
+"{2}'."
 
 #: base/log_event.cpp:241
 #, c++-format
@@ -328,8 +328,7 @@ msgstr ""
 #: base/log_event.cpp:243
 #, c++-format
 msgid "Packages for argument '{}' installed, but not available."
-msgstr ""
-"Pakketten voor argument '{}' zijn geïnstalleerd, maar niet beschikbaar."
+msgstr "Pakketten voor argument '{}' zijn geïnstalleerd, maar niet beschikbaar."
 
 #: base/log_event.cpp:248
 #, fuzzy, c++-format
@@ -1270,8 +1269,7 @@ msgstr ""
 #: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:370
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr ""
-"Downloaden van metadata ({}: \"{}\") voor repository \"{}\": {} mislukt"
+msgstr "Downloaden van metadata ({}: \"{}\") voor repository \"{}\": {} mislukt"
 
 #: repo/repo.cpp:440
 msgid ""
@@ -1406,8 +1404,7 @@ msgstr "Laden van repomd voor repo \"{}\" van \"{}\" mislukt: {}."
 #: repo/solv_repo.cpp:276
 #, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
-msgstr ""
-"Het laden van primary voor repository \"{}\" van \"{}\" is mislukt: {}."
+msgstr "Het laden van primary voor repository \"{}\" van \"{}\" is mislukt: {}."
 
 #: repo/solv_repo.cpp:324
 #, c++-format
@@ -1921,8 +1918,8 @@ msgstr "{}-staat voor \"{}\" niet gevonden."
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
-"Laden van TOML-bestand voor systeemstaat {} is mislukt (zie dnf5-system-"
-"state(7)): {}"
+"Laden van TOML-bestand voor systeemstaat {} is mislukt (zie dnf5-system-state"
+"(7)): {}"
 
 #: system/state.cpp:649
 #, c++-format
@@ -2154,8 +2151,7 @@ msgstr ""
 #: transaction/transaction_sr.cpp:58
 #, c++-format
 msgid "Error during transaction replay JSON parsing : {}"
-msgstr ""
-"Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
+msgstr "Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
 
 #: transaction/transaction_sr.cpp:68
 #, c++-format
