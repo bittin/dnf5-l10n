@@ -7,13 +7,14 @@
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2025, 2026.
 # Jouko Tiilikainen <jti65@users.noreply.translate.fedoraproject.org>, 2026.
+# GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:43+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
 "Language: fi\n"
@@ -1808,8 +1809,7 @@ msgstr ""
 #, fuzzy, c++-format
 #| msgid "Invalid repository id \"{}\": unexpected character '{}'"
 msgid "Unexpected character '{}'"
-msgstr ""
-"Virheellinen ohjelmistolähteen tunnus \"{}\": odottamaton merkki \"{}\""
+msgstr "Virheellinen ohjelmistolähteen tunnus \"{}\": odottamaton merkki \"{}\""
 
 #: solv/vendor_change_manager.cpp:1045
 msgid "Expected quoted string starting with '\"'"
