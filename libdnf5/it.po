@@ -4,13 +4,14 @@
 # Alessio <alciregi@posteo.net>, 2024.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025, 2026.
 # Ali Ciloqlu <ali.ciloqlu@murena.io>, 2026.
+# Ali Ciloglu <ali.ciloqlu@murena.io>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:46+0000\n"
-"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"Last-Translator: Ali Ciloglu <ali.ciloqlu@murena.io>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/it/>\n"
 "Language: it\n"
@@ -1528,8 +1529,7 @@ msgstr "Errore %i nell'apertura del database rpm"
 
 #: rpm/transaction.cpp:136
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
-"La funzione rpmdbCookie() non ha restituito il cookie del database rpm."
+msgstr "La funzione rpmdbCookie() non ha restituito il cookie del database rpm."
 
 #: rpm/transaction.cpp:228
 #, c++-format
