@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:38+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
 "Language: sv\n"
@@ -878,8 +878,7 @@ msgstr ""
 #: commands/offline/offline.cpp:267
 msgid ""
 "The system has been modified since the offline transaction was prepared."
-msgstr ""
-"Systemet har modifierats sedan transaktionen i offlineläge förbereddes."
+msgstr "Systemet har modifierats sedan transaktionen i offlineläge förbereddes."
 
 #: commands/offline/offline.cpp:271
 #, c++-format
@@ -1776,8 +1775,8 @@ msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"Tillåt leverantörsändringar för paket som matchar PKG_NAME "
-"(dubbelriktad).Listalternativ. Stöder jokertecken och kan anges flera gånger."
+"Tillåt leverantörsändringar för paket som matchar PKG_NAME (dubbelriktad)"
+".Listalternativ. Stöder jokertecken och kan anges flera gånger."
 
 #: main.cpp:444
 msgid ""
