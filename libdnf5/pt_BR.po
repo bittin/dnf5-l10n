@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
-# "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024.
+# "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024, 2026.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2024.
 # Ciro Mota <ciro.mota@gmail.com>, 2025, 2026.
 # Ciro Mota <ciromota@users.noreply.translate.fedoraproject.org>, 2026.
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:39+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -418,8 +418,8 @@ msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
-"A operação resultaria na troca do módulo '{0}' stream '{1}' para stream "
-"'{2}'\n"
+"A operação resultaria na troca do módulo '{0}' stream '{1}' para stream '{2}"
+"'\n"
 
 #: base/log_event.cpp:342
 msgid ""
@@ -2136,8 +2136,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
-"A ação '{0}' '{1}' não pode ser mesclada porque já está instalada na versão "
-"'{2}' -> mantendo a ação da transação mais antiga com '{1}'."
+"A ação '{0}' '{1}' não pode ser mesclada porque já está instalada na versão '"
+"{2}' -> mantendo a ação da transação mais antiga com '{1}'."
 
 #: transaction/transaction_merge.cpp:304
 #, c++-format
