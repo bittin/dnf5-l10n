@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# gossypium <gossypium@users.noreply.translate.fedoraproject.org>, 2025.
+# gossypium <gossypium@users.noreply.translate.fedoraproject.org>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2026.
 msgid ""
@@ -9,8 +9,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-03-01 15:58+0000\n"
-"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
+"PO-Revision-Date: 2026-11-03 09:50+0000\n"
+"Last-Translator: gossypium "
+"<gossypium@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/es/>\n"
 "Language: es\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: addrepo.cpp:115
 #, c++-format
@@ -57,8 +58,7 @@ msgstr "Error al copiar el archivo de configuración del repositorio «{}»: {}"
 #: addrepo.cpp:293
 #, c++-format
 msgid "Failed to download repository configuration file \"{}\": {}"
-msgstr ""
-"Error al descargar el archivo de configuración del repositorio «{}»: {}"
+msgstr "Error al descargar el archivo de configuración del repositorio «{}»: {}"
 
 #: addrepo.cpp:321
 #, c++-format
@@ -346,8 +346,7 @@ msgstr "No es posible establecer «{}»: La variable «{}» es de «solo lectura
 #: setvar.cpp:68
 #, c++-format
 msgid "Sets the \"{}\" variable again with a different value: \"{}\" != \"{}\""
-msgstr ""
-"Establece otra vez la variable «{}» con un valor distinto: «{}» != «{}»"
+msgstr "Establece otra vez la variable «{}» con un valor distinto: «{}» != «{}»"
 
 #: setvar.cpp:97 unsetvar.cpp:63
 msgid "Missing path to vars directory"
