@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Joan Aymà <joan@ayma.cat>, 2024, 2025.
+# Joan Aymà <joan@ayma.cat>, 2024, 2025, 2026.
 # David Medina <dmedinacpnl@gmail.com>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # naly zzwd <xeanhort007@gmail.com>, 2025.
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-03 09:07+0000\n"
-"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
+"PO-Revision-Date: 2026-11-03 09:47+0000\n"
+"Last-Translator: Joan Aymà <joan@ayma.cat>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
 "Language: ca\n"
@@ -51,8 +51,7 @@ msgstr "Falta l'atribut \"id_path\" per l'àlies \"{}\" en el fitxer \"{}\""
 #: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
-"Versió no suportada \"{}\" en el fitxer \"{}\". Versions suportades: {}"
+msgstr "Versió no suportada \"{}\" en el fitxer \"{}\". Versions suportades: {}"
 
 #: cmdline_aliases.cpp:218
 #, c++-format
@@ -89,8 +88,8 @@ msgstr ""
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
-"Tipus \"{}\" desconegut de l'element \"{}\" en el fitxer \"{}\" a la línia "
-"{}: {}"
+"Tipus \"{}\" desconegut de l'element \"{}\" en el fitxer \"{}\" a la línia {}"
+": {}"
 
 #: cmdline_aliases.cpp:312
 #, c++-format
@@ -466,14 +465,12 @@ msgstr "Ha fallat al netejar la memòria cau a la ruta \"{0}\": {1}"
 #: commands/clean/clean.cpp:176
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
-"El directori de memòria cau \"{}\" no existeix. No hi ha res a netejar."
+msgstr "El directori de memòria cau \"{}\" no existeix. No hi ha res a netejar."
 
 #: commands/clean/clean.cpp:181
 #, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr ""
-"No ha estat possible iterar dins el directori de memòria cau \"{}\": {}"
+msgstr "No ha estat possible iterar dins el directori de memòria cau \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
@@ -805,8 +802,7 @@ msgstr "Llista les actualitzacions disponibles dels paquets instal·lats."
 
 #: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
-"Llista els paquets que seran esborrats per la comanda 'dnf autoremove'."
+msgstr "Llista els paquets que seran esborrats per la comanda 'dnf autoremove'."
 
 #: commands/list/list.cpp:214 commands/list/list.cpp:219
 msgid "Installed packages"
