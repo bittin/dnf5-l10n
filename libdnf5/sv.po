@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
-# Luna Jernberg <bittin@reimu.nl>, 2024, 2025.
+# Luna Jernberg <bittin@reimu.nl>, 2024, 2025, 2026.
 # Göran Uddeborg <goeran@uddeborg.se>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
 # Luna Jernberg <droidbittin@gmail.com>, 2026.
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-10-29 08:55+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2026-11-03 09:38+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
 "Language: sv\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -440,8 +440,8 @@ msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
-"Kunde inte hitta debuginfo paket för följande paket lösta från argument "
-"'{0}': {1}"
+"Kunde inte hitta debuginfo paket för följande paket lösta från argument '{0}"
+"': {1}"
 
 #: base/log_event.cpp:363 base/log_event.cpp:374
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
@@ -454,8 +454,8 @@ msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
-"Kunde inte hitta debugkäll paket för följande paket löst från argument "
-"'{0}' : {1}"
+"Kunde inte hitta debugkäll paket för följande paket löst från argument '{0}' "
+": {1}"
 
 #: base/log_event.cpp:377
 #, c++-format
@@ -829,8 +829,7 @@ msgstr[1] ""
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
-msgstr[0] ""
-"Varning: hoppade över OpenPGP-kontroller för {0} paket från förråd: {1}"
+msgstr[0] "Varning: hoppade över OpenPGP-kontroller för {0} paket från förråd: {1}"
 msgstr[1] ""
 "Varning: hoppade över OpenPGP-kontroller för {0} paket från flera förråd: {1}"
 
@@ -2418,8 +2417,7 @@ msgstr "Bindning av heltals64-värde till SQL-sats misslyckades: \"{}\""
 #: utils/sqlite3/sqlite3.cpp:35
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
-msgstr ""
-"Bindning av osignerat heltal32-värde till SQL-sats misslyckades: \"{}\""
+msgstr "Bindning av osignerat heltal32-värde till SQL-sats misslyckades: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
