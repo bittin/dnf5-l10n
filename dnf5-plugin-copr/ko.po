@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 김인수 <simmon@nplob.com>, 2024.
+# 김인수 <simmon@nplob.com>, 2024, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Hyeonmin Oh <hyunmin860@gmail.com>, 2026.
 msgid ""
@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-10-07 22:07+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-11-03 09:42+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-copr/ko/>\n"
 "Language: ko\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: copr.cpp:48
 msgid "Copr hub (the web-UI/API server) hostname"
@@ -38,11 +37,11 @@ msgid ""
 msgstr ""
 "{}에 대한 Copr 프로젝트 ID.  형식 OWNER/PROJECT 또는 HUB/OWNER/PROJECT (만약 "
 "HUB가 지정되지 않았으면, 기본값은 하나이거나, --hub<ARG>입니다) 중에 하나를 "
-"사용해요.  소유자(OWNER)는 사용자이름(username), 또는 @groupname 중의 하나입"
-"니다.  프로젝트(PROJECT)는 단순 프로젝트 이거나, 쌍점(:)을 포함하는(예: "
-"'project:custom:123') “프로젝트 디렉토리”가 될 수 있습니다.  허브(HUB)는 "
-"Copr 프론트엔드 호스트이름 (예: copr.fedorainfracloud.org ) 또는 단축키(예: "
-"페도라) 중에 하나 일 수 있습니다. 예: 'fedora/@footeam/coolproject'."
+"사용해요.  소유자(OWNER)는 사용자이름(username), 또는 @groupname 중의 "
+"하나입니다.  프로젝트(PROJECT)는 단순 프로젝트 이거나, 쌍점(:)을 포함하는"
+"(예: 'project:custom:123') “프로젝트 디렉토리”가 될 수 있습니다.  허브(HUB)"
+"는 Copr 프론트엔드 호스트이름 (예: copr.fedorainfracloud.org ) 또는 단축키"
+"(예: 페도라) 중에 하나 일 수 있습니다. 예: 'fedora/@footeam/coolproject'."
 
 #: copr.cpp:106
 #, c++-format
@@ -53,8 +52,8 @@ msgstr "잘못된 PROJECT_SPEC 형식 '{}'"
 msgid ""
 "Manage Copr repositories (add-ons provided by users/community/third-party)"
 msgstr ""
-"Copr 저장소를 관리합니다 (users/community/third-party에 의해 제공되는 추가-기"
-"능)"
+"Copr 저장소를 관리합니다 (users/community/third-party에 의해 제공되는 추가-"
+"기능)"
 
 #: copr_constants.hpp:29
 msgid ""
@@ -158,8 +157,7 @@ msgstr ""
 #, c++-format
 msgid ""
 "remove specified Copr repository from the system (removes the {}/*.repo file)"
-msgstr ""
-"시스템에서 지정된 Copr 저장소를 제거합니다 ({}/*.repo 파일을 제거합니다)"
+msgstr "시스템에서 지정된 Copr 저장소를 제거합니다 ({}/*.repo 파일을 제거합니다)"
 
 #: copr_repo.cpp:91
 #, c++-format
@@ -220,8 +218,8 @@ msgid ""
 "Copr repofile '{}' has an old format, fix by re-enabling it $ {} copr enable "
 "{}"
 msgstr ""
-"Copr repofile '{}'은 오래된 형식을 갖고 있으며, $ {} copr enable {}를 재-활성"
-"화 하여 수정합니다"
+"Copr repofile '{}'은 오래된 형식을 갖고 있으며, $ {} copr enable {}를 재-"
+"활성화 하여 수정합니다"
 
 #: copr_repo.cpp:560
 #, c++-format
