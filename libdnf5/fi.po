@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2024.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2024, 2026.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2025, 2026.
 # Jouko Tiilikainen <jti65@users.noreply.translate.fedoraproject.org>, 2026.
@@ -13,8 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:43+0000\n"
-"Last-Translator: Jouko Tiilikainen "
-"<jti65@users.noreply.translate.fedoraproject.org>\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
 "Language: fi\n"
@@ -817,8 +816,8 @@ msgstr "Avaimen \"{}\" tuonnissa tapahtui virhe: {}"
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
-"OpenPGP-tarkistus tietovarastosta \"{}\" ({}) peräisin olevalle paketille "
-"\"{}\" epäonnistui: "
+"OpenPGP-tarkistus tietovarastosta \"{}\" ({}) peräisin olevalle paketille \""
+"{}\" epäonnistui: "
 
 #: base/transaction.cpp:1696
 msgid "Import of the key didn't help, wrong key?"
@@ -1245,8 +1244,7 @@ msgstr "RPM-\"{}\":n käyttö epäonnistui: {}"
 #: repo/repo.cpp:108
 #, c++-format
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr ""
-"Virheellinen ohjelmistolähteen tunnus \"{}\": odottamaton merkki \"{}\""
+msgstr "Virheellinen ohjelmistolähteen tunnus \"{}\": odottamaton merkki \"{}\""
 
 #: repo/repo.cpp:151
 #, c++-format
