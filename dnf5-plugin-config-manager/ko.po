@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-10-19 12:35+0000\n"
+"PO-Revision-Date: 2026-11-03 09:42+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: addrepo.cpp:115
 #, c++-format
@@ -361,8 +361,8 @@ msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
 msgstr ""
-"경로 \"{}\"가 존재하지만, 디렉토리 또는 디렉토리에 대한 심볼릭링크가 아닙니"
-"다."
+"경로 \"{}\"가 존재하지만, 디렉토리 또는 디렉토리에 대한 심볼릭링크가 "
+"아닙니다."
 
 #: shared.hpp:70
 #, c++-format
@@ -375,8 +375,8 @@ msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
 msgstr ""
-"디렉토리 \"{}\"가 존재하지 않습니다. \"--create-missing-dir\"를 추가하여 누락"
-"된 디렉토리를 생성합니다."
+"디렉토리 \"{}\"가 존재하지 않습니다. \"--create-missing-dir\"를 추가하여 "
+"누락된 디렉토리를 생성합니다."
 
 #: shared.hpp:87
 #, c++-format
@@ -399,16 +399,16 @@ msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
 msgstr ""
-"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일에서 존재하지 않"
-"습니다: {}"
+"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일에서 존재하지 "
+"않습니다: {}"
 
 #: unsetopt.cpp:152
 #, c++-format
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
 msgstr ""
-"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일을 찾을 수 없습"
-"니다: {}"
+"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일을 찾을 수 "
+"없습니다: {}"
 
 #: unsetopt.cpp:186
 #, c++-format
@@ -416,8 +416,8 @@ msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
 msgstr ""
-"config-manager: 저장소 옵션을 제거하도록 요청하지만 repoid는 재정의에서 존재"
-"하지 않습니다: {}"
+"config-manager: 저장소 옵션을 제거하도록 요청하지만 repoid는 재정의에서 "
+"존재하지 않습니다: {}"
 
 #: unsetopt.cpp:194
 #, c++-format
@@ -425,8 +425,8 @@ msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
 msgstr ""
-"config-manager: 저장소 옵션을 제거하려고 요청하지만 재정의에서 존재하지 않습"
-"니다: {}.{}"
+"config-manager: 저장소 옵션을 제거하려고 요청하지만 재정의에서 존재하지 "
+"않습니다: {}.{}"
 
 #: unsetopt.cpp:208
 #, c++-format
@@ -443,8 +443,8 @@ msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
 msgstr ""
-"config-manager: 변수를 제거하려고 요청하지만 var 디렉토리를 찾을 수 없습니"
-"다: {}"
+"config-manager: 변수를 제거하려고 요청하지만 var 디렉토리를 찾을 수 "
+"없습니다: {}"
 
 #: unsetvar.cpp:82
 #, c++-format
@@ -452,8 +452,8 @@ msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
 msgstr ""
-"config-manager: 변수를 제거하려고 요청하지만 var 디렉토레에서 존재하지 않습니"
-"다: {}"
+"config-manager: 변수를 제거하려고 요청하지만 var 디렉토레에서 존재하지 "
+"않습니다: {}"
 
 #: unsetvar.cpp:88
 #, c++-format
