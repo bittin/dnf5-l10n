@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Dennis Koerner <dennis@bumblebeeman.dev>, 2024.
+# Dennis Koerner <dennis@bumblebeeman.dev>, 2024, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Fabio D <fabio1977@arcor.de>, 2024, 2026.
 # Ettore Atalan <atalanttore@googlemail.com>, 2024, 2025.
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:41+0000\n"
-"Last-Translator: Fabio D <fabio1977@arcor.de>\n"
+"Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -2196,8 +2196,7 @@ msgstr ""
 #: main.cpp:1356
 #, c++-format
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
-"{}, um die Transaktionen nicht auf die besten Kandidaten zu beschränken"
+msgstr "{}, um die Transaktionen nicht auf die besten Kandidaten zu beschränken"
 
 #: main.cpp:1363
 #, c++-format
