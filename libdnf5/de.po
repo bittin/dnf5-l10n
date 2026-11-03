@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-02-13 11:58+0000\n"
+"PO-Revision-Date: 2026-11-03 09:37+0000\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -1197,8 +1197,8 @@ msgid ""
 "(\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
 "Nicht unterstützte Plugin/API-Kombination. Die vom Plugin „{}“ („{}“) "
-"bereitgestellte API-Version ist „{}.{}“. Die API-Version in libdnf ist „{}."
-"{}“."
+"bereitgestellte API-Version ist „{}.{}“. Die API-Version in libdnf ist „{}.{}"
+"“."
 
 #: plugin/plugins.cpp:93
 msgid "Failed to create a libdnf plugin instance"
@@ -1388,8 +1388,8 @@ msgstr "Fehler beim Laden der lokalen Metadaten für Paketquelle „{}“"
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
-"Keine gültige Quelle (baseurl, mirrorlist oder metalink) für Paketquelle "
-"„{}“ gefunden"
+"Keine gültige Quelle (baseurl, mirrorlist oder metalink) für Paketquelle „{}"
+"“ gefunden"
 
 #: repo/repo_pgp.cpp:67
 #, c++-format
@@ -1954,8 +1954,8 @@ msgstr "Zustand {} für „{}“ nicht gefunden."
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
-"Laden der Systemstatus-TOML-Datei {} fehlgeschlagen (siehe dnf5-system-"
-"state(7)): {}"
+"Laden der Systemstatus-TOML-Datei {} fehlgeschlagen (siehe dnf5-system-state"
+"(7)): {}"
 
 #: system/state.cpp:649
 #, c++-format
@@ -2270,8 +2270,8 @@ msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
-"Fehlender erforderlicher Objektschlüssel „group_id“ in einem rpm mit Grund "
-"„Group“ und Aktion „Reason Change“"
+"Fehlender erforderlicher Objektschlüssel „group_id“ in einem rpm mit Grund „"
+"Group“ und Aktion „Reason Change“"
 
 #: utils/bootc.cpp:46
 #, c++-format
@@ -2511,8 +2511,8 @@ msgstr "Binden des integer64-Wertes an die SQL-Anweisung fehlgeschlagen: „{}�
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
 msgstr ""
-"Binden des „unsigned integer32“-Wertes an die SQL-Anweisung fehlgeschlagen: "
-"„{}“"
+"Binden des „unsigned integer32“-Wertes an die SQL-Anweisung fehlgeschlagen: „"
+"{}“"
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
