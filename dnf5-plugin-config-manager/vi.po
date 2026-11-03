@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-04-12 12:58+0000\n"
+"PO-Revision-Date: 2026-11-03 09:52+0000\n"
 "Last-Translator: Khoa Le <inctenone@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/vi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: addrepo.cpp:115
 #, c++-format
@@ -77,8 +77,9 @@ msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
 msgstr ""
-"Phải thiết lập ít nhất một trong các tham số --from-repofile, --set=baseurl, "
-"--set=mirrorlist, hoặc --set=metalink với một URL không được để trống"
+"Phải thiết lập ít nhất một trong các tham số --from-repofile, --"
+"set=baseurl, --set=mirrorlist, hoặc --set=metalink với một URL không được để "
+"trống"
 
 #: addrepo.cpp:408
 #, c++-format
