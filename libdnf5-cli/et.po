@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-10-22 07:58+0000\n"
+"PO-Revision-Date: 2026-11-03 09:49+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: argument_parser.cpp:68
 #, c++-format
@@ -586,8 +586,7 @@ msgstr "Puuduv käsk"
 #, c++-format
 msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
-msgstr ""
-"Oled sisestanud vigase kuupäeva: „{}“. Eeldatud vorming on „AAAA-KK-PP“"
+msgstr "Oled sisestanud vigase kuupäeva: „{}“. Eeldatud vorming on „AAAA-KK-PP“"
 
 #: session.cpp:270
 #, c++-format
