@@ -5,7 +5,7 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Léane GRASSER <pierre.grasser@proton.me>, 2024.
 # Antoine BACK <antoine.back@hotmail.fr>, 2024.
-# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025, 2026.
 # red max <redmax761@gmail.com>, 2026.
 # blutch112 <vincent.lefebvre59@gmail.com>, 2026.
 msgid ""
@@ -13,9 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-01 18:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-11-03 09:41+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
 "Language: fr\n"
@@ -23,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
@@ -102,8 +101,7 @@ msgstr ""
 #: cmdline_aliases.cpp:312
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
-"Attribut \"type\" manquant pour l'élément \"{}\" dans le fichier \"{}\""
+msgstr "Attribut \"type\" manquant pour l'élément \"{}\" dans le fichier \"{}\""
 
 #: cmdline_aliases.cpp:331
 #, c++-format
@@ -148,15 +146,15 @@ msgstr ""
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Source \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne "
-"{} : {}"
+"Source \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne {}"
+" : {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Groupe \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne "
-"{} : {}"
+"Groupe \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne {}"
+" : {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 #, c++-format
@@ -171,8 +169,8 @@ msgstr ""
 #, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
-"Attribut \"source\" manquant pour l'argument nommé \"{}\" dans le fichier "
-"\"{}\""
+"Attribut \"source\" manquant pour l'argument nommé \"{}\" dans le fichier \""
+"{}\""
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 #, c++-format
@@ -329,8 +327,7 @@ msgstr "Liste des motifs à rechercher dans les noms d'avertissements."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
-"Afficher uniquement les avertissements faisant référence à un bugzilla."
+msgstr "Afficher uniquement les avertissements faisant référence à un bugzilla."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
@@ -356,8 +353,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:178
 msgid "No advisory found matching the specified filters."
-msgstr ""
-"Aucun avertissement correspondant aux filtres spécifiés n'a été trouvé."
+msgstr "Aucun avertissement correspondant aux filtres spécifiés n'a été trouvé."
 
 #: commands/advisory_shared.hpp:193
 msgid ""
@@ -1076,8 +1072,7 @@ msgstr "Impossible de trouver une entrée du journal systemd correspondante."
 
 #: commands/offline/offline.cpp:794
 msgid "Show logs from past offline transactions"
-msgstr ""
-"Afficher les entrées de journal des transactions hors ligne précédentes"
+msgstr "Afficher les entrées de journal des transactions hors ligne précédentes"
 
 #: commands/offline/offline.cpp:802
 msgid ""
