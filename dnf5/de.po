@@ -10,13 +10,14 @@
 # Moritz Baumann <codemonkey@landkeks.de>, 2026.
 # Marius Kamp <msk@posteo.org>, 2026.
 # Simon Hennig <simon@hennig030.de>, 2026.
+# GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:41+0000\n"
-"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -1308,8 +1309,7 @@ msgstr "Neuen Eintrag zur Versionssperren-Konfiguration hinzufügen"
 #, fuzzy
 #| msgid "List of package specs to remove versionlock for"
 msgid "List of packages to lock to their current versions"
-msgstr ""
-"Liste der Paketangaben, für die die Versionssperre entfernt werden soll"
+msgstr "Liste der Paketangaben, für die die Versionssperre entfernt werden soll"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
