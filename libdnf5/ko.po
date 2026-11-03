@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 김인수 <simmon@nplob.com>, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
-# Joungmin Lee <leejm516@gmail.com>, 2024.
+# Joungmin Lee <leejm516@gmail.com>, 2024, 2026.
 # Hyeonmin Oh <hyunmin860@gmail.com>, 2026.
 msgid ""
 msgstr ""
@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:41+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Joungmin Lee <leejm516@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
 "Language: ko\n"
@@ -573,16 +573,14 @@ msgstr ""
 #, c++-format
 msgid ""
 "package {1} from {2} requires {0}, but none of the providers can be installed"
-msgstr ""
-"{2}에서 꾸러미 {1}는 {0}가 필요하지만, 공급 업체가 없어 설치할 수 없습니다"
+msgstr "{2}에서 꾸러미 {1}는 {0}가 필요하지만, 공급 업체가 없어 설치할 수 없습니다"
 
 #: base/solver_problems.cpp:68
 #, c++-format
 msgid ""
 "installed package {1} requires {0}, but none of the providers can be "
 "installed"
-msgstr ""
-"설치된 꾸러미 {1}에는 {0}이 필요하지만, 공급 업체가 없어 설치할 수 없습니다"
+msgstr "설치된 꾸러미 {1}에는 {0}이 필요하지만, 공급 업체가 없어 설치할 수 없습니다"
 
 #: base/solver_problems.cpp:69
 #, c++-format
