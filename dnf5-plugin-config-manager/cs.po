@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Petr Ptacek <petr106@atlas.cz>, 2024.
+# Petr Ptacek <petr106@atlas.cz>, 2024, 2026.
 # Jonáš Loskot <alius@users.noreply.translate.fedoraproject.org>, 2025, 2026.
 # Petr Pisar <ppisar@redhat.com>, 2025.
 msgid ""
@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-09-11 21:17+0000\n"
-"Last-Translator: Jonáš Loskot "
-"<alius@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-11-03 09:37+0000\n"
+"Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5-"
 "plugin-config-manager/cs/>\n"
 "Language: cs\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: addrepo.cpp:115
 #, c++-format
@@ -79,8 +78,8 @@ msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
 msgstr ""
-"Jeden z --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, "
-"--set=metalink=<URL> musí být nastaven na neprázdnou adresu URL"
+"Jeden z --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>"
+", --set=metalink=<URL> musí být nastaven na neprázdnou adresu URL"
 
 #: addrepo.cpp:408
 #, c++-format
