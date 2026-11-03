@@ -4,7 +4,7 @@
 # Dennis Koerner <dennis@bumblebeeman.dev>, 2024, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Fabio D <fabio1977@arcor.de>, 2024, 2026.
-# Ettore Atalan <atalanttore@googlemail.com>, 2024, 2025.
+# Ettore Atalan <atalanttore@googlemail.com>, 2024, 2025, 2026.
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2025, 2026.
 # Vahur Schwarze <schwarzevahur@gmail.com>, 2026.
 # Moritz Baumann <codemonkey@landkeks.de>, 2026.
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:41+0000\n"
-"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -46,8 +46,8 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
-"Unbekanntes Attribut „{}“ des angehängten benannten Arguments für den Alias "
-"„{}“ in der Datei „{}“ in Zeile {}: {}"
+"Unbekanntes Attribut „{}“ des angehängten benannten Arguments für den Alias „"
+"{}“ in der Datei „{}“ in Zeile {}: {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
@@ -186,8 +186,8 @@ msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
-"Verwendete Konfigurationsdateiversion „1.0“ für Attribut „{}“ des Befehls "
-"„{}“ in Datei „{}“ in Zeile {}: {}"
+"Verwendete Konfigurationsdateiversion „1.0“ für Attribut „{}“ des Befehls „{}"
+"“ in Datei „{}“ in Zeile {}: {}"
 
 #: cmdline_aliases.cpp:713
 #, c++-format
