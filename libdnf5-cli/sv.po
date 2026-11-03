@@ -1,5 +1,5 @@
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
-# Luna Jernberg <bittin@reimu.nl>, 2024, 2025.
+# Luna Jernberg <bittin@reimu.nl>, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Göran Uddeborg <goeran@uddeborg.se>, 2024, 2025, 2026.
 # Luna Jernberg <droidbittin@gmail.com>, 2026.
@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-01 18:18+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"PO-Revision-Date: 2026-11-03 09:38+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: argument_parser.cpp:68
 #, c++-format
@@ -111,8 +111,7 @@ msgstr "Kommando-id \"{}\" innehåller inte underkommando med id \"{}\""
 #: argument_parser.cpp:1063
 #, c++-format
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
-msgstr ""
-"Kommando-id \"{}\" innehåller inte ett namngivet argument med id \"{}\""
+msgstr "Kommando-id \"{}\" innehåller inte ett namngivet argument med id \"{}\""
 
 #: argument_parser.cpp:1071
 #, c++-format
