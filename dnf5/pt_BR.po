@@ -4,7 +4,7 @@
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024, 2025, 2026.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
-# "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024, 2025.
+# "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024, 2025, 2026.
 # Gabriel Elyas <gabrielelyas@protonmail.com>, 2024, 2026.
 # Ciro Mota <ciro.mota@gmail.com>, 2024, 2025.
 # Luan Oliveira <luanv.oliveira@outlook.com>, 2025.
@@ -15,8 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:38+0000\n"
-"Last-Translator: Ciro Mota "
-"<ciromota@users.noreply.translate.fedoraproject.org>\n"
+"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -1904,8 +1903,7 @@ msgstr "define a raiz de instalação"
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
-msgstr ""
-"usa configuração, reposdir e vars do sistema host em vez do installroot"
+msgstr "usa configuração, reposdir e vars do sistema host em vez do installroot"
 
 #: main.cpp:678
 msgid "override the value of $releasever in config and repo files"
