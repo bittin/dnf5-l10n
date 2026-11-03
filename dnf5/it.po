@@ -4,7 +4,7 @@
 # Alessio <alciregi@posteo.net>, 2024.
 # Davide Dallara <ddave090@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
-# Ruben Roland Fonti <ruben.roland.fonti@ikmail.com>, 2024.
+# Ruben Roland Fonti <ruben.roland.fonti@ikmail.com>, 2024, 2026.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025, 2026.
 # Nathan <nathan95@live.it>, 2025, 2026.
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:46+0000\n"
-"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"Last-Translator: Ruben Roland Fonti <ruben.roland.fonti@ikmail.com>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
 "Language: it\n"
@@ -551,8 +551,7 @@ msgstr "Opzione urlprotocol invalida: {}"
 #: commands/download/download.cpp:166 main.cpp:833
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
-"Architettura \"{0}\"non supportata. Scegli un'altra architettura da {1}"
+msgstr "Architettura \"{0}\"non supportata. Scegli un'altra architettura da {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:207
@@ -806,8 +805,7 @@ msgstr "Elenco degli aggiornamenti disponibili per i pacchetti installati."
 
 #: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
-"Elenco dei pacchetti che verranno rimossi dal comando 'dnf autoremove'."
+msgstr "Elenco dei pacchetti che verranno rimossi dal comando 'dnf autoremove'."
 
 #: commands/list/list.cpp:214 commands/list/list.cpp:219
 msgid "Installed packages"
