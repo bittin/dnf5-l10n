@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Balázs Meskó <meskobalazs@mailbox.org>, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
+# GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:48+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/hu/>\n"
 "Language: hu\n"
@@ -1148,8 +1149,7 @@ msgstr ""
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
-msgstr ""
-"{}. A kapcsolók további információiért adja hozzá a „--help” kapcsolót."
+msgstr "{}. A kapcsolók további információiért adja hozzá a „--help” kapcsolót."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
