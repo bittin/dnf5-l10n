@@ -15,7 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:38+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Ciro Mota "
+"<ciromota@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -35,8 +36,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"Argumento nomeado anexado \"{}\" não encontrado: {}: Solicitado no arquivo "
-"\"{}\" na linha {}: {}"
+"Argumento nomeado anexado \"{}\" não encontrado: {}: Solicitado no arquivo \""
+"{}\" na linha {}: {}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -125,8 +126,7 @@ msgstr ""
 #: cmdline_aliases.cpp:387
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
-"Atributo \"cabeçalho\" ausente para o elemento \"{}\" no arquivo \"{}\""
+msgstr "Atributo \"cabeçalho\" ausente para o elemento \"{}\" no arquivo \"{}\""
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 #, c++-format
@@ -214,8 +214,8 @@ msgstr ""
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
-"Atributo desconhecido \"{}\" do comando \"{}\" no arquivo \"{}\" na linha "
-"{}: {}"
+"Atributo desconhecido \"{}\" do comando \"{}\" no arquivo \"{}\" na linha {}"
+": {}"
 
 #: cmdline_aliases.cpp:756
 #, c++-format
@@ -1200,8 +1200,7 @@ msgstr "Padrões"
 
 #: commands/search/search.cpp:49
 msgid "Search for software matching all specified strings"
-msgstr ""
-"Pesquisar por software que corresponda a todas as strings especificadas"
+msgstr "Pesquisar por software que corresponda a todas as strings especificadas"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
