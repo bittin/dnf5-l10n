@@ -15,13 +15,14 @@
 # Luke Na <narukeu@outlook.com>, 2026.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2026.
 # Cold Mint <cold_mint@qq.com>, 2026.
+# GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:48+0000\n"
-"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -2267,8 +2268,7 @@ msgid ""
 "The following items can be selected only from the specified vendors. The "
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
-msgstr ""
-"以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
+msgstr "以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
 
 #: shared_options.cpp:239
 #, fuzzy
