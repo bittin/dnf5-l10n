@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-10-21 07:18+0000\n"
-"Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
+"PO-Revision-Date: 2026-11-03 09:49+0000\n"
+"Last-Translator: Shihfu Juan <xlion@xlion.tw>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -21,15 +21,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
 msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
-msgstr ""
-"錯誤的 libsolv id： advisory「{}」、可解包名稱「{}」沒有 advisory 前綴「{}」"
+msgstr "錯誤的 libsolv id： advisory「{}」、可解包名稱「{}」沒有 advisory 前綴「{}」"
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
@@ -1941,16 +1940,14 @@ msgstr "動作「{0}」「{1}」無法在先前處理事項中是「{2}」後合
 msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
-msgstr ""
-"動作「Upgrade」「{0}」無法合併，因為在該時間點不存在 -> 設定「Install」。"
+msgstr "動作「Upgrade」「{0}」無法合併，因為在該時間點不存在 -> 設定「Install」。"
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 #, c++-format
 msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
-msgstr ""
-"動作「Reinstall」「{0}」無法合併，因為在該時間點不存在 -> 設定「Install」。"
+msgstr "動作「Reinstall」「{0}」無法合併，因為在該時間點不存在 -> 設定「Install」。"
 
 #: transaction/transaction_merge.cpp:194
 #, c++-format
@@ -1983,8 +1980,7 @@ msgstr "動作「{0}」「{1}」無法合併，因為在該時間點不存在 ->
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "(present versions are: {2}) -> skipping it."
-msgstr ""
-"動作「{0}」「{1}」無法合併，因為在該時間點不存在（目前版本：{2}）-> 跳過。"
+msgstr "動作「{0}」「{1}」無法合併，因為在該時間點不存在（目前版本：{2}）-> 跳過。"
 
 #: transaction/transaction_merge.cpp:277
 #, c++-format
@@ -2089,8 +2085,8 @@ msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
-"Reason 為「Group」、Action 為「Reason Change」的 rpm 缺少必要物件鍵"
-"「group_id」"
+"Reason 為「Group」、Action 為「Reason Change」的 rpm 缺少必要物件鍵「group_id"
+"」"
 
 #: utils/bootc.cpp:46
 #, c++-format
