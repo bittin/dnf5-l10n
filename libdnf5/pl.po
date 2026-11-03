@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-10-29 08:55+0000\n"
+"PO-Revision-Date: 2026-11-03 09:45+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -473,8 +473,8 @@ msgid ""
 "Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
 "'remove --oldinstallonly'."
 msgstr ""
-"Przekroczono limit installonly_limit ({0}): znaleziono {1} zainstalowanych: "
-"'{2}'. Możesz użyć komendy 'remove --oldinstallonly'."
+"Przekroczono limit installonly_limit ({0}): znaleziono {1} zainstalowanych: '"
+"{2}'. Możesz użyć komendy 'remove --oldinstallonly'."
 
 #: base/solver_problems.cpp:41
 #, c++-format
@@ -1161,8 +1161,8 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin \"{}\" "
 "(\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
-"Nieobsługiwana kombinacja API wtyczki. Wersja API dostarczona przez wtyczkę "
-"„{}” („{}”) to „{}.{}”. Wersja API w libdnf to „{}.{}”."
+"Nieobsługiwana kombinacja API wtyczki. Wersja API dostarczona przez wtyczkę „"
+"{}” („{}”) to „{}.{}”. Wersja API w libdnf to „{}.{}”."
 
 #: plugin/plugins.cpp:93
 msgid "Failed to create a libdnf plugin instance"
@@ -1640,8 +1640,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support combining "
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
-"Konfiguracja „{}” używa wersji „1.0”, która nie obsługuje łączenia "
-"„equivalent_vendors” z „outgoing_vendors” i „incoming_vendors”"
+"Konfiguracja „{}” używa wersji „1.0”, która nie obsługuje łączenia „"
+"equivalent_vendors” z „outgoing_vendors” i „incoming_vendors”"
 
 #: solv/vendor_change_manager.cpp:412 solv/vendor_change_manager.cpp:457
 #: solv/vendor_change_manager.cpp:509 solv/vendor_change_manager.cpp:734
@@ -1769,8 +1769,8 @@ msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
-"Nieprawidłowa wartość „{}” w „{}” w tabeli rozpoczynającej się od wiersza "
-"{}. Obsługiwane są tylko wartości „prawda”, „1”, „fałsz” i „0”"
+"Nieprawidłowa wartość „{}” w „{}” w tabeli rozpoczynającej się od wiersza {}"
+". Obsługiwane są tylko wartości „prawda”, „1”, „fałsz” i „0”"
 
 #: solv/vendor_change_manager.cpp:779 solv/vendor_change_manager.cpp:790
 #, c++-format
@@ -1897,8 +1897,8 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
-"Nieprawidłowa wartość „{}” dla filtra „cmdline_repo”. Użyj wartości „true”, "
-"„1”, „false” lub „0”"
+"Nieprawidłowa wartość „{}” dla filtra „cmdline_repo”. Użyj wartości „true”, „"
+"1”, „false” lub „0”"
 
 #: solv/vendor_change_manager.cpp:1317
 #, c++-format
