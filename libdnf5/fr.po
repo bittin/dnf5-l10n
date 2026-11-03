@@ -4,7 +4,7 @@
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
 # Léane GRASSER <pierre.grasser@proton.me>, 2024.
-# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025, 2026.
 # red max <redmax761@gmail.com>, 2026.
 # blutch112 <vincent.lefebvre59@gmail.com>, 2026.
 msgid ""
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-01 18:18+0000\n"
-"Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
+"PO-Revision-Date: 2026-11-03 09:41+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fr/>\n"
 "Language: fr\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -309,8 +309,8 @@ msgid ""
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
 "Les paquets installés correspondant à l'argument '{0}' ne sont pas "
-"disponibles dans la même version dans les dépôts, versions disponibles : "
-"{1}, réinstallation impossible."
+"disponibles dans la même version dans les dépôts, versions disponibles : {1}"
+", réinstallation impossible."
 
 #: base/log_event.cpp:235
 #, c++-format
@@ -573,8 +573,7 @@ msgstr "le paquet {0} de {1} entre en conflit avec {2}, fourni par {3} de {4}"
 #: base/solver_problems.cpp:60
 #, c++-format
 msgid "installed package {0} conflicts with {1} provided by {2} from {3}"
-msgstr ""
-"le paquet installé {0} entre en conflit avec {1}, fourni par {2} de {3}"
+msgstr "le paquet installé {0} entre en conflit avec {1}, fourni par {2} de {3}"
 
 #: base/solver_problems.cpp:61
 #, c++-format
@@ -617,8 +616,7 @@ msgstr "le paquet {0} de {1} entre en conflit avec {2}, fourni par lui-même"
 #: base/solver_problems.cpp:70
 #, c++-format
 msgid "both package {0} from {1} and {3} from {4} obsolete {2}"
-msgstr ""
-"les paquets {0} de {1} et {3} de {4} rendent tous les deux {2} obsolète"
+msgstr "les paquets {0} de {1} et {3} de {4} rendent tous les deux {2} obsolète"
 
 #: base/solver_problems.cpp:72
 #, c++-format
@@ -744,8 +742,7 @@ msgstr "Cette transaction a déjà été exécutée par le passé."
 
 #: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
-msgstr ""
-"Impossible d'exécuter une transaction avec des problèmes de résolution."
+msgstr "Impossible d'exécuter une transaction avec des problèmes de résolution."
 
 #: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
@@ -1143,8 +1140,7 @@ msgstr "Échec de la mise à jour des flux : {}"
 #: module/module_sack.cpp:93
 #, c++-format
 msgid "Failed to load module metadata for repository \"{}\": {}"
-msgstr ""
-"Échec du chargement des métadonnées de module pour le dépôt \"{}\" : {}"
+msgstr "Échec du chargement des métadonnées de module pour le dépôt \"{}\" : {}"
 
 #: module/module_sack.cpp:594
 msgid "Missing '='"
@@ -1197,8 +1193,7 @@ msgstr "get_unique_id(): Échec du calcul du SHA256"
 
 #: repo/file_downloader.cpp:154
 msgid "Cannot download files, cacheonly option is activated."
-msgstr ""
-"Impossible de télécharger les fichiers, l'option cacheonly est activée."
+msgstr "Impossible de télécharger les fichiers, l'option cacheonly est activée."
 
 #: repo/file_downloader.cpp:216
 msgid "Failed to download files"
@@ -1569,8 +1564,8 @@ msgstr ""
 #, c++-format
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
-"Échec de la lecture de l'en-tête de paquet, impossible d'ouvrir le fichier "
-"\"{}\" : {}"
+"Échec de la lecture de l'en-tête de paquet, impossible d'ouvrir le fichier \""
+"{}\" : {}"
 
 #: rpm/transaction.cpp:329
 #, c++-format
@@ -2079,8 +2074,7 @@ msgstr ""
 #: transaction/transaction_merge.cpp:215
 #, c++-format
 msgid "Unexpected action encountered: '{0}' during transaction merge."
-msgstr ""
-"Action inattendue : '{0}' rencontrée pendant la fusion de transactions."
+msgstr "Action inattendue : '{0}' rencontrée pendant la fusion de transactions."
 
 #: transaction/transaction_merge.cpp:224
 #, c++-format
@@ -2458,8 +2452,8 @@ msgstr ""
 #, c++-format
 msgid "Binding double value to SQL statement failed: \"{}\""
 msgstr ""
-"Échec de l'association d'une valeur de type double à une déclaration SQL : "
-"\"{}\""
+"Échec de l'association d'une valeur de type double à une déclaration SQL : \""
+"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:39
 #, c++-format
