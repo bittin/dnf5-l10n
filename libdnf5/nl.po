@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Sijmen Schoon <fedora@vijf.life>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:51+0000\n"
-"Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
+"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/nl/>\n"
 "Language: nl\n"
@@ -36,8 +37,7 @@ msgstr ""
 #, fuzzy, c++-format
 #| msgid "Error during transaction replay JSON parsing : {}"
 msgid "Error parsing transaction info: {}"
-msgstr ""
-"Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
+msgstr "Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
 
 #: base/base.cpp:185
 #, c++-format
@@ -1306,8 +1306,7 @@ msgstr "Leeg pad naar de repository-cachemap."
 #, fuzzy, c++-format
 #| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgid "Cannot set option \"{}\" for repository \"{}\": {}"
-msgstr ""
-"Downloaden van metadata ({}: \"{}\") voor repository \"{}\": {} mislukt"
+msgstr "Downloaden van metadata ({}: \"{}\") voor repository \"{}\": {} mislukt"
 
 #: repo/repo_config_override.cpp:84
 #, fuzzy, c++-format
@@ -1614,8 +1613,7 @@ msgstr "Installeren van pakket \"{}\" is mislukt"
 #, fuzzy, c++-format
 #| msgid "Error during transaction replay JSON parsing : {}"
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr ""
-"Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
+msgstr "Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
@@ -2573,8 +2571,7 @@ msgstr "Uitvoeren uname() mislukt"
 #, fuzzy, c++-format
 #| msgid "Error during transaction replay JSON parsing : {}"
 msgid "error during preparation of child process: {}"
-msgstr ""
-"Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
+msgstr "Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
 
 #: utils/subprocess.cpp:211
 msgid "poll failed during subprocess I/O"
