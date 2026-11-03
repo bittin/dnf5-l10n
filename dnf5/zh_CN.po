@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:48+0000\n"
-"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
+"Last-Translator: Luke Na <narukeu@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -732,8 +732,7 @@ msgstr "列出额外的，即安装在系统上的软件包，这些软件包在
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
-msgstr ""
-"列出已安装在系统上的软件包，这些软件包已被任何已知仓库中的软件包所取代。"
+msgstr "列出已安装在系统上的软件包，这些软件包已被任何已知仓库中的软件包所取代。"
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
@@ -1932,8 +1931,8 @@ msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
-"此次操作后，将额外占用 {:.0f} {:s} 空间（安装 {:.0f} {:s}，移除 {:.0f} "
-"{:s}）。"
+"此次操作后，将额外占用 {:.0f} {:s} 空间（安装 {:.0f} {:s}，移除 {:.0f} {:s}）"
+"。"
 
 #: main.cpp:1087
 #, c++-format
