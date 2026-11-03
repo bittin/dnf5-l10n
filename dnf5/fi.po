@@ -6,13 +6,14 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2024, 2025.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024, 2026.
 # Jouko Tiilikainen <jti65@users.noreply.translate.fedoraproject.org>, 2026.
+# GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:42+0000\n"
-"Last-Translator: Ville-Pekka Vainio <vpvainio@iki.fi>\n"
+"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -1798,8 +1799,8 @@ msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja (joukkoja)"
+", voidaan määrittää useita kertoja."
 
 #: main.cpp:415
 #, fuzzy
@@ -1821,8 +1822,8 @@ msgstr ""
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja (joukkoja)"
+", voidaan määrittää useita kertoja."
 
 #: main.cpp:459
 #, c++-format
@@ -1839,8 +1840,8 @@ msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja (joukkoja)"
+", voidaan määrittää useita kertoja."
 
 #: main.cpp:495
 msgid ""
