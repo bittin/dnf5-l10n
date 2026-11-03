@@ -13,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:39+0000\n"
-"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
+"Last-Translator: Ciro Mota "
+"<ciromota@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -783,8 +784,7 @@ msgstr "Falha na importação da chave pública."
 
 #: base/transaction.cpp:997
 msgid "poll failed during scriptlets pipe processing"
-msgstr ""
-"falha na operação de poll durante o processamento de pipe de scriptlets"
+msgstr "falha na operação de poll durante o processamento de pipe de scriptlets"
 
 #: base/transaction.cpp:1020
 msgid "failed to read scriptlet output from pipe"
@@ -929,8 +929,7 @@ msgstr ""
 #: comps/environment/environment.cpp:361
 #, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
-msgstr ""
-"Falha ao salvar o documento xml do ambiente \"{}\" no arquivo \"{}\":{}"
+msgstr "Falha ao salvar o documento xml do ambiente \"{}\" no arquivo \"{}\":{}"
 
 #: comps/group/group.cpp:354
 #, c++-format
@@ -1891,14 +1890,13 @@ msgstr ""
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
 msgstr ""
-"O filtro '{}' suporta apenas operadores de comparação relacionais: =, !=, >, "
-">=, <, <="
+"O filtro '{}' suporta apenas operadores de comparação relacionais: =, !=, >"
+", >=, <, <="
 
 #: solv/vendor_change_manager.cpp:1321
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
-msgstr ""
-"O filtro '{}' suporta apenas comparadores de string: =, ^, $, *, =*, =~"
+msgstr "O filtro '{}' suporta apenas comparadores de string: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1330
 #, c++-format
