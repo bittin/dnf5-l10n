@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-10-22 07:58+0000\n"
+"PO-Revision-Date: 2026-11-03 09:42+0000\n"
 "Last-Translator: Adaline Simonian <adalinesimonian@pm.me>\n"
 "Language-Team: Norwegian Nynorsk <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/nn/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
@@ -1111,8 +1111,8 @@ msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
 msgstr ""
-"Manglande posisjonsbundne argument for «remove»-kommandoen. Legg til «--"
-"help» for meir informasjon om argumenta."
+"Manglande posisjonsbundne argument for «remove»-kommandoen. Legg til «--help"
+"» for meir informasjon om argumenta."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1839,8 +1839,7 @@ msgstr ""
 
 #: main.cpp:588
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
-msgstr ""
-"deaktiver verifisering av OpenPGP-signaturar (om RPM-policy tillèt det)"
+msgstr "deaktiver verifisering av OpenPGP-signaturar (om RPM-policy tillèt det)"
 
 #: main.cpp:605
 msgid "Disable all libdnf5 plugins"
