@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # kanitha chim <kchim@redhat.com>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:51+0000\n"
-"Last-Translator: kanitha chim <kchim@redhat.com>\n"
+"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Khmer (Central) <https://translate.fedoraproject.org/projects/"
 "dnf5/dnf5/km/>\n"
 "Language: km\n"
@@ -619,7 +620,8 @@ msgstr "បញ្ចូល packages ដែលមិនទាមទារពី g
 #, fuzzy
 #| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "ធ្វើដំណើរការនៅលើ groups តែប៉ុណ្ណោះ, គ្មាន packages ណាដែលត្រូវបានផ្លាស់ប្ដូរឡើយ។"
+msgstr ""
+"ធ្វើដំណើរការនៅលើ groups តែប៉ុណ្ណោះ, គ្មាន packages ណាដែលត្រូវបានផ្លាស់ប្ដូរឡើយ។"
 
 #: commands/group/group_list.cpp:114
 #, fuzzy
@@ -748,7 +750,8 @@ msgstr ""
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr "បង្ហាញ packages ដែលពឹងពាក់លើ packages ផ្សេងៗដែលមានទំនាក់ទំនងទៅនឹងប្រព័ន្ធ"
+msgstr ""
+"បង្ហាញ packages ដែលពឹងពាក់លើ packages ផ្សេងៗដែលមានទំនាក់ទំនងទៅនឹងប្រព័ន្ធ"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -1053,8 +1056,8 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
-"ប្រព័ន្ធនឹងធ្វើការ reboot​ ឥឡូវនេះដើម្បីអនុវត្តប្រតិបត្តិការក្រៅបណ្ដាញដែលផ្ដួចផ្ដើមដោយ command​ "
-"ដូចខាងក្រោម:"
+"ប្រព័ន្ធនឹងធ្វើការ reboot​ ឥឡូវនេះដើម្បីអនុវត្តប្រតិបត្តិការក្រៅបណ្ដាញដែលផ្ដួចផ្ដើមដោយ command​ ដូច"
+"ខាងក្រោម:"
 
 #: commands/offline/offline.cpp:842
 msgid ""
@@ -1777,8 +1780,8 @@ msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"បើកអោយដំណើរការ libdnf5 plugins ដោយប្រើឈ្មោះ។ បង្ហាញជម្រើស។ គាំទ្រ​ globs, "
-"អាចបញ្ជាក់បានច្រើនដង។"
+"បើកអោយដំណើរការ libdnf5 plugins ដោយប្រើឈ្មោះ។ បង្ហាញជម្រើស។ គាំទ្រ​ globs, អាចបញ្ជាក់បាន"
+"ច្រើនដង។"
 
 #: main.cpp:444
 #, fuzzy
