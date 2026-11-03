@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
+# Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2025-05-07 17:34+0000\n"
+"PO-Revision-Date: 2026-11-03 09:50+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/it/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: addrepo.cpp:115
 #, c++-format
@@ -51,8 +51,7 @@ msgstr "Percorso mancante alla directory di configurazione del repository"
 #: addrepo.cpp:282
 #, c++-format
 msgid "Failed to copy repository configuration file \"{}\": {}"
-msgstr ""
-"Copia del file di configurazione del repository \"{}\" non riuscita: {}"
+msgstr "Copia del file di configurazione del repository \"{}\" non riuscita: {}"
 
 #: addrepo.cpp:293
 #, c++-format
