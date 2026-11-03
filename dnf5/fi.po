@@ -13,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:42+0000\n"
-"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
+"Last-Translator: Jouko Tiilikainen "
+"<jti65@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -59,8 +60,8 @@ msgstr "Ei tuettu versio \"{}\" tiedostossa \"{}\". Tuetut versiot: {}"
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
-"Virheellinen attribuutin \"versio\" arvotyyppi tiedostossa \"{}\" rivillä "
-"{}: {}"
+"Virheellinen attribuutin \"versio\" arvotyyppi tiedostossa \"{}\" rivillä {}"
+": {}"
 
 #: cmdline_aliases.cpp:224
 #, c++-format
