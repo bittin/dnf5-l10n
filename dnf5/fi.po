@@ -11,9 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-01 18:18+0000\n"
-"Last-Translator: Jouko Tiilikainen "
-"<jti65@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-11-03 09:42+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -21,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
@@ -1703,8 +1702,7 @@ msgstr "luo lisäohjelmistolähde tunnuksen ja polun avulla"
 #: main.cpp:249
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
-"repofrompath: Virheellinen tietovaraston tunnus ja polkumääritys \"{}\""
+msgstr "repofrompath: Virheellinen tietovaraston tunnus ja polkumääritys \"{}\""
 
 #: main.cpp:261
 msgid "set arbitrary config and repo options"
@@ -2237,8 +2235,8 @@ msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
-"Se voi olla lisäosan tarjoama komento; kokeile `dnf5 install 'dnf5-"
-"command({})'`"
+"Se voi olla lisäosan tarjoama komento; kokeile `dnf5 install 'dnf5-command("
+"{})'`"
 
 #: main.cpp:1617
 #, c++-format
