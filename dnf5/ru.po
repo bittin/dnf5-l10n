@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-01 18:18+0000\n"
-"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
+"PO-Revision-Date: 2026-11-03 09:39+0000\n"
+"Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
 "Language: ru\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
@@ -32,8 +32,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"Прикрепленный именованный аргумент \"{}\" не найден: {}: Запрошен в файле "
-"\"{}\" в строке {}: {}"
+"Прикрепленный именованный аргумент \"{}\" не найден: {}: Запрошен в файле \""
+"{}\" в строке {}: {}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -114,8 +114,7 @@ msgstr ""
 #: cmdline_aliases.cpp:375
 #, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
-"Неизвестный атрибут \"{}\" группы \"{}\" в файле \"{}\" в строке {}: {}"
+msgstr "Неизвестный атрибут \"{}\" группы \"{}\" в файле \"{}\" в строке {}: {}"
 
 #: cmdline_aliases.cpp:387
 #, c++-format
@@ -180,8 +179,8 @@ msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
-"Использована версия файла конфигурации \"1.0\" для атрибута \"{}\" команды "
-"\"{}\" в файле \"{}\" в строке {}: {}"
+"Использована версия файла конфигурации \"1.0\" для атрибута \"{}\" команды \""
+"{}\" в файле \"{}\" в строке {}: {}"
 
 #: cmdline_aliases.cpp:713
 #, c++-format
@@ -263,8 +262,7 @@ msgstr "Вывод сводки рекомендаций"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
-"Показывать рекомендации, содержащие любую версию установленных пакетов."
+msgstr "Показывать рекомендации, содержащие любую версию установленных пакетов."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
