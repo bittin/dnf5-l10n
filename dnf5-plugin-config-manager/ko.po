@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:42+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/ko/>\n"
 "Language: ko\n"
@@ -309,8 +309,7 @@ msgstr "저장소 비활성화"
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr ""
-"{}: 인수 값의 형식이 잘못되었습니다. 키의 마지막 문자는 '.'일 수 없습니다: {}"
+msgstr "{}: 인수 값의 형식이 잘못되었습니다. 키의 마지막 문자는 '.'일 수 없습니다: {}"
 
 #: setopt.cpp:70 unsetopt.cpp:82
 #, c++-format
