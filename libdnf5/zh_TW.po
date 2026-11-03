@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:49+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -1590,8 +1590,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
-"設定「{}」使用 1.0 版，不支援在沒有「outgoing_vendors」的情況下使用"
-"「incoming_vendors」"
+"設定「{}」使用 1.0 版，不支援在沒有「outgoing_vendors」的情況下使用「"
+"incoming_vendors」"
 
 #: solv/vendor_change_manager.cpp:586
 #, c++-format
@@ -1599,8 +1599,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
-"設定「{}」使用 1.0 版，不支援在沒有「incoming_vendors」的情況下使用"
-"「outgoing_vendors」"
+"設定「{}」使用 1.0 版，不支援在沒有「incoming_vendors」的情況下使用「"
+"outgoing_vendors」"
 
 #: solv/vendor_change_manager.cpp:676
 #, c++-format
@@ -1636,8 +1636,8 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
-"「{}」中從第 {} 行開始之表格內的篩選器「cmdline_repo」不支援比較運算子"
-"「{}」。此篩選器只允許使用預設的「EXACT」比較運算子"
+"「{}」中從第 {} 行開始之表格內的篩選器「cmdline_repo」不支援比較運算子「{}」"
+"。此篩選器只允許使用預設的「EXACT」比較運算子"
 
 #: solv/vendor_change_manager.cpp:769
 #, c++-format
@@ -1645,8 +1645,8 @@ msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
-"無效的「value」值「{}」，位於「{}」中從第 {} 行開始的表格。僅支援「true」、"
-"「1」、「false」、「0」"
+"無效的「value」值「{}」，位於「{}」中從第 {} 行開始的表格。僅支援「true」、「"
+"1」、「false」、「0」"
 
 #: solv/vendor_change_manager.cpp:779 solv/vendor_change_manager.cpp:790
 #, c++-format
@@ -1719,15 +1719,14 @@ msgid ""
 "Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
 "*, =*, =~; optionally prefixed with ! and/or i"
 msgstr ""
-"預期為比較運算子：關係運算子（<、<=、>、>=）或字串運算子（=、^、$、*、=*、"
-"=~；可選擇加上 ! 和／或 i 前綴）"
+"預期為比較運算子：關係運算子（<、<=、>、>=）或字串運算子"
+"（=、^、$、*、=*、=~；可選擇加上 ! 和／或 i 前綴）"
 
 #: solv/vendor_change_manager.cpp:1230
 msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
-msgstr ""
-"供應商定義不支援關係比較運算子。請使用字串比較運算子：=、^、$、*、=*、=~"
+msgstr "供應商定義不支援關係比較運算子。請使用字串比較運算子：=、^、$、*、=*、=~"
 
 #: solv/vendor_change_manager.cpp:1238
 #, c++-format
@@ -1761,8 +1760,7 @@ msgstr "篩選器「cmdline_repo」只能用於傳入的軟體包（「in:」）
 msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
-msgstr ""
-"篩選器「cmdline_repo」的值「{}」無效。請使用「true」、「1」、「false」或「0」"
+msgstr "篩選器「cmdline_repo」的值「{}」無效。請使用「true」、「1」、「false」或「0」"
 
 #: solv/vendor_change_manager.cpp:1317
 #, c++-format
