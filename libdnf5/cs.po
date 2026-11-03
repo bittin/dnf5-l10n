@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:37+0000\n"
-"Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/cs/>\n"
 "Language: cs\n"
@@ -849,8 +849,7 @@ msgstr "Při importu klíče \"{}\" došlo k chybě: {}"
 #, fuzzy, c++-format
 #| msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr ""
-"Kontrola PGP pro balíček \"{}\" ({}) z repozitáře \"{}\" se nezdařila: "
+msgstr "Kontrola PGP pro balíček \"{}\" ({}) z repozitáře \"{}\" se nezdařila: "
 
 #: base/transaction.cpp:1696
 msgid "Import of the key didn't help, wrong key?"
