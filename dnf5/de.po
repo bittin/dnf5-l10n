@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:41+0000\n"
-"Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -78,8 +78,7 @@ msgstr "Unbekannter Schlüssel „{}“ in Datei „{}“ in Zeile {}: {}"
 #: cmdline_aliases.cpp:253
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
-msgstr ""
-"Leerer oder ungültiger Element-ID-Pfad in Datei \"{}\" auf Zeile {}: {}"
+msgstr "Leerer oder ungültiger Element-ID-Pfad in Datei \"{}\" auf Zeile {}: {}"
 
 #: cmdline_aliases.cpp:272
 #, c++-format
@@ -810,8 +809,7 @@ msgstr ""
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
-msgstr ""
-"Pakete, die kürzlich zu den Paketquellen hinzugefügt wurden, auflisten."
+msgstr "Pakete, die kürzlich zu den Paketquellen hinzugefügt wurden, auflisten."
 
 #: commands/list/list.cpp:98
 msgid "List upgrades available for the installed packages."
@@ -1339,8 +1337,7 @@ msgstr "Alle zutreffenden Einträge der Versionssperren-Konfiguration entfernen"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
-"Liste der Paketangaben, für die die Versionssperre entfernt werden soll"
+msgstr "Liste der Paketangaben, für die die Versionssperre entfernt werden soll"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
