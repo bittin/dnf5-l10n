@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:41+0000\n"
-"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
+"Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
 "Language: fr\n"
@@ -1099,8 +1099,8 @@ msgid ""
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
 "Le système a été modifié depuis la préparation de la transaction hors ligne. "
-"La transaction hors ligne initiée par la commande suivante n'est plus "
-"valide :"
+"La transaction hors ligne initiée par la commande suivante n'est plus valide "
+":"
 
 #: commands/offline/offline.cpp:842
 msgid ""
@@ -1245,8 +1245,7 @@ msgstr ""
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
-"Les options --name et --summary ne peuvent pas être utilisées ensemble."
+msgstr "Les options --name et --summary ne peuvent pas être utilisées ensemble."
 
 #: commands/search/search.cpp:74
 msgid "Option --all cannot be used with --name or --summary."
