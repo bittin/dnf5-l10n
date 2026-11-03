@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:45+0000\n"
-"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
+"Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
 "Language: pl\n"
@@ -34,8 +34,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"Dołączony argument nazwany „{}” nie został znaleziony: {}: Żądano w pliku "
-"„{}” w wierszu {}: {}"
+"Dołączony argument nazwany „{}” nie został znaleziony: {}: Żądano w pliku „{}"
+"” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -43,8 +43,8 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
-"Nieznany atrybut „{}” dołączonego nazwanego argumentu aliasu „{}” w pliku "
-"„{}” w wierszu {}: {}"
+"Nieznany atrybut „{}” dołączonego nazwanego argumentu aliasu „{}” w pliku „{}"
+"” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
