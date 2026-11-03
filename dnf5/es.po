@@ -4,7 +4,7 @@
 # Nicolas Escobar <blade.liger1313@gmail.com>, 2024, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
 # Javier Francisco <fserrador@gmail.com>, 2025.
-# gossypium <gossypium@users.noreply.translate.fedoraproject.org>, 2025.
+# gossypium <gossypium@users.noreply.translate.fedoraproject.org>, 2025, 2026.
 # "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2025, 2026.
 # Emilio Herrera <ehespinosa57@gmail.com>, 2025.
 msgid ""
@@ -13,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:47+0000\n"
-"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
+"Last-Translator: gossypium "
+"<gossypium@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/es/>\n"
 "Language: es\n"
@@ -368,8 +369,7 @@ msgstr "Incluir el contenido presente en los avisos de seguridad."
 
 #: commands/advisory_shared.hpp:208
 msgid "Include content contained in bugfix advisories."
-msgstr ""
-"Incluir el contenido presente en los avisos de correcciones de errores."
+msgstr "Incluir el contenido presente en los avisos de correcciones de errores."
 
 #: commands/advisory_shared.hpp:215
 msgid "Include content contained in enhancement advisories."
@@ -385,8 +385,8 @@ msgid ""
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Incluir el contenido presente en los avisos con severidad especificada. "
-"Opción de lista. Puede ser «critical», «important», «moderate», «low» o "
-"«none»."
+"Opción de lista. Puede ser «critical», «important», «moderate», «low» o «none"
+"»."
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
@@ -409,8 +409,8 @@ msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Incluir el contenido presente en los avisos que corrigen una ID de CVE "
-"(«vulnerabilidades y exposiciones comunes»), p. ej. CVE-2201-0123. Opción de "
+"Incluir el contenido presente en los avisos que corrigen una ID de CVE («"
+"vulnerabilidades y exposiciones comunes»), p. ej. CVE-2201-0123. Opción de "
 "lista."
 
 #: commands/advisory_shared.hpp:260
