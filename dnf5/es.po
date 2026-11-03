@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:47+0000\n"
-"Last-Translator: Nicolas Escobar <blade.liger1313@gmail.com>\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/es/>\n"
 "Language: es\n"
@@ -553,8 +553,7 @@ msgstr "Degradar software"
 
 #: commands/download/download.cpp:123
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
-"Al ejecutar con --url, imprime las URL de todos los espejos disponibles"
+msgstr "Al ejecutar con --url, imprime las URL de todos los espejos disponibles"
 
 #: commands/download/download.cpp:139
 #, c++-format
