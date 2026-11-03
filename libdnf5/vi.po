@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Tri Phuong Nguyen <triphuongvasa@gmail.com>, 2025.
+# Tri Phuong Nguyen <triphuongvasa@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Tri Phuong Nguyen <triphuongvasa@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/vi/>\n"
 "Language: vi\n"
@@ -24,8 +24,8 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
-"ID libsolv không hợp lệ cho khuyến nghị \"{}\", tên có thể giải quyết được "
-"\"{}\" không có tiền tố khuyến nghị \"{}\""
+"ID libsolv không hợp lệ cho khuyến nghị \"{}\", tên có thể giải quyết được \""
+"{}\" không có tiền tố khuyến nghị \"{}\""
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
