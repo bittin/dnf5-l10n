@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-02-26 00:48+0000\n"
+"PO-Revision-Date: 2026-11-03 09:59+0000\n"
 "Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf5/dnf5-"
 "plugin-config-manager/el/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: addrepo.cpp:115
 #, c++-format
@@ -78,9 +78,8 @@ msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
 msgstr ""
-"Ένα από τα --from-repofile=<URL>, --set=baseurl=<URL>, --"
-"set=mirrorlist=<URL>, --set=metalink=<URL> πρέπει να οριστεί σε ένα μη κενό "
-"URL"
+"Ένα από τα --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>"
+", --set=metalink=<URL> πρέπει να οριστεί σε ένα μη κενό URL"
 
 #: addrepo.cpp:408
 #, c++-format
@@ -330,8 +329,8 @@ msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
 msgstr ""
-"Ορισμός της επιλογής «{}» του αποθετηρίου «{}» ξανά με διαφορετική τιμή: "
-"«{}» != «{}»"
+"Ορισμός της επιλογής «{}» του αποθετηρίου «{}» ξανά με διαφορετική τιμή: «{}"
+"» != «{}»"
 
 #: setopt.cpp:100
 #, c++-format
