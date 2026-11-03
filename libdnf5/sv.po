@@ -12,8 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
 "Language: sv\n"
@@ -1627,8 +1626,7 @@ msgstr ""
 #, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
-msgstr ""
-"Definition av paketfilter saknas i ”{}” i tabellen som börjar på rad {}"
+msgstr "Definition av paketfilter saknas i ”{}” i tabellen som börjar på rad {}"
 
 #: solv/vendor_change_manager.cpp:498
 #, c++-format
