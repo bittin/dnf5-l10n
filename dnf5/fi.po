@@ -4,7 +4,7 @@
 # Ricky Tigg <ricky.tigg@gmail.com>, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2024, 2025.
-# Ville-Pekka Vainio <vpvainio@iki.fi>, 2024.
+# Ville-Pekka Vainio <vpvainio@iki.fi>, 2024, 2026.
 # Jouko Tiilikainen <jti65@users.noreply.translate.fedoraproject.org>, 2026.
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:42+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Last-Translator: Ville-Pekka Vainio <vpvainio@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -433,9 +433,9 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
-"Raportoi pakettien alimmat versiot, jotka kuuluvat virheenkorjaus-, "
-"parannus-, turvallisuus- tai uusi paketti -tyyppisiin päivitysilmoituksiin. "
-"Jos käytetään mitä tahansa päivitysilmoituksia rajaavaa valitsinta, raportoi "
+"Raportoi pakettien alimmat versiot, jotka kuuluvat virheenkorjaus-, parannus-"
+", turvallisuus- tai uusi paketti -tyyppisiin päivitysilmoituksiin. Jos "
+"käytetään mitä tahansa päivitysilmoituksia rajaavaa valitsinta, raportoi "
 "pakettien alimmat versiot, jotka kuuluvat valitun tyyppisiin "
 "päivitysilmoituksiin"
 
@@ -1867,8 +1867,8 @@ msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja (joukkoja)"
+", voidaan määrittää useita kertoja."
 
 #: main.cpp:566
 msgid ""
@@ -2072,8 +2072,8 @@ msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
-"Tämän toimenpiteen jälkeen tilaa vapautuu {:.0f} {:s} (asennetaan {:.0f} "
-"{:s}, poistetaan {:.0f} {:s})."
+"Tämän toimenpiteen jälkeen tilaa vapautuu {:.0f} {:s} (asennetaan {:.0f} {:s}"
+", poistetaan {:.0f} {:s})."
 
 #: main.cpp:1099
 msgid "======== Main configuration: ========"
