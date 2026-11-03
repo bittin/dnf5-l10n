@@ -5,13 +5,14 @@
 # Inci sakura <incisakura@icloud.com>, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # caffiendo c <1728778012@qq.com>, 2024.
+# GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:43+0000\n"
-"Last-Translator: Inci sakura <incisakura@icloud.com>\n"
+"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
 "Language: ja\n"
@@ -1195,8 +1196,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option --all cannot be used with --name or --summary."
-msgstr ""
-"オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
+msgstr "オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
