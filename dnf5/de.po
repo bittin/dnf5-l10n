@@ -17,7 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:41+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -1743,8 +1744,7 @@ msgstr "repofrompath: Fehlerhafte Angabe von Paketquellen-ID und Pfad „{}“"
 
 #: main.cpp:261
 msgid "set arbitrary config and repo options"
-msgstr ""
-"Benutzerdefinierte Optionen für Konfiguration und Paketquelle festlegen"
+msgstr "Benutzerdefinierte Optionen für Konfiguration und Paketquelle festlegen"
 
 #: main.cpp:263
 msgid ""
