@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-03 09:49+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -116,8 +116,7 @@ msgstr "遺失「header」特性，所在「{}」元素位於「{}」檔案"
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
-msgstr ""
-"檔案「{}」第 {} 列：具名引數「{}」的「short_name」特性必須為一個字元長：{}"
+msgstr "檔案「{}」第 {} 列：具名引數「{}」的「short_name」特性必須為一個字元長：{}"
 
 #: cmdline_aliases.cpp:446
 #, c++-format
@@ -329,8 +328,8 @@ msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"納入指定嚴重程度的通報所含的內容。列表選項。可以是 \"critical\"、"
-"\"important\"、\"moderate\"、\"low\"、\"none\"。"
+"納入指定嚴重程度的通報所含的內容。列表選項。可以是 "
+"\"critical\"、\"important\"、\"moderate\"、\"low\"、\"none\"。"
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
@@ -383,9 +382,9 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
-"回報可修復臭蟲修正、功能增強、安全性、新軟體包等修正通報類型的軟體包最低版"
-"本。如果使用了任何限定通報的選項，則回報可修復符合所選通報屬性的修正通報軟體"
-"包最低版本"
+"回報可修復臭蟲修正、功能增強、安全性、新軟體包等修正通報類型的軟體包最低版本"
+"。如果使用了任何限定通報的選項，則回報可修復符合所選通報屬性的修正通報軟體包"
+"最低版本"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -668,8 +667,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"無效的處理事項 ID 範圍「{}」，預期「ID」或「ID...ID」，其中 ID 應為"
-"「NUMBER」、「last」或「last-NUMBER」。"
+"無效的處理事項 ID 範圍「{}」，預期「ID」或「ID...ID」，其中 ID 應為「NUMBER」"
+"、「last」或「last-NUMBER」。"
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -1324,8 +1323,7 @@ msgstr "setopt：「{}.{}」：{}"
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
-msgstr ""
-"沒有符合 {} 的軟體庫。若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
+msgstr "沒有符合 {} 的軟體庫。若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
 
 #: context.cpp:230
 #, c++-format
@@ -1539,8 +1537,7 @@ msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
-msgstr ""
-"結合非互動命令使用，只顯示相關內容。隱藏通知 dnf5 目前狀態或動作的訊息。"
+msgstr "結合非互動命令使用，只顯示相關內容。隱藏通知 dnf5 目前狀態或動作的訊息。"
 
 #: main.cpp:196
 msgid ""
@@ -1586,8 +1583,8 @@ msgid ""
 msgstr ""
 "凌駕組態設定檔中的組態選項。若要凌駕軟體庫的組態設定選項，請使用 "
 "repoid.option 來設定 <option>。\n"
-"  組態設定選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 "
-"tsflags，會附加到原始值，而不會凌駕原始值。\n"
+"  組態設定選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 tsflags"
+"，會附加到原始值，而不會凌駕原始值。\n"
 "不過，指定一個空值（例如 --setopt=tsflags=）會清除該選項。"
 
 #: main.cpp:272 main.cpp:311
@@ -1874,16 +1871,14 @@ msgstr "傳入的軟體包總大小為 {:.0f} {:s}。需要下載 {:.0f} {:s}。
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
-msgstr ""
-"經這次操作後，會額外使用 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
+msgstr "經這次操作後，會額外使用 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
 
 #: main.cpp:1087
 #, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
-msgstr ""
-"經這次操作後，會釋放 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
+msgstr "經這次操作後，會釋放 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
 
 #: main.cpp:1099
 msgid "======== Main configuration: ========"
@@ -2178,8 +2173,7 @@ msgstr "允許跳過不可用的軟體包"
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
-msgstr ""
-"以下項目只能從指定的軟體庫選擇。所有已啟用的軟體庫仍會用於滿足依賴關係。"
+msgstr "以下項目只能從指定的軟體庫選擇。所有已啟用的軟體庫仍會用於滿足依賴關係。"
 
 #: shared_options.cpp:178 shared_options.cpp:211
 msgid "REPO_ID,..."
