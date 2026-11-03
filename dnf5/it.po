@@ -5,15 +5,15 @@
 # Davide Dallara <ddave090@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Ruben Roland Fonti <ruben.roland.fonti@ikmail.com>, 2024.
-# Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
+# Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025, 2026.
 # Nathan <nathan95@live.it>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-09-02 16:15+0000\n"
-"Last-Translator: Nathan <nathan95@live.it>\n"
+"PO-Revision-Date: 2026-11-03 09:46+0000\n"
+"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
 "Language: it\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
@@ -53,8 +53,7 @@ msgstr "Attributo mancante \"id_path\" per l'alias \"{}\" nel file \"{}\""
 #: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
-"Versione non supportata \"{}\" nel file \"{}\". Versioni supportate: {}"
+msgstr "Versione non supportata \"{}\" nel file \"{}\". Versioni supportate: {}"
 
 #: cmdline_aliases.cpp:218
 #, c++-format
@@ -84,8 +83,8 @@ msgstr ""
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Comando padre \"{}\" non trovato: {}: Richiesto nel file \"{}\" alla riga "
-"{}: {}"
+"Comando padre \"{}\" non trovato: {}: Richiesto nel file \"{}\" alla riga {}"
+": {}"
 
 #: cmdline_aliases.cpp:301
 #, c++-format
@@ -187,8 +186,8 @@ msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
-"Utilizzata la versione \"1.0\" del file di configurazione per l'attributo "
-"\"{}\" del comando \"{}\" nel file \"{}\" alla riga {}: {}"
+"Utilizzata la versione \"1.0\" del file di configurazione per l'attributo \""
+"{}\" del comando \"{}\" nel file \"{}\" alla riga {}: {}"
 
 #: cmdline_aliases.cpp:713
 #, c++-format
@@ -213,8 +212,8 @@ msgstr ""
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
-"Attributo sconosciuto \"{}\" del comando \"{}\" nel file \"{}\" alla riga "
-"{}: {}"
+"Attributo sconosciuto \"{}\" del comando \"{}\" nel file \"{}\" alla riga {}"
+": {}"
 
 #: cmdline_aliases.cpp:756
 #, c++-format
@@ -688,8 +687,7 @@ msgstr ""
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
-"Non considera pacchetti extra spinti dentro le transazioni come errori."
+msgstr "Non considera pacchetti extra spinti dentro le transazioni come errori."
 
 #: commands/history/arguments.hpp:80
 msgid ""
