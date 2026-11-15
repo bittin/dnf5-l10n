@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-03 09:45+0000\n"
+"PO-Revision-Date: 2026-11-16 12:01+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/pl/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: argument_parser.cpp:68
 #, c++-format
@@ -354,8 +354,8 @@ msgstr[2] " Usuwanie:                           {:4} pakietów\n"
 #, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] " Instalowanie poprzedniej wersji:    {:4} pakiet\n"
-msgstr[1] " Instalowanie poprzedniej wersji:    {:4} pakiety\n"
+msgstr[0] " Instalowanie poprzedniej wersji:    {:4} pakietu\n"
+msgstr[1] " Instalowanie poprzedniej wersji:    {:4} pakietów\n"
 msgstr[2] " Instalowanie poprzedniej wersji:    {:4} pakietów\n"
 
 #. Keep the replaceble number aligned across all messages.
