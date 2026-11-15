@@ -7,41 +7,45 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-15 02:58+0000\n"
+"Last-Translator: w s <gilfobert@gmail.com>\n"
+"Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5-plugin-automatic/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: automatic.cpp:229
 msgid ""
 "An alternative CLI to 'dnf upgrade' suitable to be executed automatically "
 "and regularly."
 msgstr ""
+"Альтернативний CLI до 'dnf upgrade', призначений для автоматичного й "
+"регулярного запуску."
 
 #: automatic.cpp:235
 msgid "Apply random delay before execution."
-msgstr ""
+msgstr "Застосувати випадкову затримку перед запуском."
 
 #: automatic.cpp:240
 msgid "Automatically download updated packages"
-msgstr ""
+msgstr "Автоматично завантажувати оновлені пакунки"
 
 #: automatic.cpp:247
 msgid "Do not automatically download updated packages"
-msgstr ""
+msgstr "Не завантажувати оновлені пакунки автоматично"
 
 #: automatic.cpp:256
 msgid "Automatically install downloaded updates"
-msgstr ""
+msgstr "Автоматично встановлювати завантажені оновлення"
 
 #: automatic.cpp:263
 msgid "Do not automatically install downloaded updates"
-msgstr ""
+msgstr "Не встановлювати завантажені оновлення автоматично"
 
 #: automatic.cpp:316
 #, c++-format
@@ -49,6 +53,8 @@ msgid ""
 "Warning: Configuration file location \"{}\" for dnf automatic is deprecated. "
 "See dnf5-automatic(8) for details."
 msgstr ""
+"Попередження: розташування файлу конфігурації \"{}\" для dnf automatic "
+"застаріле. Докладніше див. dnf5-automatic(8)."
 
 #: automatic.cpp:382
 #, c++-format
@@ -56,73 +62,75 @@ msgid ""
 "The \"email\" emitter is configured but the installed libcurl does not "
 "support the {} protocol."
 msgstr ""
+"Налаштовано емітер \"email\", але встановлена libcurl не підтримує протокол "
+"{}."
 
 #: automatic.cpp:425
 msgid "Resolved transaction:"
-msgstr ""
+msgstr "Сформована транзакція:"
 
 #: automatic.cpp:454
 msgid "Downloading packages:"
-msgstr ""
+msgstr "Завантаження пакунків:"
 
 #: automatic.cpp:464
 msgid "Packages downloaded."
-msgstr ""
+msgstr "Пакунки завантажено."
 
 #: automatic.cpp:467
 msgid "Running transaction:"
-msgstr ""
+msgstr "Виконання транзакції:"
 
 #: automatic.cpp:481
 msgid "Transaction finished."
-msgstr ""
+msgstr "Транзакцію завершено."
 
 #: automatic.cpp:483
 msgid "Transaction failed: "
-msgstr ""
+msgstr "Транзакція не вдалася: "
 
 #: automatic.cpp:516
 #, c++-format
 msgid "Unknown report emitter for dnf5 automatic: \"{}\"."
-msgstr ""
+msgstr "Невідомий емітер звітів для dnf5 automatic: \"{}\"."
 
 #: automatic.cpp:531
 #, c++-format
 msgid "Error: reboot command returned nonzero exit code: {}"
-msgstr ""
+msgstr "Помилка: команда перезавантаження повернула ненульовий код виходу: {}"
 
 #: emitters.cpp:64
 msgid "No new upgrades available."
-msgstr ""
+msgstr "Нових оновлень немає."
 
 #: emitters.cpp:68
 #, c++-format
 msgid "{} packages can be upgraded."
-msgstr ""
+msgstr "Оновити можна {} пакунків."
 
 #: emitters.cpp:71
 #, c++-format
 msgid "{} new upgrades have been downloaded."
-msgstr ""
+msgstr "Завантажено нових оновлень: {}."
 
 #: emitters.cpp:74
 #, c++-format
 msgid "{} new upgrades have been installed."
-msgstr ""
+msgstr "Встановлено нових оновлень: {}."
 
 #: emitters.cpp:82
 msgid "Failed to check for upgrades."
-msgstr ""
+msgstr "Не вдалося перевірити оновлення."
 
 #: emitters.cpp:85
 msgid "Failed to download upgrades."
-msgstr ""
+msgstr "Не вдалося завантажити оновлення."
 
 #: emitters.cpp:88
 msgid "Failed to install upgrades."
-msgstr ""
+msgstr "Не вдалося встановити оновлення."
 
 #: emitters.cpp:143 emitters.cpp:164
 #, c++-format
 msgid "[{}] dnf5-automatic: {}"
-msgstr ""
+msgstr "[{}] dnf5-automatic: {}"
