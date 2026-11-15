@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 02:59+0000\n"
+"PO-Revision-Date: 2026-11-15 03:15+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/uk/>\n"
@@ -25,207 +25,209 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
+"Неправильний ідентифікатор libsolv для рекомендації \"{}\": назва solvable \""
+"{}\" не має префікса рекомендації \"{}\""
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
-msgstr ""
+msgstr "Ця libdnf5 не підтримує модульність"
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
 #, c++-format
 msgid "Error parsing transaction info: {}"
-msgstr ""
+msgstr "Помилка розбору інформації про транзакцію: {}"
 
 #: base/base.cpp:185
 #, c++-format
 msgid "Invalid option value: enabled={}"
-msgstr ""
+msgstr "Некоректне значення параметра: enabled={}"
 
 #: base/goal.cpp:491
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr ""
+msgstr "Непідтримуваний аргумент для дії REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1742
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
-msgstr ""
+msgstr "Некоректне значення конфігурації для multilib_policy: {}"
 
 #: base/goal_elements.cpp:358 transaction/transaction_item_action.cpp:64
 msgid "Install"
-msgstr ""
+msgstr "Встановлення"
 
 #: base/goal_elements.cpp:360
 msgid "Install via provide"
-msgstr ""
+msgstr "Встановлення через provide"
 
 #: base/goal_elements.cpp:362
 msgid "Install by group"
-msgstr ""
+msgstr "Встановлення за групою"
 
 #: base/goal_elements.cpp:364 transaction/transaction_item_action.cpp:66
 msgid "Upgrade"
-msgstr ""
+msgstr "Оновлення"
 
 #: base/goal_elements.cpp:366
 msgid "Upgrade all"
-msgstr ""
+msgstr "Оновлення всього"
 
 #: base/goal_elements.cpp:368
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "Мінімальне оновлення"
 
 #: base/goal_elements.cpp:370
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "Мінімальне оновлення всього"
 
 #: base/goal_elements.cpp:372 transaction/transaction_item_action.cpp:68
 msgid "Downgrade"
-msgstr ""
+msgstr "Зниження версії"
 
 #: base/goal_elements.cpp:374 transaction/transaction_item_action.cpp:70
 msgid "Reinstall"
-msgstr ""
+msgstr "Перевстановлення"
 
 #: base/goal_elements.cpp:376
 msgid "Install or reinstall"
-msgstr ""
+msgstr "Встановлення або перевстановлення"
 
 #: base/goal_elements.cpp:378 transaction/transaction_item_action.cpp:72
 msgid "Remove"
-msgstr ""
+msgstr "Вилучення"
 
 #: base/goal_elements.cpp:380
 msgid "Distrosync"
-msgstr ""
+msgstr "Distrosync"
 
 #: base/goal_elements.cpp:382
 msgid "Distrosync all"
-msgstr ""
+msgstr "Distrosync усього"
 
 #: base/goal_elements.cpp:384 transaction/transaction_item_action.cpp:76
 msgid "Reason Change"
-msgstr ""
+msgstr "Зміна причини"
 
 #: base/goal_elements.cpp:386
 msgid "Resolve"
-msgstr ""
+msgstr "Розв'язання"
 
 #: base/goal_elements.cpp:388 transaction/transaction_item_action.cpp:78
 msgid "Enable"
-msgstr ""
+msgstr "Увімкнення"
 
 #: base/goal_elements.cpp:390 transaction/transaction_item_action.cpp:80
 msgid "Disable"
-msgstr ""
+msgstr "Вимкнення"
 
 #: base/goal_elements.cpp:392 transaction/transaction_item_action.cpp:82
 msgid "Reset"
-msgstr ""
+msgstr "Скидання"
 
 #: base/goal_elements.cpp:394
 msgid "Parse serialized transaction"
-msgstr ""
+msgstr "Розбір серіалізованої транзакції"
 
 #: base/goal_elements.cpp:396
 msgid "Install action"
-msgstr ""
+msgstr "Дія встановлення"
 
 #: base/goal_elements.cpp:398
 msgid "Remove action"
-msgstr ""
+msgstr "Дія вилучення"
 
 #: base/goal_elements.cpp:400
 msgid "Upgrade action"
-msgstr ""
+msgstr "Дія оновлення"
 
 #: base/goal_elements.cpp:402
 msgid "Reinstall action"
-msgstr ""
+msgstr "Дія перевстановлення"
 
 #: base/goal_elements.cpp:404
 msgid "Reason change action"
-msgstr ""
+msgstr "Дія зміни причини"
 
 #: base/goal_elements.cpp:406
 msgid "Reason override"
-msgstr ""
+msgstr "Перевизначення причини"
 
 #: base/goal_elements.cpp:408
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "Скасування оновлення comps"
 
 #: base/goal_elements.cpp:410
 msgid "Install debug RPMs"
-msgstr ""
+msgstr "Встановлення debug RPM"
 
 #: base/goal_elements.cpp:412
 msgid "Transaction merge"
-msgstr ""
+msgstr "Об'єднання транзакцій"
 
 #: base/log_event.cpp:141
 #, c++-format
 msgid "No packages to remove for argument: {}"
-msgstr ""
+msgstr "Немає пакунків для вилучення за аргументом: {}"
 
 #: base/log_event.cpp:143
 #, c++-format
 msgid "No groups to remove for argument: {}"
-msgstr ""
+msgstr "Немає груп для вилучення за аргументом: {}"
 
 #: base/log_event.cpp:146
 #, c++-format
 msgid "No environmental groups to remove for argument: {}"
-msgstr ""
+msgstr "Немає груп середовищ для вилучення за аргументом: {}"
 
 #: base/log_event.cpp:148
 #, c++-format
 msgid "No modules to remove for argument: {}"
-msgstr ""
+msgstr "Немає модулів для вилучення за аргументом: {}"
 
 #: base/log_event.cpp:152
 #, c++-format
 msgid "No match for group from environment: {}"
-msgstr ""
+msgstr "Немає відповідної групи із середовища: {}"
 
 #: base/log_event.cpp:154
 #, c++-format
 msgid "No match for group package: {}"
-msgstr ""
+msgstr "Немає відповідного пакунка групи: {}"
 
 #: base/log_event.cpp:158
 #, c++-format
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "Не вдалося виконати {0}: немає відповідності для {1}."
 
 #: base/log_event.cpp:160
 #, c++-format
 msgid "No match for argument: {}"
-msgstr ""
+msgstr "Немає відповідності для аргументу: {}"
 
 #: base/log_event.cpp:163
 #, c++-format
 msgid "No match for argument '{0}' in selected advisories"
-msgstr ""
+msgstr "Немає відповідності для аргументу '{0}' у вибраних рекомендаціях"
 
 #: base/log_event.cpp:165
 msgid "No match in selected advisories"
-msgstr ""
+msgstr "Немає відповідності у вибраних рекомендаціях"
 
 #: base/log_event.cpp:169
 #, c++-format
 msgid "No match for argument '{0}' in repositories '{1}'"
-msgstr ""
+msgstr "Немає відповідності для аргументу '{0}' у репозиторіях '{1}'"
 
 #: base/log_event.cpp:175
 #, c++-format
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
-msgstr ""
+msgstr "Не вдалося виконати {0} для {1} '{2}', оскільки його не встановлено."
 
 #: base/log_event.cpp:180
 #, c++-format
 msgid "Packages for argument '{}' available, but not installed."
-msgstr ""
+msgstr "Пакунки за аргументом '{}' доступні, але не встановлені."
 
 #: base/log_event.cpp:184
 #, c++-format
@@ -233,26 +235,30 @@ msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
+"Пакунки за аргументом '{}' доступні, але встановлені для іншої архітектури."
 
 #: base/log_event.cpp:188
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only source packages."
 msgstr ""
+"Не вдалося виконати {0}, оскільки '{1}' відповідає лише пакункам із "
+"джерельним кодом."
 
 #: base/log_event.cpp:192
 #, c++-format
 msgid "Argument '{}' matches only source packages."
-msgstr ""
+msgstr "Аргумент '{}' відповідає лише пакункам із джерельним кодом."
 
 #: base/log_event.cpp:196
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
 msgstr ""
+"Не вдалося виконати {0}, оскільки '{1}' відповідає лише виключеним пакункам."
 
 #: base/log_event.cpp:200
 #, c++-format
 msgid "Argument '{}' matches only excluded packages."
-msgstr ""
+msgstr "Аргумент '{}' відповідає лише виключеним пакункам."
 
 #: base/log_event.cpp:204
 #, c++-format
@@ -260,21 +266,23 @@ msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
+"Не вдалося виконати {0}, оскільки '{1}' відповідає лише пакункам, виключеним "
+"versionlock."
 
 #: base/log_event.cpp:208
 #, c++-format
 msgid "Argument '{}' matches only packages excluded by versionlock."
-msgstr ""
+msgstr "Аргумент '{}' відповідає лише пакункам, виключеним versionlock."
 
 #: base/log_event.cpp:213
 #, c++-format
 msgid "  * Maybe you meant: {}"
-msgstr ""
+msgstr "  * Можливо, ви мали на увазі: {}"
 
 #: base/log_event.cpp:216
 #, c++-format
 msgid "There are following alternatives for '{0}': {1}"
-msgstr ""
+msgstr "Для '{0}' є такі альтернативи: {1}"
 
 #: base/log_event.cpp:223
 #, c++-format
@@ -282,6 +290,8 @@ msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
 msgstr ""
+"Найнижчу доступну версію пакунка \"{}\" уже встановлено, знизити версію "
+"неможливо."
 
 #: base/log_event.cpp:229
 #, c++-format
@@ -289,49 +299,52 @@ msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
+"Встановлені пакунки за аргументом '{0}' недоступні в репозиторіях у тій "
+"самій версії; доступні версії: {1}; перевстановлення неможливе."
 
 #: base/log_event.cpp:235
 #, c++-format
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
+"Не вдалося виконати {0}, оскільки '{1}' встановлено в іншій версії: '{2}'."
 
 #: base/log_event.cpp:241
 #, c++-format
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
-msgstr ""
+msgstr "Пакунки за аргументом '{}' встановлені й доступні, але в іншій версії."
 
 #: base/log_event.cpp:243
 #, c++-format
 msgid "Packages for argument '{}' installed, but not available."
-msgstr ""
+msgstr "Пакунки за аргументом '{}' встановлені, але недоступні."
 
 #: base/log_event.cpp:248
 #, c++-format
 msgid "Group \"{}\" is already installed."
-msgstr ""
+msgstr "Група \"{}\" уже встановлена."
 
 #: base/log_event.cpp:251
 #, c++-format
 msgid "Environmental group \"{}\" is already installed."
-msgstr ""
+msgstr "Група середовища \"{}\" уже встановлена."
 
 #: base/log_event.cpp:258
 #, c++-format
 msgid "Package \"{}\" is already installed with reason \"{}\"."
-msgstr ""
+msgstr "Пакунок \"{}\" уже встановлено з причиною \"{}\"."
 
 #: base/log_event.cpp:260
 #, c++-format
 msgid "Package \"{}\" is already installed."
-msgstr ""
+msgstr "Пакунок \"{}\" уже встановлено."
 
 #: base/log_event.cpp:269
 #, c++-format
 msgid "Debug data written to \"{}\""
-msgstr ""
+msgstr "Дані зневадження записано в \"{}\""
 
 #: base/log_event.cpp:273
 #, c++-format
@@ -339,17 +352,19 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
+"Оновлення {0} скасувати неможливо, але пов'язані дії з пакунками буде "
+"скасовано. ({1} id: '{2}') ."
 
 #: base/log_event.cpp:279
 #, c++-format
 msgid "{} action for argument \"{}\" is not supported."
-msgstr ""
+msgstr "Дія {} для аргументу \"{}\" не підтримується."
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:288
 #, c++-format
 msgid "Unable to resolve argument '{}':"
-msgstr ""
+msgstr "Не вдалося розв'язати аргумент '{}':"
 
 #: base/log_event.cpp:292
 #, c++-format
@@ -362,23 +377,33 @@ msgid_plural ""
 "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
 "streams are enabled or default."
 msgstr[0] ""
+"\n"
+"  - Аргумент '{}' відповідає {} потоку ('{}') модуля '{}', але цей потік не "
+"увімкнено й він не типовий."
 msgstr[1] ""
+"\n"
+"  - Аргумент '{}' відповідає {} потокам ('{}') модуля '{}', але жоден із цих "
+"потоків не увімкнено й вони не типові."
+msgstr[2] ""
+"\n"
+"  - Аргумент '{}' відповідає {} потокам ('{}') модуля '{}', але жоден із цих "
+"потоків не увімкнено й вони не типові."
 
 #: base/log_event.cpp:299 base/log_event.cpp:385
 msgid "', '"
-msgstr ""
+msgstr "', '"
 
 #: base/log_event.cpp:308
 msgid "Modular dependency problems:\n"
-msgstr ""
+msgstr "Проблеми модульних залежностей:\n"
 
 #: base/log_event.cpp:315
 msgid "Modular dependency problems with the latest modules:\n"
-msgstr ""
+msgstr "Проблеми модульних залежностей з найновішими модулями:\n"
 
 #: base/log_event.cpp:322
 msgid "Modular dependency problems with the defaults:\n"
-msgstr ""
+msgstr "Проблеми модульних залежностей з типовими модулями:\n"
 
 #: base/log_event.cpp:337
 #, c++-format
@@ -386,12 +411,15 @@ msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
+"Операція призведе до перемикання потоку '{1}' модуля '{0}' на потік '{2}'\n"
 
 #: base/log_event.cpp:342
 msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
+"Помилка: перемикати увімкнені потоки модуля неможливо, якщо це не дозволено "
+"явно параметром конфігурації module_stream_switch."
 
 #: base/log_event.cpp:347
 #, c++-format
@@ -399,11 +427,13 @@ msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
+"До транзакції залучено зайвий пакунок '{0}' (з дією '{1}'), якого немає у "
+"збереженій транзакції.\n"
 
 #: base/log_event.cpp:353
 #, c++-format
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr ""
+msgstr "Не вдалося розібрати файл: '{0}': {1}.\n"
 
 #: base/log_event.cpp:360
 #, c++-format
@@ -411,11 +441,13 @@ msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
+"Не вдалося знайти пакунок debuginfo для таких пакунків, розв'язаних з "
+"аргументу '{0}': {1}"
 
 #: base/log_event.cpp:363 base/log_event.cpp:374
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/log_event.cpp:370
 #, c++-format
@@ -423,11 +455,13 @@ msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
+"Не вдалося знайти пакунок debugsource для таких пакунків, розв'язаних з "
+"аргументу '{0}': {1}"
 
 #: base/log_event.cpp:377
 #, c++-format
 msgid "Transaction merge error: '{0}'"
-msgstr ""
+msgstr "Помилка об'єднання транзакцій: '{0}'"
 
 #: base/log_event.cpp:381
 #, c++-format
@@ -435,117 +469,121 @@ msgid ""
 "Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
 "'remove --oldinstallonly'."
 msgstr ""
+"Перевищено installonly_limit ({0}): знайдено встановлених {1}: '{2}'. Можна "
+"використати 'remove --oldinstallonly'."
 
 #: base/solver_problems.cpp:41
 #, c++-format
 msgid "{} does not belong to a distupgrade repository"
-msgstr ""
+msgstr "{} не належить до репозиторію для оновлення дистрибутива"
 
 #: base/solver_problems.cpp:42
 #, c++-format
 msgid "{0} from {1} has inferior architecture"
-msgstr ""
+msgstr "{0} з {1} має непідхожу архітектуру"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
-msgstr ""
+msgstr "проблема зі встановленим пакунком"
 
 #: base/solver_problems.cpp:44 base/solver_problems.cpp:83
 msgid "conflicting requests"
-msgstr ""
+msgstr "конфліктні запити"
 
 #: base/solver_problems.cpp:45 base/solver_problems.cpp:84
 msgid "unsupported request"
-msgstr ""
+msgstr "непідтримуваний запит"
 
 #: base/solver_problems.cpp:46 base/solver_problems.cpp:85
 #, c++-format
 msgid "nothing provides requested {}"
-msgstr ""
+msgstr "ніщо не надає запитаний {}"
 
 #: base/solver_problems.cpp:47
 #, c++-format
 msgid "package {} does not exist"
-msgstr ""
+msgstr "пакунок {} не існує"
 
 #: base/solver_problems.cpp:48 base/solver_problems.cpp:87
 #, c++-format
 msgid "{} is provided by the system"
-msgstr ""
+msgstr "{} надається системою"
 
 #: base/solver_problems.cpp:49 base/solver_problems.cpp:88
 msgid "some dependency problem"
-msgstr ""
+msgstr "проблема із залежністю"
 
 #: base/solver_problems.cpp:50
 #, c++-format
 msgid "cannot install the best update candidate for package {}"
-msgstr ""
+msgstr "не вдалося встановити найкращий кандидат оновлення для пакунка {}"
 
 #: base/solver_problems.cpp:51 base/solver_problems.cpp:90
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "не вдалося встановити найкращий кандидат для завдання"
 
 #: base/solver_problems.cpp:52
 #, c++-format
 msgid "package {0} from {1} is filtered out by modular filtering"
-msgstr ""
+msgstr "пакунок {0} з {1} відфільтровано модульною фільтрацією"
 
 #: base/solver_problems.cpp:53
 #, c++-format
 msgid "package {0} from {1} does not have a compatible architecture"
-msgstr ""
+msgstr "пакунок {0} з {1} має несумісну архітектуру"
 
 #: base/solver_problems.cpp:54
 #, c++-format
 msgid "package {0} from {1} is not installable"
-msgstr ""
+msgstr "пакунок {0} з {1} неможливо встановити"
 
 #: base/solver_problems.cpp:55
 #, c++-format
 msgid "package {0} from {1} is filtered out by exclude filtering"
-msgstr ""
+msgstr "пакунок {0} з {1} відфільтровано фільтром виключень"
 
 #: base/solver_problems.cpp:56
 #, c++-format
 msgid "nothing provides {0} needed by {1} from {2}"
-msgstr ""
+msgstr "ніщо не надає {0}, потрібний для {1} з {2}"
 
 #: base/solver_problems.cpp:57
 #, c++-format
 msgid "cannot install both {0} from {1} and {2} from {3}"
-msgstr ""
+msgstr "не вдалося встановити одночасно {0} з {1} і {2} з {3}"
 
 #: base/solver_problems.cpp:58
 #, c++-format
 msgid "package {0} from {1} conflicts with {2} provided by {3} from {4}"
-msgstr ""
+msgstr "пакунок {0} з {1} конфліктує з {2}, який надає {3} з {4}"
 
 #: base/solver_problems.cpp:60
 #, c++-format
 msgid "installed package {0} conflicts with {1} provided by {2} from {3}"
-msgstr ""
+msgstr "встановлений пакунок {0} конфліктує з {1}, який надає {2} з {3}"
 
 #: base/solver_problems.cpp:61
 #, c++-format
 msgid "package {0} from {1} obsoletes {2} provided by {3} from {4}"
-msgstr ""
+msgstr "пакунок {0} з {1} витісняє {2}, який надає {3} з {4}"
 
 #: base/solver_problems.cpp:62
 #, c++-format
 msgid "installed package {0} obsoletes {1} provided by {2} from {3}"
-msgstr ""
+msgstr "встановлений пакунок {0} витісняє {1}, який надає {2} з {3}"
 
 #: base/solver_problems.cpp:64
 #, c++-format
 msgid "package {0} from {1} implicitly obsoletes {2} provided by {3} from {4}"
-msgstr ""
+msgstr "пакунок {0} з {1} неявно витісняє {2}, який надає {3} з {4}"
 
 #: base/solver_problems.cpp:66
 #, c++-format
 msgid ""
 "package {1} from {2} requires {0}, but none of the providers can be installed"
 msgstr ""
+"пакунок {1} з {2} потребує {0}, але жоден із надавачів не може бути "
+"встановлений"
 
 #: base/solver_problems.cpp:68
 #, c++-format
@@ -553,217 +591,226 @@ msgid ""
 "installed package {1} requires {0}, but none of the providers can be "
 "installed"
 msgstr ""
+"встановлений пакунок {1} потребує {0}, але жоден із надавачів не може бути "
+"встановлений"
 
 #: base/solver_problems.cpp:69
 #, c++-format
 msgid "package {0} from {1} conflicts with {2} provided by itself"
-msgstr ""
+msgstr "пакунок {0} з {1} конфліктує з {2}, який надає сам"
 
 #: base/solver_problems.cpp:70
 #, c++-format
 msgid "both package {0} from {1} and {3} from {4} obsolete {2}"
-msgstr ""
+msgstr "і пакунок {0} з {1}, і {3} з {4} витісняють {2}"
 
 #: base/solver_problems.cpp:72
 #, c++-format
 msgid ""
 "The operation would result in removing the following protected packages: {}"
-msgstr ""
+msgstr "Операція призведе до вилучення таких захищених пакунків: {}"
 
 #: base/solver_problems.cpp:75
 #, c++-format
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: {}"
-msgstr ""
+msgstr "Операція призведе до порушення залежностей таких захищених пакунків: {}"
 
 #: base/solver_problems.cpp:78
 #, c++-format
 msgid "The operation would result in removing of running kernel: {}"
-msgstr ""
+msgstr "Операція призведе до вилучення запущеного ядра: {}"
 
 #: base/solver_problems.cpp:80
 #, c++-format
 msgid "module {} does not belong to a distupgrade repository"
-msgstr ""
+msgstr "модуль {} не належить до репозиторію для оновлення дистрибутива"
 
 #: base/solver_problems.cpp:81
 #, c++-format
 msgid "module {} has inferior architecture"
-msgstr ""
+msgstr "модуль {} має непідхожу архітектуру"
 
 #: base/solver_problems.cpp:82
 #, c++-format
 msgid "problem with installed module {}"
-msgstr ""
+msgstr "проблема зі встановленим модулем {}"
 
 #: base/solver_problems.cpp:86
 #, c++-format
 msgid "module {} does not exist"
-msgstr ""
+msgstr "модуль {} не існує"
 
 #: base/solver_problems.cpp:89
 #, c++-format
 msgid "cannot install the best update candidate for module {}"
-msgstr ""
+msgstr "не вдалося встановити найкращий кандидат оновлення для модуля {}"
 
 #: base/solver_problems.cpp:91 base/solver_problems.cpp:94
 #, c++-format
 msgid "module {} is disabled"
-msgstr ""
+msgstr "модуль {} вимкнено"
 
 #: base/solver_problems.cpp:92
 #, c++-format
 msgid "module {} does not have a compatible architecture"
-msgstr ""
+msgstr "модуль {} має несумісну архітектуру"
 
 #: base/solver_problems.cpp:93
 #, c++-format
 msgid "module {} is not installable"
-msgstr ""
+msgstr "модуль {} неможливо встановити"
 
 #: base/solver_problems.cpp:95
 #, c++-format
 msgid "nothing provides {0} needed by module {1}"
-msgstr ""
+msgstr "ніщо не надає {0}, потрібний для модуля {1}"
 
 #: base/solver_problems.cpp:96
 #, c++-format
 msgid "cannot install both modules {0} and {1}"
-msgstr ""
+msgstr "не вдалося встановити обидва модулі {0} і {1}"
 
 #: base/solver_problems.cpp:97
 #, c++-format
 msgid "module {0} conflicts with {1} provided by {2}"
-msgstr ""
+msgstr "модуль {0} конфліктує з {1}, який надає {2}"
 
 #: base/solver_problems.cpp:98
 #, c++-format
 msgid "module {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "модуль {0} витісняє {1}, який надає {2}"
 
 #: base/solver_problems.cpp:99
 #, c++-format
 msgid "installed module {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "встановлений модуль {0} витісняє {1}, який надає {2}"
 
 #: base/solver_problems.cpp:100
 #, c++-format
 msgid "module {0} implicitly obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "модуль {0} неявно витісняє {1}, який надає {2}"
 
 #: base/solver_problems.cpp:101
 #, c++-format
 msgid "module {1} requires {0}, but none of the providers can be installed"
 msgstr ""
+"модуль {1} потребує {0}, але жоден із надавачів не може бути встановлений"
 
 #: base/solver_problems.cpp:102
 #, c++-format
 msgid "module {1} conflicts with {0} provided by itself"
-msgstr ""
+msgstr "модуль {1} конфліктує з {0}, який надає сам"
 
 #: base/solver_problems.cpp:103
 #, c++-format
 msgid "both module {0} and {2} obsolete {1}"
-msgstr ""
+msgstr "і модуль {0}, і {2} витісняють {1}"
 
 #: base/solver_problems.cpp:294
 msgid "Problem: "
-msgstr ""
+msgstr "Проблема: "
 
 #: base/solver_problems.cpp:298
 #, c++-format
 msgid "Problem {}: "
-msgstr ""
+msgstr "Проблема {}: "
 
 #: base/transaction.cpp:89
 msgid "This transaction has been already run before."
-msgstr ""
+msgstr "Цю транзакцію вже виконували раніше."
 
 #: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
-msgstr ""
+msgstr "Не вдалося виконати транзакцію з проблемами розв'язування."
 
 #: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
-msgstr ""
+msgstr "Перевірка транзакції RPM не вдалася."
 
 #: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
+"Не вдалося отримати блокування транзакції rpm. Виконується інша транзакція."
 
 #: base/transaction.cpp:94
 msgid "Rpm transaction failed."
-msgstr ""
+msgstr "Транзакція RPM не вдалася."
 
 #: base/transaction.cpp:95
 msgid "Signature verification failed."
-msgstr ""
+msgstr "Перевірка підпису не вдалася."
 
 #: base/transaction.cpp:97
 msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"Ця транзакція більше не дійсна, оскільки системний репозиторій змінився "
+"після його завантаження."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr ""
+msgstr "Для репозиторію не налаштовано жодного ключа OpenPGP."
 
 #: base/transaction.cpp:102
 msgid "Public key is not installed."
-msgstr ""
+msgstr "Відкритий ключ не встановлено."
 
 #: base/transaction.cpp:103
 msgid "Canceled by the user."
-msgstr ""
+msgstr "Скасовано користувачем."
 
 #: base/transaction.cpp:104
 msgid "Public key import failed."
-msgstr ""
+msgstr "Не вдалося імпортувати відкритий ключ."
 
 #: base/transaction.cpp:997
 msgid "poll failed during scriptlets pipe processing"
-msgstr ""
+msgstr "помилка poll під час обробки конвеєра скриптлетів"
 
 #: base/transaction.cpp:1020
 msgid "failed to read scriptlet output from pipe"
-msgstr ""
+msgstr "не вдалося прочитати вивід скриптлета з конвеєра"
 
 #: base/transaction.cpp:1103
 #, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
 msgstr ""
+"Не вдалося отримати блокування системного репозиторію для запису; блокування "
+"розташоване в \"{}\""
 
 #: base/transaction.cpp:1173
 #, c++-format
 msgid "Invalid tsflag: {}"
-msgstr ""
+msgstr "Некоректний tsflag: {}"
 
 #: base/transaction.cpp:1617
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
-msgstr ""
+msgstr "Відкритий ключ \"{}\" уже є, не імпортуємо."
 
 #: base/transaction.cpp:1640
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
-msgstr ""
+msgstr "Помилка під час імпорту ключа \"{}\": {}"
 
 #: base/transaction.cpp:1674
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
+"Перевірка OpenPGP для пакунка \"{}\" ({}) з репозиторію \"{}\" не вдалася: "
 
 #: base/transaction.cpp:1702
 msgid "Import of the key didn't help, wrong key?"
-msgstr ""
+msgstr "Імпорт ключа не допоміг — можливо, ключ неправильний?"
 
 #: base/transaction.cpp:1721
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/transaction.cpp:1724
 #, c++-format
@@ -771,7 +818,11 @@ msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
+"Попередження: пропущено перевірки OpenPGP для {0} пакунка з репозиторію: {1}"
 msgstr[1] ""
+"Попередження: пропущено перевірки OpenPGP для {0} пакунків з репозиторію: {1}"
+msgstr[2] ""
+"Попередження: пропущено перевірки OpenPGP для {0} пакунків з репозиторію: {1}"
 
 #: base/transaction.cpp:1727
 #, c++-format
@@ -779,203 +830,216 @@ msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
+"Попередження: пропущено перевірки OpenPGP для {0} пакунка з репозиторіїв: {1}"
 msgstr[1] ""
+"Попередження: пропущено перевірки OpenPGP для {0} пакунків з репозиторіїв: "
+"{1}"
+msgstr[2] ""
+"Попередження: пропущено перевірки OpenPGP для {0} пакунків з репозиторіїв: "
+"{1}"
 
 #: base/vendor_change_manager.cpp:115
 msgid "{func}(): Cannot create directory: {path}: {msg}"
-msgstr ""
+msgstr "{func}(): не вдалося створити каталог: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:164
 msgid "{func}(): Cannot remove file: {path}: {msg}"
-msgstr ""
+msgstr "{func}(): не вдалося вилучити файл: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:170
 msgid "{func}(): File does not exist: {path}"
-msgstr ""
+msgstr "{func}(): файл не існує: {path}"
 
 #: base/vendor_change_manager.cpp:259
 msgid "{func}(): Cannot remove existing policy file: {path}"
-msgstr ""
+msgstr "{func}(): не вдалося вилучити наявний файл політики: {path}"
 
 #: base/vendor_change_manager.cpp:271
 msgid "{func}(): Cannot create file: {path}"
-msgstr ""
+msgstr "{func}(): не вдалося створити файл: {path}"
 
 #: base/vendor_change_manager.cpp:288
 msgid "{func}(): Cannot write to file: {path}"
-msgstr ""
+msgstr "{func}(): не вдалося записати у файл: {path}"
 
 #: base/vendor_change_manager.cpp:325
 msgid "{func}(): Base filename cannot be empty"
-msgstr ""
+msgstr "{func}(): базове ім'я файлу не може бути порожнім"
 
 #: base/vendor_change_manager.cpp:331
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
+"{func}(): базове ім'я файлу не повинно містити компонентів шляху: "
+"{base_filename}"
 
 #: base/vendor_change_manager.cpp:461
 msgid "{func}(): Path must have .conf extension: {path}"
-msgstr ""
+msgstr "{func}(): шлях повинен мати розширення .conf: {path}"
 
 #: common/exception.cpp:78
 msgid "System error"
-msgstr ""
+msgstr "Системна помилка"
 
 #: common/exception.cpp:199
 msgid "General RuntimeError exception"
-msgstr ""
+msgstr "Загальний виняток RuntimeError"
 
 #: common/proc.cpp:88
 #, c++-format
 msgid "Cannot stat {}"
-msgstr ""
+msgstr "Не вдалося отримати стан {}"
 
 #: common/proc.cpp:124
 #, c++-format
 msgid "Cannot open {}"
-msgstr ""
+msgstr "Не вдалося відкрити {}"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
-msgstr ""
+msgstr "Запит повинен містити рівно один об'єкт."
 
 #: common/xdg.cpp:43
 msgid "get_user_home_dir(): Cannot determine the user's home directory"
-msgstr ""
+msgstr "get_user_home_dir(): не вдалося визначити домашній каталог користувача"
 
 #: common/xdg.cpp:98
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
 msgstr ""
+"get_user_runtime_dir(): не вдалося визначити каталог середовища виконання "
+"користувача"
 
 #: comps/environment/environment.cpp:361
 #, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося зберегти XML-документ середовища \"{}\" у файл \"{}\": {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося зберегти XML-документ групи \"{}\" у файл \"{}\": {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 #, c++-format
 msgid "Invalid package type: {}"
-msgstr ""
+msgstr "Некоректний тип пакунка: {}"
 
 #: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
-msgstr ""
+msgstr "Ввід порожній. Потрібно вказати значення."
 
 #: conf/config_main.cpp:63
 #, c++-format
 msgid "Input value '{}' must not be negative"
-msgstr ""
+msgstr "Вхідне значення '{}' не може бути від'ємним"
 
 #: conf/config_main.cpp:68
 #, c++-format
 msgid "Could not convert '{}' to bytes"
-msgstr ""
+msgstr "Не вдалося перетворити '{}' на байти"
 
 #: conf/config_main.cpp:84
 #, c++-format
 msgid "Unknown unit '{}'"
-msgstr ""
+msgstr "Невідома одиниця '{}'"
 
 #: conf/config_main.cpp:292
 #, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
-msgstr ""
+msgstr "Значення обмеження швидкості {} поза допустимим діапазоном {} ... {}"
 
 #: conf/config_parser.cpp:54
 #, c++-format
 msgid "Section \"{}\" not found"
-msgstr ""
+msgstr "Секцію \"{}\" не знайдено"
 
 #: conf/config_parser.cpp:59
 #, c++-format
 msgid "Section \"{}\" does not contain option \"{}\""
-msgstr ""
+msgstr "Секція \"{}\" не містить параметра \"{}\""
 
 #: conf/config_parser.cpp:96
 #, c++-format
 msgid "Configuration file \"{}\" not found"
-msgstr ""
+msgstr "Файл конфігурації \"{}\" не знайдено"
 
 #: conf/config_parser.cpp:99
 #, c++-format
 msgid "Unable to access configuration file \"{}\""
-msgstr ""
+msgstr "Немає доступу до файлу конфігурації \"{}\""
 
 #: conf/config_parser.cpp:102
 #, c++-format
 msgid "Error in configuration file \"{}\""
-msgstr ""
+msgstr "Помилка у файлі конфігурації \"{}\""
 
 #: conf/option_binds.cpp:29
 #, c++-format
 msgid "Option \"{}\" not found"
-msgstr ""
+msgstr "Параметр \"{}\" не знайдено"
 
 #: conf/option_binds.cpp:32
 #, c++-format
 msgid "Option \"{}\" already exists"
-msgstr ""
+msgstr "Параметр \"{}\" уже існує"
 
 #: conf/option_bool.cpp:82
 #, c++-format
 msgid "Invalid boolean value \"{}\""
-msgstr ""
+msgstr "Некоректне логічне значення \"{}\""
 
 #: conf/option_enum.cpp:68
 #, c++-format
 msgid "Enum option value \"{}\" not allowed"
-msgstr ""
+msgstr "Значення \"{}\" для параметра-переліку не дозволене"
 
 #: conf/option_number.cpp:99
 #, c++-format
 msgid "Input value {} is outside the allowed range {} ... {}"
-msgstr ""
+msgstr "Вхідне значення {} поза допустимим діапазоном {} ... {}"
 
 #: conf/option_number.cpp:112
 #, c++-format
 msgid "Invalid number option value \"{}\""
-msgstr ""
+msgstr "Некоректне числове значення параметра \"{}\""
 
 #: conf/option_path.cpp:93
 #, c++-format
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
-msgstr ""
+msgstr "Дозволені лише абсолютні шляхи, виявлено відносний шлях \"{}\""
 
 #: conf/option_path.cpp:98
 #, c++-format
 msgid "Path \"{}\" does not exist"
-msgstr ""
+msgstr "Шлях \"{}\" не існує"
 
 #: conf/option_seconds.cpp:38
 msgid "Empty time option value"
-msgstr ""
+msgstr "Порожнє значення часового параметра"
 
 #: conf/option_seconds.cpp:50
 #, c++-format
 msgid "Invalid time option value \"{}\", number or \"never\" expected"
 msgstr ""
+"Некоректне значення часового параметра \"{}\": очікується число або \"never\""
 
 #: conf/option_seconds.cpp:54
 #, c++-format
 msgid ""
 "Invalid time option value \"{}\", negative values except \"-1\" not allowed"
 msgstr ""
+"Некоректне значення часового параметра \"{}\": від'ємні значення, крім \"-"
+"1\", не дозволені"
 
 #: conf/option_seconds.cpp:59
 #, c++-format
 msgid "Unknown time format \"{}\""
-msgstr ""
+msgstr "Невідомий формат часу \"{}\""
 
 #: conf/option_seconds.cpp:78
 #, c++-format
 msgid "Unknown time unit '{}'"
-msgstr ""
+msgstr "Невідома одиниця часу '{}'"
 
 #: conf/option_string.cpp:89
 #, c++-format
@@ -983,12 +1047,14 @@ msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
 msgstr ""
+"Значення \"{}\" не дозволене; допустимі значення цього параметра задає "
+"регулярний вираз \"{}\""
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
 #: conf/option_string.cpp:114
 msgid "Option value is not set"
-msgstr ""
+msgstr "Значення параметра не задано"
 
 #: conf/option_string_list.cpp:178
 #, c++-format
@@ -996,25 +1062,27 @@ msgid ""
 "Input item value \"{}\" not allowed, allowed values for this option are "
 "defined by regular expression \"{}\""
 msgstr ""
+"Значення елемента \"{}\" не дозволене; допустимі значення цього параметра "
+"задає регулярний вираз \"{}\""
 
 #: conf/vars.cpp:347 conf/vars.cpp:387
 #, c++-format
 msgid "Variable \"{}\" is read-only"
-msgstr ""
+msgstr "Змінна \"{}\" доступна лише для читання"
 
 #: logger/rotating_file_logger.cpp:75
 msgid "Cannot open log file"
-msgstr ""
+msgstr "Не вдалося відкрити файл журналу"
 
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:767
 #, c++-format
 msgid "No such module: {}"
-msgstr ""
+msgstr "Немає такого модуля: {}"
 
 #: module/module_db.cpp:268
 #, c++-format
 msgid "Cannot enable multiple streams for module '{}'"
-msgstr ""
+msgstr "Не вдалося увімкнути кілька потоків для модуля '{}'"
 
 #. TODO(pkratoch) replace with a proper and descriptive exception
 #. TODO(jmracek) else if (removalOfProtected && removalOfProtected->size()) {
@@ -1025,49 +1093,49 @@ msgstr ""
 #: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:389
 #: rpm/solv/goal_private.cpp:811
 msgid "no solution possible"
-msgstr ""
+msgstr "розв'язок неможливий"
 
 #: module/module_metadata.cpp:102
 #, c++-format
 msgid "Failed to update from string: {}"
-msgstr ""
+msgstr "Не вдалося оновити з рядка: {}"
 
 #: module/module_metadata.cpp:129
 #, c++-format
 msgid "Failed to resolve module metadata: {}"
-msgstr ""
+msgstr "Не вдалося розв'язати метадані модуля: {}"
 
 #: module/module_metadata.cpp:140
 #, c++-format
 msgid "Failed to upgrade defaults: {}"
-msgstr ""
+msgstr "Не вдалося оновити типові значення: {}"
 
 #: module/module_metadata.cpp:144
 #, c++-format
 msgid "Failed to upgrade streams: {}"
-msgstr ""
+msgstr "Не вдалося оновити потоки: {}"
 
 #: module/module_sack.cpp:93
 #, c++-format
 msgid "Failed to load module metadata for repository \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося завантажити метадані модулів для репозиторію \"{}\": {}"
 
 #: module/module_sack.cpp:594
 msgid "Missing '='"
-msgstr ""
+msgstr "Відсутній '='"
 
 #: module/module_sack.cpp:598 module/module_sack.cpp:606
 msgid "Missing '\"' in the value"
-msgstr ""
+msgstr "Відсутня '\"' у значенні"
 
 #: module/module_sack.cpp:602
 msgid "Missing ':' in the value"
-msgstr ""
+msgstr "Відсутня ':' у значенні"
 
 #: module/module_sack.cpp:911
 #, c++-format
 msgid "Invalid module status: {}"
-msgstr ""
+msgstr "Некоректний стан модуля: {}"
 
 #: plugin/plugins.cpp:68
 #, c++-format
@@ -1075,187 +1143,197 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin \"{}\" "
 "(\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
+"Непідтримувана комбінація API плагіна. Версія API від плагіна \"{}\" (\"{}"
+"\") — \"{}.{}\". Версія API в libdnf — \"{}.{}\"."
 
 #: plugin/plugins.cpp:93
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "Не вдалося створити екземпляр плагіна libdnf"
 
 #: plugin/plugins.cpp:147
 #, c++-format
 msgid "Cannot find plugin library \"{}\""
-msgstr ""
+msgstr "Не вдалося знайти бібліотеку плагіна \"{}\""
 
 #: plugin/plugins.cpp:181
 msgid "Plugins::load_plugins(): config_dirs cannot be empty"
-msgstr ""
+msgstr "Plugins::load_plugins(): config_dirs не може бути порожнім"
 
 #: plugin/plugins.cpp:194
 #, c++-format
 msgid "Cannot load libdnf plugin enabled from: {}"
-msgstr ""
+msgstr "Не вдалося завантажити плагін libdnf, увімкнений з: {}"
 
 #: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
-msgstr ""
+msgstr "get_unique_id(): не вдалося обчислити SHA256"
 
 #: repo/file_downloader.cpp:154
 msgid "Cannot download files, cacheonly option is activated."
-msgstr ""
+msgstr "Не вдалося завантажити файли: увімкнено параметр cacheonly."
 
 #: repo/file_downloader.cpp:216
 msgid "Failed to download files"
-msgstr ""
+msgstr "Не вдалося завантажити файли"
 
 #: repo/librepo.cpp:84
 msgid ""
 "Maximum download speed is lower than minimum, please change configuration of "
 "minrate or throttle"
 msgstr ""
+"Максимальна швидкість завантаження нижча за мінімальну; змініть налаштування "
+"minrate або throttle"
 
 #: repo/librepo.cpp:147
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "Встановлено 'proxy_username', але не 'proxy_password'"
 
 #: repo/package_downloader.cpp:165
 #, c++-format
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
-msgstr ""
+msgstr "Не вдалося завантажити пакунок \"{0}\": увімкнено параметр cacheonly."
 
 #: repo/package_downloader.cpp:255
 msgid "Already downloaded"
-msgstr ""
+msgstr "Уже завантажено"
 
 #: repo/package_downloader.cpp:303
 msgid "Failed to download packages"
-msgstr ""
+msgstr "Не вдалося завантажити пакунки"
 
 #: repo/repo.cpp:62
 #, c++-format
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
-msgstr ""
+msgstr "Не вдалося завантажити RPM \"{}\": немає розширення \".rpm\""
 
 #: repo/repo.cpp:66
 #, c++-format
 msgid "Failed to access RPM \"{}\": {}"
-msgstr ""
+msgstr "Немає доступу до RPM \"{}\": {}"
 
 #: repo/repo.cpp:108
 #, c++-format
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr ""
+msgstr "Некоректний ідентифікатор репозиторію \"{}\": неочікуваний символ '{}'"
 
 #: repo/repo.cpp:151
 #, c++-format
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
+"Для репозиторію \"{}\" не задано джерело (baseurl, mirrorlist або metalink)."
 
 #: repo/repo.cpp:162
 #, c++-format
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
-msgstr ""
+msgstr "Репозиторій \"{}\" має непідтримуваний тип \"{}\", пропускаємо."
 
 #: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося завантажити метадані ({}: \"{}\") для репозиторію \"{}\": {}"
 
 #: repo/repo.cpp:440
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
+"Не вдалося завантажити репозиторій: дані \"primary\" відсутні або мають "
+"непідтримуваний формат"
 
 #: repo/repo.cpp:513
 #, c++-format
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
-msgstr ""
+msgstr "Не вдалося завантажити comps \"{}\": немає розширення \".xml\""
 
 #: repo/repo.cpp:520
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося завантажити XML comps \"{}\": {}"
 
 #: repo/repo.cpp:538
 #, c++-format
 msgid "Failed to load RPM \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося завантажити RPM \"{}\": {}"
 
 #: repo/repo_cache.cpp:255
 msgid "Unable to determine id of the repository in the cache."
-msgstr ""
+msgstr "Не вдалося визначити ідентифікатор репозиторію в кеші."
 
 #: repo/repo_cache_private.hpp:59
 msgid "Empty path to the repository cache directory."
-msgstr ""
+msgstr "Порожній шлях до каталогу кешу репозиторію."
 
 #: repo/repo_config_override.cpp:69
 #, c++-format
 msgid "Cannot set option \"{}\" for repository \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося встановити параметр \"{}\" для репозиторію \"{}\": {}"
 
 #: repo/repo_config_override.cpp:84
 #, c++-format
 msgid "Cannot create directory \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося створити каталог \"{}\": {}"
 
 #: repo/repo_config_override.cpp:136 repo/repo_config_override.cpp:143
 #, c++-format
 msgid "Cannot write to file \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося записати у файл \"{}\": {}"
 
 #: repo/repo_config_override.cpp:157
 #, c++-format
 msgid "Cannot set permissions on file \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося встановити права на файл \"{}\": {}"
 
 #: repo/repo_downloader.cpp:224
 #, c++-format
 msgid "Librepo error: {}"
-msgstr ""
+msgstr "Помилка Librepo: {}"
 
 #: repo/repo_downloader.cpp:269
 msgid "Failed to set up metadata download"
-msgstr ""
+msgstr "Не вдалося налаштувати завантаження метаданих"
 
 #: repo/repo_downloader.cpp:323 repo/repo_downloader.cpp:373
 msgid "Failed to download metadata"
-msgstr ""
+msgstr "Не вдалося завантажити метадані"
 
 #: repo/repo_downloader.cpp:437
 #, c++-format
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
-msgstr ""
+msgstr "Помилка перевірки синхронності metalink \"{}\" для репозиторію \"{}\""
 
 #: repo/repo_downloader.cpp:457
 #, c++-format
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
+"Помилка перевірки синхронності repomd ({}: \"{}\") для репозиторію \"{}\""
 
 #: repo/repo_downloader.cpp:526
 #, c++-format
 msgid "Error loading local metadata for repository \"{}\""
-msgstr ""
+msgstr "Помилка завантаження локальних метаданих для репозиторію \"{}\""
 
 #: repo/repo_downloader.cpp:608
 #, c++-format
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
+"Для репозиторію \"{}\" не знайдено жодного дійсного джерела (baseurl, "
+"mirrorlist або metalink)"
 
 #: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr ""
+msgstr "Не вдалося імпортувати ключі OpenPGP у тимчасове сховище ключів: {}"
 
 #: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
-msgstr ""
+msgstr "Не вдалося отримати список ключів OpenPGP: {}"
 
 #: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
-msgstr ""
+msgstr "Не вдалося імпортувати ключі OpenPGP: {}"
 
 #: repo/repo_sack.cpp:160
 #, c++-format
@@ -1263,144 +1341,154 @@ msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
+"Не вдалося створити репозиторій \"{}\": ідентифікатор трапляється в "
+"конфігурації більше ніж один раз"
 
 #: repo/repo_sack.cpp:641
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
-msgstr ""
+msgstr "Увімкнено cache-only, але для репозиторію \"{}\" немає кешу"
 
 #: repo/solv_repo.cpp:268
 #, c++-format
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Не вдалося завантажити repomd для репозиторію \"{}\" з \"{}\": {}."
 
 #: repo/solv_repo.cpp:276
 #, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Не вдалося завантажити primary для репозиторію \"{}\" з \"{}\": {}."
 
 #: repo/solv_repo.cpp:324
 #, c++-format
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
+"Непідтримуваний тип розширених даних репозиторію для системного репозиторію: "
+"\"{}\"."
 
 #: repo/solv_repo.cpp:396
 #, c++-format
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Не вдалося завантажити розширення {} для репозиторію \"{}\" з \"{}\": {}"
 
 #: repo/solv_repo.cpp:436
 #, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
 msgstr ""
+"Не вдалося отримати блокування системного репозиторію для читання; "
+"блокування розташоване в \"{}\""
 
 #: repo/solv_repo.cpp:455
 #, c++-format
 msgid "Failed to load system repo from root \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося завантажити системний репозиторій з кореня \"{}\": {}"
 
 #: repo/solv_repo.cpp:559
 #, c++-format
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося завантажити кеш {} для репозиторію \"{}\" з \"{}\": {}"
 
 #: repo/solv_repo.cpp:613
 #, c++-format
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося записати кеш primary для репозиторію \"{}\" у \"{}\": {}"
 
 #: repo/solv_repo.cpp:635
 #, c++-format
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Не вдалося повторно завантажити кеш primary для репозиторію \"{}\" з \"{}\": "
+"{}"
 
 #: repo/solv_repo.cpp:700
 #, c++-format
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося записати кеш {} для репозиторію \"{}\" у \"{}\": {}"
 
 #: repo/solv_repo.cpp:721
 #, c++-format
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Не вдалося повторно завантажити кеш {} для репозиторію \"{}\" з \"{}\": {}"
 
 #: repo/temp_files_memory.cpp:52
 #, c++-format
 msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
-msgstr ""
+msgstr "Помилка під час розбору файлу пам'яті тимчасових файлів '{}': {}"
 
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
-msgstr ""
+msgstr "Невідомий тип контрольної суми"
 
 #: rpm/nevra.cpp:82
 #, c++-format
 msgid "NEVRA string \"{}\" contains ':' multiple times"
-msgstr ""
+msgstr "Рядок NEVRA \"{}\" містить ':' кілька разів"
 
 #: rpm/nevra.cpp:86
 #, c++-format
 msgid "Invalid character '{}' in NEVRA string \"{}\""
-msgstr ""
+msgstr "Некоректний символ '{}' у рядку NEVRA \"{}\""
 
 #: rpm/package.cpp:81
 msgid "Package with rpmdbid was not found"
-msgstr ""
+msgstr "Пакунок з rpmdbid не знайдено"
 
 #: rpm/package.cpp:486
 msgid "<unknown>"
-msgstr ""
+msgstr "<невідомо>"
 
 #: rpm/reldep.cpp:117 rpm/reldep.cpp:124
 msgid "Cannot parse a dependency string"
-msgstr ""
+msgstr "Не вдалося розібрати рядок залежності"
 
 #: rpm/rpm_signature.cpp:45
 msgid "No corresponding key was found."
-msgstr ""
+msgstr "Відповідного ключа не знайдено."
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
-msgstr ""
+msgstr "Підпис дійсний, але ключ не є довіреним."
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr ""
+msgstr "Пакунок не підписано."
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr ""
+msgstr "Помилка під час відкриття пакунка."
 
 #: rpm/rpm_signature.cpp:64 system/state.cpp:792
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
-msgstr ""
+msgstr "Не вдалося встановити rootDir транзакції rpm \"{}\"."
 
 #: rpm/rpm_signature.cpp:282
 #, c++-format
 msgid "\"{}\": key is not an armored public key."
-msgstr ""
+msgstr "\"{}\": ключ не є публічним ключем в armored-форматі."
 
 #: rpm/rpm_signature.cpp:287
 #, c++-format
 msgid "Failed to import public key \"{}\" to rpmdb: {}"
-msgstr ""
+msgstr "Не вдалося імпортувати публічний ключ \"{}\" у rpmdb: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:116
 #, c++-format
 msgid "Cannot set root directory \"{}\""
-msgstr ""
+msgstr "Не вдалося встановити кореневий каталог \"{}\""
 
 #: rpm/transaction.cpp:127
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Помилка %i під час відкриття бази даних rpm"
 
 #: rpm/transaction.cpp:136
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "Функція rpmdbCookie() не повернула cookie бази даних rpm."
 
 #: rpm/transaction.cpp:228
 #, c++-format
@@ -1410,97 +1498,105 @@ msgid ""
 "versions after an interrupted upgrade. Please remove the duplicate packages "
 "using \"dnf remove\" and retry."
 msgstr ""
+"Транзакція rpm несподівано вилучила б пакунки, не заплановані розв'язувачем: "
+"{}. Зазвичай це трапляється, коли в rpmdb є дублікати версій пакунків після "
+"перерваного оновлення. Вилучіть дублікати командою \"dnf remove\" і "
+"повторіть спробу."
 
 #: rpm/transaction.cpp:236
 msgid "Failed to order the rpm transaction."
-msgstr ""
+msgstr "Не вдалося впорядкувати транзакцію rpm."
 
 #: rpm/transaction.cpp:272
 #, c++-format
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
 msgstr ""
+"Не вдалося задати файл виводу скриптлета: не вдалося дублювати дескриптор "
+"файлу: {}"
 
 #: rpm/transaction.cpp:291
 #, c++-format
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
+"Не вдалося задати файл виводу скриптлета: не вдалося відкрити файл \"{}\": {}"
 
 #: rpm/transaction.cpp:312
 #, c++-format
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
+"Не вдалося прочитати заголовок пакунка: не вдалося відкрити файл \"{}\": {}"
 
 #: rpm/transaction.cpp:329
 #, c++-format
 msgid "Failed to read package header from file \"{}\""
-msgstr ""
+msgstr "Не вдалося прочитати заголовок пакунка з файлу \"{}\""
 
 #: rpm/transaction.cpp:342
 msgid "Cannot init rpm database iterator"
-msgstr ""
+msgstr "Не вдалося ініціалізувати ітератор бази даних rpm"
 
 #: rpm/transaction.cpp:346
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "Пакунок не знайдено в базі даних rpm"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:362
 #, c++-format
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "Не вдалося перевстановити пакунок \"{}\""
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:380
 #, c++-format
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "Не вдалося вилучити пакунок \"{}\""
 
 #: rpm/transaction.cpp:399
 #, c++-format
 msgid "Cannot upgrade package \"{}\""
-msgstr ""
+msgstr "Не вдалося оновити пакунок \"{}\""
 
 #: rpm/transaction.cpp:403
 #, c++-format
 msgid "Cannot downgrade package \"{}\""
-msgstr ""
+msgstr "Не вдалося знизити версію пакунка \"{}\""
 
 #: rpm/transaction.cpp:407
 #, c++-format
 msgid "Cannot install package \"{}\""
-msgstr ""
+msgstr "Не вдалося встановити пакунок \"{}\""
 
 #: rpm/versionlock_config.cpp:259
 #, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr ""
+msgstr "Помилка розбору файлу versionlock \"{}\": {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:198
 #, c++-format
 msgid "Failed to convert epoch \"{}\" to number"
-msgstr ""
+msgstr "Не вдалося перетворити epoch \"{}\" на число"
 
 #: solv/solver.cpp:79
 #, c++-format
 msgid "Writing debugsolver data into \"{}\" failed: {}"
-msgstr ""
+msgstr "Не вдалося записати дані debugsolver у \"{}\": {}"
 
 #: solv/vendor_change_manager.cpp:357
 #, c++-format
 msgid "Missing \"version\" key in \"{}\""
-msgstr ""
+msgstr "Відсутній ключ \"version\" у \"{}\""
 
 #: solv/vendor_change_manager.cpp:369
 #, c++-format
 msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
-msgstr ""
+msgstr "Непідтримувана версія \"{}\" у \"{}\". Підтримувані версії: {}"
 
 #: solv/vendor_change_manager.cpp:380
 #, c++-format
@@ -1508,12 +1604,14 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support combining "
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
+"Конфігурація \"{}\" використовує версію \"1.0\", яка не підтримує поєднання "
+"'equivalent_vendors' з 'outgoing_vendors' та 'incoming_vendors'"
 
 #: solv/vendor_change_manager.cpp:412 solv/vendor_change_manager.cpp:457
 #: solv/vendor_change_manager.cpp:509 solv/vendor_change_manager.cpp:734
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr ""
+msgstr "Невідомий ключ '{}' у \"{}\" у рядку {}"
 
 #: solv/vendor_change_manager.cpp:419
 #, c++-format
@@ -1521,6 +1619,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
 "line {}"
 msgstr ""
+"Конфігурація \"{}\" використовує версію \"1.0\", яка не підтримує ключ '{}' "
+"у рядку {}"
 
 #: solv/vendor_change_manager.cpp:445
 #, c++-format
@@ -1528,23 +1628,29 @@ msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
 "Error in \"{}\" in table starting on line {}"
 msgstr ""
+"Фільтр \"cmdline_repo\" дозволений лише в розділі 'incoming_packages'. "
+"Помилка в \"{}\" у таблиці, що починається в рядку {}"
 
 #: solv/vendor_change_manager.cpp:467
 #, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
 msgstr ""
+"Відсутнє визначення фільтра пакунків у \"{}\" у таблиці, що починається в "
+"рядку {}"
 
 #: solv/vendor_change_manager.cpp:498
 #, c++-format
 msgid ""
 "Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
 msgstr ""
+"Непідтримуваний компаратор \"{}\" для визначення постачальника в \"{}\" у "
+"рядку {}"
 
 #: solv/vendor_change_manager.cpp:519
 #, c++-format
 msgid "Missing 'vendor' key in \"{}\" in table starting on line {}"
-msgstr ""
+msgstr "Відсутній ключ 'vendor' у \"{}\" у таблиці, що починається в рядку {}"
 
 #: solv/vendor_change_manager.cpp:532
 #, c++-format
@@ -1552,16 +1658,18 @@ msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
 msgstr ""
+"Некоректний регулярний вираз шаблону постачальника \"{}\" у \"{}\" у "
+"таблиці, що починається в рядку {}: {}"
 
 #: solv/vendor_change_manager.cpp:560
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Неправильний тип значення в \"{}\" у рядку {}: {}"
 
 #: solv/vendor_change_manager.cpp:566
 #, c++-format
 msgid "An error occurred when parsing \"{}\": {}"
-msgstr ""
+msgstr "Помилка під час розбору \"{}\": {}"
 
 #: solv/vendor_change_manager.cpp:580
 #, c++-format
@@ -1569,6 +1677,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
+"Конфігурація \"{}\" використовує версію \"1.0\", яка не підтримує "
+"'incoming_vendors' без 'outgoing_vendors'"
 
 #: solv/vendor_change_manager.cpp:586
 #, c++-format
@@ -1576,11 +1686,13 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
+"Конфігурація \"{}\" використовує версію \"1.0\", яка не підтримує "
+"'outgoing_vendors' без 'incoming_vendors'"
 
 #: solv/vendor_change_manager.cpp:676
 #, c++-format
 msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "Невідомий 'comparator' \"{}\" у \"{}\" у рядку {}"
 
 #: solv/vendor_change_manager.cpp:680
 #, c++-format
@@ -1588,21 +1700,23 @@ msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
 msgstr ""
+"Конфігурація \"{}\" використовує версію \"{}\", яка не підтримує "
+"'comparator' \"{}\""
 
 #: solv/vendor_change_manager.cpp:719
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "Невідомий 'filter' \"{}\" у \"{}\" у рядку {}"
 
 #: solv/vendor_change_manager.cpp:740
 #, c++-format
 msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "Відсутній ключ 'filter' у \"{}\" для запису таблиці в рядку {}"
 
 #: solv/vendor_change_manager.cpp:745
 #, c++-format
 msgid "Missing 'value' key in \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "Відсутній ключ 'value' у \"{}\" для запису таблиці в рядку {}"
 
 #: solv/vendor_change_manager.cpp:752
 #, c++-format
@@ -1611,6 +1725,9 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
+"Фільтр \"cmdline_repo\" у \"{}\" у таблиці, що починається в рядку {}, не "
+"підтримує компаратор \"{}\". Для цього фільтра дозволений лише типовий "
+"компаратор \"EXACT\""
 
 #: solv/vendor_change_manager.cpp:769
 #, c++-format
@@ -1618,6 +1735,8 @@ msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
+"Некоректне 'value' \"{}\" у \"{}\" у таблиці, що починається в рядку {}. "
+"Підтримуються лише \"true\", \"1\", \"false\", \"0\""
 
 #: solv/vendor_change_manager.cpp:779 solv/vendor_change_manager.cpp:790
 #, c++-format
@@ -1625,104 +1744,116 @@ msgid ""
 "Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
+"Фільтр \"{}\" у \"{}\" у таблиці, що починається в рядку {}, не підтримує "
+"компаратор \"{}\""
 
 #: solv/vendor_change_manager.cpp:806
 #, c++-format
 msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
 msgstr ""
+"Некоректне значення epoch \"{}\" у \"{}\" у таблиці, що починається в рядку "
+"{}"
 
 #: solv/vendor_change_manager.cpp:821
 #, c++-format
 msgid "Invalid regex \"{}\" in \"{}\" in table starting on line {}: {}"
 msgstr ""
+"Некоректний регулярний вираз \"{}\" у \"{}\" у таблиці, що починається в "
+"рядку {}: {}"
 
 #: solv/vendor_change_manager.cpp:873
 msgid "Unexpected end of input"
-msgstr ""
+msgstr "Неочікуваний кінець вводу"
 
 #: solv/vendor_change_manager.cpp:890
 #, c++-format
 msgid "Expected '{}' but found end of input"
-msgstr ""
+msgstr "Очікувався '{}', але знайдено кінець вводу"
 
 #: solv/vendor_change_manager.cpp:892
 #, c++-format
 msgid "Expected '{}' but found '{}'"
-msgstr ""
+msgstr "Очікувався '{}', але знайдено '{}'"
 
 #: solv/vendor_change_manager.cpp:902
 #, c++-format
 msgid "Compact vendor change policy parse error in \"{}\" at position {}"
 msgstr ""
+"Помилка розбору компактної політики зміни постачальника в \"{}\" у позиції {}"
 
 #: solv/vendor_change_manager.cpp:956
 msgid "Expected package filter after '@'"
-msgstr ""
+msgstr "Після '@' очікувався фільтр пакунків"
 
 #: solv/vendor_change_manager.cpp:969
 #, c++-format
 msgid "Unexpected character '{}'"
-msgstr ""
+msgstr "Неочікуваний символ '{}'"
 
 #: solv/vendor_change_manager.cpp:1045
 msgid "Expected quoted string starting with '\"'"
-msgstr ""
+msgstr "Очікувався рядок у лапках, що починається з '\"'"
 
 #: solv/vendor_change_manager.cpp:1053
 msgid "Unterminated escape sequence"
-msgstr ""
+msgstr "Незавершена escape-послідовність"
 
 #: solv/vendor_change_manager.cpp:1059
 #, c++-format
 msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
 msgstr ""
+"Некоректна escape-послідовність '\\{}'. Підтримуються лише '\\\"' та '\\\\'"
 
 #: solv/vendor_change_manager.cpp:1066
 msgid "Unterminated quoted string"
-msgstr ""
+msgstr "Незавершений рядок у лапках"
 
 #: solv/vendor_change_manager.cpp:1101
 msgid "Expected direction prefix 'in', 'out', or 'eq'"
-msgstr ""
+msgstr "Очікувався префікс напрямку 'in', 'out' або 'eq'"
 
 #: solv/vendor_change_manager.cpp:1165
 msgid ""
 "Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
 "*, =*, =~; optionally prefixed with ! and/or i"
 msgstr ""
+"Очікувався оператор порівняння: відносний (<, <=, >, >=) або рядковий (=, ^, "
+"$, *, =*, =~; необов'язково з префіксом ! та/або i"
 
 #: solv/vendor_change_manager.cpp:1230
 msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
 msgstr ""
+"Визначення постачальника не підтримує відносні компаратори. Використовуйте "
+"рядкові: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1238
 #, c++-format
 msgid "Invalid regex vendor pattern '{}': {}"
-msgstr ""
+msgstr "Некоректний регулярний вираз шаблону постачальника '{}': {}"
 
 #: solv/vendor_change_manager.cpp:1256
 #, c++-format
 msgid "Unknown filter field name '{}'"
-msgstr ""
+msgstr "Невідома назва поля фільтра '{}'"
 
 #: solv/vendor_change_manager.cpp:1266
 msgid "Expected filter field name"
-msgstr ""
+msgstr "Очікувалася назва поля фільтра"
 
 #: solv/vendor_change_manager.cpp:1295
 #, c++-format
 msgid "Invalid epoch value \"{}\""
-msgstr ""
+msgstr "Некоректне значення epoch \"{}\""
 
 #: solv/vendor_change_manager.cpp:1299
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
-msgstr ""
+msgstr "Фільтр 'cmdline_repo' підтримує лише компаратор '=' (EXACT)"
 
 #: solv/vendor_change_manager.cpp:1302
 msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
-msgstr ""
+msgstr "Фільтр 'cmdline_repo' дозволений лише для вхідних пакунків ('in:')"
 
 #: solv/vendor_change_manager.cpp:1313
 #, c++-format
@@ -1730,63 +1861,69 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
+"Некоректне значення '{}' для фільтра 'cmdline_repo'. Використовуйте 'true', "
+"'1', 'false' або '0'"
 
 #: solv/vendor_change_manager.cpp:1317
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
-msgstr ""
+msgstr "Фільтр '{}' підтримує лише відносні компаратори: =, !=, >, >=, <, <="
 
 #: solv/vendor_change_manager.cpp:1321
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
-msgstr ""
+msgstr "Фільтр '{}' підтримує лише рядкові компаратори: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1330
 #, c++-format
 msgid "Invalid regex '{}': {}"
-msgstr ""
+msgstr "Некоректний регулярний вираз '{}': {}"
 
 #: solv/vendor_change_manager.cpp:1341
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
 msgstr ""
+"Фільтри пакунків не підтримують напрямок 'eq'. Використовуйте 'in' або 'out'"
 
 #: solv/vendor_change_manager.cpp:1432 solv/vendor_change_manager.cpp:1482
 #: solv/vendor_change_manager.cpp:1493 solv/vendor_change_manager.cpp:1504
 msgid "{func}(): Policy index {idx} is out of range"
-msgstr ""
+msgstr "{func}(): індекс політики {idx} поза діапазоном"
 
 #: system/state.cpp:291 system/state.cpp:300
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
-msgstr ""
+msgstr "Некоректна версія TOML \"{}\": очікується \"MAJOR.MINOR\""
 
 #: system/state.cpp:308
 #, c++-format
 msgid "{} state for \"{}\" not found."
-msgstr ""
+msgstr "Стан {} для \"{}\" не знайдено."
 
 #: system/state.cpp:312
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
+"Не вдалося завантажити файл стану системи TOML {} (див. dnf5-system-state(7))"
+": {}"
 
 #: system/state.cpp:649
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
+"Непідтримувана версія TOML \"{}\"; максимальна підтримувана версія — \"{}\""
 
 #: system/state.cpp:798
 #, c++-format
 msgid "Error {} opening rpm database"
-msgstr ""
+msgstr "Помилка {} під час відкриття бази даних rpm"
 
 #: system/state.cpp:802
 msgid "Failed to get rpm database"
-msgstr ""
+msgstr "Не вдалося отримати базу даних rpm"
 
 #: system/state.cpp:808
 msgid "Failed to initialize database index iterator"
-msgstr ""
+msgstr "Не вдалося ініціалізувати ітератор індексів бази даних"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -1794,100 +1931,102 @@ msgid ""
 "Failed to insert record into table 'comps_environment_group' in history "
 "database"
 msgstr ""
+"Не вдалося вставити запис у таблицю 'comps_environment_group' бази даних "
+"історії"
 
 #: transaction/db/db.cpp:71
 msgid "Unable to get 'version' from table 'config'"
-msgstr ""
+msgstr "Не вдалося отримати 'version' з таблиці 'config'"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/item.cpp:43
 msgid "Failed to insert record into table 'item' in history database"
-msgstr ""
+msgstr "Не вдалося вставити запис у таблицю 'item' бази даних історії"
 
 #: transaction/offline.cpp:212
 msgid "error reading offline state file"
-msgstr ""
+msgstr "помилка читання файлу офлайн-стану"
 
 #: transaction/offline.cpp:217
 msgid "incompatible version of state data"
-msgstr ""
+msgstr "несумісна версія даних стану"
 
 #: transaction/transaction.cpp:87
 msgid "Started"
-msgstr ""
+msgstr "Розпочато"
 
 #: transaction/transaction.cpp:89
 msgid "Ok"
-msgstr ""
+msgstr "Гаразд"
 
 #: transaction/transaction.cpp:91
 msgid "Error"
-msgstr ""
+msgstr "Помилка"
 
 #: transaction/transaction.cpp:110
 #, c++-format
 msgid "Invalid transaction state: {}"
-msgstr ""
+msgstr "Некоректний стан транзакції: {}"
 
 #: transaction/transaction.cpp:313
 msgid "Transaction has already started!"
-msgstr ""
+msgstr "Транзакція вже розпочата!"
 
 #: transaction/transaction_item_action.cpp:30
 #, c++-format
 msgid "Invalid transaction item action: {}"
-msgstr ""
+msgstr "Некоректна дія елемента транзакції: {}"
 
 #: transaction/transaction_item_action.cpp:74
 msgid "Replaced"
-msgstr ""
+msgstr "Замінено"
 
 #: transaction/transaction_item_action.cpp:84
 msgid "Switch"
-msgstr ""
+msgstr "Перемикання"
 
 #: transaction/transaction_item_reason.cpp:30
 #, c++-format
 msgid "Invalid transaction item reason: {}"
-msgstr ""
+msgstr "Некоректна причина елемента транзакції: {}"
 
 #: transaction/transaction_item_reason.cpp:56
 msgid "None"
-msgstr ""
+msgstr "Немає"
 
 #: transaction/transaction_item_reason.cpp:58
 msgid "Dependency"
-msgstr ""
+msgstr "Залежність"
 
 #: transaction/transaction_item_reason.cpp:60
 msgid "User"
-msgstr ""
+msgstr "Користувач"
 
 #: transaction/transaction_item_reason.cpp:62
 msgid "Clean"
-msgstr ""
+msgstr "Чиста"
 
 #: transaction/transaction_item_reason.cpp:64
 msgid "Weak Dependency"
-msgstr ""
+msgstr "Слабка залежність"
 
 #: transaction/transaction_item_reason.cpp:66
 msgid "Group"
-msgstr ""
+msgstr "Група"
 
 #: transaction/transaction_item_reason.cpp:68
 msgid "External User"
-msgstr ""
+msgstr "Зовнішній користувач"
 
 #: transaction/transaction_item_state.cpp:28
 #, c++-format
 msgid "Invalid transaction item state: {}"
-msgstr ""
+msgstr "Некоректний стан елемента транзакції: {}"
 
 #: transaction/transaction_item_type.cpp:28
 #, c++-format
 msgid "Invalid transaction item type: {}"
-msgstr ""
+msgstr "Некоректний тип елемента транзакції: {}"
 
 #: transaction/transaction_merge.cpp:102
 #, c++-format
@@ -1895,6 +2034,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transactions -> setting '{0}'."
 msgstr ""
+"Дію '{0}' '{1}' не можна об'єднати після того, як у попередніх транзакціях "
+"вона була '{2}' -> встановлюємо '{0}'."
 
 #: transaction/transaction_merge.cpp:116
 #, c++-format
@@ -1902,6 +2043,8 @@ msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
+"Дію 'Upgrade' '{0}' не можна об'єднати, оскільки на той момент її немає -> "
+"встановлюємо 'Install'."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 #, c++-format
@@ -1909,6 +2052,8 @@ msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
+"Дію 'Reinstall' '{0}' не можна об'єднати, оскільки на той момент її немає -> "
+"встановлюємо 'Install'."
 
 #: transaction/transaction_merge.cpp:194
 #, c++-format
@@ -1916,11 +2061,13 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transaction -> setting '{0}'."
 msgstr ""
+"Дію '{0}' '{1}' не можна об'єднати після того, як у попередній транзакції "
+"вона була '{2}' -> встановлюємо '{0}'."
 
 #: transaction/transaction_merge.cpp:215
 #, c++-format
 msgid "Unexpected action encountered: '{0}' during transaction merge."
-msgstr ""
+msgstr "Неочікувана дія: '{0}' під час об'єднання транзакцій."
 
 #: transaction/transaction_merge.cpp:224
 #, c++-format
@@ -1928,6 +2075,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> skipping it."
 msgstr ""
+"Дію '{0}' '{1}' не можна об'єднати, оскільки на той момент її немає -> "
+"пропускаємо."
 
 #: transaction/transaction_merge.cpp:245
 #, c++-format
@@ -1935,6 +2084,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> setting 'INSTALL'."
 msgstr ""
+"Дію '{0}' '{1}' не можна об'єднати, оскільки на той момент її немає -> "
+"встановлюємо 'INSTALL'."
 
 #: transaction/transaction_merge.cpp:266
 #, c++-format
@@ -1942,6 +2093,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "(present versions are: {2}) -> skipping it."
 msgstr ""
+"Дію '{0}' '{1}' не можна об'єднати, оскільки на той момент її немає (наявні "
+"версії: {2}) -> пропускаємо."
 
 #: transaction/transaction_merge.cpp:277
 #, c++-format
@@ -1949,6 +2102,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already present at that "
 "point -> skipping it."
 msgstr ""
+"Дію '{0}' '{1}' не можна об'єднати, оскільки на той момент вона вже є -> "
+"пропускаємо."
 
 #: transaction/transaction_merge.cpp:294
 #, c++-format
@@ -1956,122 +2111,128 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
+"Дію '{0}' '{1}' не можна об'єднати, оскільки її вже встановлено у версії '{2}"
+"' -> зберігаємо дію зі старішої транзакції з '{1}'."
 
 #: transaction/transaction_merge.cpp:304
 #, c++-format
 msgid "Invalid action encountered: '{0}' during transaction merge."
-msgstr ""
+msgstr "Некоректна дія: '{0}' під час об'єднання транзакцій."
 
 #: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr ""
+"Ввід серіалізованої транзакції JSON для повторного відтворення транзакції "
+"порожній"
 
 #: transaction/transaction_sr.cpp:58
 #, c++-format
 msgid "Error during transaction replay JSON parsing : {}"
-msgstr ""
+msgstr "Помилка під час розбору JSON повторного відтворення транзакції : {}"
 
 #: transaction/transaction_sr.cpp:68
 #, c++-format
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
-msgstr ""
+msgstr "Неочікуваний формат версії: \"{}\"; підтримувана версія — \"{}\""
 
 #: transaction/transaction_sr.cpp:74
 #, c++-format
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
-msgstr ""
+msgstr "Несумісна мажорна версія: \"{}\"; підтримувана мажорна версія — \"{}\""
 
 #: transaction/transaction_sr.cpp:81
 #, c++-format
 msgid "Invalid minor version: \"{}\", number expected"
-msgstr ""
+msgstr "Некоректна мінорна версія: \"{}\": очікується число"
 
 #: transaction/transaction_sr.cpp:84
 msgid "Missing key \"version\""
-msgstr ""
+msgstr "Відсутній ключ \"version\""
 
 #: transaction/transaction_sr.cpp:92
 msgid "Unexpected type of \"environments\", array expected"
-msgstr ""
+msgstr "Неочікуваний тип \"environments\": очікується масив"
 
 #: transaction/transaction_sr.cpp:105
 msgid "Missing object key \"id\" in an environment"
-msgstr ""
+msgstr "Відсутній ключ об'єкта \"id\" у середовищі"
 
 #: transaction/transaction_sr.cpp:110
 msgid "Missing object key \"action\" in an environment"
-msgstr ""
+msgstr "Відсутній ключ об'єкта \"action\" у середовищі"
 
 #: transaction/transaction_sr.cpp:129
 msgid "Unexpected type of \"groups\", array expected"
-msgstr ""
+msgstr "Неочікуваний тип \"groups\": очікується масив"
 
 #: transaction/transaction_sr.cpp:145
 msgid "Missing object key \"id\" in a group"
-msgstr ""
+msgstr "Відсутній ключ об'єкта \"id\" у групі"
 
 #: transaction/transaction_sr.cpp:150
 msgid "Missing object key \"action\" in a group"
-msgstr ""
+msgstr "Відсутній ключ об'єкта \"action\" у групі"
 
 #: transaction/transaction_sr.cpp:155
 msgid "Missing object key \"reason\" in a group"
-msgstr ""
+msgstr "Відсутній ключ об'єкта \"reason\" у групі"
 
 #: transaction/transaction_sr.cpp:186
 msgid "Unexpected type of \"rpms\", array expected"
-msgstr ""
+msgstr "Неочікуваний тип \"rpms\": очікується масив"
 
 #: transaction/transaction_sr.cpp:202
 #, c++-format
 msgid "Cannot parse NEVRA for rpm \"{}\""
-msgstr ""
+msgstr "Не вдалося розібрати NEVRA для rpm \"{}\""
 
 #: transaction/transaction_sr.cpp:210
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
-msgstr ""
+msgstr "У rpm потрібен ключ об'єкта \"nevra\" або \"package_path\""
 
 #: transaction/transaction_sr.cpp:215
 msgid "Missing object key \"action\" in an rpm"
-msgstr ""
+msgstr "Відсутній ключ об'єкта \"action\" у rpm"
 
 #: transaction/transaction_sr.cpp:220
 msgid "Missing object key \"reason\" in an rpm"
-msgstr ""
+msgstr "Відсутній ключ об'єкта \"reason\" у rpm"
 
 #: transaction/transaction_sr.cpp:227
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
+"Відсутній обов'язковий ключ об'єкта \"group_id\" у rpm з причиною \"Group\" "
+"і дією \"Reason Change\""
 
 #: utils/bootc.cpp:47
 #, c++-format
 msgid "Error checking bootc status: {}"
-msgstr ""
+msgstr "Помилка перевірки стану bootc: {}"
 
 #: utils/bootc.cpp:50
 #, c++-format
 msgid "Error checking bootc status: bootc command failed with exit code {}"
-msgstr ""
+msgstr "Помилка перевірки стану bootc: команда bootc завершилася з кодом {}"
 
 #: utils/bootc.cpp:59
 msgid "Error checking bootc status: Failed to parse JSON output"
-msgstr ""
+msgstr "Помилка перевірки стану bootc: не вдалося розібрати вивід JSON"
 
 #: utils/bootc.cpp:74
 #, c++-format
 msgid "Failed to query status of bootc system: {}"
-msgstr ""
+msgstr "Не вдалося запитати стан системи bootc: {}"
 
 #: utils/bootc.cpp:91
 msgid "Failed to stat /usr filesystem"
-msgstr ""
+msgstr "Не вдалося отримати стан файлової системи /usr"
 
 #: utils/bootc.cpp:127
 #, c++-format
 msgid "Error running `bootc usr-overlay --read-only`: {}"
-msgstr ""
+msgstr "Помилка виконання `bootc usr-overlay --read-only`: {}"
 
 #: utils/bootc.cpp:130
 #, c++-format
@@ -2079,102 +2240,104 @@ msgid ""
 "Error running `bootc usr-overlay --read-only`: bootc command failed with "
 "exit code {}"
 msgstr ""
+"Помилка виконання `bootc usr-overlay --read-only`: команда bootc завершилася "
+"з кодом {}"
 
 #: utils/bootc.cpp:138
 msgid "Failed to unshare mount namespace"
-msgstr ""
+msgstr "Не вдалося відокремити простір імен монтування"
 
 #: utils/bootc.cpp:146
 #, c++-format
 msgid "Failed to remount /usr as read-write: {}"
-msgstr ""
+msgstr "Не вдалося перемонтувати /usr у режимі читання-запису: {}"
 
 #: utils/fs/file.cpp:87
 msgid "cannot open file"
-msgstr ""
+msgstr "не вдалося відкрити файл"
 
 #: utils/fs/file.cpp:100
 msgid "cannot open file from fd"
-msgstr ""
+msgstr "не вдалося відкрити файл з fd"
 
 #: utils/fs/file.cpp:110
 msgid "cannot close file"
-msgstr ""
+msgstr "не вдалося закрити файл"
 
 #: utils/fs/file.cpp:140 utils/fs/file.cpp:169
 msgid "error reading file"
-msgstr ""
+msgstr "помилка читання файлу"
 
 #: utils/fs/file.cpp:155 utils/fs/file.cpp:181
 msgid "error writing file"
-msgstr ""
+msgstr "помилка запису у файл"
 
 #: utils/fs/file.cpp:190
 msgid "error flushing file"
-msgstr ""
+msgstr "помилка скидання буфера файлу"
 
 #: utils/fs/file.cpp:199
 msgid "error seeking in file"
-msgstr ""
+msgstr "помилка позиціювання у файлі"
 
 #: utils/fs/file.cpp:210
 msgid "error retrieving file position"
-msgstr ""
+msgstr "помилка отримання позиції у файлі"
 
 #: utils/fs/file.cpp:296
 msgid "error reading a line from file"
-msgstr ""
+msgstr "помилка читання рядка з файлу"
 
 #: utils/fs/file.cpp:334
 msgid "error retrieving file descriptor"
-msgstr ""
+msgstr "помилка отримання дескриптора файлу"
 
 #: utils/fs/temp.cpp:42
 msgid "cannot create temporary directory"
-msgstr ""
+msgstr "не вдалося створити тимчасовий каталог"
 
 #: utils/fs/temp.cpp:89
 msgid "cannot create temporary file"
-msgstr ""
+msgstr "не вдалося створити тимчасовий файл"
 
 #: utils/fs/temp.cpp:142
 msgid "cannot close temporary file"
-msgstr ""
+msgstr "не вдалося закрити тимчасовий файл"
 
 #: utils/iniparser.cpp:126
 #, c++-format
 msgid "Missing ']' on line {}"
-msgstr ""
+msgstr "Відсутній ']' у рядку {}"
 
 #: utils/iniparser.cpp:129
 #, c++-format
 msgid "Empty section name on line {}"
-msgstr ""
+msgstr "Порожня назва секції в рядку {}"
 
 #: utils/iniparser.cpp:137
 #, c++-format
 msgid "Text after section on line {}"
-msgstr ""
+msgstr "Текст після секції в рядку {}"
 
 #: utils/iniparser.cpp:147
 #, c++-format
 msgid "Missing section header on line {}"
-msgstr ""
+msgstr "Відсутній заголовок секції в рядку {}"
 
 #: utils/iniparser.cpp:152
 #, c++-format
 msgid "Illegal continuation line on line {}"
-msgstr ""
+msgstr "Неприпустимий рядок продовження в рядку {}"
 
 #: utils/iniparser.cpp:159
 #, c++-format
 msgid "Missing option name on line {}"
-msgstr ""
+msgstr "Відсутня назва параметра в рядку {}"
 
 #: utils/iniparser.cpp:163
 #, c++-format
 msgid "Missing '=' on line {}"
-msgstr ""
+msgstr "Відсутній '=' у рядку {}"
 
 #. returns localized message, problem with later translation
 #: utils/library.cpp:34
@@ -2190,193 +2353,194 @@ msgstr "Не вдалося отримати адресу символу \"{}\":
 #: utils/locale.cpp:57
 #, c++-format
 msgid "Cannot set the locale \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося встановити локаль \"{}\": {}"
 
 #: utils/locker.cpp:101
 #, c++-format
 msgid "Failed to obtain lock \"{}\""
-msgstr ""
+msgstr "Не вдалося отримати блокування \"{}\""
 
 #: utils/locker.cpp:111
 msgid "File is already open."
-msgstr ""
+msgstr "Файл уже відкрито."
 
 #: utils/locker.cpp:124
 #, c++-format
 msgid "Failed to open lock file \"{}\""
-msgstr ""
+msgstr "Не вдалося відкрити файл блокування \"{}\""
 
 #: utils/locker.cpp:130 utils/locker.cpp:167
 #, c++-format
 msgid "The lock file \"{}\" is not opened"
-msgstr ""
+msgstr "Файл блокування \"{}\" не відкрито"
 
 #: utils/locker.cpp:135
 #, c++-format
 msgid "Failed to truncate lock file \"{}\""
-msgstr ""
+msgstr "Не вдалося обрізати файл блокування \"{}\""
 
 #: utils/locker.cpp:138 utils/locker.cpp:175
 #, c++-format
 msgid "Failed to seek lock file \"{}\""
-msgstr ""
+msgstr "Не вдалося позиціювати у файлі блокування \"{}\""
 
 #: utils/locker.cpp:146
 #, c++-format
 msgid "Failed to write to lock file \"{}\""
-msgstr ""
+msgstr "Не вдалося записати у файл блокування \"{}\""
 
 #: utils/locker.cpp:153
 #, c++-format
 msgid "Failed to sync lock file \"{}\""
-msgstr ""
+msgstr "Не вдалося синхронізувати файл блокування \"{}\""
 
 #: utils/locker.cpp:181
 #, c++-format
 msgid "Failed to read from lock file \"{}\""
-msgstr ""
+msgstr "Не вдалося прочитати з файлу блокування \"{}\""
 
 #: utils/locker.cpp:194
 #, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr ""
+msgstr "Файл блокування \"{}\" не заблоковано"
 
 #: utils/locker.cpp:207
 #, c++-format
 msgid "Failed to close lock file \"{}\""
-msgstr ""
+msgstr "Не вдалося закрити файл блокування \"{}\""
 
 #: utils/locker.cpp:211
 #, c++-format
 msgid "Failed to delete lock file \"{}\""
-msgstr ""
+msgstr "Не вдалося вилучити файл блокування \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:29
 #, c++-format
 msgid "SQL statement compilation failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося скомпілювати SQL-вираз: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:31
 #, c++-format
 msgid "Binding integer value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося прив'язати цілочисельне значення до SQL-виразу: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:33
 #, c++-format
 msgid "Binding integer64 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося прив'язати значення integer64 до SQL-виразу: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:35
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося прив'язати значення unsigned integer32 до SQL-виразу: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
 msgid "Binding double value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося прив'язати значення double до SQL-виразу: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:39
 #, c++-format
 msgid "Binding bool value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося прив'язати логічне значення до SQL-виразу: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:40
 #, c++-format
 msgid "Binding text to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося прив'язати текст до SQL-виразу: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:41
 #, c++-format
 msgid "Binding blob to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося прив'язати blob до SQL-виразу: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:42
 #, c++-format
 msgid "SQL statement evaluation failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося обчислити SQL-вираз: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:44
 msgid "Insufficient memory or result exceed maximum SQLite3 string length"
 msgstr ""
+"Недостатньо пам'яті або результат перевищує максимальну довжину рядка SQLite3"
 
 #: utils/sqlite3/sqlite3.cpp:46
 #, c++-format
 msgid "Column \"{}\" not found"
-msgstr ""
+msgstr "Стовпець \"{}\" не знайдено"
 
 #: utils/sqlite3/sqlite3.cpp:48
 #, c++-format
 msgid "SQL statement execution failed: \"{}\""
-msgstr ""
+msgstr "Не вдалося виконати SQL-вираз: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:68
 #, c++-format
 msgid "Failed to open database \"{}\""
-msgstr ""
+msgstr "Не вдалося відкрити базу даних \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:105
 #, c++-format
 msgid "Failed to close database \"{}\""
-msgstr ""
+msgstr "Не вдалося закрити базу даних \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 #, c++-format
 msgid "Failed to open backup database \"{}\""
-msgstr ""
+msgstr "Не вдалося відкрити резервну базу даних \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:132
 #, c++-format
 msgid "Failed to backup database \"{}\" into \"{}\""
-msgstr ""
+msgstr "Не вдалося створити резервну копію бази даних \"{}\" у \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:158
 #, c++-format
 msgid "Failed to restore database \"{}\""
-msgstr ""
+msgstr "Не вдалося відновити базу даних \"{}\""
 
 #: utils/subprocess.cpp:29
 msgid "cannot create pipe"
-msgstr ""
+msgstr "не вдалося створити канал (pipe)"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
-msgstr ""
+msgstr "не вдалося виконати fork"
 
 #: utils/subprocess.cpp:173
 msgid "cannot bind child stdin"
-msgstr ""
+msgstr "не вдалося прив'язати stdin дочірнього процесу"
 
 #: utils/subprocess.cpp:175
 msgid "cannot bind child stdout"
-msgstr ""
+msgstr "не вдалося прив'язати stdout дочірнього процесу"
 
 #: utils/subprocess.cpp:177
 msgid "cannot bind child stderr"
-msgstr ""
+msgstr "не вдалося прив'язати stderr дочірнього процесу"
 
 #: utils/subprocess.cpp:180
 #, c++-format
 msgid "failed to execute command: {}"
-msgstr ""
+msgstr "не вдалося виконати команду: {}"
 
 #: utils/subprocess.cpp:185
 #, c++-format
 msgid "error during preparation of child process: {}"
-msgstr ""
+msgstr "помилка під час підготовки дочірнього процесу: {}"
 
 #: utils/subprocess.cpp:211
 msgid "poll failed during subprocess I/O"
-msgstr ""
+msgstr "помилка poll під час введення-виведення підпроцесу"
 
 #: utils/subprocess.cpp:257
 msgid "unexpected child process status after waitpid"
-msgstr ""
+msgstr "неочікуваний стан дочірнього процесу після waitpid"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
-msgstr ""
+msgstr "не вдалося прочитати файли конфігурації rpm"
 
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
-msgstr ""
+msgstr "Не вдалося виконати uname()"
