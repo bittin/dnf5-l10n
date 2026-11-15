@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 02:58+0000\n"
+"PO-Revision-Date: 2026-11-15 03:49+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-automatic/uk/>\n"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: automatic.cpp:425
 msgid "Resolved transaction:"
-msgstr "Сформована транзакція:"
+msgstr "Розв'язана транзакція:"
 
 #: automatic.cpp:454
 msgid "Downloading packages:"
