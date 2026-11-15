@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 02:58+0000\n"
+"PO-Revision-Date: 2026-11-15 03:49+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/uk/>\n"
@@ -428,7 +428,7 @@ msgstr "Перевірити проблеми в базі пакунків"
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr "Перевірку завершено: проблем — {}, пакунків — {}."
+msgstr "Перевірте виявлені {} проблем(и) у {} пакунках(ах)."
 
 #: commands/clean/clean.cpp:91
 #, c++-format
@@ -767,8 +767,8 @@ msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
-"Показати встановлені в системі пакунки, застарілі через пакунки з відомих "
-"репозиторіїв."
+"Показати встановлені в системі пакунки, які витісняються пакунками з будь-"
+"якого відомого репозиторію."
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
@@ -796,7 +796,7 @@ msgstr "Доступні оновлення"
 
 #: commands/list/list.cpp:252
 msgid "Obsoleting packages"
-msgstr "Пакунки, що витісняють застарілі"
+msgstr "Пакунки, що витісняються"
 
 #: commands/list/list.cpp:257
 msgid "Autoremove packages"
@@ -828,7 +828,7 @@ msgstr "Показати вимкнені модулі."
 
 #: commands/module/arguments.hpp:49
 msgid "Pattern matching module NSVCAs."
-msgstr "Шаблон для зіставлення з NSVCA модулів."
+msgstr "Шаблон для зіставлення з NSVCA-модулями."
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
@@ -1080,8 +1080,8 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
-"Якщо шукаєте файл, спробуйте вказати повний шлях або додати на початку "
-"префікс-шаблон (\"*/\")."
+"Якщо шукаєте файл, спробуйте вказати повний шлях або використати на початку "
+"шаблон із символом підстановки (\"*/\")."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1292,7 +1292,7 @@ msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
-"Список пакунків для виключення. Якщо версію не вказано, буде виключено всі "
+"Список пакунків для виключення. Якщо версію не вказано, будуть виключені всі "
 "доступні версії пакунка."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
@@ -1453,7 +1453,7 @@ msgstr "Оновлення й завантаження репозиторіїв:
 #: context.cpp:371
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr "Остання перевірка застарівання метаданих: {} тому, {}."
+msgstr "Остання перевірка терміну дії метаданих: {} тому, {}."
 
 #: context.cpp:378
 msgid "Repositories loaded."
@@ -1500,7 +1500,7 @@ msgid ""
 msgstr ""
 "Транзакцію збережено для виконання офлайн. Виконайте `dnf5 offline reboot`, "
 "щоб перезавантажитися й виконати транзакцію. Щоб скасувати транзакцію й "
-"видалити завантажені файли, використайте `dnf5 offline clean`."
+"вилучити завантажені файли, використайте `dnf5 offline clean`."
 
 #: context.cpp:565
 msgid "Running transaction"
@@ -1609,7 +1609,7 @@ msgstr "Не вдалося отримати адресу символу \"{}\":
 #: main.cpp:150
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr "Не вдалося позначити кеш репозиторію застарілим за шляхом \"{0}\": {1}"
+msgstr "Не вдалося позначити кеш репозиторію застарілим у шляху \"{0}\": {1}"
 
 #: main.cpp:174
 msgid "Utility for packages maintaining"
@@ -1858,7 +1858,7 @@ msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
-"Додає коментар до дії. Якщо транзакція відбувається, коментар зберігається в "
+"Додає коментар до дії. Якщо транзакція відбудеться, коментар зберігається в "
 "ній."
 
 #: main.cpp:660
@@ -1974,7 +1974,7 @@ msgid ""
 "Loaded {} plugins:"
 msgstr ""
 "\n"
-"Завантажено плагінів: {}:"
+"Завантажено {} плагінів:"
 
 #: main.cpp:998 main.cpp:1014
 #, c++-format
@@ -1997,7 +1997,7 @@ msgid ""
 "Loaded libdnf5 plugins:"
 msgstr ""
 "\n"
-"Завантажено плагіни libdnf5:"
+"Завантажено плагінів libdnf5:"
 
 #: main.cpp:1057
 #, c++-format
