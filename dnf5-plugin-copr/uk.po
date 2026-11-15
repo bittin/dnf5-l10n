@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 03:15+0000\n"
+"PO-Revision-Date: 2026-11-15 03:49+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-copr/uk/>\n"
@@ -137,7 +137,7 @@ msgid ""
 "ppc64le'.  When not specified, the 'dnf copr' command attempts to detect it."
 msgstr ""
 "Chroot у форматі NAME-RELEASE-ARCH, наприклад 'fedora-rawhide-ppc64le'. Якщо "
-"не вказано, команда 'dnf copr' намагається визначити його автоматично."
+"не вказано, команда 'dnf copr' намагається визначити його."
 
 #: copr_list.cpp:53
 msgid "list Copr repositories"
@@ -155,7 +155,7 @@ msgstr ""
 #, c++-format
 msgid ""
 "remove specified Copr repository from the system (removes the {}/*.repo file)"
-msgstr "вилучити вказаний репозиторій Copr із системи (видаляє файл {}/*.repo)"
+msgstr "вилучити вказаний репозиторій Copr із системи (вилучає файл {}/*.repo)"
 
 #: copr_repo.cpp:91
 #, c++-format
