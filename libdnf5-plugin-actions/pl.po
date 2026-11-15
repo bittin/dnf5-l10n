@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-09-22 17:55+0000\n"
+"PO-Revision-Date: 2026-11-16 12:01+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-actions/pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: actions.cpp:239
 #, c++-format
@@ -83,7 +83,7 @@ msgstr "Błąd składni: Brak znaku równości (=) w wierszu wyjściowym akcji: 
 #: actions.cpp:957
 #, c++-format
 msgid "Cannot set option: Action output line: {}"
-msgstr "Nie można ustawić opcji: Linia wyjściowa akcji: {}"
+msgstr "Nie można ustawić opcji: Wiersz wyjściowy akcji: {}"
 
 #: actions.cpp:975
 #, c++-format
