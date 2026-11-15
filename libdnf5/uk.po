@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 03:49+0000\n"
+"PO-Revision-Date: 2026-11-15 03:55+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/uk/>\n"
@@ -99,11 +99,11 @@ msgstr "Вилучення"
 
 #: base/goal_elements.cpp:380
 msgid "Distrosync"
-msgstr "Distrosync"
+msgstr "Дистросинхронізація"
 
 #: base/goal_elements.cpp:382
 msgid "Distrosync all"
-msgstr "Distrosync усього"
+msgstr "Дистросинхронізація всього"
 
 #: base/goal_elements.cpp:384 transaction/transaction_item_action.cpp:76
 msgid "Reason Change"
@@ -727,7 +727,7 @@ msgstr "Не вдалося виконати транзакцію з пробл�
 
 #: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
-msgstr "Перевірка транзакції RPM не вдалася."
+msgstr "Перевірка транзакції rpm не вдалася."
 
 #: base/transaction.cpp:93
 msgid ""
@@ -737,7 +737,7 @@ msgstr ""
 
 #: base/transaction.cpp:94
 msgid "Rpm transaction failed."
-msgstr "Транзакція RPM не вдалася."
+msgstr "Транзакція rpm не вдалася."
 
 #: base/transaction.cpp:95
 msgid "Signature verification failed."
