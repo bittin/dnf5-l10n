@@ -7,19 +7,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-15 02:58+0000\n"
+"Last-Translator: w s <gilfobert@gmail.com>\n"
+"Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1617
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: cmdline_aliases.cpp:145
 #, c++-format
@@ -27,6 +29,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
+"Приєднаний іменований аргумент \"{}\" не знайдено: {}: запитано у файлі \"{}"
+"\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -34,52 +38,59 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
+"Невідомий атрибут \"{}\" приєднаного іменованого аргументу для псевдоніма \""
+"{}\" у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Відсутній атрибут \"id_path\" для псевдоніма \"{}\" у файлі \"{}\""
 
 #: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
+msgstr "Непідтримувана версія \"{}\" у файлі \"{}\". Підтримувані версії: {}"
 
 #: cmdline_aliases.cpp:218
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Неправильний тип значення атрибута \"version\" у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:224
 #, c++-format
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr ""
+msgstr "Відсутній атрибут \"version\" у файлі \"{}\""
 
 #: cmdline_aliases.cpp:236
 #, c++-format
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Невідомий ключ \"{}\" у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:253
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
+"Порожній або неправильний шлях ідентифікатора елемента у файлі \"{}\" у "
+"рядку {}: {}"
 
 #: cmdline_aliases.cpp:272
 #, c++-format
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Батьківську команду \"{}\" не знайдено: {}: запитано у файлі \"{}\" у рядку "
+"{}: {}"
 
 #: cmdline_aliases.cpp:301
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Невідомий тип \"{}\" елемента \"{}\" у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:312
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Відсутній атрибут \"type\" для елемента \"{}\" у файлі \"{}\""
 
 #: cmdline_aliases.cpp:331
 #, c++-format
@@ -87,22 +98,25 @@ msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
+"Іменований аргумент \"{}\" уже зареєстровано. Запитано у файлі \"{}\" у "
+"рядку {}: {}"
 
 #: cmdline_aliases.cpp:347
 #, c++-format
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Команду \"{}\" уже зареєстровано. Запитано у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:375
 #, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Невідомий атрибут \"{}\" групи \"{}\" у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:387
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Відсутній атрибут \"header\" для елемента \"{}\" у файлі \"{}\""
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 #, c++-format
@@ -110,16 +124,18 @@ msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
+"Атрибут \"short_name\" іменованого аргументу \"{}\" має бути завдовжки один "
+"символ у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:446
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Джерело \"{}\" не знайдено: {}: запитано у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Групу \"{}\" не знайдено: {}: запитано у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 #, c++-format
@@ -127,11 +143,14 @@ msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Невідомий атрибут \"{}\" іменованого аргументу \"{}\" у файлі \"{}\" у рядку "
+"{}: {}"
 
 #: cmdline_aliases.cpp:489
 #, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Відсутній атрибут \"source\" для іменованого аргументу \"{}\" у файлі \"{}\""
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 #, c++-format
@@ -139,6 +158,8 @@ msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Для іменованого аргументу \"{}\" у файлі \"{}\" має бути заданий принаймні "
+"один з атрибутів \"long_name\" і \"short_name\""
 
 #: cmdline_aliases.cpp:657
 #, c++-format
@@ -146,6 +167,8 @@ msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Приєднану команду \"{}\" не знайдено: {}: запитано у файлі \"{}\" у рядку {}"
+": {}"
 
 #: cmdline_aliases.cpp:691
 #, c++-format
@@ -153,6 +176,8 @@ msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"Використано версію файлу конфігурації \"1.0\" для атрибута \"{}\" команди \""
+"{}\" у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:713
 #, c++-format
@@ -160,6 +185,8 @@ msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"Невідомий атрибут \"{}\" обов'язкового значення для псевдоніма \"{}\" у "
+"файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:726
 #, c++-format
@@ -167,186 +194,205 @@ msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"Відсутній атрибут \"value_help\" обов'язкового значення для псевдоніма \"{}"
+"\" у файлі \"{}\""
 
 #: cmdline_aliases.cpp:740
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Невідомий атрибут \"{}\" команди \"{}\" у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:756
 #, c++-format
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr ""
+"Відсутній атрибут \"attached_command\" для команди \"{}\" у файлі \"{}\""
 
 #: cmdline_aliases.cpp:791
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Неправильний тип значення у файлі \"{}\" у рядку {}: {}"
 
 #: cmdline_aliases.cpp:804
 #, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr ""
+msgstr "Синтаксична помилка у файлі \"{}\" у рядку {}:"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr ""
+msgstr "Керування рекомендаціями"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Показати подробиці про рекомендації"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr ""
+msgstr "Список рекомендацій"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
 msgid "No matches found: no repositories are enabled."
-msgstr ""
+msgstr "Немає збігів: жодного репозиторію не увімкнено."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
-msgstr ""
+msgstr "Усі"
 
 #: commands/advisory/advisory_summary.cpp:48
 msgid "Installed"
-msgstr ""
+msgstr "Встановлені"
 
 #: commands/advisory/advisory_summary.cpp:52
 msgid "Updates"
-msgstr ""
+msgstr "Оновлення"
 
 #: commands/advisory/advisory_summary.cpp:65
 msgid "Available"
-msgstr ""
+msgstr "Доступні"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "Показати зведення рекомендацій"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
 msgstr ""
+"Показати рекомендації, що містять будь-яку версію встановлених пакунків."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Показати рекомендації, що містять новіші версії встановлених пакунків. Це "
+"типова поведінка."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Показати рекомендації, що містять такі самі та старіші версії встановлених "
+"пакунків."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"Показати рекомендації, що містять новіші версії встановлених пакунків, для "
+"яких доступна ще новіша версія."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Показати лише рекомендації, що містять пакунки із заданими назвами. Параметр "
+"списку, підтримує globs."
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "Список шаблонів, що зіставляються з назвами рекомендацій."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Показати лише рекомендації, що посилаються на bugzilla."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Показати лише рекомендації, що посилаються на CVE."
 
 #: commands/advisory_shared.hpp:93
 #, c++-format
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "Не знайдено рекомендації з указаною назвою: \"{}\""
 
 #: commands/advisory_shared.hpp:132
 #, c++-format
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr ""
+msgstr "Не знайдено рекомендації, що виправляє Bugzilla ID: \"{}\""
 
 #: commands/advisory_shared.hpp:157
 #, c++-format
 msgid "No advisory found fixing the CVE ID: \"{}\""
-msgstr ""
+msgstr "Не знайдено рекомендації, що виправляє CVE ID: \"{}\""
 
 #: commands/advisory_shared.hpp:178
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "Не знайдено рекомендацій за заданими фільтрами."
 
 #: commands/advisory_shared.hpp:193
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr ""
+msgstr "Включити вміст рекомендацій із заданою назвою. Параметр списку."
 
 #: commands/advisory_shared.hpp:194
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "ADVISORY_NAME,..."
 
 #: commands/advisory_shared.hpp:201
 msgid "Include content contained in security advisories."
-msgstr ""
+msgstr "Включити вміст рекомендацій з безпеки."
 
 #: commands/advisory_shared.hpp:208
 msgid "Include content contained in bugfix advisories."
-msgstr ""
+msgstr "Включити вміст рекомендацій із виправленнями помилок."
 
 #: commands/advisory_shared.hpp:215
 msgid "Include content contained in enhancement advisories."
-msgstr ""
+msgstr "Включити вміст рекомендацій із покращеннями."
 
 #: commands/advisory_shared.hpp:222
 msgid "Include content contained in newpackage advisories."
-msgstr ""
+msgstr "Включити вміст рекомендацій про нові пакунки."
 
 #: commands/advisory_shared.hpp:233
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Включити вміст рекомендацій із заданим рівнем критичності. Параметр списку. "
+"Можливі значення: \"critical\", \"important\", \"moderate\", \"low\", "
+"\"none\"."
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory_shared.hpp:247
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
+"Включити вміст рекомендацій, що виправляють Bugzilla ID, напр. 123123. "
+"Параметр списку."
 
 #: commands/advisory_shared.hpp:248
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:258
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Включити вміст рекомендацій, що виправляють CVE (Common Vulnerabilities and "
+"Exposures) ID, напр. CVE-2201-0123. Параметр списку."
 
 #: commands/advisory_shared.hpp:260
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
-msgstr ""
+msgstr "Вилучити всі непотрібні пакунки, початково встановлені як залежності."
 
 #: commands/autoremove/autoremove.cpp:65
 #, c++-format
@@ -355,10 +401,13 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"Непотрібний захищений пакунок: {0} (та його залежності) не можна вилучити — "
+"позначте його як встановлений користувачем або змініть параметр конфігурації "
+"protected_packages."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
-msgstr ""
+msgstr "Перевірити доступні оновлення пакунків"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -367,231 +416,243 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"Повідомляє найнижчі версії пакунків, що виправляють рекомендації типів "
+"bugfix, enhancement, security або newpackage. Якщо використано будь-який "
+"параметр обмеження рекомендацій, повідомляє найнижчі версії пакунків, що "
+"виправляють рекомендації з вибраними властивостями"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr ""
+msgstr "Перевірити проблеми в базі пакунків"
 
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "Перевірку завершено: проблем — {}, пакунків — {}."
 
 #: commands/clean/clean.cpp:91
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "Список типів кешу для очищення. Підтримувані типи: {0}"
 
 #: commands/clean/clean.cpp:109
 #, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr ""
+msgstr "Невідомий тип кешу \"{0}\". Підтримувані типи: {1}"
 
 #: commands/clean/clean.cpp:166
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Не вдалося очистити кеш репозиторію за шляхом \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:176
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
+msgstr "Каталог кешу \"{}\" не існує. Немає що очищати."
 
 #: commands/clean/clean.cpp:181
 #, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося переглянути каталог кешу \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
-msgstr ""
+msgstr "Встановити пакунки debuginfo."
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"Оновити або знизити версію встановленого програмного забезпечення до "
+"найновіших доступних версій"
 
 #: commands/do/do.cpp:42
 msgid "Do transaction"
-msgstr ""
+msgstr "Виконати транзакцію"
 
 #: commands/do/do.cpp:47
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "Дія, яку слід виконати над наведеними елементами."
 
 #: commands/do/do.cpp:61
 #, c++-format
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "Непідтримувана дія \"{}\""
 
 #: commands/do/do.cpp:71
 msgid "Type of the following items."
-msgstr ""
+msgstr "Тип наведених елементів."
 
 #: commands/do/do.cpp:84
 #, c++-format
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "Непідтримуваний тип елемента \"{}\""
 
 #: commands/do/do.cpp:98
 msgid "List of items to take action on"
-msgstr ""
+msgstr "Список елементів, над якими виконати дію"
 
 #: commands/do/do.cpp:131 commands/do/do.cpp:135
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "Підтримується лише зниження версії пакунків."
 
 #: commands/do/do.cpp:142 commands/do/do.cpp:146
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "Підтримується лише перевстановлення пакунків."
 
 #: commands/do/do.cpp:152
 msgid "Action was not defined"
-msgstr ""
+msgstr "Дію не визначено"
 
 #: commands/do/do.cpp:231
 #, c++-format
 msgid "Invalid Environment/Group specification: {}"
-msgstr ""
+msgstr "Некоректна специфікація середовища/групи: {}"
 
 #: commands/do/do.cpp:317
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "Зниження версії середовищ і груп не підтримується."
 
 #: commands/do/do.cpp:332
 msgid "Reinstalling environments and groups is not supported."
-msgstr ""
+msgstr "Перевстановлення середовищ і груп не підтримується."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "Знизити версію програмного забезпечення"
 
 #: commands/download/download.cpp:123
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "У режимі --url виводить URL з усіх доступних дзеркал"
 
 #: commands/download/download.cpp:139
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "Некоректний параметр urlprotocol: {}"
 
 #: commands/download/download.cpp:166 main.cpp:831
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "Непідтримувана архітектура \"{0}\". Виберіть одну з {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:207
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr ""
+msgstr "Параметр \"--alldeps\" слід використовувати разом із \"--resolve\""
 
 #: commands/download/download.cpp:261
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
+"Пакунок \"{}\" недоступний; можливо, варто використати параметр --skip-"
+"unavailable."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "Показати лише доступні середовища."
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "Показати лише встановлені середовища."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment identifiers."
-msgstr ""
+msgstr "Шаблон для зіставлення з ідентифікаторами середовищ."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
-msgstr ""
+msgstr "Керування середовищами comps"
 
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "Немає збігів: жодного середовища не встановлено."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "Немає збігів: немає доступних середовищ."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
 msgid "No matches found: no environments exist."
-msgstr ""
+msgstr "Немає збігів: середовищ не існує."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "Показати лише доступні групи."
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "Показати також приховані групи."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "Показати лише встановлені групи."
 
 #: commands/group/arguments.hpp:59
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Показати лише групи, що містять пакунки із заданими назвами. Параметр "
+"списку, підтримує globs."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group identifiers."
-msgstr ""
+msgstr "Шаблон для зіставлення з ідентифікаторами груп."
 
 #: commands/group/arguments.hpp:77
 msgid "Pattern matching group or environment identifiers."
-msgstr ""
+msgstr "Шаблон для зіставлення з ідентифікаторами груп або середовищ."
 
 #: commands/group/arguments.hpp:86
 msgid "Include optional packages from groups."
-msgstr ""
+msgstr "Включити необов'язкові пакунки з груп."
 
 #: commands/group/arguments.hpp:97
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr ""
+msgstr "Працювати лише з середовищами й групами, пакунки не змінюються."
 
 #: commands/group/group_list.cpp:114
 msgid "No matches found: no groups are installed."
-msgstr ""
+msgstr "Немає збігів: жодної групи не встановлено."
 
 #: commands/group/group_list.cpp:116
 msgid "No matches found: no groups are available."
-msgstr ""
+msgstr "Немає збігів: немає доступних груп."
 
 #: commands/group/group_list.cpp:118
 msgid "No matches found: no groups exist."
-msgstr ""
+msgstr "Немає збігів: груп не існує."
 
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "Групи: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
 msgid "installed"
 msgid_plural "installed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "встановлено"
+msgstr[1] "встановлено"
+msgstr[2] "встановлено"
 
 #: commands/group/group_list.cpp:149
 msgid "available"
 msgid_plural "available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "доступно"
+msgstr[1] "доступно"
+msgstr[2] "доступно"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr ""
+msgstr "Ідентифікатор транзакції"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "Змінити порядок транзакцій на зворотний."
 
 #: commands/history/arguments.hpp:54
 msgid ""
@@ -599,47 +660,55 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"Не вважати помилками розбіжності між встановленими пакунками та пакунками "
+"збереженої транзакції. Це може призвести до порожньої транзакції, оскільки, "
+"крім іншого, параметр може ігнорувати невдалі дії вилучення."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "Не вважати помилками зайві пакунки, залучені до транзакції."
 
 #: commands/history/arguments.hpp:80
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
+"Показати лише транзакції, що містять пакунки із заданими назвами. Параметр "
+"списку, підтримує globs."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "Керування історією транзакцій"
 
 #: commands/history/history_info.cpp:78
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Збігів не знайдено; info історії типово розглядає лише останню транзакцію. "
+"Укажіть діапазон \"1..last\", щоб шукати в усіх транзакціях."
 
 #: commands/history/history_redo.cpp:56
 #: commands/history/history_rollback.cpp:60
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:59
 msgid "No matching transaction ID found, exactly one required."
 msgstr ""
+"Не знайдено відповідного ідентифікатора транзакції; потрібен рівно один."
 
 #: commands/history/history_redo.cpp:60
 #: commands/history/history_rollback.cpp:64
 #: commands/history/history_undo.cpp:63
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
+msgstr "Збіглося більше одного ідентифікатора транзакції; потрібен рівно один."
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
+msgstr "Вибрано кілька транзакцій для збереження; дозволена лише одна."
 
 #: commands/history/history_store.cpp:80
 #, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "Файл \"{}\" уже існує, його буде перезаписано.\n"
 
 #: commands/history/transaction_id.cpp:32
 #, c++-format
@@ -647,144 +716,156 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"Некоректний діапазон ідентифікаторів транзакцій \"{}\"; очікується \"ID\" "
+"або \"ID..ID\", де ID — це \"NUMBER\", \"last\" або \"last-NUMBER\"."
 
 #: commands/install/install.cpp:41
 msgid "Install software"
-msgstr ""
+msgstr "Встановити програмне забезпечення"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
+"Показати групи встановлених пакунків, що не потрібні іншим встановленим "
+"пакункам"
 
 #: commands/list/info.hpp:38
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
 msgstr ""
+"Показати пакунки залежно від їхнього зв'язку із системою з додатковими "
+"подробицями"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr ""
+msgstr "Список package-spec-NI для зіставлення (без урахування регістру)"
 
 #: commands/list/list.cpp:61
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "Показати всі версії пакунків, а не лише найновіші."
 
 #: commands/list/list.cpp:69
 msgid "List installed packages."
-msgstr ""
+msgstr "Показати встановлені пакунки."
 
 #: commands/list/list.cpp:74
 msgid "List available packages."
-msgstr ""
+msgstr "Показати доступні пакунки."
 
 #: commands/list/list.cpp:81
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
+"Показати додаткові пакунки, тобто встановлені в системі, яких немає в "
+"жодному відомому репозиторії."
 
 #: commands/list/list.cpp:89
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
+"Показати встановлені в системі пакунки, застарілі через пакунки з відомих "
+"репозиторіїв."
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
-msgstr ""
+msgstr "Показати пакунки, нещодавно додані до репозиторіїв."
 
 #: commands/list/list.cpp:98
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "Показати доступні оновлення для встановлених пакунків."
 
 #: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "Показати пакунки, які буде вилучено командою 'dnf autoremove'."
 
 #: commands/list/list.cpp:214 commands/list/list.cpp:219
 msgid "Installed packages"
-msgstr ""
+msgstr "Встановлені пакунки"
 
 #: commands/list/list.cpp:215 commands/list/list.cpp:228
 msgid "Available packages"
-msgstr ""
+msgstr "Доступні пакунки"
 
 #: commands/list/list.cpp:236
 msgid "Available upgrades"
-msgstr ""
+msgstr "Доступні оновлення"
 
 #: commands/list/list.cpp:252
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "Пакунки, що витісняють застарілі"
 
 #: commands/list/list.cpp:257
 msgid "Autoremove packages"
-msgstr ""
+msgstr "Пакунки для автовилучення"
 
 #: commands/list/list.cpp:261
 msgid "Extra packages"
-msgstr ""
+msgstr "Додаткові пакунки"
 
 #: commands/list/list.cpp:272
 msgid "Recently added packages"
-msgstr ""
+msgstr "Нещодавно додані пакунки"
 
 #: commands/list/list.hpp:48
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "Показати пакунки залежно від їхнього зв'язку із системою"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
-msgstr ""
+msgstr "Змінити причину встановлення пакунка"
 
 #: commands/module/arguments.hpp:35
 msgid "Show enabled modules."
-msgstr ""
+msgstr "Показати увімкнені модулі."
 
 #: commands/module/arguments.hpp:42
 msgid "Show disabled modules."
-msgstr ""
+msgstr "Показати вимкнені модулі."
 
 #: commands/module/arguments.hpp:49
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "Шаблон для зіставлення з NSVCA модулів."
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
-msgstr ""
+msgstr "Керування модулями"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "Немає збігів: жодного потоку модулів не увімкнено."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "Немає збігів: жодного потоку модулів не вимкнено."
 
 #: commands/module/module_list.cpp:92
 msgid "No matches found: no module streams exist."
-msgstr ""
+msgstr "Немає збігів: потоків модулів не існує."
 
 #: commands/no_matches.cpp:14
 #, c++-format
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "Немає збігів для \"{}\"."
 
 #: commands/no_matches.cpp:28
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"З installroot не завантажено жодного репозиторію. Щоб використати "
+"конфігурацію й репозиторії хост-системи, передайте --use-host-config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
 msgid "No matches found."
-msgstr ""
+msgstr "Збігів не знайдено."
 
 #: commands/offline/offline.cpp:220
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "Керування офлайн-транзакціями"
 
 #: commands/offline/offline.cpp:254
 #, c++-format
@@ -792,11 +873,13 @@ msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Помилка читання стану: {}. Повторно виконайте команду, якою було розпочато "
+"офлайн-транзакцію, напр. `dnf5 system-upgrade download [OPTIONS]`."
 
 #: commands/offline/offline.cpp:267
 msgid ""
 "The system has been modified since the offline transaction was prepared."
-msgstr ""
+msgstr "Систему було змінено після підготовки офлайн-транзакції."
 
 #: commands/offline/offline.cpp:271
 #, c++-format
@@ -804,202 +887,229 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
+"Систему було змінено після підготовки офлайн-транзакції. Щоб перепланувати, "
+"виконайте: {}"
 
 #: commands/offline/offline.cpp:293
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "Не вдалося підключитися до D-Bus: {}"
 
 #: commands/offline/offline.cpp:333
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Очікування {0} процесу, що блокує завершення роботи ({1}/{2} с)"
+msgstr[1] "Очікування {0} процесів, що блокують завершення роботи ({1}/{2} с)"
+msgstr[2] "Очікування {0} процесів, що блокують завершення роботи ({1}/{2} с)"
 
 #: commands/offline/offline.cpp:348
 msgid ""
 "Timed out waiting for processes blocking shutdown. Continuing shutdown "
 "request."
 msgstr ""
+"Час очікування процесів, що блокують завершення роботи, вичерпано. "
+"Продовжуємо запит на завершення роботи."
 
 #: commands/offline/offline.cpp:411
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"Підготувати систему до офлайн-транзакції та перезавантажитися для її запуску."
 
 #: commands/offline/offline.cpp:418
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "Вимкнути систему після завершення операції"
 
 #: commands/offline/offline.cpp:429
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "Збережених офлайн-транзакцій немає."
 
 #: commands/offline/offline.cpp:438
 msgid "System is not ready for offline transaction."
-msgstr ""
+msgstr "Система не готова до офлайн-транзакції."
 
 #: commands/offline/offline.cpp:441
 #, c++-format
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "Каталог даних {} не існує."
 
 #: commands/offline/offline.cpp:466
 #, c++-format
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} не потрібен для system-update.target."
 
 #: commands/offline/offline.cpp:476
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr ""
+msgstr "Система перезавантажиться, щоб оновитися до версії випуску {}."
 
 #: commands/offline/offline.cpp:480
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"Система перезавантажиться, щоб виконати офлайн-транзакцію, розпочату такою "
+"командою:"
 
 #: commands/offline/offline.cpp:511
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Лише для внутрішнього використання, не призначено для запуску користувачем. "
+"Виконати транзакцію в офлайн-середовищі."
 
 #: commands/offline/offline.cpp:545
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "Файл-тригер не існує. Вихід."
 
 #: commands/offline/offline.cpp:549
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "Уже працює інший інструмент офлайн-транзакцій. Вихід."
 
 #: commands/offline/offline.cpp:581
 msgid "Starting offline transaction. This will take a while."
-msgstr ""
+msgstr "Запуск офлайн-транзакції. Це триватиме деякий час."
 
 #: commands/offline/offline.cpp:585
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Запуск оновлення системи. Це триватиме деякий час."
 
 #: commands/offline/offline.cpp:597
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "Використайте `dnf5 offline reboot`, щоб почати транзакцію."
 
 #: commands/offline/offline.cpp:650
 msgid "Transaction failed: "
-msgstr ""
+msgstr "Транзакція не вдалася: "
 
 #: commands/offline/offline.cpp:720
 #, c++-format
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Помилка читання журналу: {}"
 
 #: commands/offline/offline.cpp:726
 #, c++-format
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Не вдалося додати зіставлення журналу: {}"
 
 #: commands/offline/offline.cpp:754
 msgid "No logs were found."
-msgstr ""
+msgstr "Журналів не знайдено."
 
 #: commands/offline/offline.cpp:758
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
+msgstr "Схоже, що такі завантаження містять журнали офлайн-транзакцій:"
 
 #: commands/offline/offline.cpp:775
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Не вдалося знайти журнали з таким індексом."
 
 #: commands/offline/offline.cpp:782
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "Не вдалося зіставити запис журналу systemd."
 
 #: commands/offline/offline.cpp:794
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Показати журнали минулих офлайн-транзакцій"
 
 #: commands/offline/offline.cpp:802
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Який журнал показати. Запустіть без аргументів, щоб отримати список "
+"доступних журналів."
 
 #: commands/offline/offline.cpp:817
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"У цій збірці DNF 5 не підтримується systemd; підкоманда `log` недоступна."
 
 #: commands/offline/offline.cpp:822
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Показати стан поточної офлайн-транзакції"
 
 #: commands/offline/offline.cpp:838
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
+"Систему було змінено після підготовки офлайн-транзакції. Офлайн-транзакція, "
+"розпочата такою командою, більше не дійсна:"
 
 #: commands/offline/offline.cpp:842
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
+"Щоб перепланувати, виконайте команду вище. Щоб очистити, виконайте `dnf5 "
+"offline clean`."
 
 #: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "Офлайн-транзакцію було розпочато такою командою:"
 
 #: commands/offline/offline.cpp:848
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Виконайте `dnf5 offline reboot`, щоб перезавантажитися й виконати офлайн-"
+"транзакцію."
 
 #: commands/offline/offline.cpp:850
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"Офлайн-транзакцію було розпочато, але не завершено. Виконайте `dnf5 offline "
+"log`, щоб дізнатися більше. Команда, що розпочала транзакцію:"
 
 #: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Невідомий стан офлайн-транзакції: "
 
 #: commands/provides/provides.cpp:50
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "Знайти, який пакунок надає задане значення"
 
 #: commands/provides/provides.cpp:136
 msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
+"Якщо шукаєте файл, спробуйте вказати повний шлях або додати на початку "
+"префікс-шаблон (\"*/\")."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
-msgstr ""
+msgstr "Перевстановити програмне забезпечення"
 
 #: commands/remove/remove.cpp:48
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Вилучити (деінсталювати) програмне забезпечення"
 
 #: commands/remove/remove.cpp:129
 msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
+"Параметр '--limit' має бути не меншим за 1 (щоб залишити принаймні "
+"найновіший встановлений пакунок)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
-msgstr ""
+msgstr "Параметр '--limit' можна використовувати лише з '--oldinstallonly'."
 
 #: commands/remove/remove.cpp:242
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
 msgstr ""
+"Бракує позиційних аргументів для команди \"remove\". Додайте \"--help\", щоб "
+"дізнатися більше про аргументи."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1008,100 +1118,108 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"Попередження: поточне ядро '{}' не є найновішою встановленою версією і не "
+"було вилучено. Перезавантажтеся в найновіше ядро й повторіть цю команду, щоб "
+"завершити очищення."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "Повторити транзакцію, раніше збережену в каталозі"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Показати всі репозиторії."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Показати увімкнені репозиторії (типово)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Показати вимкнені репозиторії."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "Шаблон для зіставлення з ідентифікаторами репозиторіїв."
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "Керування репозиторіями"
 
 #: commands/repoquery/repoquery.cpp:82
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "Пошук пакунків за різними критеріями"
 
 #: commands/repoquery/repoquery.cpp:527
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"Параметр \"--exactdeps\" потрібно використовувати або з \"--whatrequires\", "
+"або з \"--whatdepends\""
 
 #: commands/repoquery/repoquery.cpp:532
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"Параметр \"--recursive\" потрібно використовувати або з \"--whatrequires\", "
+"або з \"--providers-of=requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "Шукати також в описі пакунка та URL."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Шаблони"
 
 #: commands/search/search.cpp:49
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "Шукати програмне забезпечення, що відповідає всім заданим рядкам"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "Параметри --name і --summary не можна використовувати разом."
 
 #: commands/search/search.cpp:74
 msgid "Option --all cannot be used with --name or --summary."
-msgstr ""
+msgstr "Параметр --all не можна використовувати з --name або --summary."
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "Вилучити програмне забезпечення й установити інше в одній транзакції"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Підготувати систему до оновлення до нового випуску"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Завантажити все необхідне для оновлення до нового випуску"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"Не встановлювати пакунки з нового випуску, якщо вони старіші за встановлені"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "Потрібен --releasever, більший за поточну версію системи."
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "Зберегти транзакцію distro-sync для виконання офлайн"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Зберегти транзакцію оновлення для виконання офлайн"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "Оновити програмне забезпечення"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -1110,123 +1228,130 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Оновлювати пакунки лише до найнижчих версій, що виправляють рекомендації "
+"типів bugfix, enhancement, security або newpackage. Якщо використано будь-"
+"який параметр обмеження рекомендацій, пакунки оновлюються лише до найнижчих "
+"версій, що виправляють рекомендації з вибраними властивостями"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Додано командою 'versionlock {}' {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "Керування конфігурацією versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Додати новий запис до конфігурації versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:44
 msgid "List of packages to lock to their current versions"
-msgstr ""
+msgstr "Список пакунків, які треба зафіксувати на поточних версіях"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
 #, c++-format
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "Не знайдено пакунка для \"{}\"."
 
 #: commands/versionlock/versionlock_add.cpp:134
 #, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Додавання versionlock для \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_add.cpp:137
 #, c++-format
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "Пакунок \"{}\" уже зафіксовано."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Вилучити всі записи з конфігурації versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Вилучити всі відповідні записи конфігурації versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Список специфікацій пакунків, для яких вилучити versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Вилучення запису versionlock:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Додати новий запис виключення до конфігурації versionlock"
 
 #: commands/versionlock/versionlock_exclude.cpp:45
 msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
+"Список пакунків для виключення. Якщо версію не вказано, буде виключено всі "
+"доступні версії пакунка."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
 #, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Додавання виключення versionlock для \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_exclude.cpp:142
 #, c++-format
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "Пакунок \"{}\" уже виключено."
 
 #: context.cpp:82
 #, c++-format
 msgid "{} day, {}:{:02}:{:02}"
 msgid_plural "{} days, {}:{:02}:{:02}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} день, {}:{:02}:{:02}"
+msgstr[1] "{} дні, {}:{:02}:{:02}"
+msgstr[2] "{} днів, {}:{:02}:{:02}"
 
 #: context.cpp:97
 #, c++-format
 msgid "Command: {}"
-msgstr ""
+msgstr "Команда: {}"
 
 #: context.cpp:105
 #, c++-format
 msgid "Process ID: {} (still running)"
-msgstr ""
+msgstr "Ідентифікатор процесу: {} (ще працює)"
 
 #: context.cpp:107
 #, c++-format
 msgid "Process ID: {}"
-msgstr ""
+msgstr "Ідентифікатор процесу: {}"
 
 #: context.cpp:116
 #, c++-format
 msgid "Started: {}"
-msgstr ""
+msgstr "Розпочато: {}"
 
 #: context.cpp:123
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "Коментар: {}"
 
 #: context.cpp:127
 msgid "Details about the currently running transaction:\n"
-msgstr ""
+msgstr "Подробиці поточної транзакції:\n"
 
 #: context.cpp:145
 #, c++-format
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr ""
+msgstr "Імпортування ключа OpenPGP 0x{}:\n"
 
 #: context.cpp:147 context.cpp:172
 #, c++-format
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " UserID     : \"{}\"\n"
 
 #: context.cpp:150
 #, c++-format
@@ -1234,52 +1359,57 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Відбиток   : {}\n"
+" Джерело    : {}\n"
 
 #: context.cpp:159
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "Ключ успішно імпортовано."
 
 #: context.cpp:168
 #, c++-format
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "Такий ключ OpenPGP (0x{}) буде вилучено:"
 
 #: context.cpp:170
 #, c++-format
 msgid " Reason     : {}\n"
-msgstr ""
+msgstr " Причина    : {}\n"
 
 #: context.cpp:174
 #, c++-format
 msgid " Fingerprint: {}\n"
-msgstr ""
+msgstr " Відбиток   : {}\n"
 
 #: context.cpp:176
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"У результаті встановлення пакунків, підписаних цим ключем, завершиться "
+"помилкою."
 
 #: context.cpp:177
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "Рекомендується вилучити прострочений ключ, щоб дозволити імпорт"
 
 #: context.cpp:178
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"оновленого ключа. Це може залишити вже встановлені пакунки неперевірними."
 
 #: context.cpp:181
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "Система продовжить вилучення ключа."
 
 #: context.cpp:187
 #, c++-format
 msgid "Key 0x{} was successfully removed."
-msgstr ""
+msgstr "Ключ 0x{} успішно вилучено."
 
 #: context.cpp:216
 #, c++-format
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:226
 #, c++-format
@@ -1287,74 +1417,80 @@ msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"Немає відповідних репозиторіїв для {}. Щоб використати репозиторії з хост-"
+"системи, передайте параметр --use-host-config"
 
 #: context.cpp:230
 #, c++-format
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "Немає відповідних репозиторіїв для {}"
 
 #: context.cpp:302
 msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
+"Очікування блокування системного репозиторію; інший процес уже звертається "
+"до нього. Використайте параметр \"--skip-file-locks\", щоб обійти блокування."
 
 #: context.cpp:306
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
 msgstr ""
+"Очікування блокування системного репозиторію. Такі процеси вже звертаються "
+"до нього:"
 
 #: context.cpp:316
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
-msgstr ""
+msgstr "Використайте параметр \"--skip-file-locks\", щоб обійти блокування."
 
 #. If we're only loading the system repo, we can skip the message.
 #: context.cpp:324
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Оновлення й завантаження репозиторіїв:"
 
 #: context.cpp:371
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr ""
+msgstr "Остання перевірка застарівання метаданих: {} тому, {}."
 
 #: context.cpp:378
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Репозиторії завантажено."
 
 #: context.cpp:385
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "Тестування офлайн-транзакції"
 
 #: context.cpp:389 context.cpp:588
 #, c++-format
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "Транзакція не вдалася: {}"
 
 #: context.cpp:402 context.cpp:601
 #, c++-format
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:504
 #, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr ""
+msgstr "Місце \"{}\" уже містить збережену транзакцію, її буде перезаписано."
 
 #: context.cpp:538
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
-msgstr ""
+msgstr "Уже є офлайн-транзакція в черзі, розпочата такою командою:"
 
 #: context.cpp:540
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
-msgstr ""
+msgstr "Продовження скасує стару офлайн-транзакцію й замінить її цією."
 
 #: context.cpp:559
 msgid ""
@@ -1362,139 +1498,142 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Транзакцію збережено для виконання офлайн. Виконайте `dnf5 offline reboot`, "
+"щоб перезавантажитися й виконати транзакцію. Щоб скасувати транзакцію й "
+"видалити завантажені файли, використайте `dnf5 offline clean`."
 
 #: context.cpp:565
 msgid "Running transaction"
-msgstr ""
+msgstr "Виконання транзакції"
 
 #: context.cpp:614
 msgid "Warning: Pending offline transaction has been invalidated."
-msgstr ""
+msgstr "Попередження: очікувану офлайн-транзакцію визнано недійсною."
 
 #: context.cpp:616
 #, c++-format
 msgid "To reschedule, run: {}"
-msgstr ""
+msgstr "Щоб перепланувати, виконайте: {}"
 
 #: context.cpp:1034
 #, c++-format
 msgid "Upgrading {}"
-msgstr ""
+msgstr "Оновлення {}"
 
 #: context.cpp:1037
 #, c++-format
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Зниження версії {}"
 
 #: context.cpp:1040
 #, c++-format
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "Перевстановлення {}"
 
 #: context.cpp:1053
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Неочікувана дія в TransactionPackage: {}"
 
 #: context.cpp:1059
 #, c++-format
 msgid "Installing {}"
-msgstr ""
+msgstr "Встановлення {}"
 
 #: context.cpp:1080
 msgid "Prepare transaction"
-msgstr ""
+msgstr "Підготовка транзакції"
 
 #: context.cpp:1100
 #, c++-format
 msgid "Removing {}"
-msgstr ""
+msgstr "Вилучення {}"
 
 #: context.cpp:1103
 #, c++-format
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Очищення {}"
 
 #: context.cpp:1122
 #, c++-format
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Помилка розпакування: {}"
 
 #: context.cpp:1131
 #, c++-format
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Помилка cpio: {}"
 
 #: context.cpp:1141
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "Вивід скриптлета:"
 
 #: context.cpp:1164
 msgid "Running scriptlets"
-msgstr ""
+msgstr "Виконання скриптлетів"
 
 #: context.cpp:1170
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Виконання скриптлета {}: {}"
 
 #: context.cpp:1186
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "Завершено скриптлет {}: {}"
 
 #: context.cpp:1193
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Несуттєва помилка в скриптлеті {}: {}"
 
 #: context.cpp:1203
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Помилка в скриптлеті {}: {}"
 
 #: context.cpp:1238
 msgid "Verify package files"
-msgstr ""
+msgstr "Перевірка файлів пакунків"
 
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося завантажити спільну бібліотеку \"{}\": {}"
 
 #: library.cpp:47
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося отримати адресу символу \"{}\": {}"
 
 #: main.cpp:150
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Не вдалося позначити кеш репозиторію застарілим за шляхом \"{0}\": {1}"
 
 #: main.cpp:174
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Утиліта для обслуговування пакунків"
 
 #: main.cpp:175
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 — програма для обслуговування пакунків."
 
 #: main.cpp:176
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Нерозподілені параметри:"
 
 #: main.cpp:179
 msgid "Global options:"
-msgstr ""
+msgstr "Глобальні параметри:"
 
 #: main.cpp:184
 msgid "Print help"
-msgstr ""
+msgstr "Вивести довідку"
 
 #: main.cpp:191
 msgid "Configuration file location"
-msgstr ""
+msgstr "Розташування файлу конфігурації"
 
 #: main.cpp:199
 msgid ""
@@ -1502,33 +1641,37 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"Разом із неінтерактивною командою показує лише доречний вміст. Пригнічує "
+"повідомлення про поточний стан або дії dnf5."
 
 #: main.cpp:214
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Працювати повністю із системного кешу, не оновлювати кеш і використовувати "
+"його навіть простроченим."
 
 #: main.cpp:223
 msgid "Control whether color is used."
-msgstr ""
+msgstr "Керувати використанням кольору."
 
 #: main.cpp:229
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Примусово оновлювати метадані перед виконанням команди."
 
 #: main.cpp:239
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "створити додатковий репозиторій за ідентифікатором і шляхом"
 
 #: main.cpp:247
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: неправильна специфікація repoid і шляху \"{}\""
 
 #: main.cpp:259
 msgid "set arbitrary config and repo options"
-msgstr ""
+msgstr "задати довільні параметри конфігурації та репозиторіїв"
 
 #: main.cpp:261
 msgid ""
@@ -1540,241 +1683,289 @@ msgid ""
 "              they do not override it. However, specifying an empty value "
 "(e.g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Перевизначити параметр конфігурації з файлу конфігурації. Щоб перевизначити "
+"параметри конфігурації для репозиторіїв, використовуйте repoid.option для\n"
+"              <option>. Значення таких параметрів конфігурації, як "
+"excludepkgs, includepkgs, installonlypkgs і tsflags, додаються до "
+"початкового значення,\n"
+"              а не перевизначають його. Однак порожнє значення (напр. --"
+"setopt=tsflags=) очистить параметр."
 
 #: main.cpp:270 main.cpp:309
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: неправильно відформатоване значення аргументу \"{}\""
 
 #: main.cpp:277
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: неправильно відформатоване значення аргументу: останній символ ключа не "
+"може бути '.': {}"
 
 #: main.cpp:290
 #, c++-format
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:302
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "задати довільну змінну"
 
 #: main.cpp:316
 #, c++-format
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:325
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "автоматично відповідати «так» на всі запитання"
 
 #: main.cpp:332
 msgid "automatically answer no for all questions"
-msgstr ""
+msgstr "автоматично відповідати «ні» на всі запитання"
 
 #: main.cpp:339
 msgid "try the best available package versions in transactions"
-msgstr ""
+msgstr "пробувати найкращі доступні версії пакунків у транзакціях"
 
 #: main.cpp:346
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "не обмежувати транзакцію найкращим кандидатом"
 
 #: main.cpp:355
 msgid "allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "дозволяти автоматичну заміну пакунків від інших постачальників"
 
 #: main.cpp:362
 msgid "do not allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "не дозволяти автоматичну заміну пакунків від інших постачальників"
 
 #: main.cpp:375
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
+"Дозволити перехід пакунків від будь-якого постачальника до пакунків від "
+"VENDOR. Підтримує globs, можна вказувати кілька разів."
 
 #: main.cpp:394
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
+"Дозволити заміну пакунків від VENDOR пакунками від будь-якого постачальника. "
+"Підтримує globs, можна вказувати кілька разів."
 
 #: main.cpp:413
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
+"Дозволити зміну постачальника для пакунків, що відповідають PKG_NAME (у двох "
+"напрямках). Параметр списку. Підтримує globs, можна вказувати кілька разів."
 
 #: main.cpp:442
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
+"Додати політику зміни постачальника для цього запуску. Можна вказувати "
+"кілька разів."
 
 #: main.cpp:457
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"Вилучити всі політики зміни постачальника. Можна поєднати з {}, щоб замінити "
+"їх."
 
 #: main.cpp:476
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
+"Вимкнути політики зміни постачальника, джерело яких відповідає заданому "
+"шаблону. Підтримує globs, можна вказувати кілька разів."
 
 #: main.cpp:493
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"Не встановлювати файли, позначені як документація (зокрема man-сторінки й "
+"документи texinfo)"
 
 #: main.cpp:509
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "виключити пакунки за назвою або шаблоном"
 
 #: main.cpp:528
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Увімкнути додаткові репозиторії. Параметр списку. Підтримує globs, можна "
+"вказувати кілька разів."
 
 #: main.cpp:546
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
+"Вимкнути репозиторії. Параметр списку. Підтримує globs, можна вказувати "
+"кілька разів."
 
 #: main.cpp:564
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Увімкнути лише вказані репозиторії. Параметр списку. Підтримує globs, можна "
+"вказувати кілька разів."
 
 #: main.cpp:586
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
-msgstr ""
+msgstr "вимкнути перевірку підписів OpenPGP (якщо це дозволяє політика RPM)"
 
 #: main.cpp:603
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "Вимкнути всі плагіни libdnf5"
 
 #: main.cpp:613
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Увімкнути плагіни libdnf5 за назвою. Параметр списку. Підтримує globs, можна "
+"вказувати кілька разів."
 
 #: main.cpp:628
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Вимкнути плагіни libdnf5 за назвою. Параметр списку. Підтримує globs, можна "
+"вказувати кілька разів."
 
 #: main.cpp:645
 msgid "add a comment to transaction"
-msgstr ""
+msgstr "додати коментар до транзакції"
 
 #: main.cpp:647
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
+"Додає коментар до дії. Якщо транзакція відбувається, коментар зберігається в "
+"ній."
 
 #: main.cpp:660
 msgid "set install root"
-msgstr ""
+msgstr "задати корінь встановлення"
 
 #: main.cpp:667
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
+"використовувати конфігурацію, reposdir і змінні хост-системи замість "
+"installroot"
 
 #: main.cpp:676
 msgid "override the value of $releasever in config and repo files"
 msgstr ""
+"перевизначити значення $releasever у файлах конфігурації та репозиторіїв"
 
 #: main.cpp:689
 msgid "override the value of $releasever_major in config and repo files"
 msgstr ""
+"перевизначити значення $releasever_major у файлах конфігурації та "
+"репозиторіїв"
 
 #: main.cpp:702
 msgid "override the value of $releasever_minor in config and repo files"
 msgstr ""
+"перевизначити значення $releasever_minor у файлах конфігурації та "
+"репозиторіїв"
 
 #: main.cpp:715
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Показати нові встановлені листові пакунки та пакунки, що стали листовими "
+"після транзакції."
 
 #: main.cpp:729
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Зберегти докладні результати розв'язування у файли"
 
 #: main.cpp:738
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "Вивести значення основної конфігурації в stdout"
 
 #: main.cpp:755
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Вивести значення конфігурації репозиторіїв у stdout. Параметр списку. "
+"Підтримує globs"
 
 #: main.cpp:770
 msgid "Print variable values to stdout"
-msgstr ""
+msgstr "Вивести значення змінних у stdout"
 
 #: main.cpp:784
 msgid "Print loaded vendor change policies to stdout"
-msgstr ""
+msgstr "Вивести завантажені політики зміни постачальника в stdout"
 
 #: main.cpp:798
 msgid "Show DNF5 version and exit"
-msgstr ""
+msgstr "Показати версію DNF5 і вийти"
 
 #: main.cpp:812
 msgid "Force the use of a different architecture."
-msgstr ""
+msgstr "Примусово використовувати іншу архітектуру."
 
 #: main.cpp:844
 msgid "Skip acquiring file locks, such as the lock on the system repository"
 msgstr ""
+"Пропускати отримання файлових блокувань, зокрема блокування системного "
+"репозиторію"
 
 #: main.cpp:859
 msgid "Software Management Commands:"
-msgstr ""
+msgstr "Команди керування програмним забезпеченням:"
 
 #: main.cpp:866
 msgid "Query Commands:"
-msgstr ""
+msgstr "Команди запитів:"
 
 #: main.cpp:873
 msgid "Subcommands:"
-msgstr ""
+msgstr "Підкоманди:"
 
 #: main.cpp:975
 #, c++-format
 msgid "{} version {}.{}.{}.{}"
-msgstr ""
+msgstr "{} версія {}.{}.{}.{}"
 
 #: main.cpp:978
 #, c++-format
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} версія API плагіна {}.{}"
 
 #: main.cpp:983
 #, c++-format
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "libdnf5 версія {}.{}.{}.{}"
 
 #: main.cpp:986
 #, c++-format
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "libdnf5 версія API плагіна {}.{}"
 
 #: main.cpp:993
 #, c++-format
@@ -1782,33 +1973,39 @@ msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"Завантажено плагінів: {}:"
 
 #: main.cpp:998 main.cpp:1014
 #, c++-format
 msgid "  name: {}"
-msgstr ""
+msgstr "  назва: {}"
 
 #: main.cpp:1001 main.cpp:1017
 #, c++-format
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  версія: {}.{}.{}"
 
 #: main.cpp:1003 main.cpp:1019
 #, c++-format
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  версія API: {}.{}"
 
 #: main.cpp:1010
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
 msgstr ""
+"\n"
+"Завантажено плагіни libdnf5:"
 
 #: main.cpp:1057
 #, c++-format
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
+"Загальний розмір пакунків до встановлення — {:.0f} {:s}. Потрібно "
+"завантажити {:.0f} {:s}."
 
 #: main.cpp:1074
 #, c++-format
@@ -1816,6 +2013,8 @@ msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
+"Після цієї операції буде додатково використано {:.0f} {:s} (встановити "
+"{:.0f} {:s}, вилучити {:.0f} {:s})."
 
 #: main.cpp:1085
 #, c++-format
@@ -1823,58 +2022,62 @@ msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
+"Після цієї операції буде звільнено {:.0f} {:s} (встановити {:.0f} {:s}, "
+"вилучити {:.0f} {:s})."
 
 #: main.cpp:1097
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "======== Основна конфігурація: ========"
 
 #: main.cpp:1134
 #, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr ""
+msgstr "Немає відповідного репозиторію для виведення конфігурації: \"{}\""
 
 #: main.cpp:1139
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "======== Конфігурація репозиторію \"{}\": ========"
 
 #: main.cpp:1159
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== Змінні: ========"
 
 #: main.cpp:1167
 msgid "======== Vendor Change Policies: ========"
-msgstr ""
+msgstr "======== Політики зміни постачальника: ========"
 
 #: main.cpp:1171
 #, c++-format
 msgid "Policy #{}: source: {}"
-msgstr ""
+msgstr "Політика #{}: джерело: {}"
 
 #: main.cpp:1177
 msgid ""
 "allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
 "vendor change policies will be ignored."
 msgstr ""
+"allow_vendor_change увімкнено. Пакунки може замінити будь-який постачальник, "
+"а політики зміни постачальника буде проігноровано."
 
 #: main.cpp:1215
 msgid "New leaves:"
-msgstr ""
+msgstr "Нові листові пакунки:"
 
 #: main.cpp:1217
 #, c++-format
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:1277
 #, c++-format
 msgid "{} to skip unavailable packages"
-msgstr ""
+msgstr "{} — пропустити недоступні пакунки"
 
 #: main.cpp:1285
 #, c++-format
 msgid "{} to allow extra packages in the transaction"
-msgstr ""
+msgstr "{} — дозволити зайві пакунки в транзакції"
 
 #: main.cpp:1298
 #, c++-format
@@ -1883,50 +2086,53 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{} — дозволити розбіжності між встановленими пакунками та пакунками "
+"збереженої транзакції. Це може призвести до порожньої транзакції, оскільки, "
+"крім іншого, параметр може ігнорувати невдалі дії вилучення."
 
 #: main.cpp:1354
 #, c++-format
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "{} — не обмежувати транзакцію найкращими кандидатами"
 
 #: main.cpp:1361
 #, c++-format
 msgid "{} to allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "{} — дозволити вилучення встановлених пакунків для розв'язання проблем"
 
 #: main.cpp:1370
 #, c++-format
 msgid "{} to load additional filelists metadata"
-msgstr ""
+msgstr "{} — завантажити додаткові метадані filelists"
 
 #: main.cpp:1377
 #, c++-format
 msgid "{} to skip uninstallable packages"
-msgstr ""
+msgstr "{} — пропустити пакунки, які неможливо встановити"
 
 #: main.cpp:1392
 #, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr ""
+msgstr "{} — дозволити перехід на пакунки від VENDOR"
 
 #: main.cpp:1394
 #, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr ""
+msgstr "{} — дозволити заміну пакунків від VENDOR"
 
 #: main.cpp:1396
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "{} — додати конкретні правила зміни постачальника"
 
 #: main.cpp:1397
 #, c++-format
 msgid "{} to allow all vendor changes"
-msgstr ""
+msgstr "{} — дозволити всі зміни постачальника"
 
 #: main.cpp:1401
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "Можна спробувати додати до командного рядка:"
 
 #: main.cpp:1419
 #, c++-format
@@ -1934,6 +2140,8 @@ msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
+"Під час увімкнення плагінів libdnf не знайдено збігів для таких шаблонів "
+"назв плагінів: {}"
 
 #: main.cpp:1420
 #, c++-format
@@ -1941,26 +2149,28 @@ msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
+"Під час вимкнення плагінів libdnf не знайдено збігів для таких шаблонів назв "
+"плагінів: {}"
 
 #: main.cpp:1486
 #, c++-format
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr ""
+msgstr "--- DNF5 запущено з аргументами: \"{}\" ---"
 
 #: main.cpp:1522
 #, c++-format
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Некоректний \"index\" у \"--complete=<index>[,...]\": {}"
 
 #: main.cpp:1561
 #, c++-format
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1564 main.cpp:1958
 #, c++-format
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr "{}. Додайте \"--help\", щоб дізнатися більше про аргументи."
 
 #: main.cpp:1573
 #, c++-format
@@ -1968,17 +2178,19 @@ msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
+"Можливо, це команда з плагіна; спробуйте: dnf5 install 'dnf5-command({})'"
 
 #: main.cpp:1615
 #, c++-format
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
-msgstr ""
+msgstr "Аргумент доступний для команд: {}. (Його треба ставити після команди.)"
 
 #: main.cpp:1652
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
+"Немає доступу на читання/виконання в поточному каталозі, переходимо до /"
 
 #: main.cpp:1694
 #, c++-format
@@ -1986,6 +2198,8 @@ msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
+"{}. Усі журнали відкидаються. Щоб змінити розташування файлу журналу, "
+"використайте параметр конфігурації \"logdir\"."
 
 #: main.cpp:1759
 msgid ""
@@ -1993,11 +2207,14 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"Запрошена операція потребує прав суперкористувача. Увійдіть як користувач із "
+"підвищеними правами або використайте параметри \"--assumeno\" чи \"--"
+"downloadonly\", щоб виконати команду без зміни стану системи."
 
 #: main.cpp:1773
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "Попередження: {}"
 
 #: main.cpp:1786
 msgid ""
@@ -2005,6 +2222,9 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
+"Помилка: /usr налаштовано лише для читання. Можливо, ви працюєте в образній "
+"або незмінній операційній системі. Докладніше див. документацію вашого "
+"дистрибутива."
 
 #: main.cpp:1805
 msgid ""
@@ -2012,6 +2232,9 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
+"Помилка: постійні транзакції не підтримуються в системах bootc. Передайте --"
+"transient, щоб виконати цю операцію в тимчасовому накладному шарі, який "
+"скидається під час перезавантаження системи."
 
 #: main.cpp:1815
 msgid ""
@@ -2019,29 +2242,34 @@ msgid ""
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
+"Помилка: цю систему bootc налаштовано лише для читання. Передайте --"
+"transient, щоб виконати цю операцію в тимчасовому накладному шарі, який "
+"скидається під час перезавантаження системи."
 
 #: main.cpp:1826
 msgid "Error: transient transactions are only supported on bootc systems."
-msgstr ""
+msgstr "Помилка: тимчасові транзакції підтримуються лише в системах bootc."
 
 #: main.cpp:1867
 #, c++-format
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "Операція лише збереже транзакцію в {}"
 
 #: main.cpp:1869
 msgid "The operation will only download packages for the transaction."
-msgstr ""
+msgstr "Операція лише завантажить пакунки для транзакції."
 
 #: main.cpp:1874
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
+"Увімкнено тестовий режим: виконуватимуться лише завантаження пакунків, "
+"встановлення ключів OpenPGP і перевірки транзакцій."
 
 #: main.cpp:1883
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr ""
+msgstr "Попередження: очікувану офлайн-транзакцію буде визнано недійсною."
 
 #: main.cpp:1886
 #, c++-format
@@ -2049,6 +2277,8 @@ msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
 msgstr ""
+"Попередження: очікувану офлайн-транзакцію, розпочату такою командою, буде "
+"визнано недійсною: {}"
 
 #: main.cpp:1911
 msgid ""
@@ -2056,12 +2286,17 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
+"Ця транзакція змінила б такі шляхи, що може спричинити неузгодженості після "
+"відкидання тимчасового накладного шару на /usr. Докладніше див. параметр "
+"конфігурації usr_drift_protected_paths."
 
 #: main.cpp:1922
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"Операцію перервано. Передайте --setopt=usr_drift_protected_paths=, щоб "
+"вимкнути цю перевірку й продовжити попри це."
 
 #: main.cpp:1931
 msgid ""
@@ -2069,55 +2304,62 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
+"На /usr буде створено тимчасовий накладний шар, який відкидається під час "
+"перезавантаження. Майте на увазі, що зміни в /etc і /var усе одно "
+"збережуться, а пакунки зазвичай змінюють ці каталоги."
 
 #: main.cpp:1968
 #, c++-format
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "Команда повернула помилку: {}"
 
 #: main.cpp:1976
 msgid "DNF5 finished"
-msgstr ""
+msgstr "DNF5 завершено"
 
 #: main.cpp:1980
 msgid "Complete!"
-msgstr ""
+msgstr "Готово!"
 
 #: shared_options.cpp:31
 msgid "Allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "Дозволити вилучення встановлених пакунків для розв'язання проблем"
 
 #: shared_options.cpp:41
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr ""
+msgstr "Дозволити розв'язувати проблеми залежностей, пропускаючи пакунки"
 
 #: shared_options.cpp:53
 msgid "Allow skipping unavailable packages"
-msgstr ""
+msgstr "Дозволити пропускати недоступні пакунки"
 
 #: shared_options.cpp:175
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"Наведені елементи можна вибрати лише з указаних репозиторіїв. Усі увімкнені "
+"репозиторії й далі використовуватимуться для задоволення залежностей."
 
 #: shared_options.cpp:178 shared_options.cpp:211
 msgid "REPO_ID,..."
-msgstr ""
+msgstr "REPO_ID,..."
 
 #: shared_options.cpp:193
 msgid "\"--from_repo\" already defined with different value"
-msgstr ""
+msgstr "\"--from_repo\" уже задано з іншим значенням"
 
 #: shared_options.cpp:209
 msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
 msgstr ""
+"Фільтрує встановлені пакунки за ідентифікатором репозиторію, з якого їх "
+"встановлено."
 
 #: shared_options.cpp:220
 msgid "\"--installed-from_repo\" already defined with different value"
-msgstr ""
+msgstr "\"--installed-from_repo\" уже задано з іншим значенням"
 
 #: shared_options.cpp:236
 msgid ""
@@ -2125,11 +2367,15 @@ msgid ""
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
+"Наведені елементи можна вибрати лише від указаних постачальників. Для "
+"елементів, що задовольняють залежності, постачальника буде проігноровано або "
+"й далі застосовуватимуться політики зміни постачальника (якщо "
+"allow_vendor_change=0)."
 
 #: shared_options.cpp:239
 msgid "VENDOR,..."
-msgstr ""
+msgstr "VENDOR,..."
 
 #: shared_options.cpp:248
 msgid "\"--from_vendor\" already defined with different value"
-msgstr ""
+msgstr "\"--from_vendor\" уже задано з іншим значенням"
