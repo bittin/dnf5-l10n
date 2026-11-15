@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 02:58+0000\n"
+"PO-Revision-Date: 2026-11-15 03:15+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-deptree/uk/>\n"
@@ -21,51 +21,55 @@ msgstr ""
 
 #: deptree.cpp:31
 msgid "Display package dependency trees."
-msgstr ""
+msgstr "Показати дерева залежностей пакунків."
 
 #: deptree.cpp:35
 msgid "Package names, NEVRAs, or glob patterns."
-msgstr ""
+msgstr "Назви пакунків, NEVRA або шаблони glob."
 
 #: deptree.cpp:45
 msgid "Show packages requiring each package."
-msgstr ""
+msgstr "Показати пакунки, які потребують кожного пакунка."
 
 #: deptree.cpp:47
 msgid "Print a sorted, deduplicated package list."
-msgstr ""
+msgstr "Вивести відсортований список пакунків без повторів."
 
 #: deptree.cpp:49
 msgid "Show requirement capability nodes."
-msgstr ""
+msgstr "Показати вузли можливостей-вимог."
 
 #: deptree.cpp:52
 msgid "Include all matching package versions."
-msgstr ""
+msgstr "Включити всі відповідні версії пакунків."
 
 #: deptree.cpp:54
 msgid "Display dependency trees for installed packages only."
-msgstr ""
+msgstr "Показати дерева залежностей лише для встановлених пакунків."
 
 #: deptree.cpp:59
 msgid ""
 "Show only branches leading to packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Показати лише гілки, що ведуть до пакунків із вказаними назвами. Параметр-"
+"список, підтримує шаблони."
 
 #: deptree.cpp:64
 msgid "Limit to packages of the specified architectures."
-msgstr ""
+msgstr "Обмежити пакунками вказаних архітектур."
 
 #: deptree.cpp:78
 msgid "Limit traversal to N dependency levels."
-msgstr ""
+msgstr "Обмежити обхід N рівнями залежностей."
 
 #: deptree.cpp:92
 msgid ""
 "Comma-separated dependency types: requires, recommends, suggests, "
 "supplements, enhances."
 msgstr ""
+"Типи залежностей через кому: requires, recommends, suggests, supplements, "
+"enhances."
 
 #: deptree.cpp:125
 #, c++-format
@@ -75,28 +79,28 @@ msgstr "Немає відповідності для аргументу \"{}\"."
 #: deptree_graph.cpp:422
 #, c++-format
 msgid "choice: {}"
-msgstr ""
+msgstr "варіант: {}"
 
 #: deptree_graph.cpp:424
 #, c++-format
 msgid "if {}:"
-msgstr ""
+msgstr "якщо {}:"
 
 #: deptree_graph.cpp:426
 msgid "else:"
-msgstr ""
+msgstr "інакше:"
 
 #: deptree_graph.cpp:428
 #, c++-format
 msgid "requirement: {}"
-msgstr ""
+msgstr "вимога: {}"
 
 #: deptree_graph.cpp:430
 #, c++-format
 msgid "unsatisfied: {}"
-msgstr ""
+msgstr "незадоволено: {}"
 
 #: deptree_graph.cpp:452
 #, c++-format
 msgid "{} [expanded elsewhere]"
-msgstr ""
+msgstr "{} [розгорнуто в іншому місці]"
