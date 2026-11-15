@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 02:59+0000\n"
+"PO-Revision-Date: 2026-11-15 03:15+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-expired-pgp-keys/uk/>\n"
@@ -27,7 +27,7 @@ msgstr "Такий ключ OpenPGP (0x{}) буде вилучено:"
 #: expired-pgp-keys.cpp:111
 #, c++-format
 msgid "Expired on {}"
-msgstr ""
+msgstr "Термін дії минув {}"
 
 #: expired-pgp-keys.cpp:112
 #, c++-format
@@ -50,6 +50,9 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"У результаті встановлення пакунків, підписаних цим ключем, не вдасться.\n"
+"Рекомендується вилучити прострочений ключ, щоб дозволити імпорт\n"
+"оновленого ключа. Це може залишити вже встановлені пакунки неперевірюваними."
 
 #: expired-pgp-keys.cpp:128
 msgid "The system will now proceed with removing the key."
@@ -65,3 +68,5 @@ msgid ""
 "The application requested to abort the operation when asked whether to "
 "remove the expired OpenPGP key."
 msgstr ""
+"Програма зажадала перервати операцію на запитання про вилучення "
+"простроченого ключа OpenPGP."
