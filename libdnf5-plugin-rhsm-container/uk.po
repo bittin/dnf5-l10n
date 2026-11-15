@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-07 11:21+0100\n"
-"PO-Revision-Date: 2026-11-15 03:15+0000\n"
+"PO-Revision-Date: 2026-11-15 03:49+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-rhsm-container/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: rhsm.cpp:97
 msgid "Missing path to repository configuration directory"
-msgstr "Не вказано шлях до каталогу конфігурації репозиторіїв"
+msgstr "Відсутній шлях до каталогу конфігурації репозиторію"
 
 #: rhsm.cpp:134
 msgid "Cannot save repository configuration to file \"{}\": {}"
