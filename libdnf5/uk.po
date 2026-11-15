@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 03:15+0000\n"
+"PO-Revision-Date: 2026-11-15 03:49+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/uk/>\n"
@@ -790,7 +790,7 @@ msgstr "Некоректний tsflag: {}"
 #: base/transaction.cpp:1617
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
-msgstr "Відкритий ключ \"{}\" уже є, не імпортуємо."
+msgstr "Відкритий ключ \"{}\" уже є, не імпортується."
 
 #: base/transaction.cpp:1640
 #, c++-format
@@ -888,7 +888,7 @@ msgstr "Загальний виняток RuntimeError"
 #: common/proc.cpp:88
 #, c++-format
 msgid "Cannot stat {}"
-msgstr "Не вдалося отримати стан {}"
+msgstr "Не вдалося виконати stat для {}"
 
 #: common/proc.cpp:124
 #, c++-format
@@ -1957,7 +1957,7 @@ msgstr "Розпочато"
 
 #: transaction/transaction.cpp:89
 msgid "Ok"
-msgstr "Гаразд"
+msgstr "ОК"
 
 #: transaction/transaction.cpp:91
 msgid "Error"
@@ -2004,7 +2004,7 @@ msgstr "Користувач"
 
 #: transaction/transaction_item_reason.cpp:62
 msgid "Clean"
-msgstr "Чиста"
+msgstr "Чисто"
 
 #: transaction/transaction_item_reason.cpp:64
 msgid "Weak Dependency"
@@ -2227,7 +2227,7 @@ msgstr "Не вдалося запитати стан системи bootc: {}"
 
 #: utils/bootc.cpp:91
 msgid "Failed to stat /usr filesystem"
-msgstr "Не вдалося отримати стан файлової системи /usr"
+msgstr "Не вдалося виконати stat для файлової системи /usr"
 
 #: utils/bootc.cpp:127
 #, c++-format
