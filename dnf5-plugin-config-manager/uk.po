@@ -7,54 +7,56 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-15 02:58+0000\n"
+"Last-Translator: w s <gilfobert@gmail.com>\n"
+"Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5-plugin-config-manager/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: addrepo.cpp:115
 #, c++-format
 msgid "from-repofile: \"{}\" file does not exist"
-msgstr ""
+msgstr "from-repofile: файл \"{}\" не існує"
 
 #: addrepo.cpp:118
 #, c++-format
 msgid "from-repofile: {}"
-msgstr ""
+msgstr "from-repofile: {}"
 
 #: addrepo.cpp:148 setopt.cpp:53 setvar.cpp:49
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: неправильно відформатоване значення аргументу \"{}\""
 
 #: addrepo.cpp:158
 #, c++-format
 msgid "Cannot set repository option \"{}={}\": {}"
-msgstr ""
+msgstr "Не вдалося встановити параметр репозиторію \"{}={}\": {}"
 
 #: addrepo.cpp:166 setopt.cpp:108
 #, c++-format
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
-msgstr ""
+msgstr "Параметр \"{}\" задано повторно з іншим значенням: \"{}\" != \"{}\""
 
 #: addrepo.cpp:232
 msgid "Missing path to repository configuration directory"
-msgstr ""
+msgstr "Не вказано шлях до каталогу конфігурації репозиторіїв"
 
 #: addrepo.cpp:282
 #, c++-format
 msgid "Failed to copy repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося скопіювати файл конфігурації репозиторію \"{}\": {}"
 
 #: addrepo.cpp:293
 #, c++-format
 msgid "Failed to download repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося завантажити файл конфігурації репозиторію \"{}\": {}"
 
 #: addrepo.cpp:321
 #, c++-format
@@ -62,22 +64,26 @@ msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
 msgstr ""
+"Помилка в доданому файлі конфігурації репозиторію. Не вдалося встановити "
+"параметр репозиторію \"{}={}\": {}"
 
 #: addrepo.cpp:355
 #, c++-format
 msgid "Bad baseurl: {}={}"
-msgstr ""
+msgstr "Некоректний baseurl: {}={}"
 
 #: addrepo.cpp:363
 msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
 msgstr ""
+"Один із параметрів --from-repofile=<URL>, --set=baseurl=<URL>, --"
+"set=mirrorlist=<URL>, --set=metalink=<URL> має бути заданий непорожнім URL"
 
 #: addrepo.cpp:408
 #, c++-format
 msgid "Failed to save repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося зберегти файл конфігурації репозиторію \"{}\": {}"
 
 #: addrepo.cpp:430
 #, c++-format
@@ -85,6 +91,8 @@ msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--add-or-replace\" or \"--overwrite\"."
 msgstr ""
+"Файл \"{}\" уже існує й налаштовує репозиторії з ідентифікаторами \"{}\". "
+"Додайте \"--add-or-replace\" або \"--overwrite\"."
 
 #: addrepo.cpp:433
 #, c++-format
@@ -92,221 +100,239 @@ msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--overwrite\" to overwrite."
 msgstr ""
+"Файл \"{}\" уже існує й налаштовує репозиторії з ідентифікаторами \"{}\". "
+"Додайте \"--overwrite\", щоб перезаписати."
 
 #: addrepo.cpp:453 addrepo.cpp:479
 #, c++-format
 msgid "A repository with id \"{}\" already configured in file: {}"
-msgstr ""
+msgstr "Репозиторій з ідентифікатором \"{}\" уже налаштований у файлі: {}"
 
 #: addrepo.cpp:465 shared.hpp:156
 #, c++-format
 msgid "Cannot read repositories from directory \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося прочитати репозиторії з каталогу \"{}\": {}"
 
 #: addvendorpolicy.cpp:23
 msgid "Add a vendor change policy from a TOML file or compact format string"
 msgstr ""
+"Додати політику зміни постачальника з файлу TOML або рядка компактного "
+"формату"
 
 #: addvendorpolicy.cpp:29
 msgid "Policy base filename (without .conf extension)"
-msgstr ""
+msgstr "Базове ім'я файлу політики (без розширення .conf)"
 
 #: addvendorpolicy.cpp:40
 msgid "URL or local path to the source TOML policy file"
-msgstr ""
+msgstr "URL або локальний шлях до вихідного файлу політики TOML"
 
 #: addvendorpolicy.cpp:52
 msgid "Vendor change policy in compact format"
-msgstr ""
+msgstr "Політика зміни постачальника в компактному форматі"
 
 #: addvendorpolicy.cpp:64
 msgid "Allow masking a distribution policy"
-msgstr ""
+msgstr "Дозволити маскування дистрибутивної політики"
 
 #: addvendorpolicy.cpp:73
 msgid "Allow replacing an existing policy file"
-msgstr ""
+msgstr "Дозволити заміну наявного файлу політики"
 
 #: addvendorpolicy.cpp:82
 msgid "Require that the new policy masks a distribution policy"
-msgstr ""
+msgstr "Вимагати, щоб нова політика маскувала дистрибутивну політику"
 
 #: addvendorpolicy.cpp:94
 msgid "Require that the new policy replaces an existing system policy file"
-msgstr ""
+msgstr "Вимагати, щоб нова політика замінювала наявний файл системної політики"
 
 #: addvendorpolicy.cpp:123
 msgid "Option \"{option}\" with nonempty value is required"
-msgstr ""
+msgstr "Потрібен параметр \"{option}\" з непорожнім значенням"
 
 #: addvendorpolicy.cpp:129
 msgid "Either \"{option1}\" or non-empty \"{option2}\" is required"
-msgstr ""
+msgstr "Потрібен або \"{option1}\", або непорожній \"{option2}\""
 
 #: addvendorpolicy.cpp:142
 msgid ""
 "Policy file \"{path}\" already exists. Use \"{option}\" to allow replacing "
 "it."
 msgstr ""
+"Файл політики \"{path}\" уже існує. Використайте \"{option}\", щоб дозволити "
+"його заміну."
 
 #: addvendorpolicy.cpp:150
 msgid ""
 "Distribution policy \"{name}\" already exists. Use \"{option}\" to allow "
 "masking it."
 msgstr ""
+"Дистрибутивна політика \"{name}\" уже існує. Використайте \"{option}\", щоб "
+"дозволити її маскування."
 
 #: addvendorpolicy.cpp:165
 msgid ""
 "Cannot add policy: option \"{option}\" requires masking a distribution "
 "policy, but no distribution policy named \"{name}\" exists."
 msgstr ""
+"Не вдалося додати політику: параметр \"{option}\" вимагає маскування "
+"дистрибутивної політики, але дистрибутивної політики з назвою \"{name}\" не "
+"існує."
 
 #: addvendorpolicy.cpp:172
 msgid ""
 "Cannot add policy: option \"{option}\" requires replacing an existing system "
 "policy, but no system policy file named \"{name}\" exists."
 msgstr ""
+"Не вдалося додати політику: параметр \"{option}\" вимагає заміни наявної "
+"системної політики, але файлу системної політики з назвою \"{name}\" не "
+"існує."
 
 #: addvendorpolicy.cpp:191 addvendorpolicy.cpp:215 addvendorpolicy.cpp:244
 msgid "Replaced vendor policy file: {path}"
-msgstr ""
+msgstr "Замінено файл політики постачальника: {path}"
 
 #: addvendorpolicy.cpp:196
 msgid "Created vendor policy file: {path}"
-msgstr ""
+msgstr "Створено файл політики постачальника: {path}"
 
 #: addvendorpolicy.cpp:204
 msgid "Source file does not exist: {path}"
-msgstr ""
+msgstr "Вихідний файл не існує: {path}"
 
 #: addvendorpolicy.cpp:222 addvendorpolicy.cpp:251
 msgid "Saved vendor policy file: {path}"
-msgstr ""
+msgstr "Збережено файл політики постачальника: {path}"
 
 #: addvendorpolicy.cpp:260
 msgid "Masked distribution policy file: {path}"
-msgstr ""
+msgstr "Замасковано файл дистрибутивної політики: {path}"
 
 #: addvendorpolicy.cpp:264
 msgid "Failed to add vendor policy"
-msgstr ""
+msgstr "Не вдалося додати політику постачальника"
 
 #: config-manager.cpp:47
 msgid "Manage configuration"
-msgstr ""
+msgstr "Керування конфігурацією"
 
 #: listvendorpolicies.cpp:27
 msgid "List vendor change policy files"
-msgstr ""
+msgstr "Показати файли політики зміни постачальника"
 
 #: listvendorpolicies.cpp:33 removevendorpolicy.cpp:29
 msgid "Policy base filename pattern (supports globs)"
-msgstr ""
+msgstr "Шаблон базового імені файлу політики (підтримує globs)"
 
 #: listvendorpolicies.cpp:42
 msgid "Show detailed information about the policies"
-msgstr ""
+msgstr "Показати докладну інформацію про політики"
 
 #: listvendorpolicies.cpp:61 removevendorpolicy.cpp:49
 msgid "No vendor policy files found"
-msgstr ""
+msgstr "Файлів політики постачальника не знайдено"
 
 #: listvendorpolicies.cpp:80 removevendorpolicy.cpp:63
 msgid "No matching vendor policy files found for pattern: {pattern}"
-msgstr ""
+msgstr "Не знайдено файлів політики постачальника за шаблоном: {pattern}"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
 #: listvendorpolicies.cpp:149
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add policy info
 #: listvendorpolicies.cpp:155
 msgid "Policy"
-msgstr ""
+msgstr "Політика"
 
 #: listvendorpolicies.cpp:156
 msgid "Source"
-msgstr ""
+msgstr "Джерело"
 
 #: listvendorpolicies.cpp:157
 msgid "Distribution (read-only)"
-msgstr ""
+msgstr "Дистрибутив (лише читання)"
 
 #: listvendorpolicies.cpp:157
 msgid "System (manageable)"
-msgstr ""
+msgstr "Система (керована)"
 
 #: listvendorpolicies.cpp:157
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: listvendorpolicies.cpp:160
 msgid "Masks"
-msgstr ""
+msgstr "Маскує"
 
 #: listvendorpolicies.cpp:165
 msgid "Masked by"
-msgstr ""
+msgstr "Замаскована"
 
 #: listvendorpolicies.cpp:174
 msgid "<conversion failed: {what}>"
-msgstr ""
+msgstr "<помилка перетворення: {what}>"
 
 #: listvendorpolicies.cpp:178 listvendorpolicies.cpp:183
 msgid "Compact"
-msgstr ""
+msgstr "Компактний"
 
 #: removevendorpolicy.cpp:23
 msgid "Remove vendor change policy files"
-msgstr ""
+msgstr "Вилучити файли політики зміни постачальника"
 
 #: removevendorpolicy.cpp:74
 msgid "Removed vendor policy file: {path}"
-msgstr ""
+msgstr "Вилучено файл політики постачальника: {path}"
 
 #: removevendorpolicy.cpp:78
 msgid "Unmasked distribution policy file: {path}"
-msgstr ""
+msgstr "Знято маску з файлу дистрибутивної політики: {path}"
 
 #: removevendorpolicy.cpp:83
 msgid "Failed to remove policy file: {path}"
-msgstr ""
+msgstr "Не вдалося вилучити файл політики: {path}"
 
 #: removevendorpolicy.cpp:87
 msgid ""
 "Cannot remove distribution policy file \"{path}\". To mask it, use: {command}"
 msgstr ""
+"Не вдалося вилучити файл дистрибутивної політики \"{path}\". Щоб замаскувати "
+"його, використайте: {command}"
 
 #: repos.cpp:56 setopt.cpp:140
 #, c++-format
 msgid "No matching repository to modify: {}"
-msgstr ""
+msgstr "Немає відповідного репозиторію для зміни: {}"
 
 #: repos.hpp:42
 msgid "Enables repositories"
-msgstr ""
+msgstr "Увімкнено репозиторії"
 
 #: repos.hpp:50
 msgid "Disables repositories"
-msgstr ""
+msgstr "Вимкнено репозиторії"
 
 #: setopt.cpp:61 unsetopt.cpp:73
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: неправильно відформатоване значення аргументу: останній символ ключа не "
+"може бути '.': {}"
 
 #: setopt.cpp:70 unsetopt.cpp:82
 #, c++-format
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr ""
+msgstr "{}: порожній ідентифікатор репозиторію недопустимий: {}"
 
 #: setopt.cpp:79
 #, c++-format
 msgid "Cannot set repository option \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося встановити параметр репозиторію \"{}\": {}"
 
 #: setopt.cpp:86 setopt.cpp:149
 #, c++-format
@@ -314,30 +340,32 @@ msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
 msgstr ""
+"Параметр \"{}\" репозиторію \"{}\" задано повторно з іншим значенням: \"{}\" "
+"!= \"{}\""
 
 #: setopt.cpp:100
 #, c++-format
 msgid "Cannot set option: \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося встановити параметр: \"{}\": {}"
 
 #: setvar.cpp:60
 #, c++-format
 msgid "Cannot set \"{}\": Variable \"{}\" is read-only"
-msgstr ""
+msgstr "Не вдалося встановити \"{}\": змінна \"{}\" доступна лише для читання"
 
 #: setvar.cpp:68
 #, c++-format
 msgid "Sets the \"{}\" variable again with a different value: \"{}\" != \"{}\""
-msgstr ""
+msgstr "Змінну \"{}\" задано повторно з іншим значенням: \"{}\" != \"{}\""
 
 #: setvar.cpp:97 unsetvar.cpp:63
 msgid "Missing path to vars directory"
-msgstr ""
+msgstr "Не вказано шлях до каталогу змінних"
 
 #: setvar.cpp:110
 #, c++-format
 msgid "Cannot write variable to file \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося записати змінну у файл \"{}\": {}"
 
 #: shared.hpp:65
 #, c++-format
@@ -345,11 +373,12 @@ msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
 msgstr ""
+"Шлях \"{}\" існує, але це не каталог і не символьне посилання на каталог."
 
 #: shared.hpp:70
 #, c++-format
 msgid "The path \"{}\" exists, but it is a symlink to a non-existent object."
-msgstr ""
+msgstr "Шлях \"{}\" існує, але це символьне посилання на неіснуючий об'єкт."
 
 #: shared.hpp:76
 #, c++-format
@@ -357,21 +386,25 @@ msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
 msgstr ""
+"Каталог \"{}\" не існує. Додайте \"--create-missing-dir\", щоб створити "
+"відсутні каталоги."
 
 #: shared.hpp:87
 #, c++-format
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
-msgstr ""
+msgstr "Ім'я змінної може містити лише літери ASCII, цифри та '_': {}"
 
 #: unsetopt.cpp:94
 #, c++-format
 msgid "config-manager: Request to remove unsupported repository option: {}"
 msgstr ""
+"config-manager: запит на вилучення непідтримуваного параметра репозиторію: {}"
 
 #: unsetopt.cpp:106
 #, c++-format
 msgid "config-manager: Request to remove unsupported main option: {}"
 msgstr ""
+"config-manager: запит на вилучення непідтримуваного основного параметра: {}"
 
 #: unsetopt.cpp:140
 #, c++-format
@@ -379,12 +412,16 @@ msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
 msgstr ""
+"config-manager: запит на вилучення основного параметра, але його немає у "
+"файлі конфігурації: {}"
 
 #: unsetopt.cpp:152
 #, c++-format
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
 msgstr ""
+"config-manager: запит на вилучення основного параметра, але файл "
+"конфігурації не знайдено: {}"
 
 #: unsetopt.cpp:186
 #, c++-format
@@ -392,6 +429,8 @@ msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
 msgstr ""
+"config-manager: запит на вилучення параметра репозиторію, але ідентифікатор "
+"репозиторію відсутній у перевизначеннях: {}"
 
 #: unsetopt.cpp:194
 #, c++-format
@@ -399,6 +438,8 @@ msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
 msgstr ""
+"config-manager: запит на вилучення параметра репозиторію, але його немає у "
+"перевизначеннях: {}.{}"
 
 #: unsetopt.cpp:208
 #, c++-format
@@ -406,6 +447,8 @@ msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
 msgstr ""
+"config-manager: запит на вилучення параметра репозиторію, але файл із "
+"перевизначеннями не знайдено: {}"
 
 #: unsetvar.cpp:69
 #, c++-format
@@ -413,6 +456,8 @@ msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
 msgstr ""
+"config-manager: запит на вилучення змінної, але каталог змінних не знайдено: "
+"{}"
 
 #: unsetvar.cpp:82
 #, c++-format
@@ -420,8 +465,10 @@ msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
 msgstr ""
+"config-manager: запит на вилучення змінної, але її немає в каталозі змінних: "
+"{}"
 
 #: unsetvar.cpp:88
 #, c++-format
 msgid "Cannot remove variable file \"{}\": {}"
-msgstr ""
+msgstr "Не вдалося вилучити файл змінної \"{}\": {}"
