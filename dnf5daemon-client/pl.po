@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-09-17 21:16+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-11-16 12:01+0000\n"
+"Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/pl/>\n"
 "Language: pl\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: commands/advisory/advisory.cpp:35
 msgid "Manage advisories"
@@ -104,11 +103,11 @@ msgstr "Uwzględnij treści zawarte w ostrzeżeniach o poprawkach błędów."
 
 #: commands/advisory/arguments.hpp:135
 msgid "Include content contained in enhancement advisories."
-msgstr "Uwzględnij treści w ostrzeżeniami dotyczącymi ulepszeń."
+msgstr "Uwzględnij treści zawarte w ostrzeżeniach dotyczących ulepszeń."
 
 #: commands/advisory/arguments.hpp:142
 msgid "Include content contained in newpackage advisories."
-msgstr "Uwzględnij treści zawarte w nowych ostrzeżeniach dotyczących pakietów."
+msgstr "Uwzględnij treści zawarte w ostrzeżeniach dotyczących nowych pakietów."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
@@ -141,7 +140,7 @@ msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Dołącz zawartość zawartą w ostrzeżeniach, które naprawiają identyfikator CVE "
+"Dołącz treści zawarte w ostrzeżeniach, które naprawiają identyfikator CVE "
 "(Common Vulnerabilities and Exposures), np. CVE-2201-0123. Opcja listy."
 
 #: commands/advisory/arguments.hpp:182
