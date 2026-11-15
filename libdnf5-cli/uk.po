@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 02:59+0000\n"
+"PO-Revision-Date: 2026-11-15 03:15+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/uk/>\n"
@@ -23,146 +23,157 @@ msgstr ""
 #, c++-format
 msgid "Misconfigured alias \"{}\": cannot convert \"{}\" to a number"
 msgstr ""
+"Неправильно налаштований псевдонім \"{}\": не вдалося перетворити \"{}\" на "
+"число"
 
 #: argument_parser.cpp:76
 #, c++-format
 msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
 msgstr ""
+"Неправильно налаштований псевдонім \"{}\": індекс \"{}\" поза діапазоном"
 
 #: argument_parser.cpp:98
 #, c++-format
 msgid "\"{}\" not allowed together with named argument \"{}\""
-msgstr ""
+msgstr "\"{}\" не дозволено разом з іменованим аргументом \"{}\""
 
 #: argument_parser.cpp:100
 #, c++-format
 msgid "\"{}\" not allowed in command \"{}\""
-msgstr ""
+msgstr "\"{}\" не дозволено в команді \"{}\""
 
 #: argument_parser.cpp:102
 #, c++-format
 msgid "\"{}\" not allowed together with positional argument \"{}\""
-msgstr ""
+msgstr "\"{}\" не дозволено разом з позиційним аргументом \"{}\""
 
 #: argument_parser.cpp:147
 #, c++-format
 msgid "Argument id \"{}\" already registered in group \"{}\""
-msgstr ""
+msgstr "Ідентифікатор аргументу \"{}\" уже зареєстровано в групі \"{}\""
 
 #: argument_parser.cpp:274
 #, c++-format
 msgid "Invalid character '.' in argument id \"{}\""
-msgstr ""
+msgstr "Некоректний символ '.' в ідентифікаторі аргументу \"{}\""
 
 #: argument_parser.cpp:383 argument_parser.cpp:388
 #, c++-format
 msgid "Too few values for positional argument \"{}\""
-msgstr ""
+msgstr "Замало значень для позиційного аргументу \"{}\""
 
 #: argument_parser.cpp:549
 #, c++-format
 msgid "Missing value for named argument \"--{}\""
-msgstr ""
+msgstr "Відсутнє значення для іменованого аргументу \"--{}\""
 
 #: argument_parser.cpp:557
 #, c++-format
 msgid "Unexpected value for named argument \"--{}\""
-msgstr ""
+msgstr "Неочікуване значення для іменованого аргументу \"--{}\""
 
 #: argument_parser.cpp:599
 #, c++-format
 msgid "Missing value for named argument \"-{}\""
-msgstr ""
+msgstr "Відсутнє значення для іменованого аргументу \"-{}\""
 
 #. print usage
 #: argument_parser.cpp:696
 msgid "Usage:"
-msgstr ""
+msgstr "Використання:"
 
 #: argument_parser.cpp:704
 msgid "Description:"
-msgstr ""
+msgstr "Опис:"
 
 #: argument_parser.cpp:997
 #, c++-format
 msgid "Command id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Ідентифікатор команди \"{}\" уже зареєстровано для команди \"{}\""
 
 #: argument_parser.cpp:1008
 #, c++-format
 msgid "Named argument id \"{}\" already registered for command \"{}\""
 msgstr ""
+"Ідентифікатор іменованого аргументу \"{}\" уже зареєстровано для команди \"{}"
+"\""
 
 #: argument_parser.cpp:1018
 #, c++-format
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
 msgstr ""
+"Ідентифікатор позиційного аргументу \"{}\" уже зареєстровано для команди \"{}"
+"\""
 
 #: argument_parser.cpp:1028
 #, c++-format
 msgid "Group id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Ідентифікатор групи \"{}\" уже зареєстровано для команди \"{}\""
 
 #: argument_parser.cpp:1055
 #, c++-format
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
-msgstr ""
+msgstr "Команда \"{}\" не містить підкоманди з ідентифікатором \"{}\""
 
 #: argument_parser.cpp:1063
 #, c++-format
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
 msgstr ""
+"Команда \"{}\" не містить іменованого аргументу з ідентифікатором \"{}\""
 
 #: argument_parser.cpp:1071
 #, c++-format
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
 msgstr ""
+"Команда \"{}\" не містить позиційного аргументу з ідентифікатором \"{}\""
 
 #: argument_parser.cpp:1078
 #, c++-format
 msgid "Command id \"{}\" does not contain group with id \"{}\""
-msgstr ""
+msgstr "Команда \"{}\" не містить групи з ідентифікатором \"{}\""
 
 #: argument_parser.cpp:1204 argument_parser.cpp:1425
 #, c++-format
 msgid "Unknown argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Невідомий аргумент \"{}\" для команди \"{}\""
 
 #: argument_parser.cpp:1219 argument_parser.cpp:1440
 #, c++-format
 msgid "Missing positional argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Відсутній позиційний аргумент \"{}\" для команди \"{}\""
 
 #: argument_parser.cpp:1301
 #, c++-format
 msgid "Missing value for command alias \"{}\""
-msgstr ""
+msgstr "Відсутнє значення для псевдоніма команди \"{}\""
 
 #: argument_parser.cpp:1647
 #, c++-format
 msgid "Named argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Іменований аргумент з ідентифікатором шляху \"{}\" не знайдено"
 
 #: argument_parser.cpp:1657
 #, c++-format
 msgid "Positional argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Позиційний аргумент з ідентифікатором шляху \"{}\" не знайдено"
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
-msgstr ""
+msgstr "Операцію скасовано користувачем."
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
-msgstr ""
+msgstr "Не вдалося розв'язати транзакцію"
 
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
 msgstr ""
+"Підказка: [d] типовий, [e] увімкнений, [x] вимкнений, [i] встановлений, [a] "
+"активний"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr ""
+msgstr "Підказка: [d] типовий, [e] увімкнений, [x] вимкнений, [i] встановлений"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
@@ -173,35 +184,35 @@ msgstr " : "
 #. Add package
 #: output/packageinfo.cpp:63
 msgid "Name"
-msgstr ""
+msgstr "Назва"
 
 #: output/packageinfo.cpp:68
 msgid "Epoch"
-msgstr ""
+msgstr "Епоха"
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:291
 msgid "Version"
-msgstr ""
+msgstr "Версія"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr ""
+msgstr "Випуск"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
-msgstr ""
+msgstr "Архітектура"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
-msgstr ""
+msgstr "Замінює"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "Розмір завантаження"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "Встановлений розмір"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
@@ -209,299 +220,308 @@ msgstr "Джерело"
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "З репозиторію"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:297
 #: output/transactioninfo.cpp:76
 msgid "Repository"
-msgstr ""
+msgstr "Репозиторій"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
-msgstr ""
+msgstr "Короткий опис"
 
 #: output/packageinfo.cpp:99
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: output/packageinfo.cpp:100
 msgid "License"
-msgstr ""
+msgstr "Ліцензія"
 
 #: output/packageinfo.cpp:104 output/transactioninfo.cpp:107
 msgid "Description"
-msgstr ""
+msgstr "Опис"
 
 #: output/packageinfo.cpp:109
 msgid "Vendor"
-msgstr ""
+msgstr "Постачальник"
 
 #: output/search.cpp:45
 msgid " (exact)"
-msgstr ""
+msgstr " (точно)"
 
 #: output/search.cpp:100
 msgid "Matched fields: "
-msgstr ""
+msgstr "Збіглися поля: "
 
 #: output/status.cpp:45
 msgid "Groups"
-msgstr ""
+msgstr "Групи"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
 msgid "installed"
-msgstr ""
+msgstr "встановлено"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
-msgstr ""
+msgstr "доступно"
 
 #: output/status.cpp:54
 msgid "Environments"
-msgstr ""
+msgstr "Середовища"
 
 #: output/status.cpp:71
 msgid "Packages"
-msgstr ""
+msgstr "Пакунки"
 
 #: output/status.cpp:74
 msgid "user-installed"
-msgstr ""
+msgstr "встановлені користувачем"
 
 #: output/status.cpp:84
 msgid "Installed Size"
-msgstr ""
+msgstr "Встановлений розмір"
 
 #: output/status.cpp:90
 msgid "Enabled Repositories"
-msgstr ""
+msgstr "Увімкнені репозиторії"
 
 #: output/status.cpp:101
 msgid "Last Transaction"
-msgstr ""
+msgstr "Остання транзакція"
 
 #: output/transaction_table.cpp:129
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "Підсумок транзакції:\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:134
 #, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Встановлення:     {:4} пакунок\n"
+msgstr[1] " Встановлення:     {:4} пакунки\n"
+msgstr[2] " Встановлення:     {:4} пакунків\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:143
 #, c++-format
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Перевстановлення: {:4} пакунок\n"
+msgstr[1] " Перевстановлення: {:4} пакунки\n"
+msgstr[2] " Перевстановлення: {:4} пакунків\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:152
 #, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Оновлення:        {:4} пакунок\n"
+msgstr[1] " Оновлення:        {:4} пакунки\n"
+msgstr[2] " Оновлення:        {:4} пакунків\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:161
 #, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Заміна:           {:4} пакунок\n"
+msgstr[1] " Заміна:           {:4} пакунки\n"
+msgstr[2] " Заміна:           {:4} пакунків\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:170
 #, c++-format
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Вилучення:        {:4} пакунок\n"
+msgstr[1] " Вилучення:        {:4} пакунки\n"
+msgstr[2] " Вилучення:        {:4} пакунків\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:179
 #, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Зниження версії:  {:4} пакунок\n"
+msgstr[1] " Зниження версії:  {:4} пакунки\n"
+msgstr[2] " Зниження версії:  {:4} пакунків\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:188
 #, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Зміна причини:    {:4} пакунок\n"
+msgstr[1] " Зміна причини:    {:4} пакунки\n"
+msgstr[2] " Зміна причини:    {:4} пакунків\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:197
 #, c++-format
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Пропуск:          {:4} пакунок\n"
+msgstr[1] " Пропуск:          {:4} пакунки\n"
+msgstr[2] " Пропуск:          {:4} пакунків\n"
 
 #: output/transaction_table.cpp:279 output/transactioninfo.cpp:74
 msgid "Package"
-msgstr ""
+msgstr "Пакунок"
 
 #: output/transaction_table.cpp:285
 msgid "Arch"
-msgstr ""
+msgstr "Арх"
 
 #: output/transaction_table.cpp:303
 msgid "Size"
-msgstr ""
+msgstr "Розмір"
 
 #: output/transaction_table.cpp:365 output/transaction_table.cpp:435
 #: output/transaction_table.cpp:476
 #, c++-format
 msgid "{} -> {}"
-msgstr ""
+msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:381
 #, c++-format
 msgid "replacing {}"
-msgstr ""
+msgstr "замінює {}"
 
 #: output/transaction_table.cpp:423 output/transaction_table.cpp:451
 msgid " <name-unset>"
-msgstr ""
+msgstr " <назва-не-вказана>"
 
 #: output/transaction_table.cpp:482
 msgid "replacing "
-msgstr ""
+msgstr "замінює "
 
 #: output/transaction_table.cpp:495
 msgid "Skipping packages with conflicts:"
-msgstr ""
+msgstr "Пропуск пакунків з конфліктами:"
 
 #: output/transaction_table.cpp:497
 msgid "Skipping packages with broken dependencies:"
-msgstr ""
+msgstr "Пропуск пакунків із порушеними залежностями:"
 
 #: output/transaction_table.cpp:559
 msgid "Installing dependencies:"
-msgstr ""
+msgstr "Встановлення залежностей:"
 
 #: output/transaction_table.cpp:561
 msgid "Installing weak dependencies:"
-msgstr ""
+msgstr "Встановлення слабких залежностей:"
 
 #: output/transaction_table.cpp:563
 msgid "Installing group/module packages:"
-msgstr ""
+msgstr "Встановлення пакунків груп/модулів:"
 
 #: output/transaction_table.cpp:565
 msgid "Installing:"
-msgstr ""
+msgstr "Встановлення:"
 
 #: output/transaction_table.cpp:569
 msgid "Upgrading:"
-msgstr ""
+msgstr "Оновлення:"
 
 #: output/transaction_table.cpp:572
 msgid "Downgrading:"
-msgstr ""
+msgstr "Зниження версії:"
 
 #: output/transaction_table.cpp:575
 msgid "Reinstalling:"
-msgstr ""
+msgstr "Перевстановлення:"
 
 #: output/transaction_table.cpp:579
 msgid "Removing dependent packages:"
-msgstr ""
+msgstr "Вилучення залежних пакунків:"
 
 #: output/transaction_table.cpp:581
 msgid "Removing unused dependencies:"
-msgstr ""
+msgstr "Вилучення невикористаних залежностей:"
 
 #: output/transaction_table.cpp:583
 msgid "Removing:"
-msgstr ""
+msgstr "Вилучення:"
 
 #: output/transaction_table.cpp:587
 msgid "Changing reason:"
-msgstr ""
+msgstr "Зміна причини:"
 
 #: output/transaction_table.cpp:619
 msgid "Installing groups dependencies:"
-msgstr ""
+msgstr "Встановлення залежностей груп:"
 
 #: output/transaction_table.cpp:621
 msgid "Installing groups:"
-msgstr ""
+msgstr "Встановлення груп:"
 
 #: output/transaction_table.cpp:625
 msgid "Removing groups:"
-msgstr ""
+msgstr "Вилучення груп:"
 
 #: output/transaction_table.cpp:628
 msgid "Upgrading groups:"
-msgstr ""
+msgstr "Оновлення груп:"
 
 #: output/transaction_table.cpp:631
 msgid "Changing reason of installed groups:"
-msgstr ""
+msgstr "Зміна причини встановлених груп:"
 
 #: output/transaction_table.cpp:658
 msgid "Installing environmental groups:"
-msgstr ""
+msgstr "Встановлення груп середовищ:"
 
 #: output/transaction_table.cpp:661
 msgid "Removing environmental groups:"
-msgstr ""
+msgstr "Вилучення груп середовищ:"
 
 #: output/transaction_table.cpp:664
 msgid "Upgrading environmental groups:"
-msgstr ""
+msgstr "Оновлення груп середовищ:"
 
 #: output/transaction_table.cpp:691
 msgid "Enabling module streams:"
-msgstr ""
+msgstr "Увімкнення потоків модулів:"
 
 #: output/transaction_table.cpp:694
 msgid "Disabling modules:"
-msgstr ""
+msgstr "Вимкнення модулів:"
 
 #: output/transaction_table.cpp:697
 msgid "Resetting modules:"
-msgstr ""
+msgstr "Скидання модулів:"
 
 #: output/transaction_table.cpp:700
 msgid "Switching module streams:"
-msgstr ""
+msgstr "Перемикання потоків модулів:"
 
 #: output/transaction_table.cpp:776 output/transaction_table.cpp:777
 msgid "(none)"
-msgstr ""
+msgstr "(немає)"
 
 #: output/transaction_table.cpp:783
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Пропуск {0} пакунка через обмеження зміни постачальника: {1}."
+msgstr[1] "Пропуск {0} пакунки через обмеження зміни постачальника: {1}."
+msgstr[2] "Пропуск {0} пакунків через обмеження зміни постачальника: {1}."
 
 #: output/transaction_table.cpp:812
 msgid "Nothing to do."
-msgstr ""
+msgstr "Нічого робити."
 
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr ""
+msgstr "Дія"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Причина"
 
 #: output/transactioninfo.cpp:98
 msgid "Transaction ID"
@@ -509,72 +529,72 @@ msgstr "Ідентифікатор транзакції"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Час початку"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "Початковий rpmdb"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "Час завершення"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "Кінцевий rpmdb"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
-msgstr ""
+msgstr "Користувач"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "Стан"
 
 #: output/transactioninfo.cpp:106
 msgid "Releasever"
-msgstr ""
+msgstr "Releasever"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "Коментар"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "Змінені пакунки:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "Змінені групи:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Змінені середовища:"
 
 #: output/transactionlist.cpp:65
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: output/transactionlist.cpp:66
 msgid "Command line"
-msgstr ""
+msgstr "Командний рядок"
 
 #: output/transactionlist.cpp:67
 msgid "Date and time"
-msgstr ""
+msgstr "Дата й час"
 
 #: output/transactionlist.cpp:68
 msgid "Action(s)"
-msgstr ""
+msgstr "Дія(ї)"
 
 #: output/transactionlist.cpp:69
 msgid "Altered"
-msgstr ""
+msgstr "Змінено"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
 msgid "Total"
-msgstr ""
+msgstr "Усього"
 
 #: session.cpp:153
 msgid "Missing command"
@@ -589,12 +609,12 @@ msgstr "Передано некоректну дату: \"{}\". Очікуєть
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
-msgstr ""
+msgstr "Дата \"{}\" не може бути представлена типом time_t на цій платформі"
 
 #: utils/userconfirm.cpp:57
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Продовжити? [Y/n]: "
 
 #: utils/userconfirm.cpp:60
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Продовжити? [y/N]: "
