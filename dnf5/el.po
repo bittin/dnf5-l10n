@@ -5,13 +5,14 @@
 # Jim Spentzos <jimspentzos2000@gmail.com>, 2026.
 # Efstathios Iosifidis <eiosifidis@yandex.com>, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
+# Lefteris T <lefteris592@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-03 09:54+0000\n"
-"Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
+"PO-Revision-Date: 2026-11-17 11:08+0000\n"
+"Last-Translator: Lefteris T <lefteris592@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "el/>\n"
 "Language: el\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1617
 msgid ", "
@@ -1431,7 +1432,7 @@ msgstr "Εισαγωγή κλειδιού OpenPGP 0x{}:\n"
 #: context.cpp:147 context.cpp:172
 #, c++-format
 msgid " UserID     : \"{}\"\n"
-msgstr " Αναγνωριστικό χρήστη     : «{}»\n"
+msgstr " UserID     : \"{}\"\n"
 
 #: context.cpp:150
 #, c++-format
@@ -1454,7 +1455,7 @@ msgstr "Το ακόλουθο κλειδί OpenPGP (0x{}) πρόκειται ν�
 #: context.cpp:170
 #, c++-format
 msgid " Reason     : {}\n"
-msgstr " Λόγος     : {}\n"
+msgstr " Αιτία     : {}\n"
 
 #: context.cpp:174
 #, c++-format
@@ -1481,7 +1482,7 @@ msgstr ""
 
 #: context.cpp:181
 msgid "The system will now proceed with removing the key."
-msgstr "Το σύστημα θα προχωρήσει τώρα στην αφαίρεση του κλειδιού."
+msgstr "Το σύστημα θα προβεί, τώρα, σε αφαίρεση του κλειδιού."
 
 #: context.cpp:187
 #, c++-format
