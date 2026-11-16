@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-13 16:46+0000\n"
-"PO-Revision-Date: 2026-11-15 03:55+0000\n"
+"PO-Revision-Date: 2026-11-16 12:01+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/uk/>\n"
@@ -912,12 +912,12 @@ msgstr ""
 #: comps/environment/environment.cpp:361
 #, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
-msgstr "Не вдалося зберегти XML-документ середовища \"{}\" у файл \"{}\": {}"
+msgstr "Не вдалося зберегти xml-документ середовища \"{}\" у файл \"{}\": {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
-msgstr "Не вдалося зберегти XML-документ групи \"{}\" у файл \"{}\": {}"
+msgstr "Не вдалося зберегти xml-документ групи \"{}\" у файл \"{}\": {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 #, c++-format
@@ -1248,7 +1248,7 @@ msgstr "Не вдалося завантажити comps \"{}\": немає ро
 #: repo/repo.cpp:520
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr "Не вдалося завантажити XML comps \"{}\": {}"
+msgstr "Не вдалося завантажити xml comps \"{}\": {}"
 
 #: repo/repo.cpp:538
 #, c++-format
