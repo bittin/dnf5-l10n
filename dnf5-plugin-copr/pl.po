@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 20:26+0000\n"
-"PO-Revision-Date: 2026-11-16 12:01+0000\n"
+"PO-Revision-Date: 2026-11-18 10:44+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-copr/pl/>\n"
@@ -104,9 +104,9 @@ msgstr ""
 "zwykle niezbędne do pomyślnej instalacji RPM z\n"
 "głównego repozytorium Copr (zapewniają zależności czasu wykonania).\n"
 "\n"
-"Pamiętaj, że powyższa uwaga dotycząca jakości i zgłaszania błędów\n"
+"Należy pamiętać, że powyższa uwaga dotycząca jakości i zgłaszania błędów\n"
 "ma zastosowanie również tutaj, projekt Fedora nie kontroluje\n"
-"zawartości. Zapoznaj się z listą:\n"
+"zawartości. Proszę zapoznać się z listą:\n"
 "\n"
 "{}\n"
 "Te repozytoria są włączane razem z głównym\n"
@@ -123,7 +123,7 @@ msgid ""
 "mark enabled=0"
 msgstr ""
 "wyłącz określone repozytorium Copr (jeśli istnieje), zachowaj plik {}/*.repo "
-"- po prostu ustaw enabled=0"
+"– po prostu ustaw enabled=0"
 
 #: copr_enable.cpp:38
 #, c++-format
@@ -139,8 +139,8 @@ msgid ""
 "Chroot specified in the NAME-RELEASE-ARCH format, e.g. 'fedora-rawhide-"
 "ppc64le'.  When not specified, the 'dnf copr' command attempts to detect it."
 msgstr ""
-"Chroot określony w formacie NAME-RELEASE-ARCH, np. 'fedora-rawhide-ppc64le'. "
-"Gdy nie jest określony, polecenie 'dnf copr' próbuje go wykryć."
+"Chroot określony w formacie NAME-RELEASE-ARCH, np. „fedora-rawhide-ppc64le”. "
+"Gdy nie jest określony, polecenie „dnf copr” próbuje go wykryć."
 
 #: copr_list.cpp:53
 msgid "list Copr repositories"
@@ -151,7 +151,7 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"Żadne repozytoria nie zostały załadowane z katalogu instalacyjnego. Aby użyć "
+"Żadne repozytoria nie zostały wczytane z katalogu instalacyjnego. Aby użyć "
 "konfiguracji i repozytoriów systemu hosta, należy podać parametr --use-host-"
 "config."
 
@@ -164,7 +164,7 @@ msgstr "usuń określone repozytorium Copr z systemu (usuwa plik {}/*.repo)"
 #: copr_repo.cpp:91
 #, c++-format
 msgid "Directory '{}' not found in '{}' Copr project."
-msgstr "Nie znaleziono katalogu „{}” w projekcie Copr „{}”."
+msgstr "Nie odnaleziono katalogu „{}” w projekcie Copr „{}”."
 
 #: copr_repo.cpp:97
 msgid "You can use one of these available directories:"
@@ -172,11 +172,11 @@ msgstr "Można użyć jednego z poniższych dostępnych katalogów:"
 
 #: copr_repo.cpp:113
 msgid "Chroot not found in the given Copr project"
-msgstr "Nie znaleziono chroot w podanym projekcie Copr"
+msgstr "Nie odnaleziono chroot w podanym projekcie Copr"
 
 #: copr_repo.cpp:115
 msgid "Unable to detect chroot, specify it explicitly."
-msgstr "Nie można wykryć chroot, należy to określić jawnie."
+msgstr "Nie można wykryć chroot, należy go określić jawnie."
 
 #: copr_repo.cpp:121
 msgid "We tried to find these repos without a success:"
@@ -203,7 +203,7 @@ msgstr "Plik repozytorium {} został usunięty"
 #: copr_repo.cpp:393
 #, c++-format
 msgid "Can't find item {} in {}"
-msgstr "Nie można znaleźć elementu {} w {}"
+msgstr "Nie można odnaleźć elementu {} w {}"
 
 #: copr_repo.cpp:449
 #, c++-format
@@ -241,4 +241,4 @@ msgstr "Repozytorium Copr „{}” w „{}” wyłączone."
 #: copr_repo.cpp:632 copr_repo.cpp:657
 #, c++-format
 msgid "Repository '{}' not found on this system"
-msgstr "Repozytorium „{}” nie zostało znalezione w tym systemie"
+msgstr "Nie odnaleziono repozytorium „{}” w tym systemie"
