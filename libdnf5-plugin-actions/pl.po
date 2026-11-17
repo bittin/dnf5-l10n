@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 20:26+0000\n"
-"PO-Revision-Date: 2026-11-16 12:01+0000\n"
+"PO-Revision-Date: 2026-11-18 10:44+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-actions/pl/>\n"
@@ -116,7 +116,7 @@ msgstr "Błąd odczytu z akcji (z potoku)"
 #: actions.cpp:1031
 #, c++-format
 msgid "Syntax error in json request from action: Missing starting '{{' char"
-msgstr "Błąd składni w żądaniu json z akcji: Brak początkowego znaku '{{'"
+msgstr "Błąd składni w żądaniu json z akcji: Brak początkowego znaku „{{”"
 
 #: actions.cpp:1055
 msgid "Error during processing of a request from action."
@@ -141,7 +141,7 @@ msgstr "Wtyczka akcji: Nie można utworzyć potoku"
 
 #: actions.cpp:1911
 msgid "Actions plugin: Cannot fork"
-msgstr "Wtyczka akcji: Nie można rozwidlić"
+msgstr "Wtyczka akcji: Nie można rozdzielić procesu"
 
 #: actions.cpp:1966
 msgid "Actions plugin: Cannot bind command stdin"
