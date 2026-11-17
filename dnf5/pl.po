@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-13 16:46+0000\n"
+"POT-Creation-Date: 2026-11-16 20:26+0000\n"
 "PO-Revision-Date: 2026-11-16 12:01+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -24,11 +24,11 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2026.11.2\n"
 
-#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1617
+#: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
 msgid ", "
 msgstr ", "
 
-#: cmdline_aliases.cpp:145
+#: cmdline_aliases.cpp:129
 #, c++-format
 msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
@@ -37,7 +37,7 @@ msgstr ""
 "Dołączony argument nazwany „{}” nie został znaleziony: {}: Żądano w pliku "
 "„{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:159
+#: cmdline_aliases.cpp:143
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
@@ -46,40 +46,40 @@ msgstr ""
 "Nieznany atrybut „{}” dołączonego nazwanego argumentu aliasu „{}” w pliku "
 "„{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:171
+#: cmdline_aliases.cpp:155
 #, c++-format
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
 msgstr "Brak atrybutu „id_path” aliasu „{}” w pliku „{}”"
 
-#: cmdline_aliases.cpp:208
+#: cmdline_aliases.cpp:192
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
 msgstr "Nieobsługiwana wersja „{}” w pliku „{}”. Obsługiwane wersje: {}"
 
-#: cmdline_aliases.cpp:218
+#: cmdline_aliases.cpp:202
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
 "Nieprawidłowy typ wartości atrybutu „version” w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:224
+#: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Missing attribute \"version\" in file \"{}\""
 msgstr "Brak atrybutu „version” w pliku „{}”"
 
-#: cmdline_aliases.cpp:236
+#: cmdline_aliases.cpp:220
 #, c++-format
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
 msgstr "Nieznany klucz „{}” w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:253
+#: cmdline_aliases.cpp:237
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
 "Pusta lub błędna ścieżka identyfikatora elementu w pliku „{}” w wierszu {}: "
 "{}"
 
-#: cmdline_aliases.cpp:272
+#: cmdline_aliases.cpp:256
 #, c++-format
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
@@ -87,17 +87,17 @@ msgstr ""
 "Nie znaleziono polecenia nadrzędnego „{}”: {}: Żądano w pliku „{}” w wierszu "
 "{}: {}"
 
-#: cmdline_aliases.cpp:301
+#: cmdline_aliases.cpp:285
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr "Nieznany typ „{}” elementu „{}” w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:312
+#: cmdline_aliases.cpp:296
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
 msgstr "Brak atrybutu „type” elementu „{}” w pliku „{}”"
 
-#: cmdline_aliases.cpp:331
+#: cmdline_aliases.cpp:315
 #, c++-format
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
@@ -106,7 +106,7 @@ msgstr ""
 "Nazwany argument „{}” jest już zarejestrowany. Zażądano w pliku „{}” w "
 "wierszu {}: {}"
 
-#: cmdline_aliases.cpp:347
+#: cmdline_aliases.cpp:331
 #, c++-format
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
@@ -114,17 +114,17 @@ msgstr ""
 "Polecenie „{}” jest już zarejestrowane. Zażądano w pliku „{}” w wierszu {}: "
 "{}"
 
-#: cmdline_aliases.cpp:375
+#: cmdline_aliases.cpp:359
 #, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr "Nieznany atrybut „{}” grupy „{}” w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:387
+#: cmdline_aliases.cpp:371
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
 msgstr "Brak atrybutu „header” elementu „{}” w pliku „{}”"
 
-#: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
+#: cmdline_aliases.cpp:412 cmdline_aliases.cpp:522
 #, c++-format
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
@@ -133,19 +133,19 @@ msgstr ""
 "Atrybut „short_name” argumentu nazwanego „{}” musi mieć długość jednego "
 "znaku w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:446
+#: cmdline_aliases.cpp:430
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
 "Źródło „{}” nie zostało znalezione: {}: Żądano w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
+#: cmdline_aliases.cpp:446 cmdline_aliases.cpp:547 cmdline_aliases.cpp:660
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
 "Grupa „{}” nie została znaleziona: {}: Żądano w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
+#: cmdline_aliases.cpp:460 cmdline_aliases.cpp:563
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
@@ -153,12 +153,12 @@ msgid ""
 msgstr ""
 "Nieznany atrybut „{}” argumentu nazwanego „{}” w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:489
+#: cmdline_aliases.cpp:473
 #, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr "Brak atrybutu „source” argumentu nazwanego „{}” w pliku „{}”"
 
-#: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
+#: cmdline_aliases.cpp:482 cmdline_aliases.cpp:576
 #, c++-format
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
@@ -167,7 +167,7 @@ msgstr ""
 "Co najmniej jeden z atrybutów „long_name” i „short_name” musi być ustawiony "
 "dla argumentu nazwanego „{}” w pliku „{}”"
 
-#: cmdline_aliases.cpp:657
+#: cmdline_aliases.cpp:641
 #, c++-format
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
@@ -176,7 +176,7 @@ msgstr ""
 "Dołączone polecenie „{}” nie zostało znalezione: {}: Żądano w pliku „{}” w "
 "wierszu {}: {}"
 
-#: cmdline_aliases.cpp:691
+#: cmdline_aliases.cpp:675
 #, c++-format
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
@@ -185,7 +185,7 @@ msgstr ""
 "Użyto pliku konfiguracyjnego w wersji „1.0” dla atrybutu „{}” polecenia „{}” "
 "w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:713
+#: cmdline_aliases.cpp:697
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
@@ -194,31 +194,31 @@ msgstr ""
 "Nieznany atrybut „{}” wymaganej wartości aliasu „{}” w pliku „{}” w wierszu "
 "{}: {}"
 
-#: cmdline_aliases.cpp:726
+#: cmdline_aliases.cpp:710
 #, c++-format
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr "Brak atrybutu „value_help” wymaganej wartości aliasu „{}” w pliku „{}”"
 
-#: cmdline_aliases.cpp:740
+#: cmdline_aliases.cpp:724
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr "Nieznany atrybut „{}” polecenia „{}” w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:756
+#: cmdline_aliases.cpp:740
 #, c++-format
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr "Brak atrybutu „attached_command” polecenia „{}” w pliku „{}”"
 
-#: cmdline_aliases.cpp:791
+#: cmdline_aliases.cpp:775
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr "Nieprawidłowy typ wartości w pliku „{}” w wierszu {}: {}"
 
-#: cmdline_aliases.cpp:804
+#: cmdline_aliases.cpp:788
 #, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
 msgstr "Błąd składni w pliku „{}” w wierszu {}:"
@@ -619,7 +619,8 @@ msgstr "Dołącz opcjonalne pakiety z grup."
 
 #: commands/group/arguments.hpp:97
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "Działa tylko na środowiskach i grupach, żadne pakiety nie są zmieniane."
+msgstr ""
+"Działa tylko na środowiskach i grupach, żadne pakiety nie są zmieniane."
 
 #: commands/group/group_list.cpp:114
 msgid "No matches found: no groups are installed."
@@ -726,8 +727,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"Nieprawidłowy zakres identyfikatorów transakcji: „{}”, oczekiwano „ID” lub „"
-"ID..ID”, gdzie identyfikatorem jest „NUMBER”, „last” lub „last-NUMBER”."
+"Nieprawidłowy zakres identyfikatorów transakcji: „{}”, oczekiwano „ID” lub "
+"„ID..ID”, gdzie identyfikatorem jest „NUMBER”, „last” lub „last-NUMBER”."
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -2267,9 +2268,9 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
-"Błąd: transakcje trwałe nie są obsługiwane w systemach bootc. Podaj "
-"parametr --transient, aby wykonać tę operację w tymczasowej nakładce, która "
-"zostanie zresetowana po ponownym uruchomieniu systemu."
+"Błąd: transakcje trwałe nie są obsługiwane w systemach bootc. Podaj parametr "
+"--transient, aby wykonać tę operację w tymczasowej nakładce, która zostanie "
+"zresetowana po ponownym uruchomieniu systemu."
 
 #: main.cpp:1815
 msgid ""

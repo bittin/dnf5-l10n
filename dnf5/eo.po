@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-13 16:46+0000\n"
+"POT-Creation-Date: 2026-11-16 20:26+0000\n"
 "PO-Revision-Date: 2026-11-03 10:01+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2026.11\n"
 
-#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1617
+#: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
 msgid ", "
 msgstr ", "
 
-#: cmdline_aliases.cpp:145
+#: cmdline_aliases.cpp:129
 #, c++-format
 msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
@@ -31,7 +31,7 @@ msgstr ""
 "Alkroĉita nomita argumento \"{}\" ne trovita: {}: Petita en dosiero \"{}\" "
 "en linio {}: {}"
 
-#: cmdline_aliases.cpp:159
+#: cmdline_aliases.cpp:143
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
@@ -40,40 +40,40 @@ msgstr ""
 "Nekonata atributo \"{}\" de alkroĉita nomita argumento por alinomo \"{}\" en "
 "dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:171
+#: cmdline_aliases.cpp:155
 #, c++-format
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
 msgstr "Atributo \"id_path\" por alinomo \"{}\" en dosiero \"{}\" mankas"
 
-#: cmdline_aliases.cpp:208
+#: cmdline_aliases.cpp:192
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
 msgstr "Nekonata eldono \"{}\" en dosiero \"{}\". Konataj eldonoj: {}"
 
-#: cmdline_aliases.cpp:218
+#: cmdline_aliases.cpp:202
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
 "Malbona valora tipo de atributo \"version\" en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:224
+#: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Missing attribute \"version\" in file \"{}\""
 msgstr "Atributo \"version\" en dosiero \"{}\" mankas"
 
-#: cmdline_aliases.cpp:236
+#: cmdline_aliases.cpp:220
 #, c++-format
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
 msgstr "Nekonata ŝlosilo \"{}\" en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:253
+#: cmdline_aliases.cpp:237
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
 "Malplena aŭ malbona vojo de elemento-identigilo en dosiero \"{}\" en linio "
 "{}: {}"
 
-#: cmdline_aliases.cpp:272
+#: cmdline_aliases.cpp:256
 #, c++-format
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
@@ -81,18 +81,18 @@ msgstr ""
 "Patra komando \"{}\" ne trovebla: {}: Petita en dosiero \"{}\" en linio {}: "
 "{}"
 
-#: cmdline_aliases.cpp:301
+#: cmdline_aliases.cpp:285
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
 "Nekonata tipo \"{}\" de elemento \"{}\" en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:312
+#: cmdline_aliases.cpp:296
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
 msgstr "Atributo \"type\" por elemento \"{}\" en dosiero \"{}\" mankas"
 
-#: cmdline_aliases.cpp:331
+#: cmdline_aliases.cpp:315
 #, c++-format
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
@@ -101,25 +101,25 @@ msgstr ""
 "Nomita argumento \"{}\" jam registrita. Petita en dosiero \"{}\" en linio "
 "{}: {}"
 
-#: cmdline_aliases.cpp:347
+#: cmdline_aliases.cpp:331
 #, c++-format
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
 "Komando \"{}\" jam registrita. Petita en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:375
+#: cmdline_aliases.cpp:359
 #, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
 "Nekonata atributo \"{}\" de grupo \"{}\" en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:387
+#: cmdline_aliases.cpp:371
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
 msgstr "Atributo \"header\" por elemento \"{}\" en dosiero \"{}\" mankas"
 
-#: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
+#: cmdline_aliases.cpp:412 cmdline_aliases.cpp:522
 #, c++-format
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
@@ -128,17 +128,17 @@ msgstr ""
 "La atributo \"short_name\" de nomita argumento \"{}\" devas esti unusigna en "
 "dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:446
+#: cmdline_aliases.cpp:430
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr "Fonto \"{}\" ne trovita: {}: Petita en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
+#: cmdline_aliases.cpp:446 cmdline_aliases.cpp:547 cmdline_aliases.cpp:660
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr "Grupo \"{}\" ne trovita: {}: Petita en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
+#: cmdline_aliases.cpp:460 cmdline_aliases.cpp:563
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
@@ -147,13 +147,13 @@ msgstr ""
 "Nekonata atributo \"{}\" de nomita argumento \"{}\" en dosiero \"{}\" en "
 "linio {}: {}"
 
-#: cmdline_aliases.cpp:489
+#: cmdline_aliases.cpp:473
 #, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
 "Atributo \"source\" por nomita argumento \"{}\" en dosiero \"{}\" mankas"
 
-#: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
+#: cmdline_aliases.cpp:482 cmdline_aliases.cpp:576
 #, c++-format
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
@@ -162,7 +162,7 @@ msgstr ""
 "Minimume unu el la atributoj \"long_name\" kaj \"short_name\" devas esti "
 "uzata por nomita argumento \"{}\" en dosiero \"{}\""
 
-#: cmdline_aliases.cpp:657
+#: cmdline_aliases.cpp:641
 #, c++-format
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
@@ -171,7 +171,7 @@ msgstr ""
 "Alkroĉita komando \"{}\" ne trovita: {}: Petita en dosiero \"{}\" en linio "
 "{}: {}"
 
-#: cmdline_aliases.cpp:691
+#: cmdline_aliases.cpp:675
 #, c++-format
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
@@ -180,7 +180,7 @@ msgstr ""
 "Uzis agordo-dosieron eldonon \"1.0\" por atributo \"{}\" de komando \"{}\" "
 "en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:713
+#: cmdline_aliases.cpp:697
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
@@ -189,7 +189,7 @@ msgstr ""
 "Nekonata atributo \"{}\" de postulata valoro por alinomo \"{}\" en dosiero "
 "\"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:726
+#: cmdline_aliases.cpp:710
 #, c++-format
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
@@ -198,26 +198,26 @@ msgstr ""
 "Atributo \"value_help\" de la postulata valoro por alinomo \"{}\" en dosiero "
 "\"{}\" mankas"
 
-#: cmdline_aliases.cpp:740
+#: cmdline_aliases.cpp:724
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
 "Nekonata atributo \"{}\" de komando \"{}\" en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:756
+#: cmdline_aliases.cpp:740
 #, c++-format
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr ""
 "Atributo \"attached_command\" por komando \"{}\" en dosiero \"{}\" mankas"
 
-#: cmdline_aliases.cpp:791
+#: cmdline_aliases.cpp:775
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr "Malbona valortipo en dosiero \"{}\" en linio {}: {}"
 
-#: cmdline_aliases.cpp:804
+#: cmdline_aliases.cpp:788
 #, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
 msgstr "Sintaksa eraro en dosiero \"{}\" en linio {}:"

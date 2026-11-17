@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-13 16:46+0000\n"
+"POT-Creation-Date: 2026-11-16 20:26+0000\n"
 "PO-Revision-Date: 2026-11-10 19:57+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -24,11 +24,11 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2026.11.1\n"
 
-#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1617
+#: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
 msgid ", "
 msgstr ", "
 
-#: cmdline_aliases.cpp:145
+#: cmdline_aliases.cpp:129
 #, c++-format
 msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
@@ -37,7 +37,7 @@ msgstr ""
 "첨부되어 명명된 인수 \"{}\"를 찾을 수 없습니다: {}: 행에서 파일 \"{}\"로 요청"
 "됨 {}:{}"
 
-#: cmdline_aliases.cpp:159
+#: cmdline_aliases.cpp:143
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
@@ -46,54 +46,54 @@ msgstr ""
 "행의 파일 \"{}\"에서 별칭 \"{}\"에 부착되어 명명된 인수의 알 수 없는 속성 "
 "\"{}\": {}"
 
-#: cmdline_aliases.cpp:171
+#: cmdline_aliases.cpp:155
 #, c++-format
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
 msgstr "파일 \"{}\"에서 별칭 \"{}\"를 위한 누락된 속성 \"id_path\""
 
-#: cmdline_aliases.cpp:208
+#: cmdline_aliases.cpp:192
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
 msgstr "파일 \"{}\"에서 미지원 버전 \"{}\". 지원된 버전: {}"
 
-#: cmdline_aliases.cpp:218
+#: cmdline_aliases.cpp:202
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr "행의 파일 \"{}\"에서 속성 \"버전\"의 잘못된 값 유형 {}: {}"
 
-#: cmdline_aliases.cpp:224
+#: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Missing attribute \"version\" in file \"{}\""
 msgstr "파일 \"{}에서 누락된 속성 \"버전\""
 
-#: cmdline_aliases.cpp:236
+#: cmdline_aliases.cpp:220
 #, c++-format
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
 msgstr "행의 파일\"{}\"에서 알 수 없는 키 \"{}\" {}: {}"
 
-#: cmdline_aliases.cpp:253
+#: cmdline_aliases.cpp:237
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr "행의 파일 \"{}\"에서 비어 있거나 잘못된 요소 id 경로 {}: {}"
 
-#: cmdline_aliases.cpp:272
+#: cmdline_aliases.cpp:256
 #, c++-format
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
 "상위 명령 \"{}\"를 찾을 수 없음: {}: 행의 파일 \"{}\"에서 요청됨 {}\" {}"
 
-#: cmdline_aliases.cpp:301
+#: cmdline_aliases.cpp:285
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr "행의 파일 \"{}\"에서 요소 \"{}\"의 알 수 없는 유형 {}: {}"
 
-#: cmdline_aliases.cpp:312
+#: cmdline_aliases.cpp:296
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
 msgstr "파일 \"{}\"에서 요소 \"{}\"를 위한 누락된 속성 \"유형\""
 
-#: cmdline_aliases.cpp:331
+#: cmdline_aliases.cpp:315
 #, c++-format
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
@@ -101,23 +101,23 @@ msgid ""
 msgstr ""
 "명명된 인수 \"{}\"는 이미 등록되었습니다. 행의 파일 \"{}\"에서 요청됨 {}: {}"
 
-#: cmdline_aliases.cpp:347
+#: cmdline_aliases.cpp:331
 #, c++-format
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr "명령 \"{}\"는 이미 등록되었습니다. 행의 파일 \"{}\"에서 요청됨 {}: {}"
 
-#: cmdline_aliases.cpp:375
+#: cmdline_aliases.cpp:359
 #, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr "행의 파일 \"{}\"에서 그룹 \"{}\"의 알 수 없는 속성 \"{}\" {}: {}"
 
-#: cmdline_aliases.cpp:387
+#: cmdline_aliases.cpp:371
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
 msgstr "파일 \"{}\"에서 요소 \"{}\"를 위해 누락된 속성 \"헤더\""
 
-#: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
+#: cmdline_aliases.cpp:412 cmdline_aliases.cpp:522
 #, c++-format
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
@@ -126,17 +126,17 @@ msgstr ""
 "명명된 인수 \"{}\"의 \"short_name\" 속성은 행의 파일 \"{}\"에서 한 문자 길이"
 "여야 합니다 {}: {}"
 
-#: cmdline_aliases.cpp:446
+#: cmdline_aliases.cpp:430
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr "원천 \"{}\"를 찾을 수 없습니다: {}: 행의 파일 \"{}\"에서 요청됨 {}: {}"
 
-#: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
+#: cmdline_aliases.cpp:446 cmdline_aliases.cpp:547 cmdline_aliases.cpp:660
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr "그룹 \"{}\"를 찾을 수 없습니다: {}: 행의 파일 \"{}\"에서 요청됨 {}: {}"
 
-#: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
+#: cmdline_aliases.cpp:460 cmdline_aliases.cpp:563
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
@@ -144,12 +144,12 @@ msgid ""
 msgstr ""
 "행의 파일 \"{}\"에서 명명된 인수 \"{}\"의 알 수 없는 속성 \"{}\" {}: {}"
 
-#: cmdline_aliases.cpp:489
+#: cmdline_aliases.cpp:473
 #, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr "파일 \"{}\"에서 명명된 인수 \"{}\"를 위해 누락된 속성 \"source\""
 
-#: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
+#: cmdline_aliases.cpp:482 cmdline_aliases.cpp:576
 #, c++-format
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
@@ -158,7 +158,7 @@ msgstr ""
 "최소한 \"long_name\" 및 \"short_name\" 중에 하나 이상은 파일 \"{}\"에서 명명"
 "된 인수 \"{}\"를 위해 설정해야 합니다"
 
-#: cmdline_aliases.cpp:657
+#: cmdline_aliases.cpp:641
 #, c++-format
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
@@ -166,7 +166,7 @@ msgid ""
 msgstr ""
 "부착된 명령 \"{}\"를 찾을 수 없습니다: {}: 행의 파일 \"{}\"에서 요청됨 {}: {}"
 
-#: cmdline_aliases.cpp:691
+#: cmdline_aliases.cpp:675
 #, c++-format
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
@@ -175,7 +175,7 @@ msgstr ""
 "행의 파일 \"{}\"에서 명령 \"{}\"의 속성 \"{}\"를 위해 사용된 환경 파일 버전 "
 "\"1.0\" {}: {}"
 
-#: cmdline_aliases.cpp:713
+#: cmdline_aliases.cpp:697
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
@@ -184,7 +184,7 @@ msgstr ""
 "행의 파일 \"{}\"에서 별칭 \"{}\"를 위한 요청된 값의 알 수 없는 속성 \"{}\" "
 "{}: {}"
 
-#: cmdline_aliases.cpp:726
+#: cmdline_aliases.cpp:710
 #, c++-format
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
@@ -192,24 +192,24 @@ msgid ""
 msgstr ""
 "파일 \"{}\"에서 별칭 \"{}\"를 위해 필요한 값의 누락된 속성 \"value_help\""
 
-#: cmdline_aliases.cpp:740
+#: cmdline_aliases.cpp:724
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr "행의 파일 \"{}\"에서 명령 \"{}\"의 알 수 없는 속성 \"{}\" {}: {}"
 
-#: cmdline_aliases.cpp:756
+#: cmdline_aliases.cpp:740
 #, c++-format
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr "파일 \"{}\" 명령 \"{}\"를 위해 누락된 속성 \"attached_command\""
 
-#: cmdline_aliases.cpp:791
+#: cmdline_aliases.cpp:775
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr "행의 파일 \"{}\"에서 잘못된 값 유형 {}: {}"
 
-#: cmdline_aliases.cpp:804
+#: cmdline_aliases.cpp:788
 #, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
 msgstr "행 {}의 파일 \"{}\"에서 구문 오류:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-13 16:46+0000\n"
+"POT-Creation-Date: 2026-11-16 20:26+0000\n"
 "PO-Revision-Date: 2026-11-03 09:51+0000\n"
 "Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2026.11\n"
 
-#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1617
+#: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
 msgid ", "
 msgstr ", "
 
-#: cmdline_aliases.cpp:145
+#: cmdline_aliases.cpp:129
 #, c++-format
 msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
@@ -32,7 +32,7 @@ msgstr ""
 "Bijgevoegd benoemd argument \"{}\" niet gevonden: {}: Opgevraagd in bestand "
 "\"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:159
+#: cmdline_aliases.cpp:143
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
@@ -41,40 +41,40 @@ msgstr ""
 "Onbekend attribuut \"{}\" van bijgevoegd benoemd argument voor alias \"{}\" "
 "in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:171
+#: cmdline_aliases.cpp:155
 #, c++-format
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
 msgstr "Ontbrekend attribuut \"id_path\" voor alias \"{}\" in bestand \"{}\""
 
-#: cmdline_aliases.cpp:208
+#: cmdline_aliases.cpp:192
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
 msgstr ""
 "Niet-ondersteunde versie \"{}\" in bestand \"{}\". Ondersteunde versies: {}"
 
-#: cmdline_aliases.cpp:218
+#: cmdline_aliases.cpp:202
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
 "Ongeldig waardetype van attribuut \"version\" in bestand \"{}\" op regel {}: "
 "{}"
 
-#: cmdline_aliases.cpp:224
+#: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Missing attribute \"version\" in file \"{}\""
 msgstr "Ontbrekend attribuut \"version\" in bestand \"{}\""
 
-#: cmdline_aliases.cpp:236
+#: cmdline_aliases.cpp:220
 #, c++-format
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
 msgstr "Onbekende sleutel \"{}\" in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:253
+#: cmdline_aliases.cpp:237
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr "Lege of ongeldig element-id-pad in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:272
+#: cmdline_aliases.cpp:256
 #, c++-format
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
@@ -82,18 +82,18 @@ msgstr ""
 "Oudercommando \"{}\" niet gevonden: {}: Aangevraagd in bestand \"{}\" op "
 "regel {}: {}"
 
-#: cmdline_aliases.cpp:301
+#: cmdline_aliases.cpp:285
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
 "Onbekend type \"{}\" van element \"{}\" in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:312
+#: cmdline_aliases.cpp:296
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
 msgstr "Ontbrekend attribuut \"type\" voor element \"{}\" in bestand \"{}\""
 
-#: cmdline_aliases.cpp:331
+#: cmdline_aliases.cpp:315
 #, c++-format
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
@@ -102,7 +102,7 @@ msgstr ""
 "Benoemd argument \"{}\" is al geregistreerd. Aangevraagd in bestand \"{}\" "
 "op regel {}: {}"
 
-#: cmdline_aliases.cpp:347
+#: cmdline_aliases.cpp:331
 #, c++-format
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
@@ -110,19 +110,19 @@ msgstr ""
 "Commando \"{}\" is al geregistreerd. Aangevraagd in bestand \"{}\" op regel "
 "{}: {}"
 
-#: cmdline_aliases.cpp:375
+#: cmdline_aliases.cpp:359
 #, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
 "Onbegekend attribuut \"{}\" van groep \"{}\" in bestand \"{}\" op regel {}: "
 "{}"
 
-#: cmdline_aliases.cpp:387
+#: cmdline_aliases.cpp:371
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
 msgstr "Ontbrekend attribuut \"header\" voor element \"{}\" in bestand \"{}\""
 
-#: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
+#: cmdline_aliases.cpp:412 cmdline_aliases.cpp:522
 #, c++-format
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
@@ -131,19 +131,19 @@ msgstr ""
 "Het \"short_name\"-attribuut voor benoemd argument \"{}\" moet één karakter "
 "lang zijn in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:446
+#: cmdline_aliases.cpp:430
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
 "Bron \"{}\" niet gevonden: {}: Aangevraagd in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
+#: cmdline_aliases.cpp:446 cmdline_aliases.cpp:547 cmdline_aliases.cpp:660
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
 "Groep \"{}\" niet gevonden: {}: Aangevraagd in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
+#: cmdline_aliases.cpp:460 cmdline_aliases.cpp:563
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
@@ -152,14 +152,14 @@ msgstr ""
 "Ontbrekend attribuut \"{}\" voor benoemd argument \"{}\" in bestand \"{}\" "
 "op regel {}: {}"
 
-#: cmdline_aliases.cpp:489
+#: cmdline_aliases.cpp:473
 #, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
 "Ontbrekend attribuut \"source\" voor benoemd argument \"{}\" in bestand \"{}"
 "\""
 
-#: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
+#: cmdline_aliases.cpp:482 cmdline_aliases.cpp:576
 #, c++-format
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
@@ -168,7 +168,7 @@ msgstr ""
 "Minstens één van de attributen \"long_name\" en \"short_name\" moeten worden "
 "ingesteld voor het benoemde argument \"{}\" in bestand \"{}\""
 
-#: cmdline_aliases.cpp:657
+#: cmdline_aliases.cpp:641
 #, c++-format
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
@@ -177,7 +177,7 @@ msgstr ""
 "Bijgevoegd commando \"{}\" niet gevonden: {}: Aangevraagd in bestand \"{}\" "
 "op regel {}: {}"
 
-#: cmdline_aliases.cpp:691
+#: cmdline_aliases.cpp:675
 #, c++-format
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
@@ -186,7 +186,7 @@ msgstr ""
 "Configuratiebestandsversie \"1.0\" gebruikt voor attribuut \"{}\" van "
 "commando \"{}\" in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:713
+#: cmdline_aliases.cpp:697
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
@@ -195,7 +195,7 @@ msgstr ""
 "Onbekend attribuut \"{}\" van verplichte waarde voor alias \"{}\" in bestand "
 "\"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:726
+#: cmdline_aliases.cpp:710
 #, fuzzy, c++-format
 #| msgid ""
 #| "Missing attribute \"value_help\" of required value for alias \"{}\" in "
@@ -207,7 +207,7 @@ msgstr ""
 "Ontbrekend attribuut \"value_help\" van verplichte waarde voor alias \"{}\" "
 "in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:740
+#: cmdline_aliases.cpp:724
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
@@ -215,7 +215,7 @@ msgstr ""
 "Onbekend attribuut \"{}\" van commando \"{}\" in bestand \"{}\" op regel {}: "
 "{}"
 
-#: cmdline_aliases.cpp:756
+#: cmdline_aliases.cpp:740
 #, c++-format
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
@@ -223,12 +223,12 @@ msgstr ""
 "Ontbrekend attribuut \"attached_command\" voor commando \"{}\" in bestand "
 "\"{}\""
 
-#: cmdline_aliases.cpp:791
+#: cmdline_aliases.cpp:775
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr "Ongeldig waardetype in bestand \"{}\" op regel {}: {}"
 
-#: cmdline_aliases.cpp:804
+#: cmdline_aliases.cpp:788
 #, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
 msgstr "Syntaxisfout in bestand \"{}\" op regel {}:"
