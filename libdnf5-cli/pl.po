@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 20:26+0000\n"
-"PO-Revision-Date: 2026-11-16 12:01+0000\n"
+"PO-Revision-Date: 2026-11-18 10:44+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/pl/>\n"
@@ -52,7 +52,7 @@ msgstr "„{}” nie jest dozwolone razem z argumentem pozycyjnym „{}”"
 #: argument_parser.cpp:147
 #, c++-format
 msgid "Argument id \"{}\" already registered in group \"{}\""
-msgstr "Argument id „{}” jest już zarejestrowany w grupie „{}”"
+msgstr "Identyfikator argumentu „{}” jest już zarejestrowany w grupie „{}”"
 
 #: argument_parser.cpp:274
 #, c++-format
@@ -158,12 +158,12 @@ msgstr "Brak wartości dla aliasu polecenia „{}”"
 #: argument_parser.cpp:1647
 #, c++-format
 msgid "Named argument with path id \"{}\" not found"
-msgstr "Nie znaleziono nazwanego argumentu o identyfikatorze ścieżki „{}”"
+msgstr "Nie odnaleziono nazwanego argumentu o identyfikatorze ścieżki „{}”"
 
 #: argument_parser.cpp:1657
 #, c++-format
 msgid "Positional argument with path id \"{}\" not found"
-msgstr "Nie znaleziono argumentu pozycyjnego o identyfikatorze ścieżki „{}”"
+msgstr "Nie odnaleziono argumentu pozycyjnego o identyfikatorze ścieżki „{}”"
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
@@ -176,13 +176,12 @@ msgstr "Nie udało się rozwiązać transakcji"
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
 msgstr ""
-"Wskazówka: d — domyślne, e — włączone, x — wyłączone, i — zainstalowane, a — "
+"Wskazówka: d – domyślne, e – włączone, x – wyłączone, i – zainstalowane, a – "
 "aktywne"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr ""
-"Wskazówka: d — domyślne, e — włączone, x — wyłączone, i — zainstalowane"
+msgstr "Wskazówka: d – domyślne, e – włączone, x – wyłączone, i – zainstalowane"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
@@ -258,7 +257,7 @@ msgstr "Dostawca"
 
 #: output/search.cpp:45
 msgid " (exact)"
-msgstr " (dokładny)"
+msgstr " (dokładnie)"
 
 #: output/search.cpp:100
 msgid "Matched fields: "
@@ -363,9 +362,9 @@ msgstr[2] " Instalowanie poprzedniej wersji:    {:4} pakietów\n"
 #, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] " Zmienianie przyczyny:               {:4} pakietu\n"
-msgstr[1] " Zmienianie przyczyny:               {:4} pakietów\n"
-msgstr[2] " Zmienianie przyczyny:               {:4} pakietów\n"
+msgstr[0] " Zmienianie powodu:                  {:4} pakietu\n"
+msgstr[1] " Zmienianie powodu:                  {:4} pakietów\n"
+msgstr[2] " Zmienianie powodu:                  {:4} pakietów\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:197
@@ -457,7 +456,7 @@ msgstr "Usuwanie:"
 
 #: output/transaction_table.cpp:587
 msgid "Changing reason:"
-msgstr "Zmienianie przyczyny:"
+msgstr "Zmienianie powodu:"
 
 #: output/transaction_table.cpp:619
 msgid "Installing groups dependencies:"
@@ -477,7 +476,7 @@ msgstr "Aktualizowanie grup:"
 
 #: output/transaction_table.cpp:631
 msgid "Changing reason of installed groups:"
-msgstr "Zmienianie przyczyny zainstalowanych grup:"
+msgstr "Zmienianie powodu zainstalowanych grup:"
 
 #: output/transaction_table.cpp:658
 msgid "Installing environmental groups:"
@@ -501,7 +500,7 @@ msgstr "Wyłączanie modułów:"
 
 #: output/transaction_table.cpp:697
 msgid "Resetting modules:"
-msgstr "Resetowanie modułów:"
+msgstr "Przywracanie modułów:"
 
 #: output/transaction_table.cpp:700
 msgid "Switching module streams:"
@@ -530,7 +529,7 @@ msgstr "Działanie"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr "Przyczyna"
+msgstr "Powód"
 
 #: output/transactioninfo.cpp:98
 msgid "Transaction ID"
