@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-13 16:46+0000\n"
+"POT-Creation-Date: 2026-11-16 20:26+0000\n"
 "PO-Revision-Date: 2026-11-16 12:01+0000\n"
 "Last-Translator: w s <gilfobert@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -25,8 +25,8 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
-"Неправильний ідентифікатор libsolv для рекомендації \"{}\": назва solvable \""
-"{}\" не має префікса рекомендації \"{}\""
+"Неправильний ідентифікатор libsolv для рекомендації \"{}\": назва solvable "
+"\"{}\" не має префікса рекомендації \"{}\""
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
@@ -615,7 +615,8 @@ msgstr "Операція призведе до вилучення таких з�
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: {}"
-msgstr "Операція призведе до порушення залежностей таких захищених пакунків: {}"
+msgstr ""
+"Операція призведе до порушення залежностей таких захищених пакунків: {}"
 
 #: base/solver_problems.cpp:78
 #, c++-format
@@ -1028,8 +1029,8 @@ msgstr ""
 msgid ""
 "Invalid time option value \"{}\", negative values except \"-1\" not allowed"
 msgstr ""
-"Некоректне значення часового параметра \"{}\": від'ємні значення, крім \"-"
-"1\", не дозволені"
+"Некоректне значення часового параметра \"{}\": від'ємні значення, крім "
+"\"-1\", не дозволені"
 
 #: conf/option_seconds.cpp:59
 #, c++-format
@@ -1230,7 +1231,8 @@ msgstr "Репозиторій \"{}\" має непідтримуваний ти
 #: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr "Не вдалося завантажити метадані ({}: \"{}\") для репозиторію \"{}\": {}"
+msgstr ""
+"Не вдалося завантажити метадані ({}: \"{}\") для репозиторію \"{}\": {}"
 
 #: repo/repo.cpp:440
 msgid ""
@@ -1903,8 +1905,8 @@ msgstr "Стан {} для \"{}\" не знайдено."
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
-"Не вдалося завантажити файл стану системи TOML {} (див. dnf5-system-state(7))"
-": {}"
+"Не вдалося завантажити файл стану системи TOML {} (див. dnf5-system-"
+"state(7)): {}"
 
 #: system/state.cpp:649
 #, c++-format
@@ -2111,8 +2113,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
-"Дію '{0}' '{1}' не можна об'єднати, оскільки її вже встановлено у версії '{2}"
-"' -> зберігаємо дію зі старішої транзакції з '{1}'."
+"Дію '{0}' '{1}' не можна об'єднати, оскільки її вже встановлено у версії "
+"'{2}' -> зберігаємо дію зі старішої транзакції з '{1}'."
 
 #: transaction/transaction_merge.cpp:304
 #, c++-format
@@ -2432,7 +2434,8 @@ msgstr "Не вдалося прив'язати значення integer64 до 
 #: utils/sqlite3/sqlite3.cpp:35
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
-msgstr "Не вдалося прив'язати значення unsigned integer32 до SQL-виразу: \"{}\""
+msgstr ""
+"Не вдалося прив'язати значення unsigned integer32 до SQL-виразу: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
