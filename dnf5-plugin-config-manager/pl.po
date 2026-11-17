@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 20:26+0000\n"
-"PO-Revision-Date: 2026-11-16 12:01+0000\n"
+"PO-Revision-Date: 2026-11-18 10:44+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/pl/>\n"
@@ -104,7 +104,7 @@ msgid ""
 "\"--overwrite\" to overwrite."
 msgstr ""
 "Plik „{}” już istnieje i konfiguruje repozytoria o identyfikatorach „{}”. "
-"Dodaj „--overwrite”, aby nadpisać."
+"Dodaj „--overwrite”, aby zastąpić."
 
 #: addrepo.cpp:453 addrepo.cpp:479
 #, c++-format
@@ -228,7 +228,7 @@ msgstr "Wzorzec bazowej nazwy pliku zasad (obsługuje wzorce glob)"
 
 #: listvendorpolicies.cpp:42
 msgid "Show detailed information about the policies"
-msgstr "Pokaż szczegółowe informacje o zasadach"
+msgstr "Wyświetl szczegółowe informacje o zasadach"
 
 #: listvendorpolicies.cpp:61 removevendorpolicy.cpp:49
 msgid "No vendor policy files found"
@@ -323,12 +323,12 @@ msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "{}: Nieprawidłowo sformatowana wartość argumentu: Ostatni znak klucza nie "
-"może być '.': {}"
+"może być „.”: {}"
 
 #: setopt.cpp:70 unsetopt.cpp:82
 #, c++-format
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr "{}: Puste id repozytorium nie jest dozwolone: {}"
+msgstr "{}: Pusty identyfikator repozytorium nie jest dozwolony: {}"
 
 #: setopt.cpp:79
 #, c++-format
@@ -395,18 +395,18 @@ msgstr ""
 #: shared.hpp:87
 #, c++-format
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
-msgstr "Nazwa zmiennej może zawierać tylko litery ASCII, cyfry i znak '_': {}"
+msgstr "Nazwa zmiennej może zawierać tylko litery ASCII, cyfry i znak „_”: {}"
 
 #: unsetopt.cpp:94
 #, c++-format
 msgid "config-manager: Request to remove unsupported repository option: {}"
 msgstr ""
-"config-manager: Prośba o usunięcie nieobsługiwanej opcji repozytorium: {}"
+"config-manager: Żądanie usunięcia nieobsługiwanej opcji repozytorium: {}"
 
 #: unsetopt.cpp:106
 #, c++-format
 msgid "config-manager: Request to remove unsupported main option: {}"
-msgstr "config-manager: Prośba o usunięcie nieobsługiwanej opcji głównej: {}"
+msgstr "config-manager: Żądanie usunięcia nieobsługiwanej opcji głównej: {}"
 
 #: unsetopt.cpp:140
 #, c++-format
@@ -422,8 +422,8 @@ msgstr ""
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
 msgstr ""
-"config-manager: Żądanie usunięcia opcji głównej, ale plik konfiguracyjny nie "
-"został znaleziony: {}"
+"config-manager: Żądanie usunięcia opcji głównej, ale nie odnaleziono pliku "
+"konfiguracyjnego: {}"
 
 #: unsetopt.cpp:186
 #, c++-format
@@ -449,7 +449,7 @@ msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
 msgstr ""
-"config-manager: Żądanie usunięcia opcji repozytorium, ale nie znaleziono "
+"config-manager: Żądanie usunięcia opcji repozytorium, ale nie odnaleziono "
 "pliku z nadpisaniami: {}"
 
 #: unsetvar.cpp:69
@@ -458,8 +458,8 @@ msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
 msgstr ""
-"config-manager: Żądanie usunięcia zmiennej, ale katalog zmiennych nie został "
-"znaleziony: {}"
+"config-manager: Żądanie usunięcia zmiennej, ale nie odnaleziono katalogu "
+"zmiennych: {}"
 
 #: unsetvar.cpp:82
 #, c++-format
