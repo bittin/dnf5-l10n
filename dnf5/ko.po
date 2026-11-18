@@ -7,14 +7,14 @@
 # Joungmin Lee <leejm516@gmail.com>, 2024.
 # Dohyeon Jeon <hotoras03@gmail.com>, 2026.
 # Hyeonmin Oh <hyunmin860@gmail.com>, 2026.
+# Evan Goode <egoode@redhat.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-18 09:23+0000\n"
-"PO-Revision-Date: 2026-11-10 19:57+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-11-18 20:48+0000\n"
+"Last-Translator: Evan Goode <egoode@redhat.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
 "Language: ko\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.11.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
 msgid ", "
@@ -38,13 +38,13 @@ msgstr ""
 "됨 {}:{}"
 
 #: cmdline_aliases.cpp:143
-#, c++-format
+#, c++-format, fuzzy
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
-"행의 파일 \"{}\"에서 별칭 \"{}\"에 부착되어 명명된 인수의 알 수 없는 속성 "
-"\"{}\": {}"
+"행의 파일 \"{}\"에서 별칭 \"{}\"에 부착되어 명명된 인수의 알 수 없는 속성 \""
+"{}\": {}"
 
 #: cmdline_aliases.cpp:155
 #, c++-format
@@ -84,7 +84,7 @@ msgstr ""
 "상위 명령 \"{}\"를 찾을 수 없음: {}: 행의 파일 \"{}\"에서 요청됨 {}\" {}"
 
 #: cmdline_aliases.cpp:285
-#, c++-format
+#, c++-format, fuzzy
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr "행의 파일 \"{}\"에서 요소 \"{}\"의 알 수 없는 유형 {}: {}"
 
