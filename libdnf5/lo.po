@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-03 10:03+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1390,7 +1390,7 @@ msgstr "ແພັກເກດບໍ່ໄດ້ຖືກເຊັນຊື່."
 msgid "Problem occurred when opening the package."
 msgstr "ເກີດບັນຫາໃນການເປີດແພັກເກດ."
 
-#: rpm/rpm_signature.cpp:64 system/state.cpp:792
+#: rpm/rpm_signature.cpp:64 system/state.cpp:793
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr "ບໍ່ສາມາດຕັ້ງຄ່າ rootDir ຂອງທຸລະກຳ rpm \"{}\" ໄດ້."
@@ -1498,7 +1498,7 @@ msgstr "ບໍ່ສາມາດຕິດຕັ້ງແພັກເກດ \"{}\
 msgid "Error parsing versionlock file \"{}\": {}"
 msgstr "ເກີດຂໍ້ຜິດພາດໃນການແປຂໍ້ມູນທຸລະກຳ: {}"
 
-#: rpm/versionlock_config.cpp:297 system/state.cpp:614
+#: rpm/versionlock_config.cpp:297 system/state.cpp:615
 #, c++-format
 msgid "{}"
 msgstr "{}"
@@ -1793,39 +1793,39 @@ msgstr "ຕົວກອງແພັກເກັດບໍ່ຮອງຮັບທ
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr "{func}(): ດັດຊະນີນະໂຍບາຍ {idx} ຢູ່ນອກຂອບເຂດ"
 
-#: system/state.cpp:291 system/state.cpp:300
+#: system/state.cpp:292 system/state.cpp:301
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "ລຸ້ນ TOML ບໍ່ຖືກຕ້ອງ \"{}\", ຕ້ອງການຮູບແບບ \"MAJOR.MINOR\""
 
-#: system/state.cpp:308
+#: system/state.cpp:309
 #, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr "ບໍ່ພົບສະຖານະ {} ສຳລັບ \"{}\"."
 
-#: system/state.cpp:312
+#: system/state.cpp:313
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr "ໂຫຼດໄຟລ໌ TOML ສະຖານະລະບົບ {} ຫຼົ້ມເຫຼວ (ເບິ່ງ dnf5-system-state(7)): {}"
 
-#: system/state.cpp:649
+#: system/state.cpp:650
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "ບໍ່ຮອງຮັບ TOML ລຸ້ນ \"{}\", ລຸ້ນສູງສຸດທີ່ຮອງຮັບແມ່ນ \"{}\""
 
-#: system/state.cpp:798
+#: system/state.cpp:799
 #, fuzzy, c++-format
 #| msgid "Error %i opening rpm database"
 msgid "Error {} opening rpm database"
 msgstr "ເກີດຂໍ້ຜິດພາດ %i ໃນການເປີດຖານຂໍ້ມູນ rpm"
 
-#: system/state.cpp:802
+#: system/state.cpp:803
 #, fuzzy
 #| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
 msgstr "ບໍ່ສາມາດກູ້ຄືນ (restore) ຖານຂໍ້ມູນ \"{}\" ໄດ້"
 
-#: system/state.cpp:808
+#: system/state.cpp:809
 #, fuzzy
 #| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"

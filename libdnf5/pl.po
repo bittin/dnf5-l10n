@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-18 10:44+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1416,8 +1416,8 @@ msgstr ""
 #, c++-format
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
-"Nie udało się zapisać pamięci podręcznej „primary” dla repozytorium „{}” do „"
-"{}”: {}"
+"Nie udało się zapisać pamięci podręcznej „primary” dla repozytorium „{}” do "
+"„{}”: {}"
 
 #: repo/solv_repo.cpp:635
 #, c++-format
@@ -1489,7 +1489,7 @@ msgstr "Pakiet nie jest podpisany."
 msgid "Problem occurred when opening the package."
 msgstr "Wystąpił problem podczas otwierania pakietu."
 
-#: rpm/rpm_signature.cpp:64 system/state.cpp:792
+#: rpm/rpm_signature.cpp:64 system/state.cpp:793
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr "Nie udało się ustawić katalogu głównego transakcji rpm „{}”."
@@ -1602,7 +1602,7 @@ msgstr "Nie można zainstalować pakietu „{}”"
 msgid "Error parsing versionlock file \"{}\": {}"
 msgstr "Błąd podczas analizowania pliku blokady wersji „{}”: {}"
 
-#: rpm/versionlock_config.cpp:297 system/state.cpp:614
+#: rpm/versionlock_config.cpp:297 system/state.cpp:615
 #, c++-format
 msgid "{}"
 msgstr "{}"
@@ -1806,8 +1806,8 @@ msgstr "Oczekiwano „{}”, ale odnaleziono „{}”"
 #, c++-format
 msgid "Compact vendor change policy parse error in \"{}\" at position {}"
 msgstr ""
-"Błąd podczas analizowania zasad zmiany dostawcy w formacie kompaktowym w „{}"
-"” na pozycji {}"
+"Błąd podczas analizowania zasad zmiany dostawcy w formacie kompaktowym w "
+"„{}” na pozycji {}"
 
 #: solv/vendor_change_manager.cpp:956
 msgid "Expected package filter after '@'"
@@ -1918,38 +1918,38 @@ msgstr "Filtry pakietów nie obsługują kierunku „eq”. Użyj „in” lub �
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr "{func}(): Indeks zasad {idx} jest poza zakresem"
 
-#: system/state.cpp:291 system/state.cpp:300
+#: system/state.cpp:292 system/state.cpp:301
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Nieprawidłowa wersja TOML „{}”, oczekiwano „MAJOR.MINOR”"
 
-#: system/state.cpp:308
+#: system/state.cpp:309
 #, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr "Nie odnaleziono stanu {} dla „{}”."
 
-#: system/state.cpp:312
+#: system/state.cpp:313
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 "Wczytanie pliku TOML stanu systemu {} się nie powiodło (patrz dnf5-system-"
 "state(7)): {}"
 
-#: system/state.cpp:649
+#: system/state.cpp:650
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Nieobsługiwana wersja TOML „{}”, maksymalna obsługiwana wersja to „{}”"
 
-#: system/state.cpp:798
+#: system/state.cpp:799
 #, c++-format
 msgid "Error {} opening rpm database"
 msgstr "Błąd {} podczas otwierania bazy danych rpm"
 
-#: system/state.cpp:802
+#: system/state.cpp:803
 msgid "Failed to get rpm database"
 msgstr "Nie udało się uzyskać bazy danych rpm"
 
-#: system/state.cpp:808
+#: system/state.cpp:809
 msgid "Failed to initialize database index iterator"
 msgstr "Nie udało się zainicjować iteratora indeksu bazy danych"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-03-17 19:58+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1394,7 +1394,7 @@ msgstr "ਪੈਕੇਜ ਸਾਈਨ ਨਹੀਂ ਕੀਤਾ ਹੈ।"
 msgid "Problem occurred when opening the package."
 msgstr ""
 
-#: rpm/rpm_signature.cpp:64 system/state.cpp:792
+#: rpm/rpm_signature.cpp:64 system/state.cpp:793
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr ""
@@ -1499,7 +1499,7 @@ msgstr "\"{}\" ਪੈਕੇਜ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਜ�
 msgid "Error parsing versionlock file \"{}\": {}"
 msgstr "\"{}\" ਪੈਕੇਜ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
 
-#: rpm/versionlock_config.cpp:297 system/state.cpp:614
+#: rpm/versionlock_config.cpp:297 system/state.cpp:615
 #, c++-format
 msgid "{}"
 msgstr "{}"
@@ -1778,39 +1778,39 @@ msgstr ""
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr ""
 
-#: system/state.cpp:291 system/state.cpp:300
+#: system/state.cpp:292 system/state.cpp:301
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr ""
 
-#: system/state.cpp:308
+#: system/state.cpp:309
 #, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr ""
 
-#: system/state.cpp:312
+#: system/state.cpp:313
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 
-#: system/state.cpp:649
+#: system/state.cpp:650
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 
-#: system/state.cpp:798
+#: system/state.cpp:799
 #, fuzzy, c++-format
 #| msgid "Error %i opening rpm database"
 msgid "Error {} opening rpm database"
 msgstr "rpm ਡਾਟਾਬੇਸ ਖੋਲ੍ਹਣ ਦੌਰਾਨ %i ਗਲਤੀ"
 
-#: system/state.cpp:802
+#: system/state.cpp:803
 #, fuzzy
 #| msgid "Failed to download files"
 msgid "Failed to get rpm database"
 msgstr "ਫਾਇਲਾਂ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਅਸਫ਼ਲ"
 
-#: system/state.cpp:808
+#: system/state.cpp:809
 msgid "Failed to initialize database index iterator"
 msgstr ""
 

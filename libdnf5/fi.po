@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-12 18:02+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1498,7 +1498,7 @@ msgstr "Pakettia ei ole allekirjoitettu."
 msgid "Problem occurred when opening the package."
 msgstr "Pakettia avatessa ilmeni virhe."
 
-#: rpm/rpm_signature.cpp:64 system/state.cpp:792
+#: rpm/rpm_signature.cpp:64 system/state.cpp:793
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr "rpm-tapahtuman rootDir \"{}\":n asettaminen epäonnistui."
@@ -1611,7 +1611,7 @@ msgstr "Pakettia \"{}\" ei voi asentaa"
 msgid "Error parsing versionlock file \"{}\": {}"
 msgstr "Virhe jäsennettäessä versionlock-tiedostoa \"{}\": {}"
 
-#: rpm/versionlock_config.cpp:297 system/state.cpp:614
+#: rpm/versionlock_config.cpp:297 system/state.cpp:615
 #, c++-format
 msgid "{}"
 msgstr "{}"
@@ -1934,38 +1934,38 @@ msgstr ""
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr "{func}(): Käytännön indeksi {idx} on sallitun alueen ulkopuolella"
 
-#: system/state.cpp:291 system/state.cpp:300
+#: system/state.cpp:292 system/state.cpp:301
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Virheellinen TOML-versio \"{}\", odotettiin muotoa \"MAJOR.MINOR\""
 
-#: system/state.cpp:308
+#: system/state.cpp:309
 #, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr "{}-tilaa kohteelle \"{}\" ei löytynyt."
 
-#: system/state.cpp:312
+#: system/state.cpp:313
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 "Järjestelmän tilan TOML-tiedoston {} lataus epäonnistui (katso dnf5-system-"
 "state(7)): {}"
 
-#: system/state.cpp:649
+#: system/state.cpp:650
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Ei-tuettu TOML-versio \"{}\", suurin tuettu versio on \"{}\""
 
-#: system/state.cpp:798
+#: system/state.cpp:799
 #, c++-format
 msgid "Error {} opening rpm database"
 msgstr "Virhe {} avattaessa rpm-tietokantaa"
 
-#: system/state.cpp:802
+#: system/state.cpp:803
 msgid "Failed to get rpm database"
 msgstr "Rpm-tietokannan hakeminen epäonnistui"
 
-#: system/state.cpp:808
+#: system/state.cpp:809
 msgid "Failed to initialize database index iterator"
 msgstr "Tietokannan indeksi-iteraattorin alustaminen epäonnistui"
 

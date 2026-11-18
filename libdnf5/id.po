@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1467,7 +1467,7 @@ msgstr "Paket ini tidak ditandatangani."
 msgid "Problem occurred when opening the package."
 msgstr "Masalah terjadi saat membuka paket."
 
-#: rpm/rpm_signature.cpp:64 system/state.cpp:792
+#: rpm/rpm_signature.cpp:64 system/state.cpp:793
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr "Gagal menetapkan rootDir transaksi rpm \"{}\"."
@@ -1579,7 +1579,7 @@ msgstr "Tidak dapat menginstal paket \"{}\""
 msgid "Error parsing versionlock file \"{}\": {}"
 msgstr "Kesalahan saat mengurai berkas versionlock \"{}\": {}"
 
-#: rpm/versionlock_config.cpp:297 system/state.cpp:614
+#: rpm/versionlock_config.cpp:297 system/state.cpp:615
 #, c++-format
 msgid "{}"
 msgstr "{}"
@@ -1897,39 +1897,39 @@ msgstr "Filter paket tidak mendukung arah 'eq'. Gunakan 'in' atau 'out'"
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr "{func}(): Indeks kebijakan {idx} berada di luar rentang"
 
-#: system/state.cpp:291 system/state.cpp:300
+#: system/state.cpp:292 system/state.cpp:301
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Versi TOML tidak valid \"{}\", diharapkan \"MAJOR.MINOR\""
 
-#: system/state.cpp:308
+#: system/state.cpp:309
 #, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr "{} status untuk \"{}\" tidak ditemukan."
 
-#: system/state.cpp:312
+#: system/state.cpp:313
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 "Pemuatan berkas TOML status sistem {} gagal (lihat dnf5-system-state(7)): {}"
 
-#: system/state.cpp:649
+#: system/state.cpp:650
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 "Versi TOML yang tidak didukung \"{}\", versi maksimum yang didukung adalah "
 "\"{}\""
 
-#: system/state.cpp:798
+#: system/state.cpp:799
 #, c++-format
 msgid "Error {} opening rpm database"
 msgstr "Kesalahan {} saat membuka basis data rpm"
 
-#: system/state.cpp:802
+#: system/state.cpp:803
 msgid "Failed to get rpm database"
 msgstr "Gagal memperoleh basis data rpm"
 
-#: system/state.cpp:808
+#: system/state.cpp:809
 msgid "Failed to initialize database index iterator"
 msgstr "Gagal menginisialisasi iterator indeks basis data"
 
