@@ -6,13 +6,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
 # Luna Jernberg <droidbittin@gmail.com>, 2026.
+# Evan Goode <egoode@redhat.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-18 09:23+0000\n"
-"PO-Revision-Date: 2026-11-03 09:38+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2026-11-19 21:57+0000\n"
+"Last-Translator: Evan Goode <egoode@redhat.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
 "Language: sv\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -1603,7 +1604,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:509 solv/vendor_change_manager.cpp:734
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr "Okänd nyckel \"{}\" i fil \"{}\" på rad {}: {}"
+msgstr "Okänd nyckel \"{}\" i fil \"{}\" på rad {}"
 
 #: solv/vendor_change_manager.cpp:419
 #, c++-format
@@ -1726,8 +1727,8 @@ msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
-"Ogiltigt värde \"{}\" i tabellen som börjar på rad {}. Endast \"true\", "
-"\"1\", \"false\" och \"0\" stöds"
+"Ogiltigt värde \"{}\" i \"{}\" i tabellen som börjar på rad {}. Endast "
+"\"true\", \"1\", \"false\" och \"0\" stöds"
 
 #: solv/vendor_change_manager.cpp:779 solv/vendor_change_manager.cpp:790
 #, c++-format
