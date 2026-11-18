@@ -5,13 +5,14 @@
 # David Medina <dmedinacpnl@gmail.com>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # naly zzwd <xeanhort007@gmail.com>, 2025.
+# Evan Goode <egoode@redhat.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-18 09:23+0000\n"
-"PO-Revision-Date: 2026-11-05 09:18+0000\n"
-"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
+"PO-Revision-Date: 2026-11-18 20:41+0000\n"
+"Last-Translator: Evan Goode <egoode@redhat.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
 "Language: ca\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
 msgid ", "
@@ -41,7 +42,7 @@ msgid ""
 "\"{}\" on line {}: {}"
 msgstr ""
 "Atribut desconegut \"{}\" d'un argument adjuntat anomenat per l'àlies \"{}\" "
-"a la línia {}: {}"
+"al fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:155
 #, c++-format
@@ -1364,7 +1365,7 @@ msgstr[1] "{} dies, {}:{:02}:{:02}"
 #: context.cpp:97
 #, c++-format
 msgid "Command: {}"
-msgstr "Ordres de consulta:"
+msgstr "Ordre: {}"
 
 #: context.cpp:105
 #, c++-format
@@ -2328,7 +2329,7 @@ msgstr "S'inicia la transacció fora de línia. Això trigarà una estona."
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr "S'ha iniciat una transacció fora de línia amb l'ordre següent:"
+msgstr "S'ha iniciat una transacció fora de línia amb l'ordre següent: {}"
 
 #: main.cpp:1911
 msgid ""
