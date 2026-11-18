@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -530,28 +530,34 @@ msgstr "Reinstalarea mediilor și grupurilor nu este acceptată."
 msgid "Downgrade software"
 msgstr "Retrogradează software-ul (instalând o versiune anterioară a acestuia)"
 
-#: commands/download/download.cpp:123
+#: commands/download/download.cpp:132
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "Când rulează cu „--url”, afișează adresele URL ale tuturor oglinzilor "
 "disponibile"
 
-#: commands/download/download.cpp:139
+#: commands/download/download.cpp:148
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr "Opțiune urlprotocol nevalidă: {}"
 
-#: commands/download/download.cpp:166 main.cpp:831
+#: commands/download/download.cpp:175 main.cpp:831
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Arhitectură neacceptată „{0}”. Vă rugăm să alegeți una dintre {1}"
 
+#: commands/download/download.cpp:214
+#, fuzzy
+#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
+msgid "Option \"--together\" should be used with \"--resolve\""
+msgstr "Opțiunea „--alldeps” trebuie utilizată cu opțiunea „--resolve”"
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:207
+#: commands/download/download.cpp:221
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Opțiunea „--alldeps” trebuie utilizată cu opțiunea „--resolve”"
 
-#: commands/download/download.cpp:261
+#: commands/download/download.cpp:275
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-03 09:51+0000\n"
 "Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Khmer (Central) <https://translate.fedoraproject.org/projects/"
@@ -511,26 +511,32 @@ msgstr "ការដំឡើង environments និង groups ម្ដងទ�
 msgid "Downgrade software"
 msgstr "ធ្វើការបញ្ជុះកំណែកម្មវិធី"
 
-#: commands/download/download.cpp:123
+#: commands/download/download.cpp:132
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr "នៅពេល running ជាមួយ --url,​ បង្ហាញ URLs ពី mirrors ទាំងអស់ដែលមាន"
 
-#: commands/download/download.cpp:139
+#: commands/download/download.cpp:148
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr "ជម្រើស urlprotocol មិនត្រឹមត្រូវ: {}"
 
-#: commands/download/download.cpp:166 main.cpp:831
+#: commands/download/download.cpp:175 main.cpp:831
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "ស្ថាបត្យកម្មមិនត្រូវបានគាំទ្រ \"{0}\"។ សូមជ្រើសរើសមួយក្នុងចំណោម {1}"
 
+#: commands/download/download.cpp:214
+#, fuzzy
+#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
+msgid "Option \"--together\" should be used with \"--resolve\""
+msgstr "ជម្រើស \"--alldeps\" គួរតែត្រូវបានប្រើប្រាស់ជាមួយ \"--resolve\""
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:207
+#: commands/download/download.cpp:221
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "ជម្រើស \"--alldeps\" គួរតែត្រូវបានប្រើប្រាស់ជាមួយ \"--resolve\""
 
-#: commands/download/download.cpp:261
+#: commands/download/download.cpp:275
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."

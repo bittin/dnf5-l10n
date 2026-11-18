@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-17 11:08+0000\n"
 "Last-Translator: Lefteris T <lefteris592@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -554,30 +554,37 @@ msgstr "Η επανεγκατάσταση περιβαλλόντων και ομ
 msgid "Downgrade software"
 msgstr "Υποβάθμιση λογισμικού"
 
-#: commands/download/download.cpp:123
+#: commands/download/download.cpp:132
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "Κατά την εκτέλεση με --url, εκτυπώνει τα URL από όλα τα διαθέσιμα είδωλα "
 "(mirrors)"
 
-#: commands/download/download.cpp:139
+#: commands/download/download.cpp:148
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr "Μη έγκυρη επιλογή urlprotocol: {}"
 
-#: commands/download/download.cpp:166 main.cpp:831
+#: commands/download/download.cpp:175 main.cpp:831
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
 "Μη υποστηριζόμενη αρχιτεκτονική \"{0}\". Παρακαλώ επιλέξτε μία από τις {1}"
 
+#: commands/download/download.cpp:214
+#, fuzzy
+#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
+msgid "Option \"--together\" should be used with \"--resolve\""
+msgstr ""
+"Η επιλογή \"--alldeps\" θα πρέπει να χρησιμοποιείται με την \"--resolve\""
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:207
+#: commands/download/download.cpp:221
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr ""
 "Η επιλογή \"--alldeps\" θα πρέπει να χρησιμοποιείται με την \"--resolve\""
 
-#: commands/download/download.cpp:261
+#: commands/download/download.cpp:275
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-03 09:48+0000\n"
 "Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -530,29 +530,36 @@ msgstr "A környezetek és csoportok újratelepítése nem támogatott."
 msgid "Downgrade software"
 msgstr "Szoftver visszaállítása"
 
-#: commands/download/download.cpp:123
+#: commands/download/download.cpp:132
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "Ha az --url kapcsolóval futtatja, megjeleníti az összes elérhető tükör "
 "webcímét"
 
-#: commands/download/download.cpp:139
+#: commands/download/download.cpp:148
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr "Érvénytelen urlprotocol kapcsoló: {}"
 
-#: commands/download/download.cpp:166 main.cpp:831
+#: commands/download/download.cpp:175 main.cpp:831
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nem támogatott „{0}” architektúra. Válasszon ezek közül: {1}"
 
+#: commands/download/download.cpp:214
+#, fuzzy
+#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
+msgid "Option \"--together\" should be used with \"--resolve\""
+msgstr ""
+"A(z) „--alldeps” kapcsolót a „--resolve” kapcsolóval együtt kell használni"
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:207
+#: commands/download/download.cpp:221
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr ""
 "A(z) „--alldeps” kapcsolót a „--resolve” kapcsolóval együtt kell használni"
 
-#: commands/download/download.cpp:261
+#: commands/download/download.cpp:275
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."

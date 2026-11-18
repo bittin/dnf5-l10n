@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-03 10:02+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -517,26 +517,32 @@ msgstr "Поновно инсталирање окружења и група н�
 msgid "Downgrade software"
 msgstr "Уназади програме"
 
-#: commands/download/download.cpp:123
+#: commands/download/download.cpp:132
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr "Када се покрене са „--url“, исписује адресе са свих доступних огледала"
 
-#: commands/download/download.cpp:139
+#: commands/download/download.cpp:148
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr "Неисправна опција „urlprotocol“: {}"
 
-#: commands/download/download.cpp:166 main.cpp:831
+#: commands/download/download.cpp:175 main.cpp:831
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Неподржана архитектура „{0}“. Изаберите једну од {1}"
 
+#: commands/download/download.cpp:214
+#, fuzzy
+#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
+msgid "Option \"--together\" should be used with \"--resolve\""
+msgstr "Опција „--alldeps“ треба да се користи са „--resolve“"
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:207
+#: commands/download/download.cpp:221
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Опција „--alldeps“ треба да се користи са „--resolve“"
 
-#: commands/download/download.cpp:261
+#: commands/download/download.cpp:275
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."

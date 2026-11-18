@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-18 10:44+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -34,8 +34,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"Nie odnaleziono dołączonego argumentu nazwanego „{}”: {}: Żądano w pliku „{}"
-"” w wierszu {}: {}"
+"Nie odnaleziono dołączonego argumentu nazwanego „{}”: {}: Żądano w pliku "
+"„{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:143
 #, c++-format
@@ -319,7 +319,8 @@ msgstr ""
 #: commands/advisory_shared.hpp:132
 #, c++-format
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr "Nie odnaleziono ostrzeżenia naprawiającego identyfikator Bugzilli: „{}”"
+msgstr ""
+"Nie odnaleziono ostrzeżenia naprawiającego identyfikator Bugzilli: „{}”"
 
 #: commands/advisory_shared.hpp:157
 #, c++-format
@@ -526,28 +527,34 @@ msgstr "Ponowna instalacja środowisk i grup nie jest obsługiwana."
 msgid "Downgrade software"
 msgstr "Zainstaluj poprzednią wersję oprogramowania"
 
-#: commands/download/download.cpp:123
+#: commands/download/download.cpp:132
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "Po uruchomieniu z opcją --url wyświetla adresy URL ze wszystkich dostępnych "
 "serwerów lustrzanych"
 
-#: commands/download/download.cpp:139
+#: commands/download/download.cpp:148
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr "Nieprawidłowa opcja urlprotocol: {}"
 
-#: commands/download/download.cpp:166 main.cpp:831
+#: commands/download/download.cpp:175 main.cpp:831
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nieobsługiwana architektura „{0}”. Wybierz jedną z {1}"
 
+#: commands/download/download.cpp:214
+#, fuzzy
+#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
+msgid "Option \"--together\" should be used with \"--resolve\""
+msgstr "Opcja „--alldeps” powinna być używana z opcją „--resolve”"
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:207
+#: commands/download/download.cpp:221
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Opcja „--alldeps” powinna być używana z opcją „--resolve”"
 
-#: commands/download/download.cpp:261
+#: commands/download/download.cpp:275
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
@@ -1777,7 +1784,8 @@ msgstr "zezwalaj na automatyczne zastępowanie pakietów od różnych dostawców
 
 #: main.cpp:362
 msgid "do not allow automatic package replacements from different vendors"
-msgstr "nie zezwalaj na automatyczne zastępowanie pakietów od różnych dostawców"
+msgstr ""
+"nie zezwalaj na automatyczne zastępowanie pakietów od różnych dostawców"
 
 #: main.cpp:375
 msgid ""
