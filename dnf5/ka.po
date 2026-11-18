@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-18 09:23+0000\n"
-"PO-Revision-Date: 2026-11-18 20:41+0000\n"
+"PO-Revision-Date: 2026-11-19 21:57+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -1548,7 +1548,7 @@ msgstr "გეგმის შესაცვლელად გაუშვი�
 #: context.cpp:1034
 #, c++-format
 msgid "Upgrading {}"
-msgstr "ვანახლებ: {}"
+msgstr "ვაახლებ: {}"
 
 #: context.cpp:1037
 #, c++-format
