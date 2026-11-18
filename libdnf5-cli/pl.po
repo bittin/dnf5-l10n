@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 20:26+0000\n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
 "PO-Revision-Date: 2026-11-18 10:44+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -181,7 +181,8 @@ msgstr ""
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr "Wskazówka: d – domyślne, e – włączone, x – wyłączone, i – zainstalowane"
+msgstr ""
+"Wskazówka: d – domyślne, e – włączone, x – wyłączone, i – zainstalowane"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
