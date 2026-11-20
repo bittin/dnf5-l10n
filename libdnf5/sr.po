@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-03 10:02+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1428,6 +1428,10 @@ msgstr ""
 "Дошло је до грешке приликом рашчлањивања меморијске датотеке привремених "
 "датотека на „{}“: {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "Није успело извршавање функције uname()"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr ""
@@ -2534,13 +2538,9 @@ msgstr ""
 msgid "unexpected child process status after waitpid"
 msgstr ""
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "није успело читање rpm датотека подешавања"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "Није успело извршавање функције uname()"
 
 #~ msgid "failed to save xml document for comps"
 #~ msgstr "није успело чување xml документа за comps"

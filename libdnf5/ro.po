@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-03 09:44+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1445,6 +1445,10 @@ msgstr ""
 "A apărut o eroare la analizarea fișierului de memorie a fișierelor temporare "
 "în „{}”: {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "Execuția uname() a eșuat"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "Tip de sumă de control necunoscut"
@@ -2582,13 +2586,9 @@ msgstr "interogarea în timpul operațiilor de In/Ieș ale subprocesului a eșua
 msgid "unexpected child process status after waitpid"
 msgstr "starea neașteptată a procesului-copil după apelul «waitpid»"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "eșec la citirea fișierelor de configurare RPM"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "Execuția uname() a eșuat"
 
 #~ msgid "Empty vendor policy string"
 #~ msgstr "Șir de politică pentru furnizor gol"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-18 10:44+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1447,6 +1447,10 @@ msgstr ""
 "Wystąpił błąd podczas analizowania pliku pamięci plików tymczasowych w „{}”: "
 "{}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "Nie udało się wykonać uname()"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "Nieznany typ sumy kontrolnej"
@@ -2570,13 +2574,9 @@ msgstr "sondowanie nie powiodło się podczas wejścia/wyjścia podprocesu"
 msgid "unexpected child process status after waitpid"
 msgstr "nieoczekiwany stan procesu potomnego po waitpid"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "nie udało się odczytać plików konfiguracyjnych rpm"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "Nie udało się wykonać uname()"
 
 #~ msgid "Empty vendor policy string"
 #~ msgstr "Pusty ciąg polityki dostawcy"

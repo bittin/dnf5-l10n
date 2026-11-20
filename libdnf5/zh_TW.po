@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-03 09:49+0000\n"
 "Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -1345,6 +1345,10 @@ msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr "剖析暫存檔記憶檔案「{}」時發生錯誤：{}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "無法執行 uname()"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "未知的檢查碼類型"
@@ -2423,13 +2427,9 @@ msgstr "子行程 I/O 期間 poll 失敗"
 msgid "unexpected child process status after waitpid"
 msgstr "waitpid 後取得非預期的子行程狀態"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "讀取 rpm 設定檔失敗"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "無法執行 uname()"
 
 #~ msgid "failed to save xml document for comps"
 #~ msgstr "儲存 comps xml 文件失敗"

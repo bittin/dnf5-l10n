@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-04 07:31+0000\n"
 "Last-Translator: Ciro Mota "
 "<ciromota@users.noreply.translate.fedoraproject.org>\n"
@@ -1443,6 +1443,10 @@ msgstr ""
 "Ocorreu um erro ao analisar o arquivo de memória de arquivos temporários em "
 "'{}': {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "Falha ao executar uname()"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "Tipo de checksum desconhecido"
@@ -2567,13 +2571,9 @@ msgstr "falha de poll durante E/S do subprocesso"
 msgid "unexpected child process status after waitpid"
 msgstr "status de processo filho inesperado após waitpid"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "falha ao ler os arquivos de configuração rpm"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "Falha ao executar uname()"
 
 #~ msgid "Empty vendor policy string"
 #~ msgstr "String de política de fornecedor vazia"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-03 09:40+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1432,6 +1432,10 @@ msgid ""
 msgstr ""
 "Произошла ошибка при разборе файла памяти временных файлов по адресу '{}': {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "Не удалось выполнить uname()"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "Неизвестный тип контрольной суммы"
@@ -2561,13 +2565,9 @@ msgstr "сбой poll во время ввода-вывода подпроцес
 msgid "unexpected child process status after waitpid"
 msgstr "неожиданный статус дочернего процесса после waitpid"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "Не удалось прочитать файлы конфигурации rpm"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "Не удалось выполнить uname()"
 
 #~ msgid "Empty vendor policy string"
 #~ msgstr "Пустая строка политики поставщика"

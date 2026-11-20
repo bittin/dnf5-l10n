@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-03 09:56+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Cornish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1347,6 +1347,10 @@ msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr ""
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr ""
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr ""
@@ -2390,10 +2394,6 @@ msgstr ""
 msgid "unexpected child process status after waitpid"
 msgstr ""
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
-msgstr ""
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
 msgstr ""

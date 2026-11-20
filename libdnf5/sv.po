@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-19 21:57+0000\n"
 "Last-Translator: Evan Goode <egoode@redhat.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1411,6 +1411,10 @@ msgid ""
 msgstr ""
 "Ett fel uppstod när den temporära filminnesfilen analyserades på '{}': {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "Misslyckades med att köra uname()"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "Okänd kontrollsummetyp"
@@ -2525,13 +2529,9 @@ msgstr "poll misslyckades under delprocess I/O"
 msgid "unexpected child process status after waitpid"
 msgstr "oväntad status för underordnad process efter waitpid"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "misslyckades att läsa rpm konfigurationsfiler"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "Misslyckades med att köra uname()"
 
 #~ msgid "failed to save xml document for comps"
 #~ msgstr "misslyckades att spara xml dokument för composes"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-12 18:02+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1456,6 +1456,10 @@ msgstr ""
 "Tapahtui virhe jäsennettäessä väliaikaisten tiedostojen muistitiedostoa "
 "'{}':lla: {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "uname():n suoritus epäonnistui"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "Tuntematon tarkistussumman tyyppi"
@@ -2584,13 +2588,9 @@ msgstr "poll epäonnistui aliprosessin I/O:n aikana"
 msgid "unexpected child process status after waitpid"
 msgstr "odottamaton lapsiprosessin tila waitpid-kutsun jälkeen"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "rpm-asetustiedostojen lukeminen epäonnistui"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "uname():n suoritus epäonnistui"
 
 #~ msgid "failed to save xml document for comps"
 #~ msgstr "xml-asiakirjan tallentaminen compsille epäonnistui"

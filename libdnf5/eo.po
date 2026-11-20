@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-03 10:01+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1397,6 +1397,10 @@ msgid ""
 msgstr ""
 "Eraro okazis dum analizo de provizoraj dosieroj, memora dosiero en '{}': {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "uname() ne plenumeblas"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "Nekonata kontrolsuma tipo"
@@ -2510,13 +2514,9 @@ msgstr "enketo malsukcesis dum subproceza enigon/eligon"
 msgid "unexpected child process status after waitpid"
 msgstr "neatendita stato de ida procezo post waitpid()"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "malsukcesis legi agordodosierojn de rpm"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "uname() ne plenumeblas"
 
 #~ msgid "failed to save xml document for comps"
 #~ msgstr "malsukcesis savi xml-dosieron por comps"

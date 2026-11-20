@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1425,6 +1425,10 @@ msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr "Terjadi kesalahan saat memproses berkas sementara di '{}': {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "Gagal menjalankan fungsi uname()"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "Tipe checksum tidak dikenal"
@@ -2554,13 +2558,9 @@ msgstr "poll gagal selama I/O subproses"
 msgid "unexpected child process status after waitpid"
 msgstr "status proses anak tidak terduga setelah waitpid"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "gagal membaca berkas konfigurasi RPM"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "Gagal menjalankan fungsi uname()"
 
 #~ msgid "Empty vendor policy string"
 #~ msgstr "String kebijakan vendor kosong"

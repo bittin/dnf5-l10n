@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1467,6 +1467,10 @@ msgstr ""
 "S'ha produït un error en analitzar el fitxer temporal de memòria de fitxers "
 "a «{}»: {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "Ha fallat en executar uname()"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "Tipus de suma de verificació desconeguda"
@@ -2605,10 +2609,6 @@ msgstr "ha fallat l'enquesta durant l'E/S del subprocés"
 msgid "unexpected child process status after waitpid"
 msgstr "estat del procés fill inesperat després de waitpid"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "no s'han pogut llegir els fitxers de configuració del rpm"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "Ha fallat en executar uname()"

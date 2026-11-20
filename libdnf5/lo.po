@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-03 10:03+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1348,6 +1348,10 @@ msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr "ເກີດຂໍ້ຜິດພາດໃນການວິເຄາະໄຟລ໌ໜ່ວຍຄວາມຈຳຂອງໄຟລ໌ຊົ່ວຄາວທີ່ '{}': {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "ບໍ່ສາມາດດຳເນີນການຄຳສັ່ງ uname() ໄດ້"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "ບໍ່ຮູ້ຈັກປະເພດຂອງ checksum"
@@ -2431,13 +2435,9 @@ msgstr "ການ poll ລົ້ມເຫຼວໃນລະຫວ່າງ I/O �
 msgid "unexpected child process status after waitpid"
 msgstr "ສະຖານະຂະບວນການຍ່ອຍບໍ່ຄາດຄິດຫຼັງຈາກ waitpid"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "ບໍ່ສາມາດອ່ານໄຟລ໌ຕັ້ງຄ່າ rpm"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "ບໍ່ສາມາດດຳເນີນການຄຳສັ່ງ uname() ໄດ້"
 
 #~ msgid "Empty vendor policy string"
 #~ msgstr "ສະຕຣິງນະໂຍບາຍຜູ້ສະໜອງຫວ່າງເປົ່າ"

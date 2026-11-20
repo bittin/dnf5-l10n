@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-07 18:18+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1388,6 +1388,10 @@ msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr "임시 파일 메모리 파일을 구문 분석 중에 오류가 발생했습니다 \"{}\": {}"
 
+#: rpm/arch.cpp:50
+msgid "Failed to execute uname()"
+msgstr "uname()을 실행하는 데 실패함"
+
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
 msgstr "알 수 없는 체크섬 유형"
@@ -2493,13 +2497,9 @@ msgstr "하위 프로세스 입출력 중 poll 실패"
 msgid "unexpected child process status after waitpid"
 msgstr "waitpid 이후 예기치 않은 자식 프로세스 상태"
 
-#: utils/system.cpp:34
+#: utils/system.cpp:33
 msgid "failed to read rpm config files"
 msgstr "rpm config 파일을 읽는 데 실패함"
-
-#: utils/system.cpp:52
-msgid "Failed to execute uname()"
-msgstr "uname()을 실행하는 데 실패함"
 
 #~ msgid "failed to save xml document for comps"
 #~ msgstr "comps를 위해 xml 문서를 저장하는 데 실패함"
