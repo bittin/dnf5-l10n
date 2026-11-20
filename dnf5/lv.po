@@ -1,0 +1,2139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-18 09:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
+"19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+
+#: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
+msgid ", "
+msgstr ""
+
+#: cmdline_aliases.cpp:129
+#, c++-format
+msgid ""
+"Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
+"line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:143
+#, c++-format
+msgid ""
+"Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
+"\"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:155
+#, c++-format
+msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:192
+#, c++-format
+msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:202
+#, c++-format
+msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:208
+#, c++-format
+msgid "Missing attribute \"version\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:220
+#, c++-format
+msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:237
+#, c++-format
+msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:256
+#, c++-format
+msgid ""
+"Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:285
+#, c++-format
+msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:296
+#, c++-format
+msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:315
+#, c++-format
+msgid ""
+"Named argument \"{}\" already registered. Requested in file \"{}\" on line "
+"{}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:331
+#, c++-format
+msgid ""
+"Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:359
+#, c++-format
+msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:371
+#, c++-format
+msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:412 cmdline_aliases.cpp:522
+#, c++-format
+msgid ""
+"The \"short_name\" attribute of named argument \"{}\" must be one character "
+"long in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:430
+#, c++-format
+msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:446 cmdline_aliases.cpp:547 cmdline_aliases.cpp:660
+#, c++-format
+msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:460 cmdline_aliases.cpp:563
+#, c++-format
+msgid ""
+"Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
+"{}"
+msgstr ""
+
+#: cmdline_aliases.cpp:473
+#, c++-format
+msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:482 cmdline_aliases.cpp:576
+#, c++-format
+msgid ""
+"At least one of the attributes \"long_name\" and \"short_name\" must be set "
+"for named argument \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:641
+#, c++-format
+msgid ""
+"Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
+"{}"
+msgstr ""
+
+#: cmdline_aliases.cpp:675
+#, c++-format
+msgid ""
+"Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
+"file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:697
+#, c++-format
+msgid ""
+"Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
+"on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:710
+#, c++-format
+msgid ""
+"Missing attribute \"value_help\" of required value for alias \"{}\" in file "
+"\"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:724
+#, c++-format
+msgid ""
+"Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:740
+#, c++-format
+msgid ""
+"Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:775
+#, c++-format
+msgid "Bad value type in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:788
+#, c++-format
+msgid "Syntax error in file \"{}\" on line {}:"
+msgstr ""
+
+#: commands/advisory/advisory.cpp:36
+msgid "Manage advisories"
+msgstr ""
+
+#: commands/advisory/advisory_info.hpp:35
+msgid "Print details about advisories"
+msgstr ""
+
+#: commands/advisory/advisory_list.hpp:35
+msgid "List advisories"
+msgstr ""
+
+#: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
+#: commands/repoquery/repoquery.cpp:903
+msgid "No matches found: no repositories are enabled."
+msgstr ""
+
+#: commands/advisory/advisory_summary.cpp:44
+msgid "All"
+msgstr ""
+
+#: commands/advisory/advisory_summary.cpp:48
+msgid "Installed"
+msgstr ""
+
+#: commands/advisory/advisory_summary.cpp:52
+msgid "Updates"
+msgstr ""
+
+#: commands/advisory/advisory_summary.cpp:65
+msgid "Available"
+msgstr ""
+
+#: commands/advisory/advisory_summary.hpp:33
+msgid "Print summary of advisories"
+msgstr ""
+
+#: commands/advisory/arguments.hpp:34
+msgid "Show advisories containing any version of installed packages."
+msgstr ""
+
+#: commands/advisory/arguments.hpp:45
+msgid ""
+"Show advisories containing newer versions of installed packages. This is the "
+"default behavior."
+msgstr ""
+
+#: commands/advisory/arguments.hpp:57
+msgid ""
+"Show advisories containing equal and older versions of installed packages."
+msgstr ""
+
+#: commands/advisory/arguments.hpp:69
+msgid ""
+"Show advisories containing newer versions of installed packages for which a "
+"newer version is available."
+msgstr ""
+
+#: commands/advisory/arguments.hpp:82
+msgid ""
+"Show only advisories containing packages with specified names. List option, "
+"supports globs."
+msgstr ""
+
+#: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
+msgid "PACKAGE_NAME,..."
+msgstr ""
+
+#: commands/advisory/arguments.hpp:90
+msgid "List of patterns matched against advisory names."
+msgstr ""
+
+#: commands/advisory/arguments.hpp:100
+msgid "Show only advisories referencing a bugzilla."
+msgstr ""
+
+#: commands/advisory/arguments.hpp:107
+msgid "Show only advisories referencing a CVE."
+msgstr ""
+
+#: commands/advisory_shared.hpp:93
+#, c++-format
+msgid "No advisory found matching the requested name: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:132
+#, c++-format
+msgid "No advisory found fixing the Bugzilla ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:157
+#, c++-format
+msgid "No advisory found fixing the CVE ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:178
+msgid "No advisory found matching the specified filters."
+msgstr ""
+
+#: commands/advisory_shared.hpp:193
+msgid ""
+"Include content contained in advisories with specified name. List option."
+msgstr ""
+
+#: commands/advisory_shared.hpp:194
+msgid "ADVISORY_NAME,..."
+msgstr ""
+
+#: commands/advisory_shared.hpp:201
+msgid "Include content contained in security advisories."
+msgstr ""
+
+#: commands/advisory_shared.hpp:208
+msgid "Include content contained in bugfix advisories."
+msgstr ""
+
+#: commands/advisory_shared.hpp:215
+msgid "Include content contained in enhancement advisories."
+msgstr ""
+
+#: commands/advisory_shared.hpp:222
+msgid "Include content contained in newpackage advisories."
+msgstr ""
+
+#: commands/advisory_shared.hpp:233
+msgid ""
+"Include content contained in advisories with specified severity. List "
+"option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+msgstr ""
+
+#: commands/advisory_shared.hpp:235
+msgid "ADVISORY_SEVERITY,..."
+msgstr ""
+
+#: commands/advisory_shared.hpp:247
+msgid ""
+"Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
+"List option."
+msgstr ""
+
+#: commands/advisory_shared.hpp:248
+msgid "BUGZILLA_ID,..."
+msgstr ""
+
+#: commands/advisory_shared.hpp:258
+msgid ""
+"Include content contained in advisories that fix a CVE (Common "
+"Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
+msgstr ""
+
+#: commands/advisory_shared.hpp:260
+msgid "CVE_ID,..."
+msgstr ""
+
+#: commands/autoremove/autoremove.cpp:38
+msgid "Remove all unneeded packages originally installed as dependencies."
+msgstr ""
+
+#: commands/autoremove/autoremove.cpp:65
+#, c++-format
+msgid ""
+"Unneeded protected package: {0} (and its dependencies) cannot be removed, "
+"either mark it as user-installed or change protected_packages configuration "
+"option."
+msgstr ""
+
+#: commands/check-upgrade/check-upgrade.cpp:47
+msgid "Check for available package upgrades"
+msgstr ""
+
+#: commands/check-upgrade/check-upgrade.cpp:54
+msgid ""
+"Reports the lowest versions of packages that fix advisories of type bugfix, "
+"enhancement, security, or newpackage. In case that any option limiting "
+"advisories is used it reports the lowest versions of packages that fix "
+"advisories matching selected advisory properties"
+msgstr ""
+
+#: commands/check/check.cpp:247
+msgid "Check for problems in the packagedb"
+msgstr ""
+
+#: commands/check/check.cpp:335
+#, c++-format
+msgid "Check discovered {} problem(s) in {} package(s)"
+msgstr ""
+
+#: commands/clean/clean.cpp:91
+#, c++-format
+msgid "List of cache types to clean up. Supported types: {0}"
+msgstr ""
+
+#: commands/clean/clean.cpp:109
+#, c++-format
+msgid "Unknown cache type \"{0}\". Supported types: {1}"
+msgstr ""
+
+#: commands/clean/clean.cpp:166
+#, c++-format
+msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
+msgstr ""
+
+#: commands/clean/clean.cpp:176
+#, c++-format
+msgid "Cache directory \"{}\" does not exist. Nothing to clean."
+msgstr ""
+
+#: commands/clean/clean.cpp:181
+#, c++-format
+msgid "Cannot iterate cache directory \"{}\": {}"
+msgstr ""
+
+#: commands/debuginfo-install/debuginfo-install.cpp:45
+msgid "Install debuginfo packages."
+msgstr ""
+
+#: commands/distro-sync/distro-sync.cpp:42
+msgid ""
+"Upgrade or downgrade installed software to the latest available versions"
+msgstr ""
+
+#: commands/do/do.cpp:42
+msgid "Do transaction"
+msgstr ""
+
+#: commands/do/do.cpp:47
+msgid "Action to be done on the following items."
+msgstr ""
+
+#: commands/do/do.cpp:61
+#, c++-format
+msgid "Unsupported action \"{}\""
+msgstr ""
+
+#: commands/do/do.cpp:71
+msgid "Type of the following items."
+msgstr ""
+
+#: commands/do/do.cpp:84
+#, c++-format
+msgid "Unsupported item type \"{}\""
+msgstr ""
+
+#: commands/do/do.cpp:98
+msgid "List of items to take action on"
+msgstr ""
+
+#: commands/do/do.cpp:131 commands/do/do.cpp:135
+msgid "Only package downgrade is supported."
+msgstr ""
+
+#: commands/do/do.cpp:142 commands/do/do.cpp:146
+msgid "Only package reinstall is supported."
+msgstr ""
+
+#: commands/do/do.cpp:152
+msgid "Action was not defined"
+msgstr ""
+
+#: commands/do/do.cpp:231
+#, c++-format
+msgid "Invalid Environment/Group specification: {}"
+msgstr ""
+
+#: commands/do/do.cpp:317
+msgid "Downgrading environments and groups is not supported."
+msgstr ""
+
+#: commands/do/do.cpp:332
+msgid "Reinstalling environments and groups is not supported."
+msgstr ""
+
+#: commands/downgrade/downgrade.cpp:40
+msgid "Downgrade software"
+msgstr ""
+
+#: commands/download/download.cpp:132
+msgid "When running with --url, prints URLs from all available mirrors"
+msgstr ""
+
+#: commands/download/download.cpp:148
+#, c++-format
+msgid "Invalid urlprotocol option: {}"
+msgstr ""
+
+#: commands/download/download.cpp:175 main.cpp:831
+#, c++-format
+msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
+msgstr ""
+
+#: commands/download/download.cpp:214
+msgid "Option \"--together\" should be used with \"--resolve\""
+msgstr ""
+
+#. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
+#: commands/download/download.cpp:221
+msgid "Option \"--alldeps\" should be used with \"--resolve\""
+msgstr ""
+
+#: commands/download/download.cpp:275
+#, c++-format
+msgid ""
+"No package \"{}\" available; You might want to use --skip-unavailable option."
+msgstr ""
+
+#: commands/environment/arguments.hpp:33
+msgid "Show only available environments."
+msgstr ""
+
+#: commands/environment/arguments.hpp:40
+msgid "Show only installed environments."
+msgstr ""
+
+#: commands/environment/arguments.hpp:47
+msgid "Pattern matching environment identifiers."
+msgstr ""
+
+#: commands/environment/environment.cpp:38
+msgid "Manage comps environments"
+msgstr ""
+
+#: commands/environment/environment_info.cpp:101
+#: commands/environment/environment_list.cpp:99
+msgid "No matches found: no environments are installed."
+msgstr ""
+
+#: commands/environment/environment_info.cpp:103
+#: commands/environment/environment_list.cpp:101
+msgid "No matches found: no environments are available."
+msgstr ""
+
+#: commands/environment/environment_info.cpp:105
+#: commands/environment/environment_list.cpp:103
+msgid "No matches found: no environments exist."
+msgstr ""
+
+#: commands/group/arguments.hpp:34
+msgid "Show only available groups."
+msgstr ""
+
+#: commands/group/arguments.hpp:41
+msgid "Show also hidden groups."
+msgstr ""
+
+#: commands/group/arguments.hpp:48
+msgid "Show only installed groups."
+msgstr ""
+
+#: commands/group/arguments.hpp:59
+msgid ""
+"Show only groups containing packages with specified names. List option, "
+"supports globs."
+msgstr ""
+
+#: commands/group/arguments.hpp:67
+msgid "Pattern matching group identifiers."
+msgstr ""
+
+#: commands/group/arguments.hpp:77
+msgid "Pattern matching group or environment identifiers."
+msgstr ""
+
+#: commands/group/arguments.hpp:86
+msgid "Include optional packages from groups."
+msgstr ""
+
+#: commands/group/arguments.hpp:97
+msgid "Operate on environments and groups only, no packages are changed."
+msgstr ""
+
+#: commands/group/group_list.cpp:114
+msgid "No matches found: no groups are installed."
+msgstr ""
+
+#: commands/group/group_list.cpp:116
+msgid "No matches found: no groups are available."
+msgstr ""
+
+#: commands/group/group_list.cpp:118
+msgid "No matches found: no groups exist."
+msgstr ""
+
+#: commands/group/group_list.cpp:144
+#, c++-format
+msgid "Groups: {0} ({1} {2}, {3} {4})"
+msgstr ""
+
+#: commands/group/group_list.cpp:147
+msgid "installed"
+msgid_plural "installed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: commands/group/group_list.cpp:149
+msgid "available"
+msgid_plural "available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: commands/history/arguments.hpp:37
+msgid "Transaction ID"
+msgstr ""
+
+#: commands/history/arguments.hpp:44
+msgid "Reverse the order of transactions."
+msgstr ""
+
+#: commands/history/arguments.hpp:54
+msgid ""
+"Don't consider mismatches between installed and stored transaction packages "
+"as errors. This can result in an empty transaction because among other "
+"things the option can ignore failing Remove actions."
+msgstr ""
+
+#: commands/history/arguments.hpp:67
+msgid "Don't consider extra packages pulled into the transaction as errors."
+msgstr ""
+
+#: commands/history/arguments.hpp:80
+msgid ""
+"Show only transactions containing packages with specified names. List "
+"option, supports globs."
+msgstr ""
+
+#: commands/history/history.cpp:41
+msgid "Manage transaction history"
+msgstr ""
+
+#: commands/history/history_info.cpp:78
+msgid ""
+"No match found, history info defaults to considering only the last "
+"transaction, specify \"1..last\" range to search all transactions."
+msgstr ""
+
+#: commands/history/history_redo.cpp:56
+#: commands/history/history_rollback.cpp:60
+#: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:59
+msgid "No matching transaction ID found, exactly one required."
+msgstr ""
+
+#: commands/history/history_redo.cpp:60
+#: commands/history/history_rollback.cpp:64
+#: commands/history/history_undo.cpp:63
+msgid "Matched more than one transaction ID, exactly one required."
+msgstr ""
+
+#: commands/history/history_store.cpp:68
+msgid "Multiple transactions selected for storing, only one allowed."
+msgstr ""
+
+#: commands/history/history_store.cpp:80
+#, c++-format
+msgid "File \"{}\" already exists, it will be overwritten.\n"
+msgstr ""
+
+#: commands/history/transaction_id.cpp:32
+#, c++-format
+msgid ""
+"Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
+"is \"NUMBER\", \"last\" or \"last-NUMBER\"."
+msgstr ""
+
+#: commands/install/install.cpp:41
+msgid "Install software"
+msgstr ""
+
+#: commands/leaves/leaves.cpp:42
+msgid ""
+"List groups of installed packages not required by other installed packages"
+msgstr ""
+
+#: commands/list/info.hpp:38
+msgid ""
+"Lists packages depending on the packages' relation to the system with "
+"additional details"
+msgstr ""
+
+#: commands/list/list.cpp:49
+msgid "List of package-spec-NI to match (case insensitively)"
+msgstr ""
+
+#: commands/list/list.cpp:61
+msgid "Show all versions of the packages, not only the latest ones."
+msgstr ""
+
+#: commands/list/list.cpp:69
+msgid "List installed packages."
+msgstr ""
+
+#: commands/list/list.cpp:74
+msgid "List available packages."
+msgstr ""
+
+#: commands/list/list.cpp:81
+msgid ""
+"List extras, that is packages installed on the system that are not available "
+"in any known repository."
+msgstr ""
+
+#: commands/list/list.cpp:89
+msgid ""
+"List packages installed on the system that are obsoleted by packages in any "
+"known repository."
+msgstr ""
+
+#: commands/list/list.cpp:94
+msgid "List packages recently added into the repositories."
+msgstr ""
+
+#: commands/list/list.cpp:98
+msgid "List upgrades available for the installed packages."
+msgstr ""
+
+#: commands/list/list.cpp:102
+msgid "List packages which will be removed by the 'dnf autoremove' command."
+msgstr ""
+
+#: commands/list/list.cpp:214 commands/list/list.cpp:219
+msgid "Installed packages"
+msgstr ""
+
+#: commands/list/list.cpp:215 commands/list/list.cpp:228
+msgid "Available packages"
+msgstr ""
+
+#: commands/list/list.cpp:236
+msgid "Available upgrades"
+msgstr ""
+
+#: commands/list/list.cpp:252
+msgid "Obsoleting packages"
+msgstr ""
+
+#: commands/list/list.cpp:257
+msgid "Autoremove packages"
+msgstr ""
+
+#: commands/list/list.cpp:261
+msgid "Extra packages"
+msgstr ""
+
+#: commands/list/list.cpp:272
+msgid "Recently added packages"
+msgstr ""
+
+#: commands/list/list.hpp:48
+msgid "Lists packages depending on the packages' relation to the system"
+msgstr ""
+
+#: commands/mark/mark.cpp:38
+msgid "Change the reason of an installed package"
+msgstr ""
+
+#: commands/module/arguments.hpp:35
+msgid "Show enabled modules."
+msgstr ""
+
+#: commands/module/arguments.hpp:42
+msgid "Show disabled modules."
+msgstr ""
+
+#: commands/module/arguments.hpp:49
+msgid "Pattern matching module NSVCAs."
+msgstr ""
+
+#: commands/module/module.cpp:43
+msgid "Manage modules"
+msgstr ""
+
+#: commands/module/module_list.cpp:88
+msgid "No matches found: no module streams are enabled."
+msgstr ""
+
+#: commands/module/module_list.cpp:90
+msgid "No matches found: no module streams are disabled."
+msgstr ""
+
+#: commands/module/module_list.cpp:92
+msgid "No matches found: no module streams exist."
+msgstr ""
+
+#: commands/no_matches.cpp:14
+#, c++-format
+msgid "No matches found for \"{}\"."
+msgstr ""
+
+#: commands/no_matches.cpp:28
+msgid ""
+"No repositories were loaded from the installroot. To use the configuration "
+"and repositories of the host system, pass --use-host-config."
+msgstr ""
+
+#: commands/no_matches.cpp:78 commands/no_matches.hpp:45
+msgid "No matches found."
+msgstr ""
+
+#: commands/offline/offline.cpp:220
+msgid "Manage offline transactions"
+msgstr ""
+
+#: commands/offline/offline.cpp:254
+#, c++-format
+msgid ""
+"Error reading state: {}. Rerun the command you used to initiate the offline "
+"transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
+msgstr ""
+
+#: commands/offline/offline.cpp:267
+msgid ""
+"The system has been modified since the offline transaction was prepared."
+msgstr ""
+
+#: commands/offline/offline.cpp:271
+#, c++-format
+msgid ""
+"The system has been modified since the offline transaction was prepared. To "
+"reschedule, run: {}"
+msgstr ""
+
+#: commands/offline/offline.cpp:293
+#, c++-format
+msgid "Couldn't connect to D-Bus: {}"
+msgstr ""
+
+#: commands/offline/offline.cpp:333
+#, c++-format
+msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
+msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: commands/offline/offline.cpp:348
+msgid ""
+"Timed out waiting for processes blocking shutdown. Continuing shutdown "
+"request."
+msgstr ""
+
+#: commands/offline/offline.cpp:411
+msgid ""
+"Prepare the system to perform the offline transaction and reboot to start "
+"the transaction."
+msgstr ""
+
+#: commands/offline/offline.cpp:418
+msgid "Power off the system after the operation is complete"
+msgstr ""
+
+#: commands/offline/offline.cpp:429
+msgid "No offline transaction is stored."
+msgstr ""
+
+#: commands/offline/offline.cpp:438
+msgid "System is not ready for offline transaction."
+msgstr ""
+
+#: commands/offline/offline.cpp:441
+#, c++-format
+msgid "Data directory {} does not exist."
+msgstr ""
+
+#: commands/offline/offline.cpp:466
+#, c++-format
+msgid "{} is not wanted by system-update.target."
+msgstr ""
+
+#: commands/offline/offline.cpp:476
+#, c++-format
+msgid "The system will now reboot to upgrade to release version {}."
+msgstr ""
+
+#: commands/offline/offline.cpp:480
+msgid ""
+"The system will now reboot to perform the offline transaction initiated by "
+"the following command:"
+msgstr ""
+
+#: commands/offline/offline.cpp:511
+msgid ""
+"Internal use only, not intended to be run by the user. Execute the "
+"transaction in the offline environment."
+msgstr ""
+
+#: commands/offline/offline.cpp:545
+msgid "Trigger file does not exist. Exiting."
+msgstr ""
+
+#: commands/offline/offline.cpp:549
+msgid "Another offline transaction tool is running. Exiting."
+msgstr ""
+
+#: commands/offline/offline.cpp:581
+msgid "Starting offline transaction. This will take a while."
+msgstr ""
+
+#: commands/offline/offline.cpp:585
+msgid "Starting system upgrade. This will take a while."
+msgstr ""
+
+#: commands/offline/offline.cpp:597
+msgid "Use `dnf5 offline reboot` to begin the transaction."
+msgstr ""
+
+#: commands/offline/offline.cpp:650
+msgid "Transaction failed: "
+msgstr ""
+
+#: commands/offline/offline.cpp:720
+#, c++-format
+msgid "Error reading journal: {}"
+msgstr ""
+
+#: commands/offline/offline.cpp:726
+#, c++-format
+msgid "Add journal match failed: {}"
+msgstr ""
+
+#: commands/offline/offline.cpp:754
+msgid "No logs were found."
+msgstr ""
+
+#: commands/offline/offline.cpp:758
+msgid "The following boots appear to contain offline transaction logs:"
+msgstr ""
+
+#: commands/offline/offline.cpp:775
+msgid "Cannot find logs with this index."
+msgstr ""
+
+#: commands/offline/offline.cpp:782
+msgid "Unable to match systemd journal entry."
+msgstr ""
+
+#: commands/offline/offline.cpp:794
+msgid "Show logs from past offline transactions"
+msgstr ""
+
+#: commands/offline/offline.cpp:802
+msgid ""
+"Which log to show. Run without any arguments to get a list of available logs."
+msgstr ""
+
+#: commands/offline/offline.cpp:817
+msgid ""
+"systemd is not supported in this build of DNF 5; the `log` subcommand is "
+"unavailable."
+msgstr ""
+
+#: commands/offline/offline.cpp:822
+msgid "Show status of the current offline transaction"
+msgstr ""
+
+#: commands/offline/offline.cpp:838
+msgid ""
+"The system has been modified since the offline transaction was prepared. The "
+"offline transaction initiated by the following command is no longer valid:"
+msgstr ""
+
+#: commands/offline/offline.cpp:842
+msgid ""
+"To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
+msgstr ""
+
+#: commands/offline/offline.cpp:846
+msgid "An offline transaction was initiated by the following command:"
+msgstr ""
+
+#: commands/offline/offline.cpp:848
+msgid ""
+"Run `dnf5 offline reboot` to reboot and perform the offline transaction."
+msgstr ""
+
+#: commands/offline/offline.cpp:850
+msgid ""
+"An offline transaction was started, but it did not finish. Run `dnf5 offline "
+"log` for more information. The command that initiated the transaction was:"
+msgstr ""
+
+#: commands/offline/offline.cpp:855
+msgid "Unknown offline transaction status: "
+msgstr ""
+
+#: commands/provides/provides.cpp:50
+msgid "Find what package provides the given value"
+msgstr ""
+
+#: commands/provides/provides.cpp:136
+msgid ""
+"If searching for a file, try specifying the full path or using a wildcard "
+"prefix (\"*/\") at the beginning."
+msgstr ""
+
+#: commands/reinstall/reinstall.cpp:40
+msgid "Reinstall software"
+msgstr ""
+
+#: commands/remove/remove.cpp:48
+msgid "Remove (uninstall) software"
+msgstr ""
+
+#: commands/remove/remove.cpp:129
+msgid ""
+"Option '--limit' must be equal or greater than 1 (to keep at least the "
+"newest installed package)."
+msgstr ""
+
+#: commands/remove/remove.cpp:237
+msgid "Option '--limit' can only be used with '--oldinstallonly'."
+msgstr ""
+
+#: commands/remove/remove.cpp:242
+msgid ""
+"Missing positional arguments for \"remove\" command. Add \"--help\" for more "
+"information about the arguments."
+msgstr ""
+
+#: commands/remove/remove.cpp:269
+#, c++-format
+msgid ""
+"Warning: The currently running kernel '{}' is not the latest installed "
+"version and was not removed. Please reboot into the latest kernel and run "
+"this command again to complete the cleanup."
+msgstr ""
+
+#: commands/replay/replay.cpp:38
+msgid "Replay a transaction that was previously stored to a directory"
+msgstr ""
+
+#: commands/repo/arguments.hpp:35
+msgid "Show all repositories."
+msgstr ""
+
+#: commands/repo/arguments.hpp:42
+msgid "Show enabled repositories (default)."
+msgstr ""
+
+#: commands/repo/arguments.hpp:49
+msgid "Show disabled repositories."
+msgstr ""
+
+#: commands/repo/arguments.hpp:56
+msgid "Pattern matching repo IDs."
+msgstr ""
+
+#: commands/repo/repo.cpp:38
+msgid "Manage repositories"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:82
+msgid "Search for packages matching various criteria"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:527
+msgid ""
+"Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
+"whatdepends\""
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:532
+msgid ""
+"Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
+"providers-of=requires\""
+msgstr ""
+
+#: commands/search/arguments.hpp:37
+msgid "Search also package description and URL."
+msgstr ""
+
+#: commands/search/arguments.hpp:45
+msgid "Patterns"
+msgstr ""
+
+#: commands/search/search.cpp:49
+msgid "Search for software matching all specified strings"
+msgstr ""
+
+#: commands/search/search.cpp:70
+msgid "Options --name and --summary cannot be used together."
+msgstr ""
+
+#: commands/search/search.cpp:74
+msgid "Option --all cannot be used with --name or --summary."
+msgstr ""
+
+#: commands/swap/swap.cpp:42
+msgid "Remove software and install another in one transaction"
+msgstr ""
+
+#: commands/system-upgrade/system-upgrade.cpp:56
+msgid "Prepare system for upgrade to a new release"
+msgstr ""
+
+#: commands/system-upgrade/system-upgrade.cpp:72
+msgid "Download everything needed to upgrade to a new release"
+msgstr ""
+
+#: commands/system-upgrade/system-upgrade.cpp:80
+msgid ""
+"Do not install packages from the new release if they are older than what is "
+"currently installed"
+msgstr ""
+
+#: commands/system-upgrade/system-upgrade.cpp:101
+msgid "Need a --releasever greater than the current system version."
+msgstr ""
+
+#: commands/system-upgrade/system-upgrade.cpp:150
+msgid "Store a distro-sync transaction to be performed offline"
+msgstr ""
+
+#: commands/system-upgrade/system-upgrade.cpp:172
+msgid "Store an upgrade transaction to be performed offline"
+msgstr ""
+
+#: commands/upgrade/upgrade.cpp:41
+msgid "Upgrade software"
+msgstr ""
+
+#: commands/upgrade/upgrade.cpp:48
+msgid ""
+"Upgrade packages only to the lowest versions that fix advisories of type "
+"bugfix, enhancement, security, or newpackage. In case that any option "
+"limiting advisories is used it upgrades packages only to the lowest versions "
+"that fix advisories that matching selected advisory property"
+msgstr ""
+
+#. TODO(mblaha): add full command line
+#: commands/versionlock/utils.cpp:35
+#, c++-format
+msgid "Added by 'versionlock {}' command on {}"
+msgstr ""
+
+#: commands/versionlock/versionlock.cpp:40
+msgid "Manage versionlock configuration"
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:37
+msgid "Add new entry to versionlock configuration"
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:44
+msgid "List of packages to lock to their current versions"
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:107
+#: commands/versionlock/versionlock_exclude.cpp:128
+#, c++-format
+msgid "No package found for \"{}\"."
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:134
+#, c++-format
+msgid "Adding versionlock on \"{0} = {1}\"."
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:137
+#, c++-format
+msgid "Package \"{}\" is already locked."
+msgstr ""
+
+#: commands/versionlock/versionlock_clear.cpp:32
+msgid "Remove all entries from versionlock configuration"
+msgstr ""
+
+#: commands/versionlock/versionlock_delete.cpp:35
+msgid "Remove any matching versionlock configuration entries"
+msgstr ""
+
+#: commands/versionlock/versionlock_delete.cpp:41
+msgid "List of package specs to remove versionlock for"
+msgstr ""
+
+#: commands/versionlock/versionlock_delete.cpp:55
+msgid "Deleting versionlock entry:"
+msgstr ""
+
+#: commands/versionlock/versionlock_exclude.cpp:37
+msgid "Add new exclude entry to versionlock configuration"
+msgstr ""
+
+#: commands/versionlock/versionlock_exclude.cpp:45
+msgid ""
+"List of packages to exclude. If no version is specified, all available "
+"versions of the package will be excluded."
+msgstr ""
+
+#: commands/versionlock/versionlock_exclude.cpp:91
+#: commands/versionlock/versionlock_exclude.cpp:103
+#, c++-format
+msgid "Adding versionlock exclude on \"{0} = {1}\"."
+msgstr ""
+
+#: commands/versionlock/versionlock_exclude.cpp:142
+#, c++-format
+msgid "Package \"{}\" is already excluded."
+msgstr ""
+
+#: context.cpp:82
+#, c++-format
+msgid "{} day, {}:{:02}:{:02}"
+msgid_plural "{} days, {}:{:02}:{:02}"
+msgstr[0] ""
+msgstr[1] ""
+
+#: context.cpp:97
+#, c++-format
+msgid "Command: {}"
+msgstr ""
+
+#: context.cpp:105
+#, c++-format
+msgid "Process ID: {} (still running)"
+msgstr ""
+
+#: context.cpp:107
+#, c++-format
+msgid "Process ID: {}"
+msgstr ""
+
+#: context.cpp:116
+#, c++-format
+msgid "Started: {}"
+msgstr ""
+
+#: context.cpp:123
+#, c++-format
+msgid "Comment: {}"
+msgstr ""
+
+#: context.cpp:127
+msgid "Details about the currently running transaction:\n"
+msgstr ""
+
+#: context.cpp:145
+#, c++-format
+msgid "Importing OpenPGP key 0x{}:\n"
+msgstr ""
+
+#: context.cpp:147 context.cpp:172
+#, c++-format
+msgid " UserID     : \"{}\"\n"
+msgstr ""
+
+#: context.cpp:150
+#, c++-format
+msgid ""
+" Fingerprint: {}\n"
+" From       : {}\n"
+msgstr ""
+
+#: context.cpp:159
+msgid "The key was successfully imported."
+msgstr ""
+
+#: context.cpp:168
+#, c++-format
+msgid "The following OpenPGP key (0x{}) is about to be removed:"
+msgstr ""
+
+#: context.cpp:170
+#, c++-format
+msgid " Reason     : {}\n"
+msgstr ""
+
+#: context.cpp:174
+#, c++-format
+msgid " Fingerprint: {}\n"
+msgstr ""
+
+#: context.cpp:176
+msgid "As a result, installing packages signed with this key will fail."
+msgstr ""
+
+#: context.cpp:177
+msgid "It is recommended to remove the expired key to allow importing"
+msgstr ""
+
+#: context.cpp:178
+msgid ""
+"an updated key. This might leave already installed packages unverifiable."
+msgstr ""
+
+#: context.cpp:181
+msgid "The system will now proceed with removing the key."
+msgstr ""
+
+#: context.cpp:187
+#, c++-format
+msgid "Key 0x{} was successfully removed."
+msgstr ""
+
+#: context.cpp:216
+#, c++-format
+msgid "setopt: \"{}.{}\": {}"
+msgstr ""
+
+#: context.cpp:226
+#, c++-format
+msgid ""
+"No matching repositories for {}. To use repositories from a host system, "
+"pass --use-host-config option"
+msgstr ""
+
+#: context.cpp:230
+#, c++-format
+msgid "No matching repositories for {}"
+msgstr ""
+
+#: context.cpp:302
+msgid ""
+"Waiting for a lock on the system repository; another process is currently "
+"accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
+msgstr ""
+
+#: context.cpp:306
+msgid ""
+"Waiting for a lock on the system repository. The following processes are "
+"currently accessing it:"
+msgstr ""
+
+#: context.cpp:316
+msgid "Use the \"--skip-file-locks\" option to bypass the lock."
+msgstr ""
+
+#. If we're only loading the system repo, we can skip the message.
+#: context.cpp:324
+msgid "Updating and loading repositories:"
+msgstr ""
+
+#: context.cpp:371
+#, c++-format
+msgid "Last metadata expiration check: {} ago on {}."
+msgstr ""
+
+#: context.cpp:378
+msgid "Repositories loaded."
+msgstr ""
+
+#: context.cpp:385
+msgid "Testing offline transaction"
+msgstr ""
+
+#: context.cpp:389 context.cpp:588
+#, c++-format
+msgid "Transaction failed: {}"
+msgstr ""
+
+#: context.cpp:402 context.cpp:601
+#, c++-format
+msgid "  - {}"
+msgstr ""
+
+#: context.cpp:504
+#, c++-format
+msgid ""
+"Location \"{}\" already contains a stored transaction, it will be "
+"overwritten."
+msgstr ""
+
+#: context.cpp:538
+msgid ""
+"There is already an offline transaction queued, initiated by the following "
+"command:"
+msgstr ""
+
+#: context.cpp:540
+msgid ""
+"Continuing will cancel the old offline transaction and replace it with this "
+"one."
+msgstr ""
+
+#: context.cpp:559
+msgid ""
+"Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
+"reboot and run the transaction. To cancel the transaction and delete the "
+"downloaded files, use `dnf5 offline clean`."
+msgstr ""
+
+#: context.cpp:565
+msgid "Running transaction"
+msgstr ""
+
+#: context.cpp:614
+msgid "Warning: Pending offline transaction has been invalidated."
+msgstr ""
+
+#: context.cpp:616
+#, c++-format
+msgid "To reschedule, run: {}"
+msgstr ""
+
+#: context.cpp:1034
+#, c++-format
+msgid "Upgrading {}"
+msgstr ""
+
+#: context.cpp:1037
+#, c++-format
+msgid "Downgrading {}"
+msgstr ""
+
+#: context.cpp:1040
+#, c++-format
+msgid "Reinstalling {}"
+msgstr ""
+
+#: context.cpp:1053
+#, c++-format
+msgid "Unexpected action in TransactionPackage: {}"
+msgstr ""
+
+#: context.cpp:1059
+#, c++-format
+msgid "Installing {}"
+msgstr ""
+
+#: context.cpp:1080
+msgid "Prepare transaction"
+msgstr ""
+
+#: context.cpp:1100
+#, c++-format
+msgid "Removing {}"
+msgstr ""
+
+#: context.cpp:1103
+#, c++-format
+msgid "Cleanup {}"
+msgstr ""
+
+#: context.cpp:1122
+#, c++-format
+msgid "Unpack error: {}"
+msgstr ""
+
+#: context.cpp:1131
+#, c++-format
+msgid "Cpio error: {}"
+msgstr ""
+
+#: context.cpp:1141
+msgid "Scriptlet output:"
+msgstr ""
+
+#: context.cpp:1164
+msgid "Running scriptlets"
+msgstr ""
+
+#: context.cpp:1170
+#, c++-format
+msgid "Running {} scriptlet: {}"
+msgstr ""
+
+#: context.cpp:1186
+#, c++-format
+msgid "Finished {} scriptlet: {}"
+msgstr ""
+
+#: context.cpp:1193
+#, c++-format
+msgid "Non-critical error in {} scriptlet: {}"
+msgstr ""
+
+#: context.cpp:1203
+#, c++-format
+msgid "Error in {} scriptlet: {}"
+msgstr ""
+
+#: context.cpp:1238
+msgid "Verify package files"
+msgstr ""
+
+#: library.cpp:33
+#, c++-format
+msgid "Cannot load shared library \"{}\": {}"
+msgstr ""
+
+#: library.cpp:47
+#, c++-format
+msgid "Cannot obtain address of symbol \"{}\": {}"
+msgstr ""
+
+#: main.cpp:150
+#, c++-format
+msgid "Failed to expire repository cache in path \"{0}\": {1}"
+msgstr ""
+
+#: main.cpp:174
+msgid "Utility for packages maintaining"
+msgstr ""
+
+#: main.cpp:175
+msgid "DNF5 is a program for maintaining packages."
+msgstr ""
+
+#: main.cpp:176
+msgid "Unclassified options:"
+msgstr ""
+
+#: main.cpp:179
+msgid "Global options:"
+msgstr ""
+
+#: main.cpp:184
+msgid "Print help"
+msgstr ""
+
+#: main.cpp:191
+msgid "Configuration file location"
+msgstr ""
+
+#: main.cpp:199
+msgid ""
+"In combination with a non-interactive command, shows just the relevant "
+"content. Suppresses messages notifying about the current state or actions of "
+"dnf5."
+msgstr ""
+
+#: main.cpp:214
+msgid ""
+"Run entirely from system cache, don't update the cache and use it even in "
+"case it is expired."
+msgstr ""
+
+#: main.cpp:223
+msgid "Control whether color is used."
+msgstr ""
+
+#: main.cpp:229
+msgid "Force refreshing metadata before running the command."
+msgstr ""
+
+#: main.cpp:239
+msgid "create additional repository using id and path"
+msgstr ""
+
+#: main.cpp:247
+#, c++-format
+msgid "repofrompath: Incorrect repoid and path specification \"{}\""
+msgstr ""
+
+#: main.cpp:259
+msgid "set arbitrary config and repo options"
+msgstr ""
+
+#: main.cpp:261
+msgid ""
+"Override a configuration option from the configuration file. To override "
+"configuration options for repositories, use repoid.option for  the\n"
+"              <option>.  Values  for configuration options like excludepkgs, "
+"includepkgs, installonlypkgs and tsflags are appended to the original "
+"value,\n"
+"              they do not override it. However, specifying an empty value "
+"(e.g. --setopt=tsflags=) will clear the option."
+msgstr ""
+
+#: main.cpp:270 main.cpp:309
+#, c++-format
+msgid "{}: Badly formatted argument value \"{}\""
+msgstr ""
+
+#: main.cpp:277
+#, c++-format
+msgid ""
+"{}: Badly formatted argument value: Last key character cannot be '.': {}"
+msgstr ""
+
+#: main.cpp:290
+#, c++-format
+msgid "setopt: \"{0}\": {1}"
+msgstr ""
+
+#: main.cpp:302
+msgid "set arbitrary variable"
+msgstr ""
+
+#: main.cpp:316
+#, c++-format
+msgid "setvar: {}"
+msgstr ""
+
+#: main.cpp:325
+msgid "automatically answer yes for all questions"
+msgstr ""
+
+#: main.cpp:332
+msgid "automatically answer no for all questions"
+msgstr ""
+
+#: main.cpp:339
+msgid "try the best available package versions in transactions"
+msgstr ""
+
+#: main.cpp:346
+msgid "do not limit the transaction to the best candidate"
+msgstr ""
+
+#: main.cpp:355
+msgid "allow automatic package replacements from different vendors"
+msgstr ""
+
+#: main.cpp:362
+msgid "do not allow automatic package replacements from different vendors"
+msgstr ""
+
+#: main.cpp:375
+msgid ""
+"Allow switching packages from any vendor to packages from VENDOR. Supports "
+"globs, can be specified multiple times."
+msgstr ""
+
+#: main.cpp:394
+msgid ""
+"Allow replacing packages from VENDOR to packages from any vendor. Supports "
+"globs, can be specified multiple times."
+msgstr ""
+
+#: main.cpp:413
+msgid ""
+"Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
+"option. Supports globs, can be specified multiple times."
+msgstr ""
+
+#: main.cpp:442
+msgid ""
+"Add a vendor change policy for this run. Can be specified multiple times."
+msgstr ""
+
+#: main.cpp:457
+#, c++-format
+msgid ""
+"Remove all vendor change policies. Can be combined with {} to replace them."
+msgstr ""
+
+#: main.cpp:476
+msgid ""
+"Disable vendor change policies whose source matches the specified pattern. "
+"Supports globs, can be specified multiple times."
+msgstr ""
+
+#: main.cpp:493
+msgid ""
+"Don't install files that are marked as documentation (which includes man "
+"pages and texinfo documents)"
+msgstr ""
+
+#: main.cpp:509
+msgid "exclude packages by name or glob"
+msgstr ""
+
+#: main.cpp:528
+msgid ""
+"Enable additional repositories. List option. Supports globs, can be "
+"specified multiple times."
+msgstr ""
+
+#: main.cpp:546
+msgid ""
+"Disable repositories. List option. Supports globs, can be specified multiple "
+"times."
+msgstr ""
+
+#: main.cpp:564
+msgid ""
+"Enable just specific repositories. List option. Supports globs, can be "
+"specified multiple times."
+msgstr ""
+
+#: main.cpp:586
+msgid "disable OpenPGP signature checking (if RPM policy allows)"
+msgstr ""
+
+#: main.cpp:603
+msgid "Disable all libdnf5 plugins"
+msgstr ""
+
+#: main.cpp:613
+msgid ""
+"Enable libdnf5 plugins by name. List option. Supports globs, can be "
+"specified multiple times."
+msgstr ""
+
+#: main.cpp:628
+msgid ""
+"Disable libdnf5 plugins by name. List option. Supports globs, can be "
+"specified multiple times."
+msgstr ""
+
+#: main.cpp:645
+msgid "add a comment to transaction"
+msgstr ""
+
+#: main.cpp:647
+msgid ""
+"Adds a comment to the action. If a transaction takes place, the comment is "
+"stored in it."
+msgstr ""
+
+#: main.cpp:660
+msgid "set install root"
+msgstr ""
+
+#: main.cpp:667
+msgid ""
+"use configuration, reposdir, and vars from the host system rather than the "
+"installroot"
+msgstr ""
+
+#: main.cpp:676
+msgid "override the value of $releasever in config and repo files"
+msgstr ""
+
+#: main.cpp:689
+msgid "override the value of $releasever_major in config and repo files"
+msgstr ""
+
+#: main.cpp:702
+msgid "override the value of $releasever_minor in config and repo files"
+msgstr ""
+
+#: main.cpp:715
+msgid ""
+"Show newly installed leaf packages and packages that became leaves after a "
+"transaction."
+msgstr ""
+
+#: main.cpp:729
+msgid "Dump detailed solving results into files"
+msgstr ""
+
+#: main.cpp:738
+msgid "Print main configuration values to stdout"
+msgstr ""
+
+#: main.cpp:755
+msgid ""
+"Print repository configuration values to stdout. List option. Supports globs"
+msgstr ""
+
+#: main.cpp:770
+msgid "Print variable values to stdout"
+msgstr ""
+
+#: main.cpp:784
+msgid "Print loaded vendor change policies to stdout"
+msgstr ""
+
+#: main.cpp:798
+msgid "Show DNF5 version and exit"
+msgstr ""
+
+#: main.cpp:812
+msgid "Force the use of a different architecture."
+msgstr ""
+
+#: main.cpp:844
+msgid "Skip acquiring file locks, such as the lock on the system repository"
+msgstr ""
+
+#: main.cpp:859
+msgid "Software Management Commands:"
+msgstr ""
+
+#: main.cpp:866
+msgid "Query Commands:"
+msgstr ""
+
+#: main.cpp:873
+msgid "Subcommands:"
+msgstr ""
+
+#: main.cpp:975
+#, c++-format
+msgid "{} version {}.{}.{}.{}"
+msgstr ""
+
+#: main.cpp:978
+#, c++-format
+msgid "{} plugin API version {}.{}"
+msgstr ""
+
+#: main.cpp:983
+#, c++-format
+msgid "libdnf5 version {}.{}.{}.{}"
+msgstr ""
+
+#: main.cpp:986
+#, c++-format
+msgid "libdnf5 plugin API version {}.{}"
+msgstr ""
+
+#: main.cpp:993
+#, c++-format
+msgid ""
+"\n"
+"Loaded {} plugins:"
+msgstr ""
+
+#: main.cpp:998 main.cpp:1014
+#, c++-format
+msgid "  name: {}"
+msgstr ""
+
+#: main.cpp:1001 main.cpp:1017
+#, c++-format
+msgid "  version: {}.{}.{}"
+msgstr ""
+
+#: main.cpp:1003 main.cpp:1019
+#, c++-format
+msgid "  API version: {}.{}"
+msgstr ""
+
+#: main.cpp:1010
+msgid ""
+"\n"
+"Loaded libdnf5 plugins:"
+msgstr ""
+
+#: main.cpp:1057
+#, c++-format
+msgid ""
+"Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
+msgstr ""
+
+#: main.cpp:1074
+#, c++-format
+msgid ""
+"After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
+"remove {:.0f} {:s})."
+msgstr ""
+
+#: main.cpp:1085
+#, c++-format
+msgid ""
+"After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
+"{:.0f} {:s})."
+msgstr ""
+
+#: main.cpp:1097
+msgid "======== Main configuration: ========"
+msgstr ""
+
+#: main.cpp:1134
+#, c++-format
+msgid "No matching repo to dump configuration: \"{}\""
+msgstr ""
+
+#: main.cpp:1139
+#, c++-format
+msgid "======== \"{}\" repository configuration: ========"
+msgstr ""
+
+#: main.cpp:1159
+msgid "======== Variables: ========"
+msgstr ""
+
+#: main.cpp:1167
+msgid "======== Vendor Change Policies: ========"
+msgstr ""
+
+#: main.cpp:1171
+#, c++-format
+msgid "Policy #{}: source: {}"
+msgstr ""
+
+#: main.cpp:1177
+msgid ""
+"allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
+"vendor change policies will be ignored."
+msgstr ""
+
+#: main.cpp:1215
+msgid "New leaves:"
+msgstr ""
+
+#: main.cpp:1217
+#, c++-format
+msgid " {}"
+msgstr ""
+
+#: main.cpp:1277
+#, c++-format
+msgid "{} to skip unavailable packages"
+msgstr ""
+
+#: main.cpp:1285
+#, c++-format
+msgid "{} to allow extra packages in the transaction"
+msgstr ""
+
+#: main.cpp:1298
+#, c++-format
+msgid ""
+"{} to allow mismatches between installed and stored transaction packages. "
+"This can result in an empty transaction because among other things the "
+"option can ignore failing Remove actions."
+msgstr ""
+
+#: main.cpp:1354
+#, c++-format
+msgid "{} to not limit the transaction to the best candidates"
+msgstr ""
+
+#: main.cpp:1361
+#, c++-format
+msgid "{} to allow removing of installed packages to resolve problems"
+msgstr ""
+
+#: main.cpp:1370
+#, c++-format
+msgid "{} to load additional filelists metadata"
+msgstr ""
+
+#: main.cpp:1377
+#, c++-format
+msgid "{} to skip uninstallable packages"
+msgstr ""
+
+#: main.cpp:1392
+#, c++-format
+msgid "{} to allow switching to packages from VENDOR"
+msgstr ""
+
+#: main.cpp:1394
+#, c++-format
+msgid "{} to allow replacing packages from VENDOR"
+msgstr ""
+
+#: main.cpp:1396
+#, c++-format
+msgid "{} to add specific vendor change rules"
+msgstr ""
+
+#: main.cpp:1397
+#, c++-format
+msgid "{} to allow all vendor changes"
+msgstr ""
+
+#: main.cpp:1401
+msgid "You can try to add to command line:"
+msgstr ""
+
+#: main.cpp:1419
+#, c++-format
+msgid ""
+"No matches were found for the following plugin name patterns while enabling "
+"libdnf plugins: {}"
+msgstr ""
+
+#: main.cpp:1420
+#, c++-format
+msgid ""
+"No matches were found for the following plugin name patterns while disabling "
+"libdnf plugins: {}"
+msgstr ""
+
+#: main.cpp:1486
+#, c++-format
+msgid "--- DNF5 launched with arguments: \"{}\" ---"
+msgstr ""
+
+#: main.cpp:1522
+#, c++-format
+msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
+msgstr ""
+
+#: main.cpp:1561
+#, c++-format
+msgid "{}."
+msgstr ""
+
+#: main.cpp:1564 main.cpp:1958
+#, c++-format
+msgid "{}. Add \"--help\" for more information about the arguments."
+msgstr ""
+
+#: main.cpp:1573
+#, c++-format
+msgid ""
+"It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
+"command({})'"
+msgstr ""
+
+#: main.cpp:1615
+#, c++-format
+msgid ""
+"The argument is available for commands: {}. (It has to be placed after the "
+"command.)"
+msgstr ""
+
+#: main.cpp:1652
+msgid "No read/execute access in current directory, moving to /"
+msgstr ""
+
+#: main.cpp:1694
+#, c++-format
+msgid ""
+"{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
+"configuration option."
+msgstr ""
+
+#: main.cpp:1759
+msgid ""
+"The requested operation requires superuser privileges. Please log in as a "
+"user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
+"options to run the command without modifying the system state."
+msgstr ""
+
+#: main.cpp:1773
+#, c++-format
+msgid "Warning: {}"
+msgstr ""
+
+#: main.cpp:1786
+msgid ""
+"Error: /usr is configured to be read-only. You may be running an image-based "
+"or immutable operating system. For more information, refer to your "
+"distribution's documentation."
+msgstr ""
+
+#: main.cpp:1805
+msgid ""
+"Error: persistent transactions aren't supported on bootc systems. Pass --"
+"transient to perform this operation in a transient overlay which will reset "
+"when the system reboots."
+msgstr ""
+
+#: main.cpp:1815
+msgid ""
+"Error: this bootc system is configured to be read-only. Pass --transient to "
+"perform this operation in a transient overlay which will reset when the "
+"system reboots."
+msgstr ""
+
+#: main.cpp:1826
+msgid "Error: transient transactions are only supported on bootc systems."
+msgstr ""
+
+#: main.cpp:1867
+#, c++-format
+msgid "The operation will only store the transaction in {}"
+msgstr ""
+
+#: main.cpp:1869
+msgid "The operation will only download packages for the transaction."
+msgstr ""
+
+#: main.cpp:1874
+msgid ""
+"Test mode enabled: Only package downloads, OpenPGP key installations and "
+"transaction checks will be performed."
+msgstr ""
+
+#: main.cpp:1883
+msgid "Warning: A pending offline transaction will be invalidated."
+msgstr ""
+
+#: main.cpp:1886
+#, c++-format
+msgid ""
+"Warning: A pending offline transaction initiated by the following command "
+"will be invalidated: {}"
+msgstr ""
+
+#: main.cpp:1911
+msgid ""
+"This transaction would modify the following paths, possibly introducing "
+"inconsistencies when the transient overlay on /usr is discarded. See the "
+"usr_drift_protected_paths configuration option for more information."
+msgstr ""
+
+#: main.cpp:1922
+msgid ""
+"Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
+"check and proceed anyway."
+msgstr ""
+
+#: main.cpp:1931
+msgid ""
+"A transient overlay will be created on /usr that will be discarded on "
+"reboot. Keep in mind that changes to /etc and /var will still persist, and "
+"packages commonly modify these directories."
+msgstr ""
+
+#: main.cpp:1968
+#, c++-format
+msgid "Command returned error: {}"
+msgstr ""
+
+#: main.cpp:1976
+msgid "DNF5 finished"
+msgstr ""
+
+#: main.cpp:1980
+msgid "Complete!"
+msgstr ""
+
+#: shared_options.cpp:31
+msgid "Allow removing of installed packages to resolve problems"
+msgstr ""
+
+#: shared_options.cpp:41
+msgid "Allow resolving of depsolve problems by skipping packages"
+msgstr ""
+
+#: shared_options.cpp:53
+msgid "Allow skipping unavailable packages"
+msgstr ""
+
+#: shared_options.cpp:175
+msgid ""
+"The following items can be selected only from the specified repositories. "
+"All enabled repositories will still be used to satisfy dependencies."
+msgstr ""
+
+#: shared_options.cpp:178 shared_options.cpp:211
+msgid "REPO_ID,..."
+msgstr ""
+
+#: shared_options.cpp:193
+msgid "\"--from_repo\" already defined with different value"
+msgstr ""
+
+#: shared_options.cpp:209
+msgid ""
+"Filters installed packages by the ID of the repository they were installed "
+"from."
+msgstr ""
+
+#: shared_options.cpp:220
+msgid "\"--installed-from_repo\" already defined with different value"
+msgstr ""
+
+#: shared_options.cpp:236
+msgid ""
+"The following items can be selected only from the specified vendors. The "
+"vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
+"still be used for items that satisfy dependencies."
+msgstr ""
+
+#: shared_options.cpp:239
+msgid "VENDOR,..."
+msgstr ""
+
+#: shared_options.cpp:248
+msgid "\"--from_vendor\" already defined with different value"
+msgstr ""
