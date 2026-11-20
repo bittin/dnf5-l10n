@@ -7,592 +7,607 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 22:06+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-21 13:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5-cli/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: argument_parser.cpp:68
 #, c++-format
 msgid "Misconfigured alias \"{}\": cannot convert \"{}\" to a number"
 msgstr ""
+"Nepareizi konfigurēts aizstājvārds „{}”: nevar pārveidot „{}” par skaitli"
 
 #: argument_parser.cpp:76
 #, c++-format
 msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
 msgstr ""
+"Nepareizi konfigurēts aizstājvārds „{}”: indekss „{}” ir ārpus diapazona"
 
 #: argument_parser.cpp:98
 #, c++-format
 msgid "\"{}\" not allowed together with named argument \"{}\""
-msgstr ""
+msgstr "„{}” nav atļauts kopā ar nosaukto argumentu „{}”"
 
 #: argument_parser.cpp:100
 #, c++-format
 msgid "\"{}\" not allowed in command \"{}\""
-msgstr ""
+msgstr "„{}” nav atļauts komandā „{}”"
 
 #: argument_parser.cpp:102
 #, c++-format
 msgid "\"{}\" not allowed together with positional argument \"{}\""
-msgstr ""
+msgstr "„{}” nav atļauts kopā ar pozicionālo argumentu „{}”"
 
 #: argument_parser.cpp:147
 #, c++-format
 msgid "Argument id \"{}\" already registered in group \"{}\""
-msgstr ""
+msgstr "Argumenta id „{}” jau ir reģistrēts grupā „{}”"
 
 #: argument_parser.cpp:274
 #, c++-format
 msgid "Invalid character '.' in argument id \"{}\""
-msgstr ""
+msgstr "Nederīga rakstzīme „.” argumenta id „{}”"
 
 #: argument_parser.cpp:383 argument_parser.cpp:388
 #, c++-format
 msgid "Too few values for positional argument \"{}\""
-msgstr ""
+msgstr "Pārāk maz vērtību pozicionālajam argumentam „{}”"
 
 #: argument_parser.cpp:549
 #, c++-format
 msgid "Missing value for named argument \"--{}\""
-msgstr ""
+msgstr "Trūkst vērtības nosauktajam argumentam „--{}”"
 
 #: argument_parser.cpp:557
 #, c++-format
 msgid "Unexpected value for named argument \"--{}\""
-msgstr ""
+msgstr "Negaidīta vērtība nosauktajam argumentam „--{}”"
 
 #: argument_parser.cpp:599
 #, c++-format
 msgid "Missing value for named argument \"-{}\""
-msgstr ""
+msgstr "Trūkst vērtības nosauktajam argumentam „-{}”"
 
 #. print usage
 #: argument_parser.cpp:696
 msgid "Usage:"
-msgstr ""
+msgstr "Lietošana:"
 
 #: argument_parser.cpp:704
 msgid "Description:"
-msgstr ""
+msgstr "Apraksts:"
 
 #: argument_parser.cpp:997
 #, c++-format
 msgid "Command id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Komandas id „{}” jau ir reģistrēts komandai „{}”"
 
 #: argument_parser.cpp:1008
 #, c++-format
 msgid "Named argument id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Nosauktā argumenta id „{}” jau ir reģistrēts komandai „{}”"
 
 #: argument_parser.cpp:1018
 #, c++-format
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Pozicionālā argumenta id „{}” jau ir reģistrēts komandai „{}”"
 
 #: argument_parser.cpp:1028
 #, c++-format
 msgid "Group id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Grupas id „{}” jau ir reģistrēts komandai „{}”"
 
 #: argument_parser.cpp:1055
 #, c++-format
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
-msgstr ""
+msgstr "Komandas id „{}” nesatur apakškomandu ar id „{}”"
 
 #: argument_parser.cpp:1063
 #, c++-format
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
-msgstr ""
+msgstr "Komandas id „{}” nesatur nosauktu argumentu ar id „{}”"
 
 #: argument_parser.cpp:1071
 #, c++-format
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
-msgstr ""
+msgstr "Komandas id „{}” nesatur pozicionālu argumentu ar id „{}”"
 
 #: argument_parser.cpp:1078
 #, c++-format
 msgid "Command id \"{}\" does not contain group with id \"{}\""
-msgstr ""
+msgstr "Komandas id „{}” nesatur grupu ar id „{}”"
 
 #: argument_parser.cpp:1204 argument_parser.cpp:1425
 #, c++-format
 msgid "Unknown argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Nezināms arguments „{}” komandai „{}”"
 
 #: argument_parser.cpp:1219 argument_parser.cpp:1440
 #, c++-format
 msgid "Missing positional argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Trūkst pozicionālā argumenta „{}” komandai „{}”"
 
 #: argument_parser.cpp:1301
 #, c++-format
 msgid "Missing value for command alias \"{}\""
-msgstr ""
+msgstr "Trūkst vērtības komandas aizstājvārdam „{}”"
 
 #: argument_parser.cpp:1647
 #, c++-format
 msgid "Named argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Nosauktais arguments ar ceļa id „{}” nav atrasts"
 
 #: argument_parser.cpp:1657
 #, c++-format
 msgid "Positional argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Pozicionālais arguments ar ceļa id „{}” nav atrasts"
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
-msgstr ""
+msgstr "Darbību pārtrauca lietotājs."
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
-msgstr ""
+msgstr "Neizdevās atrisināt transakciju"
 
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
 msgstr ""
+"Padoms: [d] noklusējuma, [e] iespējots, [x] atspējots, [i] instalēts, [a] "
+"aktīvs"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr ""
+msgstr "Padoms: [d] noklusējuma, [e] iespējots, [x] atspējots, [i] instalēts"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
 #: output/packageinfo.cpp:57
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add package
 #: output/packageinfo.cpp:63
 msgid "Name"
-msgstr ""
+msgstr "Nosaukums"
 
 #: output/packageinfo.cpp:68
 msgid "Epoch"
-msgstr ""
+msgstr "Epoha"
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:291
 msgid "Version"
-msgstr ""
+msgstr "Versija"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr ""
+msgstr "Laidiens"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
-msgstr ""
+msgstr "Arhitektūra"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
-msgstr ""
+msgstr "Aizstāj"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "Lejupielādes izmērs"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "Instalētais izmērs"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
-msgstr ""
+msgstr "Avots"
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "No repozitorija"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:297
 #: output/transactioninfo.cpp:76
 msgid "Repository"
-msgstr ""
+msgstr "Repozitorijs"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
-msgstr ""
+msgstr "Kopsavilkums"
 
 #: output/packageinfo.cpp:99
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: output/packageinfo.cpp:100
 msgid "License"
-msgstr ""
+msgstr "Licence"
 
 #: output/packageinfo.cpp:104 output/transactioninfo.cpp:107
 msgid "Description"
-msgstr ""
+msgstr "Apraksts"
 
 #: output/packageinfo.cpp:109
 msgid "Vendor"
-msgstr ""
+msgstr "Ražotājs"
 
 #: output/search.cpp:45
 msgid " (exact)"
-msgstr ""
+msgstr " (precīzi)"
 
 #: output/search.cpp:100
 msgid "Matched fields: "
-msgstr ""
+msgstr "Atbilstošie lauki: "
 
 #: output/status.cpp:45
 msgid "Groups"
-msgstr ""
+msgstr "Grupas"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
 msgid "installed"
-msgstr ""
+msgstr "instalēts"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
-msgstr ""
+msgstr "pieejams"
 
 #: output/status.cpp:54
 msgid "Environments"
-msgstr ""
+msgstr "Vides"
 
 #: output/status.cpp:71
 msgid "Packages"
-msgstr ""
+msgstr "Pakotnes"
 
 #: output/status.cpp:74
 msgid "user-installed"
-msgstr ""
+msgstr "lietotāja instalēts"
 
 #: output/status.cpp:84
 msgid "Installed Size"
-msgstr ""
+msgstr "Instalētais izmērs"
 
 #: output/status.cpp:90
 msgid "Enabled Repositories"
-msgstr ""
+msgstr "Iespējotie repozitoriji"
 
 #: output/status.cpp:101
 msgid "Last Transaction"
-msgstr ""
+msgstr "Pēdējā transakcija"
 
 #: output/transaction_table.cpp:129
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "Transakcijas kopsavilkums:\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:134
 #, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Instalē:       {:4} pakotnes\n"
+msgstr[1] " Instalē:       {:4} pakotni\n"
+msgstr[2] " Instalē:       {:4} pakotnes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:143
 #, c++-format
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Pārinstalē:    {:4} pakotnes\n"
+msgstr[1] " Pārinstalē:    {:4} pakotni\n"
+msgstr[2] " Pārinstalē:    {:4} pakotnes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:152
 #, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Jaunina:       {:4} pakotnes\n"
+msgstr[1] " Jaunina:       {:4} pakotni\n"
+msgstr[2] " Jaunina:       {:4} pakotnes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:161
 #, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Aizstāj:       {:4} pakotnes\n"
+msgstr[1] " Aizstāj:       {:4} pakotni\n"
+msgstr[2] " Aizstāj:       {:4} pakotnes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:170
 #, c++-format
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Noņem:         {:4} pakotnes\n"
+msgstr[1] " Noņem:         {:4} pakotni\n"
+msgstr[2] " Noņem:         {:4} pakotnes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:179
 #, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Pazemina:      {:4} pakotnes\n"
+msgstr[1] " Pazemina:      {:4} pakotni\n"
+msgstr[2] " Pazemina:      {:4} pakotnes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:188
 #, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Maina iemeslu: {:4} pakotnēm\n"
+msgstr[1] " Maina iemeslu: {:4} pakotnei\n"
+msgstr[2] " Maina iemeslu: {:4} pakotnēm\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:197
 #, c++-format
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Izlaiž:        {:4} pakotnes\n"
+msgstr[1] " Izlaiž:        {:4} pakotni\n"
+msgstr[2] " Izlaiž:        {:4} pakotnes\n"
 
 #: output/transaction_table.cpp:279 output/transactioninfo.cpp:74
 msgid "Package"
-msgstr ""
+msgstr "Pakotne"
 
 #: output/transaction_table.cpp:285
 msgid "Arch"
-msgstr ""
+msgstr "Arhitektūra"
 
 #: output/transaction_table.cpp:303
 msgid "Size"
-msgstr ""
+msgstr "Izmērs"
 
 #: output/transaction_table.cpp:365 output/transaction_table.cpp:435
 #: output/transaction_table.cpp:476
 #, c++-format
 msgid "{} -> {}"
-msgstr ""
+msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:381
 #, c++-format
 msgid "replacing {}"
-msgstr ""
+msgstr "aizstāj {}"
 
 #: output/transaction_table.cpp:423 output/transaction_table.cpp:451
 msgid " <name-unset>"
-msgstr ""
+msgstr " <nosaukums-nav-iestatīts>"
 
 #: output/transaction_table.cpp:482
 msgid "replacing "
-msgstr ""
+msgstr "aizstāj "
 
 #: output/transaction_table.cpp:495
 msgid "Skipping packages with conflicts:"
-msgstr ""
+msgstr "Izlaiž pakotnes ar konfliktiem:"
 
 #: output/transaction_table.cpp:497
 msgid "Skipping packages with broken dependencies:"
-msgstr ""
+msgstr "Izlaiž pakotnes ar salauztām atkarībām:"
 
 #: output/transaction_table.cpp:559
 msgid "Installing dependencies:"
-msgstr ""
+msgstr "Instalē atkarības:"
 
 #: output/transaction_table.cpp:561
 msgid "Installing weak dependencies:"
-msgstr ""
+msgstr "Instalē vājās atkarības:"
 
 #: output/transaction_table.cpp:563
 msgid "Installing group/module packages:"
-msgstr ""
+msgstr "Instalē grupu/moduļu pakotnes:"
 
 #: output/transaction_table.cpp:565
 msgid "Installing:"
-msgstr ""
+msgstr "Instalē:"
 
 #: output/transaction_table.cpp:569
 msgid "Upgrading:"
-msgstr ""
+msgstr "Jaunina:"
 
 #: output/transaction_table.cpp:572
 msgid "Downgrading:"
-msgstr ""
+msgstr "Pazemina:"
 
 #: output/transaction_table.cpp:575
 msgid "Reinstalling:"
-msgstr ""
+msgstr "Pārinstalē:"
 
 #: output/transaction_table.cpp:579
 msgid "Removing dependent packages:"
-msgstr ""
+msgstr "Noņem atkarīgās pakotnes:"
 
 #: output/transaction_table.cpp:581
 msgid "Removing unused dependencies:"
-msgstr ""
+msgstr "Noņem neizmantotās atkarības:"
 
 #: output/transaction_table.cpp:583
 msgid "Removing:"
-msgstr ""
+msgstr "Noņem:"
 
 #: output/transaction_table.cpp:587
 msgid "Changing reason:"
-msgstr ""
+msgstr "Maina iemeslu:"
 
 #: output/transaction_table.cpp:619
 msgid "Installing groups dependencies:"
-msgstr ""
+msgstr "Instalē grupu atkarības:"
 
 #: output/transaction_table.cpp:621
 msgid "Installing groups:"
-msgstr ""
+msgstr "Instalē grupas:"
 
 #: output/transaction_table.cpp:625
 msgid "Removing groups:"
-msgstr ""
+msgstr "Noņem grupas:"
 
 #: output/transaction_table.cpp:628
 msgid "Upgrading groups:"
-msgstr ""
+msgstr "Jaunina grupas:"
 
 #: output/transaction_table.cpp:631
 msgid "Changing reason of installed groups:"
-msgstr ""
+msgstr "Maina instalēto grupu iemeslu:"
 
 #: output/transaction_table.cpp:658
 msgid "Installing environmental groups:"
-msgstr ""
+msgstr "Instalē vides grupas:"
 
 #: output/transaction_table.cpp:661
 msgid "Removing environmental groups:"
-msgstr ""
+msgstr "Noņem vides grupas:"
 
 #: output/transaction_table.cpp:664
 msgid "Upgrading environmental groups:"
-msgstr ""
+msgstr "Jaunina vides grupas:"
 
 #: output/transaction_table.cpp:691
 msgid "Enabling module streams:"
-msgstr ""
+msgstr "Iespējo moduļu straumes:"
 
 #: output/transaction_table.cpp:694
 msgid "Disabling modules:"
-msgstr ""
+msgstr "Atspējo moduļus:"
 
 #: output/transaction_table.cpp:697
 msgid "Resetting modules:"
-msgstr ""
+msgstr "Atiestata moduļus:"
 
 #: output/transaction_table.cpp:700
 msgid "Switching module streams:"
-msgstr ""
+msgstr "Pārslēdz moduļu straumes:"
 
 #: output/transaction_table.cpp:776 output/transaction_table.cpp:777
 msgid "(none)"
-msgstr ""
+msgstr "(nav)"
 
 #: output/transaction_table.cpp:783
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Izlaiž {0} pakotnes ražotāja maiņas ierobežojuma dēļ: {1}."
+msgstr[1] "Izlaiž {0} pakotni ražotāja maiņas ierobežojuma dēļ: {1}."
+msgstr[2] "Izlaiž {0} pakotnes ražotāja maiņas ierobežojuma dēļ: {1}."
 
 #: output/transaction_table.cpp:812
 msgid "Nothing to do."
-msgstr ""
+msgstr "Nav ko darīt."
 
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr ""
+msgstr "Darbība"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Iemesls"
 
 #: output/transactioninfo.cpp:98
 msgid "Transaction ID"
-msgstr ""
+msgstr "Transakcijas ID"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Sākuma laiks"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "Sākuma rpmdb"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "Beigu laiks"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "Beigu rpmdb"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
-msgstr ""
+msgstr "Lietotājs"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "Statuss"
 
 #: output/transactioninfo.cpp:106
 msgid "Releasever"
-msgstr ""
+msgstr "Releasever"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "Komentārs"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "Mainītās pakotnes:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "Mainītās grupas:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Mainītās vides:"
 
 #: output/transactionlist.cpp:65
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: output/transactionlist.cpp:66
 msgid "Command line"
-msgstr ""
+msgstr "Komandrinda"
 
 #: output/transactionlist.cpp:67
 msgid "Date and time"
-msgstr ""
+msgstr "Datums un laiks"
 
 #: output/transactionlist.cpp:68
 msgid "Action(s)"
-msgstr ""
+msgstr "Darbība(-s)"
 
 #: output/transactionlist.cpp:69
 msgid "Altered"
-msgstr ""
+msgstr "Mainīts"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
 msgid "Total"
-msgstr ""
+msgstr "Kopā"
 
 #: session.cpp:153
 msgid "Missing command"
-msgstr ""
+msgstr "Trūkst komandas"
 
 #: session.cpp:260
 #, c++-format
 msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
-msgstr ""
+msgstr "Padots nederīgs datums: „{}”. Tiek gaidīts datums formātā „GGGG-MM-DD”"
 
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
-msgstr ""
+msgstr "Datumu „{}” šajā platformā nevar attēlot ar tipu time_t"
 
 #: utils/userconfirm.cpp:57
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Vai turpināt? [Y/n]: "
 
 #: utils/userconfirm.cpp:60
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Vai turpināt? [y/N]: "
