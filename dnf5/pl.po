@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 22:06+0000\n"
-"PO-Revision-Date: 2026-11-18 10:44+0000\n"
+"PO-Revision-Date: 2026-11-21 13:18+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
@@ -544,10 +544,8 @@ msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nieobsługiwana architektura „{0}”. Wybierz jedną z {1}"
 
 #: commands/download/download.cpp:214
-#, fuzzy
-#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option \"--together\" should be used with \"--resolve\""
-msgstr "Opcja „--alldeps” powinna być używana z opcją „--resolve”"
+msgstr "Opcja „--together” powinna być używana z opcją „--resolve”"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:221
