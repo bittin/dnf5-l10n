@@ -7,15 +7,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 22:06+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-21 13:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -23,207 +25,209 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
+"Slikts libsolv id paziņojumam „{}”, atrisināmā nosaukumam „{}” nav "
+"paziņojuma priedēkļa „{}”"
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
-msgstr ""
+msgstr "Šī libdnf5 neatbalsta modularitāti"
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
 #, c++-format
 msgid "Error parsing transaction info: {}"
-msgstr ""
+msgstr "Kļūda, parsējot transakcijas informāciju: {}"
 
 #: base/base.cpp:185
 #, c++-format
 msgid "Invalid option value: enabled={}"
-msgstr ""
+msgstr "Nederīga opcijas vērtība: enabled={}"
 
 #: base/goal.cpp:491
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr ""
+msgstr "Neatbalstīts arguments darbībai REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1742
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
-msgstr ""
+msgstr "Nepareiza multilib_policy konfigurācijas vērtība: {}"
 
 #: base/goal_elements.cpp:358 transaction/transaction_item_action.cpp:64
 msgid "Install"
-msgstr ""
+msgstr "Instalēt"
 
 #: base/goal_elements.cpp:360
 msgid "Install via provide"
-msgstr ""
+msgstr "Instalēt pēc nodrošinājuma"
 
 #: base/goal_elements.cpp:362
 msgid "Install by group"
-msgstr ""
+msgstr "Instalēt pēc grupas"
 
 #: base/goal_elements.cpp:364 transaction/transaction_item_action.cpp:66
 msgid "Upgrade"
-msgstr ""
+msgstr "Jaunināt"
 
 #: base/goal_elements.cpp:366
 msgid "Upgrade all"
-msgstr ""
+msgstr "Jaunināt visu"
 
 #: base/goal_elements.cpp:368
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "Jaunināt minimāli"
 
 #: base/goal_elements.cpp:370
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "Jaunināt visu minimāli"
 
 #: base/goal_elements.cpp:372 transaction/transaction_item_action.cpp:68
 msgid "Downgrade"
-msgstr ""
+msgstr "Pazemināt"
 
 #: base/goal_elements.cpp:374 transaction/transaction_item_action.cpp:70
 msgid "Reinstall"
-msgstr ""
+msgstr "Pārinstalēt"
 
 #: base/goal_elements.cpp:376
 msgid "Install or reinstall"
-msgstr ""
+msgstr "Instalēt vai pārinstalēt"
 
 #: base/goal_elements.cpp:378 transaction/transaction_item_action.cpp:72
 msgid "Remove"
-msgstr ""
+msgstr "Noņemt"
 
 #: base/goal_elements.cpp:380
 msgid "Distrosync"
-msgstr ""
+msgstr "Distrosync"
 
 #: base/goal_elements.cpp:382
 msgid "Distrosync all"
-msgstr ""
+msgstr "Distrosync visu"
 
 #: base/goal_elements.cpp:384 transaction/transaction_item_action.cpp:76
 msgid "Reason Change"
-msgstr ""
+msgstr "Iemesla maiņa"
 
 #: base/goal_elements.cpp:386
 msgid "Resolve"
-msgstr ""
+msgstr "Atrisināt"
 
 #: base/goal_elements.cpp:388 transaction/transaction_item_action.cpp:78
 msgid "Enable"
-msgstr ""
+msgstr "Iespējot"
 
 #: base/goal_elements.cpp:390 transaction/transaction_item_action.cpp:80
 msgid "Disable"
-msgstr ""
+msgstr "Atspējot"
 
 #: base/goal_elements.cpp:392 transaction/transaction_item_action.cpp:82
 msgid "Reset"
-msgstr ""
+msgstr "Atiestatīt"
 
 #: base/goal_elements.cpp:394
 msgid "Parse serialized transaction"
-msgstr ""
+msgstr "Parsēt serializētu transakciju"
 
 #: base/goal_elements.cpp:396
 msgid "Install action"
-msgstr ""
+msgstr "Instalēšanas darbība"
 
 #: base/goal_elements.cpp:398
 msgid "Remove action"
-msgstr ""
+msgstr "Noņemšanas darbība"
 
 #: base/goal_elements.cpp:400
 msgid "Upgrade action"
-msgstr ""
+msgstr "Jaunināšanas darbība"
 
 #: base/goal_elements.cpp:402
 msgid "Reinstall action"
-msgstr ""
+msgstr "Pārinstalēšanas darbība"
 
 #: base/goal_elements.cpp:404
 msgid "Reason change action"
-msgstr ""
+msgstr "Iemesla maiņas darbība"
 
 #: base/goal_elements.cpp:406
 msgid "Reason override"
-msgstr ""
+msgstr "Iemesla pārrakstīšana"
 
 #: base/goal_elements.cpp:408
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "Atsaukt comps jaunināšanu"
 
 #: base/goal_elements.cpp:410
 msgid "Install debug RPMs"
-msgstr ""
+msgstr "Instalēt atkļūdošanas RPM"
 
 #: base/goal_elements.cpp:412
 msgid "Transaction merge"
-msgstr ""
+msgstr "Transakciju apvienošana"
 
 #: base/log_event.cpp:141
 #, c++-format
 msgid "No packages to remove for argument: {}"
-msgstr ""
+msgstr "Nav noņemamu pakotņu argumentam: {}"
 
 #: base/log_event.cpp:143
 #, c++-format
 msgid "No groups to remove for argument: {}"
-msgstr ""
+msgstr "Nav noņemamu grupu argumentam: {}"
 
 #: base/log_event.cpp:146
 #, c++-format
 msgid "No environmental groups to remove for argument: {}"
-msgstr ""
+msgstr "Nav noņemamu vides grupu argumentam: {}"
 
 #: base/log_event.cpp:148
 #, c++-format
 msgid "No modules to remove for argument: {}"
-msgstr ""
+msgstr "Nav noņemamu moduļu argumentam: {}"
 
 #: base/log_event.cpp:152
 #, c++-format
 msgid "No match for group from environment: {}"
-msgstr ""
+msgstr "Nav atbilsmes videi piederošai grupai: {}"
 
 #: base/log_event.cpp:154
 #, c++-format
 msgid "No match for group package: {}"
-msgstr ""
+msgstr "Nav atbilsmes grupas pakotnei: {}"
 
 #: base/log_event.cpp:158
 #, c++-format
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "Nevar veikt {0}, nav atbilsmes: {1}."
 
 #: base/log_event.cpp:160
 #, c++-format
 msgid "No match for argument: {}"
-msgstr ""
+msgstr "Nav atbilsmes argumentam: {}"
 
 #: base/log_event.cpp:163
 #, c++-format
 msgid "No match for argument '{0}' in selected advisories"
-msgstr ""
+msgstr "Atlasītajos paziņojumos nav atbilsmes argumentam „{0}”"
 
 #: base/log_event.cpp:165
 msgid "No match in selected advisories"
-msgstr ""
+msgstr "Atlasītajos paziņojumos nav atbilsmes"
 
 #: base/log_event.cpp:169
 #, c++-format
 msgid "No match for argument '{0}' in repositories '{1}'"
-msgstr ""
+msgstr "Repozitorijos „{1}” nav atbilsmes argumentam „{0}”"
 
 #: base/log_event.cpp:175
 #, c++-format
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
-msgstr ""
+msgstr "Nevar veikt {0} vienumam {1} „{2}”, jo tas nav instalēts."
 
 #: base/log_event.cpp:180
 #, c++-format
 msgid "Packages for argument '{}' available, but not installed."
-msgstr ""
+msgstr "Argumenta „{}” pakotnes ir pieejamas, bet nav instalētas."
 
 #: base/log_event.cpp:184
 #, c++-format
@@ -231,26 +235,27 @@ msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
+"Argumenta „{}” pakotnes ir pieejamas, bet instalētas citai arhitektūrai."
 
 #: base/log_event.cpp:188
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr ""
+msgstr "Nevar veikt {0}, jo „{1}” atbilst tikai pirmkoda pakotnēm."
 
 #: base/log_event.cpp:192
 #, c++-format
 msgid "Argument '{}' matches only source packages."
-msgstr ""
+msgstr "Arguments „{}” atbilst tikai pirmkoda pakotnēm."
 
 #: base/log_event.cpp:196
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr ""
+msgstr "Nevar veikt {0}, jo „{1}” atbilst tikai izslēgtām pakotnēm."
 
 #: base/log_event.cpp:200
 #, c++-format
 msgid "Argument '{}' matches only excluded packages."
-msgstr ""
+msgstr "Arguments „{}” atbilst tikai izslēgtām pakotnēm."
 
 #: base/log_event.cpp:204
 #, c++-format
@@ -258,21 +263,22 @@ msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
+"Nevar veikt {0}, jo „{1}” atbilst tikai pakotnēm, ko izslēdzis versionlock."
 
 #: base/log_event.cpp:208
 #, c++-format
 msgid "Argument '{}' matches only packages excluded by versionlock."
-msgstr ""
+msgstr "Arguments „{}” atbilst tikai pakotnēm, ko izslēdzis versionlock."
 
 #: base/log_event.cpp:213
 #, c++-format
 msgid "  * Maybe you meant: {}"
-msgstr ""
+msgstr "  * Varbūt domājāt: {}"
 
 #: base/log_event.cpp:216
 #, c++-format
 msgid "There are following alternatives for '{0}': {1}"
-msgstr ""
+msgstr "„{0}” ir šādas alternatīvas: {1}"
 
 #: base/log_event.cpp:223
 #, c++-format
@@ -280,6 +286,7 @@ msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
 msgstr ""
+"Pakotnes „{}” zemākā pieejamā versija jau ir instalēta, to nevar pazemināt."
 
 #: base/log_event.cpp:229
 #, c++-format
@@ -287,49 +294,51 @@ msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
+"Argumenta „{0}” instalētās pakotnes nav pieejamas repozitorijos tādā pašā "
+"versijā, pieejamās versijas: {1}; nevar pārinstalēt."
 
 #: base/log_event.cpp:235
 #, c++-format
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
-msgstr ""
+msgstr "Nevar veikt {0}, jo „{1}” ir instalēts citā versijā: „{2}”."
 
 #: base/log_event.cpp:241
 #, c++-format
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
-msgstr ""
+msgstr "Argumenta „{}” pakotnes ir instalētas un pieejamas, bet citā versijā."
 
 #: base/log_event.cpp:243
 #, c++-format
 msgid "Packages for argument '{}' installed, but not available."
-msgstr ""
+msgstr "Argumenta „{}” pakotnes ir instalētas, bet nav pieejamas."
 
 #: base/log_event.cpp:248
 #, c++-format
 msgid "Group \"{}\" is already installed."
-msgstr ""
+msgstr "Grupa „{}” jau ir instalēta."
 
 #: base/log_event.cpp:251
 #, c++-format
 msgid "Environmental group \"{}\" is already installed."
-msgstr ""
+msgstr "Vides grupa „{}” jau ir instalēta."
 
 #: base/log_event.cpp:258
 #, c++-format
 msgid "Package \"{}\" is already installed with reason \"{}\"."
-msgstr ""
+msgstr "Pakotne „{}” jau ir instalēta ar iemeslu „{}”."
 
 #: base/log_event.cpp:260
 #, c++-format
 msgid "Package \"{}\" is already installed."
-msgstr ""
+msgstr "Pakotne „{}” jau ir instalēta."
 
 #: base/log_event.cpp:269
 #, c++-format
 msgid "Debug data written to \"{}\""
-msgstr ""
+msgstr "Atkļūdošanas dati ierakstīti „{}”"
 
 #: base/log_event.cpp:273
 #, c++-format
@@ -337,17 +346,19 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
+"{0} jaunināšanu nevar atsaukt, taču saistītās pakotņu darbības tiks "
+"atsauktas. ({1} id: „{2}”) ."
 
 #: base/log_event.cpp:279
 #, c++-format
 msgid "{} action for argument \"{}\" is not supported."
-msgstr ""
+msgstr "{} darbība argumentam „{}” netiek atbalstīta."
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:288
 #, c++-format
 msgid "Unable to resolve argument '{}':"
-msgstr ""
+msgstr "Nevar atrisināt argumentu „{}”:"
 
 #: base/log_event.cpp:292
 #, c++-format
@@ -360,23 +371,33 @@ msgid_plural ""
 "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
 "streams are enabled or default."
 msgstr[0] ""
+"\n"
+"  - Arguments „{}” atbilst {} straumēm („{}”) modulī „{}”, bet neviena no "
+"straumēm nav iespējota vai noklusējuma."
 msgstr[1] ""
+"\n"
+"  - Arguments „{}” atbilst {} straumei („{}”) modulī „{}”, bet straume nav "
+"iespējota vai noklusējuma."
+msgstr[2] ""
+"\n"
+"  - Arguments „{}” atbilst {} straumēm („{}”) modulī „{}”, bet neviena no "
+"straumēm nav iespējota vai noklusējuma."
 
 #: base/log_event.cpp:299 base/log_event.cpp:385
 msgid "', '"
-msgstr ""
+msgstr "”, „"
 
 #: base/log_event.cpp:308
 msgid "Modular dependency problems:\n"
-msgstr ""
+msgstr "Moduļu atkarību problēmas:\n"
 
 #: base/log_event.cpp:315
 msgid "Modular dependency problems with the latest modules:\n"
-msgstr ""
+msgstr "Moduļu atkarību problēmas ar jaunākajiem moduļiem:\n"
 
 #: base/log_event.cpp:322
 msgid "Modular dependency problems with the defaults:\n"
-msgstr ""
+msgstr "Moduļu atkarību problēmas ar noklusējumiem:\n"
 
 #: base/log_event.cpp:337
 #, c++-format
@@ -384,12 +405,16 @@ msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
+"Darbības rezultātā moduļa „{0}” straume „{1}” tiktu pārslēgta uz straumi „{2}"
+"”\n"
 
 #: base/log_event.cpp:342
 msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
+"Kļūda: moduļa iespējotās straumes nevar pārslēgt, ja tas nav tieši iespējots "
+"ar konfigurācijas opciju module_stream_switch."
 
 #: base/log_event.cpp:347
 #, c++-format
@@ -397,11 +422,13 @@ msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
+"Transakcijā tika ievilkta papildu pakotne „{0}” (ar darbību „{1}”), kuras "
+"nav saglabātajā transakcijā.\n"
 
 #: base/log_event.cpp:353
 #, c++-format
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr ""
+msgstr "Nevar parsēt failu: „{0}”: {1}.\n"
 
 #: base/log_event.cpp:360
 #, c++-format
@@ -409,11 +436,13 @@ msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
+"Neizdevās atrast debuginfo pakotni šīm pakotnēm, kas atrisinātas no "
+"argumenta „{0}”: {1}"
 
 #: base/log_event.cpp:363 base/log_event.cpp:374
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/log_event.cpp:370
 #, c++-format
@@ -421,11 +450,13 @@ msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
+"Neizdevās atrast debugsource pakotni šīm pakotnēm, kas atrisinātas no "
+"argumenta „{0}”: {1}"
 
 #: base/log_event.cpp:377
 #, c++-format
 msgid "Transaction merge error: '{0}'"
-msgstr ""
+msgstr "Transakciju apvienošanas kļūda: „{0}”"
 
 #: base/log_event.cpp:381
 #, c++-format
@@ -433,117 +464,121 @@ msgid ""
 "Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
 "'remove --oldinstallonly'."
 msgstr ""
+"Pārsniegts installonly_limit ({0}): atrastas instalētas {1}: „{2}”. Varat "
+"lietot „remove --oldinstallonly”."
 
 #: base/solver_problems.cpp:41
 #, c++-format
 msgid "{} does not belong to a distupgrade repository"
-msgstr ""
+msgstr "{} nepieder distupgrade repozitorijam"
 
 #: base/solver_problems.cpp:42
 #, c++-format
 msgid "{0} from {1} has inferior architecture"
-msgstr ""
+msgstr "{0} no {1} ir mazvērtīgāka arhitektūra"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
-msgstr ""
+msgstr "problēma ar instalētu pakotni"
 
 #: base/solver_problems.cpp:44 base/solver_problems.cpp:83
 msgid "conflicting requests"
-msgstr ""
+msgstr "pretrunīgi pieprasījumi"
 
 #: base/solver_problems.cpp:45 base/solver_problems.cpp:84
 msgid "unsupported request"
-msgstr ""
+msgstr "neatbalstīts pieprasījums"
 
 #: base/solver_problems.cpp:46 base/solver_problems.cpp:85
 #, c++-format
 msgid "nothing provides requested {}"
-msgstr ""
+msgstr "nekas nenodrošina pieprasīto {}"
 
 #: base/solver_problems.cpp:47
 #, c++-format
 msgid "package {} does not exist"
-msgstr ""
+msgstr "pakotne {} neeksistē"
 
 #: base/solver_problems.cpp:48 base/solver_problems.cpp:87
 #, c++-format
 msgid "{} is provided by the system"
-msgstr ""
+msgstr "{} nodrošina sistēma"
 
 #: base/solver_problems.cpp:49 base/solver_problems.cpp:88
 msgid "some dependency problem"
-msgstr ""
+msgstr "kāda atkarību problēma"
 
 #: base/solver_problems.cpp:50
 #, c++-format
 msgid "cannot install the best update candidate for package {}"
-msgstr ""
+msgstr "nevar instalēt labāko atjaunināšanas kandidātu pakotnei {}"
 
 #: base/solver_problems.cpp:51 base/solver_problems.cpp:90
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "nevar instalēt labāko kandidātu uzdevumam"
 
 #: base/solver_problems.cpp:52
 #, c++-format
 msgid "package {0} from {1} is filtered out by modular filtering"
-msgstr ""
+msgstr "pakotni {0} no {1} izfiltrē moduļu filtrēšana"
 
 #: base/solver_problems.cpp:53
 #, c++-format
 msgid "package {0} from {1} does not have a compatible architecture"
-msgstr ""
+msgstr "pakotnei {0} no {1} nav saderīgas arhitektūras"
 
 #: base/solver_problems.cpp:54
 #, c++-format
 msgid "package {0} from {1} is not installable"
-msgstr ""
+msgstr "pakotne {0} no {1} nav instalējama"
 
 #: base/solver_problems.cpp:55
 #, c++-format
 msgid "package {0} from {1} is filtered out by exclude filtering"
-msgstr ""
+msgstr "pakotni {0} no {1} izfiltrē izslēgšanas filtrēšana"
 
 #: base/solver_problems.cpp:56
 #, c++-format
 msgid "nothing provides {0} needed by {1} from {2}"
-msgstr ""
+msgstr "nekas nenodrošina {0}, kas nepieciešams {1} no {2}"
 
 #: base/solver_problems.cpp:57
 #, c++-format
 msgid "cannot install both {0} from {1} and {2} from {3}"
-msgstr ""
+msgstr "nevar instalēt gan {0} no {1}, gan {2} no {3}"
 
 #: base/solver_problems.cpp:58
 #, c++-format
 msgid "package {0} from {1} conflicts with {2} provided by {3} from {4}"
-msgstr ""
+msgstr "pakotne {0} no {1} konfliktē ar {2}, ko nodrošina {3} no {4}"
 
 #: base/solver_problems.cpp:60
 #, c++-format
 msgid "installed package {0} conflicts with {1} provided by {2} from {3}"
-msgstr ""
+msgstr "instalētā pakotne {0} konfliktē ar {1}, ko nodrošina {2} no {3}"
 
 #: base/solver_problems.cpp:61
 #, c++-format
 msgid "package {0} from {1} obsoletes {2} provided by {3} from {4}"
-msgstr ""
+msgstr "pakotne {0} no {1} aizstāj {2}, ko nodrošina {3} no {4}"
 
 #: base/solver_problems.cpp:62
 #, c++-format
 msgid "installed package {0} obsoletes {1} provided by {2} from {3}"
-msgstr ""
+msgstr "instalētā pakotne {0} aizstāj {1}, ko nodrošina {2} no {3}"
 
 #: base/solver_problems.cpp:64
 #, c++-format
 msgid "package {0} from {1} implicitly obsoletes {2} provided by {3} from {4}"
-msgstr ""
+msgstr "pakotne {0} no {1} netieši aizstāj {2}, ko nodrošina {3} no {4}"
 
 #: base/solver_problems.cpp:66
 #, c++-format
 msgid ""
 "package {1} from {2} requires {0}, but none of the providers can be installed"
 msgstr ""
+"pakotnei {1} no {2} nepieciešams {0}, bet nevienu no nodrošinātājiem nevar "
+"instalēt"
 
 #: base/solver_problems.cpp:68
 #, c++-format
@@ -551,22 +586,24 @@ msgid ""
 "installed package {1} requires {0}, but none of the providers can be "
 "installed"
 msgstr ""
+"instalētajai pakotnei {1} nepieciešams {0}, bet nevienu no nodrošinātājiem "
+"nevar instalēt"
 
 #: base/solver_problems.cpp:69
 #, c++-format
 msgid "package {0} from {1} conflicts with {2} provided by itself"
-msgstr ""
+msgstr "pakotne {0} no {1} konfliktē ar {2}, ko nodrošina tā pati"
 
 #: base/solver_problems.cpp:70
 #, c++-format
 msgid "both package {0} from {1} and {3} from {4} obsolete {2}"
-msgstr ""
+msgstr "gan pakotne {0} no {1}, gan {3} no {4} aizstāj {2}"
 
 #: base/solver_problems.cpp:72
 #, c++-format
 msgid ""
 "The operation would result in removing the following protected packages: {}"
-msgstr ""
+msgstr "Darbības rezultātā tiktu noņemtas šīs aizsargātās pakotnes: {}"
 
 #: base/solver_problems.cpp:75
 #, c++-format
@@ -574,194 +611,200 @@ msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: {}"
 msgstr ""
+"Darbības rezultātā šīm aizsargātajām pakotnēm tiktu salauztas atkarības: {}"
 
 #: base/solver_problems.cpp:78
 #, c++-format
 msgid "The operation would result in removing of running kernel: {}"
-msgstr ""
+msgstr "Darbības rezultātā tiktu noņemts darbojošais kodols: {}"
 
 #: base/solver_problems.cpp:80
 #, c++-format
 msgid "module {} does not belong to a distupgrade repository"
-msgstr ""
+msgstr "modulis {} nepieder distupgrade repozitorijam"
 
 #: base/solver_problems.cpp:81
 #, c++-format
 msgid "module {} has inferior architecture"
-msgstr ""
+msgstr "modulim {} ir mazvērtīgāka arhitektūra"
 
 #: base/solver_problems.cpp:82
 #, c++-format
 msgid "problem with installed module {}"
-msgstr ""
+msgstr "problēma ar instalēto moduli {}"
 
 #: base/solver_problems.cpp:86
 #, c++-format
 msgid "module {} does not exist"
-msgstr ""
+msgstr "modulis {} neeksistē"
 
 #: base/solver_problems.cpp:89
 #, c++-format
 msgid "cannot install the best update candidate for module {}"
-msgstr ""
+msgstr "nevar instalēt labāko atjaunināšanas kandidātu modulim {}"
 
 #: base/solver_problems.cpp:91 base/solver_problems.cpp:94
 #, c++-format
 msgid "module {} is disabled"
-msgstr ""
+msgstr "modulis {} ir atspējots"
 
 #: base/solver_problems.cpp:92
 #, c++-format
 msgid "module {} does not have a compatible architecture"
-msgstr ""
+msgstr "modulim {} nav saderīgas arhitektūras"
 
 #: base/solver_problems.cpp:93
 #, c++-format
 msgid "module {} is not installable"
-msgstr ""
+msgstr "modulis {} nav instalējams"
 
 #: base/solver_problems.cpp:95
 #, c++-format
 msgid "nothing provides {0} needed by module {1}"
-msgstr ""
+msgstr "nekas nenodrošina {0}, kas nepieciešams modulim {1}"
 
 #: base/solver_problems.cpp:96
 #, c++-format
 msgid "cannot install both modules {0} and {1}"
-msgstr ""
+msgstr "nevar instalēt gan moduli {0}, gan {1}"
 
 #: base/solver_problems.cpp:97
 #, c++-format
 msgid "module {0} conflicts with {1} provided by {2}"
-msgstr ""
+msgstr "modulis {0} konfliktē ar {1}, ko nodrošina {2}"
 
 #: base/solver_problems.cpp:98
 #, c++-format
 msgid "module {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "modulis {0} aizstāj {1}, ko nodrošina {2}"
 
 #: base/solver_problems.cpp:99
 #, c++-format
 msgid "installed module {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "instalētais modulis {0} aizstāj {1}, ko nodrošina {2}"
 
 #: base/solver_problems.cpp:100
 #, c++-format
 msgid "module {0} implicitly obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "modulis {0} netieši aizstāj {1}, ko nodrošina {2}"
 
 #: base/solver_problems.cpp:101
 #, c++-format
 msgid "module {1} requires {0}, but none of the providers can be installed"
 msgstr ""
+"modulim {1} nepieciešams {0}, bet nevienu no nodrošinātājiem nevar instalēt"
 
 #: base/solver_problems.cpp:102
 #, c++-format
 msgid "module {1} conflicts with {0} provided by itself"
-msgstr ""
+msgstr "modulis {1} konfliktē ar {0}, ko nodrošina tas pats"
 
 #: base/solver_problems.cpp:103
 #, c++-format
 msgid "both module {0} and {2} obsolete {1}"
-msgstr ""
+msgstr "gan modulis {0}, gan {2} aizstāj {1}"
 
 #: base/solver_problems.cpp:294
 msgid "Problem: "
-msgstr ""
+msgstr "Problēma: "
 
 #: base/solver_problems.cpp:298
 #, c++-format
 msgid "Problem {}: "
-msgstr ""
+msgstr "Problēma {}: "
 
 #: base/transaction.cpp:89
 msgid "This transaction has been already run before."
-msgstr ""
+msgstr "Šī transakcija jau ir veikta iepriekš."
 
 #: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
-msgstr ""
+msgstr "Transakciju ar atrisināšanas problēmām nevar veikt."
 
 #: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
-msgstr ""
+msgstr "RPM transakcijas pārbaude neizdevās."
 
 #: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
-msgstr ""
+msgstr "Neizdevās iegūt RPM transakcijas slēgumu. Notiek cita transakcija."
 
 #: base/transaction.cpp:94
 msgid "Rpm transaction failed."
-msgstr ""
+msgstr "RPM transakcija neizdevās."
 
 #: base/transaction.cpp:95
 msgid "Signature verification failed."
-msgstr ""
+msgstr "Paraksta pārbaude neizdevās."
 
 #: base/transaction.cpp:97
 msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"Šī transakcija vairs nav derīga, jo sistēmas repozitorijs kopš ielādes ir "
+"mainījies."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr ""
+msgstr "Repozitorijam nav konfigurēta neviena OpenPGP atslēga."
 
 #: base/transaction.cpp:102
 msgid "Public key is not installed."
-msgstr ""
+msgstr "Publiskā atslēga nav instalēta."
 
 #: base/transaction.cpp:103
 msgid "Canceled by the user."
-msgstr ""
+msgstr "Atcēla lietotājs."
 
 #: base/transaction.cpp:104
 msgid "Public key import failed."
-msgstr ""
+msgstr "Publiskās atslēgas importēšana neizdevās."
 
 #: base/transaction.cpp:997
 msgid "poll failed during scriptlets pipe processing"
-msgstr ""
+msgstr "poll neizdevās, apstrādājot skriptletu cauruļvadu"
 
 #: base/transaction.cpp:1020
 msgid "failed to read scriptlet output from pipe"
-msgstr ""
+msgstr "neizdevās nolasīt skriptleta izvadi no cauruļvada"
 
 #: base/transaction.cpp:1103
 #, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
 msgstr ""
+"Neizdevās iegūt sistēmas repozitorija slēgumu rakstīšanai, slēgums atrodas „"
+"{}”"
 
 #: base/transaction.cpp:1173
 #, c++-format
 msgid "Invalid tsflag: {}"
-msgstr ""
+msgstr "Nederīgs tsflag: {}"
 
 #: base/transaction.cpp:1617
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
-msgstr ""
+msgstr "Publiskā atslēga „{}” jau ir, netiek importēta."
 
 #: base/transaction.cpp:1640
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
-msgstr ""
+msgstr "Importējot atslēgu „{}”, radās kļūda: {}"
 
 #: base/transaction.cpp:1674
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr ""
+msgstr "Pakotnes „{}” ({}) no repozitorija „{}” OpenPGP pārbaude neizdevās: "
 
 #: base/transaction.cpp:1702
 msgid "Import of the key didn't help, wrong key?"
-msgstr ""
+msgstr "Atslēgas importēšana nelīdzēja, nepareiza atslēga?"
 
 #: base/transaction.cpp:1721
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/transaction.cpp:1724
 #, c++-format
@@ -769,7 +812,11 @@ msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
+"Brīdinājums: izlaistas OpenPGP pārbaudes {0} pakotnēm no repozitorija: {1}"
 msgstr[1] ""
+"Brīdinājums: izlaistas OpenPGP pārbaudes {0} pakotnei no repozitorija: {1}"
+msgstr[2] ""
+"Brīdinājums: izlaistas OpenPGP pārbaudes {0} pakotnēm no repozitorija: {1}"
 
 #: base/transaction.cpp:1727
 #, c++-format
@@ -777,203 +824,210 @@ msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
+"Brīdinājums: izlaistas OpenPGP pārbaudes {0} pakotnēm no repozitorijiem: {1}"
 msgstr[1] ""
+"Brīdinājums: izlaistas OpenPGP pārbaudes {0} pakotnei no repozitorijiem: {1}"
+msgstr[2] ""
+"Brīdinājums: izlaistas OpenPGP pārbaudes {0} pakotnēm no repozitorijiem: {1}"
 
 #: base/vendor_change_manager.cpp:115
 msgid "{func}(): Cannot create directory: {path}: {msg}"
-msgstr ""
+msgstr "{func}(): nevar izveidot direktoriju: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:164
 msgid "{func}(): Cannot remove file: {path}: {msg}"
-msgstr ""
+msgstr "{func}(): nevar noņemt failu: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:170
 msgid "{func}(): File does not exist: {path}"
-msgstr ""
+msgstr "{func}(): fails neeksistē: {path}"
 
 #: base/vendor_change_manager.cpp:259
 msgid "{func}(): Cannot remove existing policy file: {path}"
-msgstr ""
+msgstr "{func}(): nevar noņemt esošo politikas failu: {path}"
 
 #: base/vendor_change_manager.cpp:271
 msgid "{func}(): Cannot create file: {path}"
-msgstr ""
+msgstr "{func}(): nevar izveidot failu: {path}"
 
 #: base/vendor_change_manager.cpp:288
 msgid "{func}(): Cannot write to file: {path}"
-msgstr ""
+msgstr "{func}(): nevar rakstīt failā: {path}"
 
 #: base/vendor_change_manager.cpp:325
 msgid "{func}(): Base filename cannot be empty"
-msgstr ""
+msgstr "{func}(): bāzes faila nosaukums nevar būt tukšs"
 
 #: base/vendor_change_manager.cpp:331
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
+"{func}(): bāzes faila nosaukumā nedrīkst būt ceļa komponentu: {base_filename}"
 
 #: base/vendor_change_manager.cpp:461
 msgid "{func}(): Path must have .conf extension: {path}"
-msgstr ""
+msgstr "{func}(): ceļam jābūt ar paplašinājumu .conf: {path}"
 
 #: common/exception.cpp:78
 msgid "System error"
-msgstr ""
+msgstr "Sistēmas kļūda"
 
 #: common/exception.cpp:199
 msgid "General RuntimeError exception"
-msgstr ""
+msgstr "Vispārīgs RuntimeError izņēmums"
 
 #: common/proc.cpp:88
 #, c++-format
 msgid "Cannot stat {}"
-msgstr ""
+msgstr "Nevar izpildīt stat {}"
 
 #: common/proc.cpp:124
 #, c++-format
 msgid "Cannot open {}"
-msgstr ""
+msgstr "Nevar atvērt {}"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
-msgstr ""
+msgstr "Vaicājumā jābūt tieši vienam objektam."
 
 #: common/xdg.cpp:43
 msgid "get_user_home_dir(): Cannot determine the user's home directory"
-msgstr ""
+msgstr "get_user_home_dir(): nevar noteikt lietotāja mājas direktoriju"
 
 #: common/xdg.cpp:98
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
-msgstr ""
+msgstr "get_user_runtime_dir(): nevar noteikt lietotāja izpildlaika direktoriju"
 
 #: comps/environment/environment.cpp:361
 #, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās saglabāt vides „{}” XML dokumentu failā „{}”: {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās saglabāt grupas „{}” XML dokumentu failā „{}”: {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 #, c++-format
 msgid "Invalid package type: {}"
-msgstr ""
+msgstr "Nederīgs pakotnes tips: {}"
 
 #: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
-msgstr ""
+msgstr "Ievade ir tukša. Tajā jābūt vērtībai."
 
 #: conf/config_main.cpp:63
 #, c++-format
 msgid "Input value '{}' must not be negative"
-msgstr ""
+msgstr "Ievades vērtība „{}” nedrīkst būt negatīva"
 
 #: conf/config_main.cpp:68
 #, c++-format
 msgid "Could not convert '{}' to bytes"
-msgstr ""
+msgstr "Neizdevās pārveidot „{}” baitos"
 
 #: conf/config_main.cpp:84
 #, c++-format
 msgid "Unknown unit '{}'"
-msgstr ""
+msgstr "Nezināma mērvienība „{}”"
 
 #: conf/config_main.cpp:292
 #, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
-msgstr ""
+msgstr "Ierobežojuma vērtība {} ir ārpus atļautā diapazona {} ... {}"
 
 #: conf/config_parser.cpp:54
 #, c++-format
 msgid "Section \"{}\" not found"
-msgstr ""
+msgstr "Sadaļa „{}” nav atrasta"
 
 #: conf/config_parser.cpp:59
 #, c++-format
 msgid "Section \"{}\" does not contain option \"{}\""
-msgstr ""
+msgstr "Sadaļā „{}” nav opcijas „{}”"
 
 #: conf/config_parser.cpp:96
 #, c++-format
 msgid "Configuration file \"{}\" not found"
-msgstr ""
+msgstr "Konfigurācijas fails „{}” nav atrasts"
 
 #: conf/config_parser.cpp:99
 #, c++-format
 msgid "Unable to access configuration file \"{}\""
-msgstr ""
+msgstr "Nevar piekļūt konfigurācijas failam „{}”"
 
 #: conf/config_parser.cpp:102
 #, c++-format
 msgid "Error in configuration file \"{}\""
-msgstr ""
+msgstr "Kļūda konfigurācijas failā „{}”"
 
 #: conf/option_binds.cpp:29
 #, c++-format
 msgid "Option \"{}\" not found"
-msgstr ""
+msgstr "Opcija „{}” nav atrasta"
 
 #: conf/option_binds.cpp:32
 #, c++-format
 msgid "Option \"{}\" already exists"
-msgstr ""
+msgstr "Opcija „{}” jau eksistē"
 
 #: conf/option_bool.cpp:82
 #, c++-format
 msgid "Invalid boolean value \"{}\""
-msgstr ""
+msgstr "Nederīga Būla vērtība „{}”"
 
 #: conf/option_enum.cpp:68
 #, c++-format
 msgid "Enum option value \"{}\" not allowed"
-msgstr ""
+msgstr "Uzskaitījuma opcijas vērtība „{}” nav atļauta"
 
 #: conf/option_number.cpp:99
 #, c++-format
 msgid "Input value {} is outside the allowed range {} ... {}"
-msgstr ""
+msgstr "Ievades vērtība {} ir ārpus atļautā diapazona {} ... {}"
 
 #: conf/option_number.cpp:112
 #, c++-format
 msgid "Invalid number option value \"{}\""
-msgstr ""
+msgstr "Nederīga skaitliskas opcijas vērtība „{}”"
 
 #: conf/option_path.cpp:93
 #, c++-format
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
-msgstr ""
+msgstr "Atļauti tikai absolūtie ceļi, konstatēts relatīvs ceļš „{}”"
 
 #: conf/option_path.cpp:98
 #, c++-format
 msgid "Path \"{}\" does not exist"
-msgstr ""
+msgstr "Ceļš „{}” neeksistē"
 
 #: conf/option_seconds.cpp:38
 msgid "Empty time option value"
-msgstr ""
+msgstr "Tukša laika opcijas vērtība"
 
 #: conf/option_seconds.cpp:50
 #, c++-format
 msgid "Invalid time option value \"{}\", number or \"never\" expected"
-msgstr ""
+msgstr "Nederīga laika opcijas vērtība „{}”, tiek gaidīts skaitlis vai „never”"
 
 #: conf/option_seconds.cpp:54
 #, c++-format
 msgid ""
 "Invalid time option value \"{}\", negative values except \"-1\" not allowed"
 msgstr ""
+"Nederīga laika opcijas vērtība „{}”, negatīvas vērtības, izņemot „-1”, nav "
+"atļautas"
 
 #: conf/option_seconds.cpp:59
 #, c++-format
 msgid "Unknown time format \"{}\""
-msgstr ""
+msgstr "Nezināms laika formāts „{}”"
 
 #: conf/option_seconds.cpp:78
 #, c++-format
 msgid "Unknown time unit '{}'"
-msgstr ""
+msgstr "Nezināma laika mērvienība „{}”"
 
 #: conf/option_string.cpp:89
 #, c++-format
@@ -981,12 +1035,14 @@ msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
 msgstr ""
+"Ievades vērtība „{}” nav atļauta, šīs opcijas atļautās vērtības nosaka "
+"regulārā izteiksme „{}”"
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
 #: conf/option_string.cpp:114
 msgid "Option value is not set"
-msgstr ""
+msgstr "Opcijas vērtība nav iestatīta"
 
 #: conf/option_string_list.cpp:178
 #, c++-format
@@ -994,25 +1050,27 @@ msgid ""
 "Input item value \"{}\" not allowed, allowed values for this option are "
 "defined by regular expression \"{}\""
 msgstr ""
+"Ievades vienuma vērtība „{}” nav atļauta, šīs opcijas atļautās vērtības "
+"nosaka regulārā izteiksme „{}”"
 
 #: conf/vars.cpp:347 conf/vars.cpp:387
 #, c++-format
 msgid "Variable \"{}\" is read-only"
-msgstr ""
+msgstr "Mainīgais „{}” ir tikai lasāms"
 
 #: logger/rotating_file_logger.cpp:75
 msgid "Cannot open log file"
-msgstr ""
+msgstr "Nevar atvērt žurnālfailu"
 
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:767
 #, c++-format
 msgid "No such module: {}"
-msgstr ""
+msgstr "Nav tāda moduļa: {}"
 
 #: module/module_db.cpp:268
 #, c++-format
 msgid "Cannot enable multiple streams for module '{}'"
-msgstr ""
+msgstr "Modulim „{}” nevar iespējot vairākas straumes"
 
 #. TODO(pkratoch) replace with a proper and descriptive exception
 #. TODO(jmracek) else if (removalOfProtected && removalOfProtected->size()) {
@@ -1023,49 +1081,49 @@ msgstr ""
 #: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:389
 #: rpm/solv/goal_private.cpp:811
 msgid "no solution possible"
-msgstr ""
+msgstr "risinājums nav iespējams"
 
 #: module/module_metadata.cpp:102
 #, c++-format
 msgid "Failed to update from string: {}"
-msgstr ""
+msgstr "Neizdevās atjaunināt no virknes: {}"
 
 #: module/module_metadata.cpp:129
 #, c++-format
 msgid "Failed to resolve module metadata: {}"
-msgstr ""
+msgstr "Neizdevās atrisināt moduļa metadatus: {}"
 
 #: module/module_metadata.cpp:140
 #, c++-format
 msgid "Failed to upgrade defaults: {}"
-msgstr ""
+msgstr "Neizdevās jaunināt noklusējumus: {}"
 
 #: module/module_metadata.cpp:144
 #, c++-format
 msgid "Failed to upgrade streams: {}"
-msgstr ""
+msgstr "Neizdevās jaunināt straumes: {}"
 
 #: module/module_sack.cpp:93
 #, c++-format
 msgid "Failed to load module metadata for repository \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās ielādēt repozitorija „{}” moduļa metadatus: {}"
 
 #: module/module_sack.cpp:594
 msgid "Missing '='"
-msgstr ""
+msgstr "Trūkst „=”"
 
 #: module/module_sack.cpp:598 module/module_sack.cpp:606
 msgid "Missing '\"' in the value"
-msgstr ""
+msgstr "Vērtībā trūkst „\"”"
 
 #: module/module_sack.cpp:602
 msgid "Missing ':' in the value"
-msgstr ""
+msgstr "Vērtībā trūkst „:”"
 
 #: module/module_sack.cpp:911
 #, c++-format
 msgid "Invalid module status: {}"
-msgstr ""
+msgstr "Nederīgs moduļa statuss: {}"
 
 #: plugin/plugins.cpp:68
 #, c++-format
@@ -1073,187 +1131,197 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin \"{}\" "
 "(\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
+"Neatbalstīta spraudņu API kombinācija. Spraudņa „{}” („{}”) nodrošinātā API "
+"versija ir „{}.{}”. libdnf API versija ir „{}.{}”."
 
 #: plugin/plugins.cpp:93
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "Neizdevās izveidot libdnf spraudņa instanci"
 
 #: plugin/plugins.cpp:147
 #, c++-format
 msgid "Cannot find plugin library \"{}\""
-msgstr ""
+msgstr "Nevar atrast spraudņa bibliotēku „{}”"
 
 #: plugin/plugins.cpp:181
 msgid "Plugins::load_plugins(): config_dirs cannot be empty"
-msgstr ""
+msgstr "Plugins::load_plugins(): config_dirs nevar būt tukšs"
 
 #: plugin/plugins.cpp:194
 #, c++-format
 msgid "Cannot load libdnf plugin enabled from: {}"
-msgstr ""
+msgstr "Nevar ielādēt libdnf spraudni, kas iespējots no: {}"
 
 #: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
-msgstr ""
+msgstr "get_unique_id(): SHA256 aprēķins neizdevās"
 
 #: repo/file_downloader.cpp:154
 msgid "Cannot download files, cacheonly option is activated."
-msgstr ""
+msgstr "Nevar lejupielādēt failus, aktivizēta opcija cacheonly."
 
 #: repo/file_downloader.cpp:216
 msgid "Failed to download files"
-msgstr ""
+msgstr "Neizdevās lejupielādēt failus"
 
 #: repo/librepo.cpp:84
 msgid ""
 "Maximum download speed is lower than minimum, please change configuration of "
 "minrate or throttle"
 msgstr ""
+"Maksimālais lejupielādes ātrums ir mazāks par minimālo; mainiet minrate vai "
+"throttle konfigurāciju"
 
 #: repo/librepo.cpp:147
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "Iestatīts „proxy_username”, bet nav „proxy_password”"
 
 #: repo/package_downloader.cpp:165
 #, c++-format
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
-msgstr ""
+msgstr "Nevar lejupielādēt pakotni „{0}”, aktivizēta opcija cacheonly."
 
 #: repo/package_downloader.cpp:255
 msgid "Already downloaded"
-msgstr ""
+msgstr "Jau lejupielādēts"
 
 #: repo/package_downloader.cpp:303
 msgid "Failed to download packages"
-msgstr ""
+msgstr "Neizdevās lejupielādēt pakotnes"
 
 #: repo/repo.cpp:62
 #, c++-format
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
-msgstr ""
+msgstr "Neizdevās ielādēt RPM „{}”: tam nav paplašinājuma „.rpm”"
 
 #: repo/repo.cpp:66
 #, c++-format
 msgid "Failed to access RPM \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās piekļūt RPM „{}”: {}"
 
 #: repo/repo.cpp:108
 #, c++-format
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr ""
+msgstr "Nederīgs repozitorija id „{}”: negaidīta rakstzīme „{}”"
 
 #: repo/repo.cpp:151
 #, c++-format
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
+"Repozitorijam „{}” nav iestatīts avots (baseurl, mirrorlist vai metalink)."
 
 #: repo/repo.cpp:162
 #, c++-format
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
-msgstr ""
+msgstr "Repozitorijam „{}” ir neatbalstīts tips „{}”, tiek izlaists."
 
 #: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās lejupielādēt metadatus ({}: „{}”) repozitorijam „{}”: {}"
 
 #: repo/repo.cpp:440
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
+"Neizdevās ielādēt repozitoriju: „primary” dati nav pieejami vai ir "
+"neatbalstītā formātā"
 
 #: repo/repo.cpp:513
 #, c++-format
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
-msgstr ""
+msgstr "Neizdevās ielādēt comps „{}”: tam nav paplašinājuma „.xml”"
 
 #: repo/repo.cpp:520
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās ielādēt XML comps „{}”: {}"
 
 #: repo/repo.cpp:538
 #, c++-format
 msgid "Failed to load RPM \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās ielādēt RPM „{}”: {}"
 
 #: repo/repo_cache.cpp:255
 msgid "Unable to determine id of the repository in the cache."
-msgstr ""
+msgstr "Nevar noteikt kešatmiņā esošā repozitorija id."
 
 #: repo/repo_cache_private.hpp:59
 msgid "Empty path to the repository cache directory."
-msgstr ""
+msgstr "Tukšs ceļš uz repozitorija kešatmiņas direktoriju."
 
 #: repo/repo_config_override.cpp:69
 #, c++-format
 msgid "Cannot set option \"{}\" for repository \"{}\": {}"
-msgstr ""
+msgstr "Nevar iestatīt opciju „{}” repozitorijam „{}”: {}"
 
 #: repo/repo_config_override.cpp:84
 #, c++-format
 msgid "Cannot create directory \"{}\": {}"
-msgstr ""
+msgstr "Nevar izveidot direktoriju „{}”: {}"
 
 #: repo/repo_config_override.cpp:136 repo/repo_config_override.cpp:143
 #, c++-format
 msgid "Cannot write to file \"{}\": {}"
-msgstr ""
+msgstr "Nevar rakstīt failā „{}”: {}"
 
 #: repo/repo_config_override.cpp:157
 #, c++-format
 msgid "Cannot set permissions on file \"{}\": {}"
-msgstr ""
+msgstr "Nevar iestatīt faila „{}” atļaujas: {}"
 
 #: repo/repo_downloader.cpp:224
 #, c++-format
 msgid "Librepo error: {}"
-msgstr ""
+msgstr "Librepo kļūda: {}"
 
 #: repo/repo_downloader.cpp:269
 msgid "Failed to set up metadata download"
-msgstr ""
+msgstr "Neizdevās iestatīt metadatu lejupielādi"
 
 #: repo/repo_downloader.cpp:323 repo/repo_downloader.cpp:373
 msgid "Failed to download metadata"
-msgstr ""
+msgstr "Neizdevās lejupielādēt metadatus"
 
 #: repo/repo_downloader.cpp:437
 #, c++-format
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
-msgstr ""
+msgstr "Kļūda, pārbaudot, vai metalink „{}” ir sinhronizēts repozitorijam „{}”"
 
 #: repo/repo_downloader.cpp:457
 #, c++-format
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
+"Kļūda, pārbaudot, vai repomd ({}: „{}”) ir sinhronizēts repozitorijam „{}”"
 
 #: repo/repo_downloader.cpp:526
 #, c++-format
 msgid "Error loading local metadata for repository \"{}\""
-msgstr ""
+msgstr "Kļūda, ielādējot repozitorija „{}” lokālos metadatus"
 
 #: repo/repo_downloader.cpp:608
 #, c++-format
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
+"Repozitorijam „{}” nav atrasts derīgs avots (baseurl, mirrorlist vai "
+"metalink)"
 
 #: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr ""
+msgstr "Neizdevās importēt OpenPGP atslēgas pagaidu atslēgu saišķī: {}"
 
 #: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
-msgstr ""
+msgstr "Neizdevās uzskaitīt OpenPGP atslēgas: {}"
 
 #: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
-msgstr ""
+msgstr "Neizdevās importēt OpenPGP atslēgas: {}"
 
 #: repo/repo_sack.cpp:160
 #, c++-format
@@ -1261,148 +1329,153 @@ msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
+"Neizdevās izveidot repozitoriju „{}”: konfigurācijā id ir vairāk nekā vienu "
+"reizi"
 
 #: repo/repo_sack.cpp:641
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
+"Iespējots tikai kešatmiņas režīms, bet repozitorijam „{}” nav kešatmiņas"
 
 #: repo/solv_repo.cpp:268
 #, c++-format
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Neizdevās ielādēt repozitorija „{}” repomd no „{}”: {}."
 
 #: repo/solv_repo.cpp:276
 #, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Neizdevās ielādēt repozitorija „{}” primary no „{}”: {}."
 
 #: repo/solv_repo.cpp:324
 #, c++-format
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
-msgstr ""
+msgstr "Neatbalstīts paplašināto repodata tips sistēmas repozitorijam: „{}”."
 
 #: repo/solv_repo.cpp:396
 #, c++-format
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās ielādēt {} paplašinājumu repozitorijam „{}” no „{}”: {}"
 
 #: repo/solv_repo.cpp:436
 #, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
 msgstr ""
+"Neizdevās iegūt sistēmas repozitorija slēgumu lasīšanai, slēgums atrodas „{}”"
 
 #: repo/solv_repo.cpp:455
 #, c++-format
 msgid "Failed to load system repo from root \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās ielādēt sistēmas repozitoriju no saknes „{}”: {}"
 
 #: repo/solv_repo.cpp:559
 #, c++-format
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās ielādēt {} kešatmiņu repozitorijam „{}” no „{}”: {}"
 
 #: repo/solv_repo.cpp:613
 #, c++-format
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās ierakstīt repozitorija „{}” primary kešatmiņu „{}”: {}"
 
 #: repo/solv_repo.cpp:635
 #, c++-format
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Neizdevās atkārtoti ielādēt repozitorija „{}” primary kešatmiņu no „{}”: {}"
 
 #: repo/solv_repo.cpp:700
 #, c++-format
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās ierakstīt {} kešatmiņu repozitorijam „{}” uz „{}”: {}"
 
 #: repo/solv_repo.cpp:721
 #, c++-format
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās atkārtoti ielādēt {} kešatmiņu repozitorijam „{}” no „{}”: {}"
 
 #: repo/temp_files_memory.cpp:52
 #, c++-format
 msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
-msgstr ""
+msgstr "Parsējot pagaidu failu atmiņas failu „{}”, radās kļūda: {}"
 
 #: rpm/arch.cpp:50
 msgid "Failed to execute uname()"
-msgstr ""
+msgstr "Neizdevās izpildīt uname()"
 
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
-msgstr ""
+msgstr "Nezināms kontrolsummas tips"
 
 #: rpm/nevra.cpp:82
 #, c++-format
 msgid "NEVRA string \"{}\" contains ':' multiple times"
-msgstr ""
+msgstr "NEVRA virkne „{}” satur „:” vairākas reizes"
 
 #: rpm/nevra.cpp:86
 #, c++-format
 msgid "Invalid character '{}' in NEVRA string \"{}\""
-msgstr ""
+msgstr "Nederīga rakstzīme „{}” NEVRA virknē „{}”"
 
 #: rpm/package.cpp:81
 msgid "Package with rpmdbid was not found"
-msgstr ""
+msgstr "Pakotne ar rpmdbid netika atrasta"
 
 #: rpm/package.cpp:486
 msgid "<unknown>"
-msgstr ""
+msgstr "<nezināms>"
 
 #: rpm/reldep.cpp:117 rpm/reldep.cpp:124
 msgid "Cannot parse a dependency string"
-msgstr ""
+msgstr "Nevar parsēt atkarības virkni"
 
 #: rpm/rpm_signature.cpp:45
 msgid "No corresponding key was found."
-msgstr ""
+msgstr "Atbilstoša atslēga netika atrasta."
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
-msgstr ""
+msgstr "Paraksts ir derīgs, bet atslēga nav uzticama."
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr ""
+msgstr "Pakotne nav parakstīta."
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr ""
+msgstr "Atverot pakotni, radās problēma."
 
 #: rpm/rpm_signature.cpp:64 system/state.cpp:793
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
-msgstr ""
+msgstr "Neizdevās iestatīt RPM transakcijas rootDir „{}”."
 
 #: rpm/rpm_signature.cpp:282
 #, c++-format
 msgid "\"{}\": key is not an armored public key."
-msgstr ""
+msgstr "„{}”: atslēga nav bruņota publiskā atslēga."
 
 #: rpm/rpm_signature.cpp:287
 #, c++-format
 msgid "Failed to import public key \"{}\" to rpmdb: {}"
-msgstr ""
+msgstr "Neizdevās importēt publisko atslēgu „{}” rpmdb: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:116
 #, c++-format
 msgid "Cannot set root directory \"{}\""
-msgstr ""
+msgstr "Nevar iestatīt saknes direktoriju „{}”"
 
 #: rpm/transaction.cpp:127
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Kļūda %i, atverot RPM datubāzi"
 
 #: rpm/transaction.cpp:136
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "Funkcija rpmdbCookie() neatgrieza RPM datubāzes sīkfailu."
 
 #: rpm/transaction.cpp:228
 #, c++-format
@@ -1412,97 +1485,104 @@ msgid ""
 "versions after an interrupted upgrade. Please remove the duplicate packages "
 "using \"dnf remove\" and retry."
 msgstr ""
+"RPM transakcija negaidīti noņemtu pakotnes, ko risinātājs nav plānojis: {}. "
+"Parasti tā notiek, ja pēc pārtrauktas jaunināšanas rpmdb satur pakotņu "
+"versiju dublikātus. Noņemiet dublētās pakotnes ar „dnf remove” un mēģiniet "
+"vēlreiz."
 
 #: rpm/transaction.cpp:236
 msgid "Failed to order the rpm transaction."
-msgstr ""
+msgstr "Neizdevās sakārtot RPM transakciju."
 
 #: rpm/transaction.cpp:272
 #, c++-format
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
 msgstr ""
+"Neizdevās iestatīt skriptleta izvades failu, nevar dublēt faila deskriptoru: "
+"{}"
 
 #: rpm/transaction.cpp:291
 #, c++-format
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
+"Neizdevās iestatīt skriptleta izvades failu, nevar atvērt failu „{}”: {}"
 
 #: rpm/transaction.cpp:312
 #, c++-format
 msgid "Failed to read package header, cannot open file \"{}\": {}"
-msgstr ""
+msgstr "Neizdevās nolasīt pakotnes galveni, nevar atvērt failu „{}”: {}"
 
 #: rpm/transaction.cpp:329
 #, c++-format
 msgid "Failed to read package header from file \"{}\""
-msgstr ""
+msgstr "Neizdevās nolasīt pakotnes galveni no faila „{}”"
 
 #: rpm/transaction.cpp:342
 msgid "Cannot init rpm database iterator"
-msgstr ""
+msgstr "Nevar inicializēt RPM datubāzes iteratoru"
 
 #: rpm/transaction.cpp:346
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "Pakotne netika atrasta RPM datubāzē"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:362
 #, c++-format
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "Nevar pārinstalēt pakotni „{}”"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:380
 #, c++-format
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "Nevar noņemt pakotni „{}”"
 
 #: rpm/transaction.cpp:399
 #, c++-format
 msgid "Cannot upgrade package \"{}\""
-msgstr ""
+msgstr "Nevar jaunināt pakotni „{}”"
 
 #: rpm/transaction.cpp:403
 #, c++-format
 msgid "Cannot downgrade package \"{}\""
-msgstr ""
+msgstr "Nevar pazemināt pakotni „{}”"
 
 #: rpm/transaction.cpp:407
 #, c++-format
 msgid "Cannot install package \"{}\""
-msgstr ""
+msgstr "Nevar instalēt pakotni „{}”"
 
 #: rpm/versionlock_config.cpp:259
 #, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr ""
+msgstr "Kļūda, parsējot versionlock failu „{}”: {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:615
 #, c++-format
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:198
 #, c++-format
 msgid "Failed to convert epoch \"{}\" to number"
-msgstr ""
+msgstr "Neizdevās pārveidot epohu „{}” par skaitli"
 
 #: solv/solver.cpp:79
 #, c++-format
 msgid "Writing debugsolver data into \"{}\" failed: {}"
-msgstr ""
+msgstr "Debugsolver datu ierakstīšana „{}” neizdevās: {}"
 
 #: solv/vendor_change_manager.cpp:357
 #, c++-format
 msgid "Missing \"version\" key in \"{}\""
-msgstr ""
+msgstr "Trūkst atslēgas „version” failā „{}”"
 
 #: solv/vendor_change_manager.cpp:369
 #, c++-format
 msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
-msgstr ""
+msgstr "Neatbalstīta versija „{}” failā „{}”. Atbalstītās versijas: {}"
 
 #: solv/vendor_change_manager.cpp:380
 #, c++-format
@@ -1510,12 +1590,14 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support combining "
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
+"Konfigurācija „{}” lieto versiju „1.0”, kas neatbalsta „equivalent_vendors” "
+"apvienošanu ar „outgoing_vendors” un „incoming_vendors”"
 
 #: solv/vendor_change_manager.cpp:412 solv/vendor_change_manager.cpp:457
 #: solv/vendor_change_manager.cpp:509 solv/vendor_change_manager.cpp:734
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr ""
+msgstr "Nezināma atslēga „{}” failā „{}” rindā {}"
 
 #: solv/vendor_change_manager.cpp:419
 #, c++-format
@@ -1523,6 +1605,7 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
 "line {}"
 msgstr ""
+"Konfigurācija „{}” lieto versiju „1.0”, kas neatbalsta atslēgu „{}” rindā {}"
 
 #: solv/vendor_change_manager.cpp:445
 #, c++-format
@@ -1530,23 +1613,26 @@ msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
 "Error in \"{}\" in table starting on line {}"
 msgstr ""
+"Filtrs „cmdline_repo” atļauts tikai sadaļā „incoming_packages”. Kļūda failā „"
+"{}” tabulā, kas sākas rindā {}"
 
 #: solv/vendor_change_manager.cpp:467
 #, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
-msgstr ""
+msgstr "Trūkst pakotņu filtra definīcijas failā „{}” tabulā, kas sākas rindā {}"
 
 #: solv/vendor_change_manager.cpp:498
 #, c++-format
 msgid ""
 "Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
 msgstr ""
+"Neatbalstīts salīdzinātājs „{}” ražotāja definīcijai failā „{}” rindā {}"
 
 #: solv/vendor_change_manager.cpp:519
 #, c++-format
 msgid "Missing 'vendor' key in \"{}\" in table starting on line {}"
-msgstr ""
+msgstr "Trūkst atslēgas „vendor” failā „{}” tabulā, kas sākas rindā {}"
 
 #: solv/vendor_change_manager.cpp:532
 #, c++-format
@@ -1554,16 +1640,18 @@ msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
 msgstr ""
+"Nederīgs ražotāja regulārās izteiksmes šablons „{}” failā „{}” tabulā, kas "
+"sākas rindā {}: {}"
 
 #: solv/vendor_change_manager.cpp:560
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Slikts vērtības tips failā „{}” rindā {}: {}"
 
 #: solv/vendor_change_manager.cpp:566
 #, c++-format
 msgid "An error occurred when parsing \"{}\": {}"
-msgstr ""
+msgstr "Parsējot „{}”, radās kļūda: {}"
 
 #: solv/vendor_change_manager.cpp:580
 #, c++-format
@@ -1571,6 +1659,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
+"Konfigurācija „{}” lieto versiju „1.0”, kas neatbalsta „incoming_vendors” "
+"bez „outgoing_vendors”"
 
 #: solv/vendor_change_manager.cpp:586
 #, c++-format
@@ -1578,33 +1668,35 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
+"Konfigurācija „{}” lieto versiju „1.0”, kas neatbalsta „outgoing_vendors” "
+"bez „incoming_vendors”"
 
 #: solv/vendor_change_manager.cpp:676
 #, c++-format
 msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "Nezināms „comparator” „{}” failā „{}” rindā {}"
 
 #: solv/vendor_change_manager.cpp:680
 #, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
-msgstr ""
+msgstr "Konfigurācija „{}” lieto versiju „{}”, kas neatbalsta „comparator” „{}”"
 
 #: solv/vendor_change_manager.cpp:719
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "Nezināms „filter” „{}” failā „{}” rindā {}"
 
 #: solv/vendor_change_manager.cpp:740
 #, c++-format
 msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "Trūkst atslēgas „filter” failā „{}” tabulas ierakstam rindā {}"
 
 #: solv/vendor_change_manager.cpp:745
 #, c++-format
 msgid "Missing 'value' key in \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "Trūkst atslēgas „value” failā „{}” tabulas ierakstam rindā {}"
 
 #: solv/vendor_change_manager.cpp:752
 #, c++-format
@@ -1613,6 +1705,9 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
+"Filtrs „cmdline_repo” failā „{}” tabulā, kas sākas rindā {}, neatbalsta "
+"salīdzinātāju „{}”. Šim filtram atļauts tikai noklusējuma salīdzinātājs „"
+"EXACT”"
 
 #: solv/vendor_change_manager.cpp:769
 #, c++-format
@@ -1620,6 +1715,8 @@ msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
+"Nederīga „value” „{}” failā „{}” tabulā, kas sākas rindā {}. Atbalstīti "
+"tikai „true”, „1”, „false”, „0”"
 
 #: solv/vendor_change_manager.cpp:779 solv/vendor_change_manager.cpp:790
 #, c++-format
@@ -1627,104 +1724,112 @@ msgid ""
 "Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
+"Filtrs „{}” failā „{}” tabulā, kas sākas rindā {}, neatbalsta salīdzinātāju „"
+"{}”"
 
 #: solv/vendor_change_manager.cpp:806
 #, c++-format
 msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
-msgstr ""
+msgstr "Nederīga epohas vērtība „{}” failā „{}” tabulā, kas sākas rindā {}"
 
 #: solv/vendor_change_manager.cpp:821
 #, c++-format
 msgid "Invalid regex \"{}\" in \"{}\" in table starting on line {}: {}"
 msgstr ""
+"Nederīga regulārā izteiksme „{}” failā „{}” tabulā, kas sākas rindā {}: {}"
 
 #: solv/vendor_change_manager.cpp:873
 msgid "Unexpected end of input"
-msgstr ""
+msgstr "Negaidītas ievades beigas"
 
 #: solv/vendor_change_manager.cpp:890
 #, c++-format
 msgid "Expected '{}' but found end of input"
-msgstr ""
+msgstr "Gaidīja „{}”, bet atrada ievades beigas"
 
 #: solv/vendor_change_manager.cpp:892
 #, c++-format
 msgid "Expected '{}' but found '{}'"
-msgstr ""
+msgstr "Gaidīja „{}”, bet atrada „{}”"
 
 #: solv/vendor_change_manager.cpp:902
 #, c++-format
 msgid "Compact vendor change policy parse error in \"{}\" at position {}"
 msgstr ""
+"Kompaktās ražotāja maiņas politikas parsēšanas kļūda failā „{}” pozīcijā {}"
 
 #: solv/vendor_change_manager.cpp:956
 msgid "Expected package filter after '@'"
-msgstr ""
+msgstr "Pēc „@” gaidīja pakotņu filtru"
 
 #: solv/vendor_change_manager.cpp:969
 #, c++-format
 msgid "Unexpected character '{}'"
-msgstr ""
+msgstr "Negaidīta rakstzīme „{}”"
 
 #: solv/vendor_change_manager.cpp:1045
 msgid "Expected quoted string starting with '\"'"
-msgstr ""
+msgstr "Gaidīja pēdiņās iekļautu virkni, kas sākas ar „\"”"
 
 #: solv/vendor_change_manager.cpp:1053
 msgid "Unterminated escape sequence"
-msgstr ""
+msgstr "Nepabeigta atsoļa secība"
 
 #: solv/vendor_change_manager.cpp:1059
 #, c++-format
 msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
-msgstr ""
+msgstr "Nederīga atsoļa secība „\\{}”. Atbalstītas tikai „\\\"” un „\\\\”"
 
 #: solv/vendor_change_manager.cpp:1066
 msgid "Unterminated quoted string"
-msgstr ""
+msgstr "Nepabeigta pēdiņās iekļauta virkne"
 
 #: solv/vendor_change_manager.cpp:1101
 msgid "Expected direction prefix 'in', 'out', or 'eq'"
-msgstr ""
+msgstr "Gaidīja virziena priedēkli „in”, „out” vai „eq”"
 
 #: solv/vendor_change_manager.cpp:1165
 msgid ""
 "Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
 "*, =*, =~; optionally prefixed with ! and/or i"
 msgstr ""
+"Gaidīja salīdzināšanas operatoru: relāciju (<, <=, >, >=) vai virkņu (=, ^, "
+"$, *, =*, =~; pēc izvēles ar priedēkli ! un/vai i"
 
 #: solv/vendor_change_manager.cpp:1230
 msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
 msgstr ""
+"Ražotāja definīcija neatbalsta relāciju salīdzinātājus. Lietojiet virkņu "
+"salīdzinātājus: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1238
 #, c++-format
 msgid "Invalid regex vendor pattern '{}': {}"
-msgstr ""
+msgstr "Nederīgs ražotāja regulārās izteiksmes šablons „{}”: {}"
 
 #: solv/vendor_change_manager.cpp:1256
 #, c++-format
 msgid "Unknown filter field name '{}'"
-msgstr ""
+msgstr "Nezināms filtra lauka nosaukums „{}”"
 
 #: solv/vendor_change_manager.cpp:1266
 msgid "Expected filter field name"
-msgstr ""
+msgstr "Gaidīja filtra lauka nosaukumu"
 
 #: solv/vendor_change_manager.cpp:1295
 #, c++-format
 msgid "Invalid epoch value \"{}\""
-msgstr ""
+msgstr "Nederīga epohas vērtība „{}”"
 
 #: solv/vendor_change_manager.cpp:1299
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
-msgstr ""
+msgstr "Filtrs „cmdline_repo” atbalsta tikai salīdzinātāju „=” (EXACT)"
 
 #: solv/vendor_change_manager.cpp:1302
 msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
-msgstr ""
+msgstr "Filtrs „cmdline_repo” atļauts tikai ienākošajām pakotnēm („in:”)"
 
 #: solv/vendor_change_manager.cpp:1313
 #, c++-format
@@ -1732,63 +1837,67 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
+"Nederīga vērtība „{}” filtram „cmdline_repo”. Lietojiet „true”, „1”, „false” "
+"vai „0”"
 
 #: solv/vendor_change_manager.cpp:1317
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
-msgstr ""
+msgstr "Filtrs „{}” atbalsta tikai relāciju salīdzinātājus: =, !=, >, >=, <, <="
 
 #: solv/vendor_change_manager.cpp:1321
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
-msgstr ""
+msgstr "Filtrs „{}” atbalsta tikai virkņu salīdzinātājus: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1330
 #, c++-format
 msgid "Invalid regex '{}': {}"
-msgstr ""
+msgstr "Nederīga regulārā izteiksme „{}”: {}"
 
 #: solv/vendor_change_manager.cpp:1341
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
-msgstr ""
+msgstr "Pakotņu filtri neatbalsta virzienu „eq”. Lietojiet „in” vai „out”"
 
 #: solv/vendor_change_manager.cpp:1432 solv/vendor_change_manager.cpp:1482
 #: solv/vendor_change_manager.cpp:1493 solv/vendor_change_manager.cpp:1504
 msgid "{func}(): Policy index {idx} is out of range"
-msgstr ""
+msgstr "{func}(): politikas indekss {idx} ir ārpus diapazona"
 
 #: system/state.cpp:292 system/state.cpp:301
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
-msgstr ""
+msgstr "Nederīga TOML versija „{}”, tiek gaidīts „MAJOR.MINOR”"
 
 #: system/state.cpp:309
 #, c++-format
 msgid "{} state for \"{}\" not found."
-msgstr ""
+msgstr "{} stāvoklis „{}” nav atrasts."
 
 #: system/state.cpp:313
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
+"Sistēmas stāvokļa TOML faila {} ielāde neizdevās (skatiet dnf5-system-state"
+"(7)): {}"
 
 #: system/state.cpp:650
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
-msgstr ""
+msgstr "Neatbalstīta TOML versija „{}”, maksimālā atbalstītā versija ir „{}”"
 
 #: system/state.cpp:799
 #, c++-format
 msgid "Error {} opening rpm database"
-msgstr ""
+msgstr "Kļūda {}, atverot RPM datubāzi"
 
 #: system/state.cpp:803
 msgid "Failed to get rpm database"
-msgstr ""
+msgstr "Neizdevās iegūt RPM datubāzi"
 
 #: system/state.cpp:809
 msgid "Failed to initialize database index iterator"
-msgstr ""
+msgstr "Neizdevās inicializēt datubāzes indeksa iteratoru"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -1796,100 +1905,102 @@ msgid ""
 "Failed to insert record into table 'comps_environment_group' in history "
 "database"
 msgstr ""
+"Neizdevās ievietot ierakstu vēstures datubāzes tabulā „"
+"comps_environment_group”"
 
 #: transaction/db/db.cpp:71
 msgid "Unable to get 'version' from table 'config'"
-msgstr ""
+msgstr "Nevar iegūt „version” no tabulas „config”"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/item.cpp:43
 msgid "Failed to insert record into table 'item' in history database"
-msgstr ""
+msgstr "Neizdevās ievietot ierakstu vēstures datubāzes tabulā „item”"
 
 #: transaction/offline.cpp:212
 msgid "error reading offline state file"
-msgstr ""
+msgstr "kļūda, nolasot bezsaistes stāvokļa failu"
 
 #: transaction/offline.cpp:217
 msgid "incompatible version of state data"
-msgstr ""
+msgstr "nesaderīga stāvokļa datu versija"
 
 #: transaction/transaction.cpp:87
 msgid "Started"
-msgstr ""
+msgstr "Sākts"
 
 #: transaction/transaction.cpp:89
 msgid "Ok"
-msgstr ""
+msgstr "Labi"
 
 #: transaction/transaction.cpp:91
 msgid "Error"
-msgstr ""
+msgstr "Kļūda"
 
 #: transaction/transaction.cpp:110
 #, c++-format
 msgid "Invalid transaction state: {}"
-msgstr ""
+msgstr "Nederīgs transakcijas stāvoklis: {}"
 
 #: transaction/transaction.cpp:313
 msgid "Transaction has already started!"
-msgstr ""
+msgstr "Transakcija jau ir sākta!"
 
 #: transaction/transaction_item_action.cpp:30
 #, c++-format
 msgid "Invalid transaction item action: {}"
-msgstr ""
+msgstr "Nederīga transakcijas vienuma darbība: {}"
 
 #: transaction/transaction_item_action.cpp:74
 msgid "Replaced"
-msgstr ""
+msgstr "Aizstāts"
 
 #: transaction/transaction_item_action.cpp:84
 msgid "Switch"
-msgstr ""
+msgstr "Pārslēgšana"
 
 #: transaction/transaction_item_reason.cpp:30
 #, c++-format
 msgid "Invalid transaction item reason: {}"
-msgstr ""
+msgstr "Nederīgs transakcijas vienuma iemesls: {}"
 
 #: transaction/transaction_item_reason.cpp:56
 msgid "None"
-msgstr ""
+msgstr "Nav"
 
 #: transaction/transaction_item_reason.cpp:58
 msgid "Dependency"
-msgstr ""
+msgstr "Atkarība"
 
 #: transaction/transaction_item_reason.cpp:60
 msgid "User"
-msgstr ""
+msgstr "Lietotājs"
 
 #: transaction/transaction_item_reason.cpp:62
 msgid "Clean"
-msgstr ""
+msgstr "Tīrīšana"
 
 #: transaction/transaction_item_reason.cpp:64
 msgid "Weak Dependency"
-msgstr ""
+msgstr "Vājā atkarība"
 
 #: transaction/transaction_item_reason.cpp:66
 msgid "Group"
-msgstr ""
+msgstr "Grupa"
 
 #: transaction/transaction_item_reason.cpp:68
 msgid "External User"
-msgstr ""
+msgstr "Ārējs lietotājs"
 
 #: transaction/transaction_item_state.cpp:28
 #, c++-format
 msgid "Invalid transaction item state: {}"
-msgstr ""
+msgstr "Nederīgs transakcijas vienuma stāvoklis: {}"
 
 #: transaction/transaction_item_type.cpp:28
 #, c++-format
 msgid "Invalid transaction item type: {}"
-msgstr ""
+msgstr "Nederīgs transakcijas vienuma tips: {}"
 
 #: transaction/transaction_merge.cpp:102
 #, c++-format
@@ -1897,6 +2008,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transactions -> setting '{0}'."
 msgstr ""
+"Darbību „{0}” „{1}” nevar apvienot pēc tam, kad iepriekšējās transakcijās tā "
+"bija „{2}” -> iestata „{0}”."
 
 #: transaction/transaction_merge.cpp:116
 #, c++-format
@@ -1904,6 +2017,8 @@ msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
+"Darbību „Upgrade” „{0}” nevar apvienot, jo tā tajā brīdī nav -> iestata „"
+"Install”."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 #, c++-format
@@ -1911,6 +2026,8 @@ msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
+"Darbību „Reinstall” „{0}” nevar apvienot, jo tā tajā brīdī nav -> iestata „"
+"Install”."
 
 #: transaction/transaction_merge.cpp:194
 #, c++-format
@@ -1918,11 +2035,13 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transaction -> setting '{0}'."
 msgstr ""
+"Darbību „{0}” „{1}” nevar apvienot pēc tam, kad iepriekšējā transakcijā tā "
+"bija „{2}” -> iestata „{0}”."
 
 #: transaction/transaction_merge.cpp:215
 #, c++-format
 msgid "Unexpected action encountered: '{0}' during transaction merge."
-msgstr ""
+msgstr "Transakciju apvienošanas laikā sastapta negaidīta darbība: „{0}”."
 
 #: transaction/transaction_merge.cpp:224
 #, c++-format
@@ -1930,6 +2049,7 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> skipping it."
 msgstr ""
+"Darbību „{0}” „{1}” nevar apvienot, jo tā tajā brīdī nav -> tiek izlaista."
 
 #: transaction/transaction_merge.cpp:245
 #, c++-format
@@ -1937,6 +2057,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> setting 'INSTALL'."
 msgstr ""
+"Darbību „{0}” „{1}” nevar apvienot, jo tā tajā brīdī nav -> iestata „INSTALL"
+"”."
 
 #: transaction/transaction_merge.cpp:266
 #, c++-format
@@ -1944,6 +2066,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "(present versions are: {2}) -> skipping it."
 msgstr ""
+"Darbību „{0}” „{1}” nevar apvienot, jo tā tajā brīdī nav (esošās versijas: "
+"{2}) -> tiek izlaista."
 
 #: transaction/transaction_merge.cpp:277
 #, c++-format
@@ -1951,6 +2075,7 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already present at that "
 "point -> skipping it."
 msgstr ""
+"Darbību „{0}” „{1}” nevar apvienot, jo tā tajā brīdī jau ir -> tiek izlaista."
 
 #: transaction/transaction_merge.cpp:294
 #, c++-format
@@ -1958,122 +2083,128 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
+"Darbību „{0}” „{1}” nevar apvienot, jo tā jau ir instalēta versijā „{2}” -> "
+"tiek paturēta vecākās transakcijas darbība ar „{1}”."
 
 #: transaction/transaction_merge.cpp:304
 #, c++-format
 msgid "Invalid action encountered: '{0}' during transaction merge."
-msgstr ""
+msgstr "Transakciju apvienošanas laikā sastapta nederīga darbība: „{0}”."
 
 #: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr ""
+"Transakcijas atkārtošanas JSON serializētās transakcijas ievade ir tukša"
 
 #: transaction/transaction_sr.cpp:58
 #, c++-format
 msgid "Error during transaction replay JSON parsing : {}"
-msgstr ""
+msgstr "Kļūda transakcijas atkārtošanas JSON parsēšanā : {}"
 
 #: transaction/transaction_sr.cpp:68
 #, c++-format
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
-msgstr ""
+msgstr "Negaidīts versijas formāts: „{}”, atbalstītā versija ir „{}”"
 
 #: transaction/transaction_sr.cpp:74
 #, c++-format
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
-msgstr ""
+msgstr "Nesaderīga galvenā versija: „{}”, atbalstītā galvenā versija ir „{}”"
 
 #: transaction/transaction_sr.cpp:81
 #, c++-format
 msgid "Invalid minor version: \"{}\", number expected"
-msgstr ""
+msgstr "Nederīga apakšversija: „{}”, tiek gaidīts skaitlis"
 
 #: transaction/transaction_sr.cpp:84
 msgid "Missing key \"version\""
-msgstr ""
+msgstr "Trūkst atslēgas „version”"
 
 #: transaction/transaction_sr.cpp:92
 msgid "Unexpected type of \"environments\", array expected"
-msgstr ""
+msgstr "Negaidīts „environments” tips, tiek gaidīts masīvs"
 
 #: transaction/transaction_sr.cpp:105
 msgid "Missing object key \"id\" in an environment"
-msgstr ""
+msgstr "Vidē trūkst objekta atslēgas „id”"
 
 #: transaction/transaction_sr.cpp:110
 msgid "Missing object key \"action\" in an environment"
-msgstr ""
+msgstr "Vidē trūkst objekta atslēgas „action”"
 
 #: transaction/transaction_sr.cpp:129
 msgid "Unexpected type of \"groups\", array expected"
-msgstr ""
+msgstr "Negaidīts „groups” tips, tiek gaidīts masīvs"
 
 #: transaction/transaction_sr.cpp:145
 msgid "Missing object key \"id\" in a group"
-msgstr ""
+msgstr "Grupā trūkst objekta atslēgas „id”"
 
 #: transaction/transaction_sr.cpp:150
 msgid "Missing object key \"action\" in a group"
-msgstr ""
+msgstr "Grupā trūkst objekta atslēgas „action”"
 
 #: transaction/transaction_sr.cpp:155
 msgid "Missing object key \"reason\" in a group"
-msgstr ""
+msgstr "Grupā trūkst objekta atslēgas „reason”"
 
 #: transaction/transaction_sr.cpp:186
 msgid "Unexpected type of \"rpms\", array expected"
-msgstr ""
+msgstr "Negaidīts „rpms” tips, tiek gaidīts masīvs"
 
 #: transaction/transaction_sr.cpp:202
 #, c++-format
 msgid "Cannot parse NEVRA for rpm \"{}\""
-msgstr ""
+msgstr "Nevar parsēt RPM „{}” NEVRA"
 
 #: transaction/transaction_sr.cpp:210
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
-msgstr ""
+msgstr "RPM ierakstā nepieciešama objekta atslēga „nevra” vai „package_path”"
 
 #: transaction/transaction_sr.cpp:215
 msgid "Missing object key \"action\" in an rpm"
-msgstr ""
+msgstr "RPM ierakstā trūkst objekta atslēgas „action”"
 
 #: transaction/transaction_sr.cpp:220
 msgid "Missing object key \"reason\" in an rpm"
-msgstr ""
+msgstr "RPM ierakstā trūkst objekta atslēgas „reason”"
 
 #: transaction/transaction_sr.cpp:227
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
+"RPM ierakstā ar iemeslu „Group” un darbību „Reason Change” trūkst obligātās "
+"objekta atslēgas „group_id”"
 
 #: utils/bootc.cpp:47
 #, c++-format
 msgid "Error checking bootc status: {}"
-msgstr ""
+msgstr "Kļūda, pārbaudot bootc statusu: {}"
 
 #: utils/bootc.cpp:50
 #, c++-format
 msgid "Error checking bootc status: bootc command failed with exit code {}"
 msgstr ""
+"Kļūda, pārbaudot bootc statusu: komanda bootc neizdevās ar izejas kodu {}"
 
 #: utils/bootc.cpp:59
 msgid "Error checking bootc status: Failed to parse JSON output"
-msgstr ""
+msgstr "Kļūda, pārbaudot bootc statusu: neizdevās parsēt JSON izvadi"
 
 #: utils/bootc.cpp:74
 #, c++-format
 msgid "Failed to query status of bootc system: {}"
-msgstr ""
+msgstr "Neizdevās vaicāt bootc sistēmas statusu: {}"
 
 #: utils/bootc.cpp:91
 msgid "Failed to stat /usr filesystem"
-msgstr ""
+msgstr "Neizdevās izpildīt stat /usr failu sistēmai"
 
 #: utils/bootc.cpp:127
 #, c++-format
 msgid "Error running `bootc usr-overlay --read-only`: {}"
-msgstr ""
+msgstr "Kļūda, palaižot `bootc usr-overlay --read-only`: {}"
 
 #: utils/bootc.cpp:130
 #, c++-format
@@ -2081,300 +2212,303 @@ msgid ""
 "Error running `bootc usr-overlay --read-only`: bootc command failed with "
 "exit code {}"
 msgstr ""
+"Kļūda, palaižot `bootc usr-overlay --read-only`: komanda bootc neizdevās ar "
+"izejas kodu {}"
 
 #: utils/bootc.cpp:138
 msgid "Failed to unshare mount namespace"
-msgstr ""
+msgstr "Neizdevās atdalīt montēšanas nosaukumvietu"
 
 #: utils/bootc.cpp:146
 #, c++-format
 msgid "Failed to remount /usr as read-write: {}"
-msgstr ""
+msgstr "Neizdevās atkārtoti montēt /usr lasīšanai un rakstīšanai: {}"
 
 #: utils/fs/file.cpp:87
 msgid "cannot open file"
-msgstr ""
+msgstr "nevar atvērt failu"
 
 #: utils/fs/file.cpp:100
 msgid "cannot open file from fd"
-msgstr ""
+msgstr "nevar atvērt failu no fd"
 
 #: utils/fs/file.cpp:110
 msgid "cannot close file"
-msgstr ""
+msgstr "nevar aizvērt failu"
 
 #: utils/fs/file.cpp:140 utils/fs/file.cpp:169
 msgid "error reading file"
-msgstr ""
+msgstr "kļūda, nolasot failu"
 
 #: utils/fs/file.cpp:155 utils/fs/file.cpp:181
 msgid "error writing file"
-msgstr ""
+msgstr "kļūda, rakstot failu"
 
 #: utils/fs/file.cpp:190
 msgid "error flushing file"
-msgstr ""
+msgstr "kļūda, izskalojot failu"
 
 #: utils/fs/file.cpp:199
 msgid "error seeking in file"
-msgstr ""
+msgstr "kļūda, pārvietojoties failā"
 
 #: utils/fs/file.cpp:210
 msgid "error retrieving file position"
-msgstr ""
+msgstr "kļūda, iegūstot pozīciju failā"
 
 #: utils/fs/file.cpp:296
 msgid "error reading a line from file"
-msgstr ""
+msgstr "kļūda, nolasot rindu no faila"
 
 #: utils/fs/file.cpp:334
 msgid "error retrieving file descriptor"
-msgstr ""
+msgstr "kļūda, iegūstot faila deskriptoru"
 
 #: utils/fs/temp.cpp:42
 msgid "cannot create temporary directory"
-msgstr ""
+msgstr "nevar izveidot pagaidu direktoriju"
 
 #: utils/fs/temp.cpp:89
 msgid "cannot create temporary file"
-msgstr ""
+msgstr "nevar izveidot pagaidu failu"
 
 #: utils/fs/temp.cpp:142
 msgid "cannot close temporary file"
-msgstr ""
+msgstr "nevar aizvērt pagaidu failu"
 
 #: utils/iniparser.cpp:126
 #, c++-format
 msgid "Missing ']' on line {}"
-msgstr ""
+msgstr "Rindā {} trūkst „]”"
 
 #: utils/iniparser.cpp:129
 #, c++-format
 msgid "Empty section name on line {}"
-msgstr ""
+msgstr "Tukšs sadaļas nosaukums rindā {}"
 
 #: utils/iniparser.cpp:137
 #, c++-format
 msgid "Text after section on line {}"
-msgstr ""
+msgstr "Teksts aiz sadaļas rindā {}"
 
 #: utils/iniparser.cpp:147
 #, c++-format
 msgid "Missing section header on line {}"
-msgstr ""
+msgstr "Trūkst sadaļas galvenes rindā {}"
 
 #: utils/iniparser.cpp:152
 #, c++-format
 msgid "Illegal continuation line on line {}"
-msgstr ""
+msgstr "Neatļauta turpinājuma rinda rindā {}"
 
 #: utils/iniparser.cpp:159
 #, c++-format
 msgid "Missing option name on line {}"
-msgstr ""
+msgstr "Trūkst opcijas nosaukuma rindā {}"
 
 #: utils/iniparser.cpp:163
 #, c++-format
 msgid "Missing '=' on line {}"
-msgstr ""
+msgstr "Rindā {} trūkst „=”"
 
 #. returns localized message, problem with later translation
 #: utils/library.cpp:34
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "Nevar ielādēt koplietojamo bibliotēku „{}”: {}"
 
 #: utils/library.cpp:48
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "Nevar iegūt simbola „{}” adresi: {}"
 
 #: utils/locale.cpp:57
 #, c++-format
 msgid "Cannot set the locale \"{}\": {}"
-msgstr ""
+msgstr "Nevar iestatīt lokāli „{}”: {}"
 
 #: utils/locker.cpp:101
 #, c++-format
 msgid "Failed to obtain lock \"{}\""
-msgstr ""
+msgstr "Neizdevās iegūt slēgumu „{}”"
 
 #: utils/locker.cpp:111
 msgid "File is already open."
-msgstr ""
+msgstr "Fails jau ir atvērts."
 
 #: utils/locker.cpp:124
 #, c++-format
 msgid "Failed to open lock file \"{}\""
-msgstr ""
+msgstr "Neizdevās atvērt slēguma failu „{}”"
 
 #: utils/locker.cpp:130 utils/locker.cpp:167
 #, c++-format
 msgid "The lock file \"{}\" is not opened"
-msgstr ""
+msgstr "Slēguma fails „{}” nav atvērts"
 
 #: utils/locker.cpp:135
 #, c++-format
 msgid "Failed to truncate lock file \"{}\""
-msgstr ""
+msgstr "Neizdevās saīsināt slēguma failu „{}”"
 
 #: utils/locker.cpp:138 utils/locker.cpp:175
 #, c++-format
 msgid "Failed to seek lock file \"{}\""
-msgstr ""
+msgstr "Neizdevās pārvietoties slēguma failā „{}”"
 
 #: utils/locker.cpp:146
 #, c++-format
 msgid "Failed to write to lock file \"{}\""
-msgstr ""
+msgstr "Neizdevās rakstīt slēguma failā „{}”"
 
 #: utils/locker.cpp:153
 #, c++-format
 msgid "Failed to sync lock file \"{}\""
-msgstr ""
+msgstr "Neizdevās sinhronizēt slēguma failu „{}”"
 
 #: utils/locker.cpp:181
 #, c++-format
 msgid "Failed to read from lock file \"{}\""
-msgstr ""
+msgstr "Neizdevās nolasīt no slēguma faila „{}”"
 
 #: utils/locker.cpp:194
 #, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr ""
+msgstr "Slēguma fails „{}” nav slēgts"
 
 #: utils/locker.cpp:207
 #, c++-format
 msgid "Failed to close lock file \"{}\""
-msgstr ""
+msgstr "Neizdevās aizvērt slēguma failu „{}”"
 
 #: utils/locker.cpp:211
 #, c++-format
 msgid "Failed to delete lock file \"{}\""
-msgstr ""
+msgstr "Neizdevās dzēst slēguma failu „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:29
 #, c++-format
 msgid "SQL statement compilation failed: \"{}\""
-msgstr ""
+msgstr "SQL priekšraksta kompilēšana neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:31
 #, c++-format
 msgid "Binding integer value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Veselā skaitļa vērtības piesaiste SQL priekšrakstam neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:33
 #, c++-format
 msgid "Binding integer64 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "integer64 vērtības piesaiste SQL priekšrakstam neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:35
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Bezzīmes integer32 vērtības piesaiste SQL priekšrakstam neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
 msgid "Binding double value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "double vērtības piesaiste SQL priekšrakstam neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:39
 #, c++-format
 msgid "Binding bool value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Būla vērtības piesaiste SQL priekšrakstam neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:40
 #, c++-format
 msgid "Binding text to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Teksta piesaiste SQL priekšrakstam neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:41
 #, c++-format
 msgid "Binding blob to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Blob piesaiste SQL priekšrakstam neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:42
 #, c++-format
 msgid "SQL statement evaluation failed: \"{}\""
-msgstr ""
+msgstr "SQL priekšraksta izvērtēšana neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:44
 msgid "Insufficient memory or result exceed maximum SQLite3 string length"
 msgstr ""
+"Nepietiek atmiņas, vai rezultāts pārsniedz maksimālo SQLite3 virknes garumu"
 
 #: utils/sqlite3/sqlite3.cpp:46
 #, c++-format
 msgid "Column \"{}\" not found"
-msgstr ""
+msgstr "Kolonna „{}” nav atrasta"
 
 #: utils/sqlite3/sqlite3.cpp:48
 #, c++-format
 msgid "SQL statement execution failed: \"{}\""
-msgstr ""
+msgstr "SQL priekšraksta izpilde neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:68
 #, c++-format
 msgid "Failed to open database \"{}\""
-msgstr ""
+msgstr "Neizdevās atvērt datubāzi „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:105
 #, c++-format
 msgid "Failed to close database \"{}\""
-msgstr ""
+msgstr "Neizdevās aizvērt datubāzi „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 #, c++-format
 msgid "Failed to open backup database \"{}\""
-msgstr ""
+msgstr "Neizdevās atvērt dublējuma datubāzi „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:132
 #, c++-format
 msgid "Failed to backup database \"{}\" into \"{}\""
-msgstr ""
+msgstr "Neizdevās dublēt datubāzi „{}” uz „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:158
 #, c++-format
 msgid "Failed to restore database \"{}\""
-msgstr ""
+msgstr "Neizdevās atjaunot datubāzi „{}”"
 
 #: utils/subprocess.cpp:29
 msgid "cannot create pipe"
-msgstr ""
+msgstr "nevar izveidot cauruļvadu"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
-msgstr ""
+msgstr "nevar sazarot procesu"
 
 #: utils/subprocess.cpp:173
 msgid "cannot bind child stdin"
-msgstr ""
+msgstr "nevar piesaistīt bērnprocesa stdin"
 
 #: utils/subprocess.cpp:175
 msgid "cannot bind child stdout"
-msgstr ""
+msgstr "nevar piesaistīt bērnprocesa stdout"
 
 #: utils/subprocess.cpp:177
 msgid "cannot bind child stderr"
-msgstr ""
+msgstr "nevar piesaistīt bērnprocesa stderr"
 
 #: utils/subprocess.cpp:180
 #, c++-format
 msgid "failed to execute command: {}"
-msgstr ""
+msgstr "neizdevās izpildīt komandu: {}"
 
 #: utils/subprocess.cpp:185
 #, c++-format
 msgid "error during preparation of child process: {}"
-msgstr ""
+msgstr "kļūda, sagatavojot bērnprocesu: {}"
 
 #: utils/subprocess.cpp:211
 msgid "poll failed during subprocess I/O"
-msgstr ""
+msgstr "apakšprocesa ievades/izvades laikā poll neizdevās"
 
 #: utils/subprocess.cpp:257
 msgid "unexpected child process status after waitpid"
-msgstr ""
+msgstr "negaidīts bērnprocesa statuss pēc waitpid"
 
 #: utils/system.cpp:33
 msgid "failed to read rpm config files"
-msgstr ""
+msgstr "neizdevās nolasīt RPM konfigurācijas failus"
