@@ -7,19 +7,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 22:06+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-21 13:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: cmdline_aliases.cpp:129
 #, c++-format
@@ -27,6 +29,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
+"Pievienotais nosauktais arguments „{}” nav atrasts: {}: pieprasīts failā „{}"
+"” rindā {}: {}"
 
 #: cmdline_aliases.cpp:143
 #, c++-format
@@ -34,52 +38,54 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
+"Nezināms atribūts „{}” pievienotajam nosauktajam argumentam aizstājvārdam „{}"
+"” failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:155
 #, c++-format
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Trūkst atribūta „id_path” aizstājvārdam „{}” failā „{}”"
 
 #: cmdline_aliases.cpp:192
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
+msgstr "Neatbalstīta versija „{}” failā „{}”. Atbalstītās versijas: {}"
 
 #: cmdline_aliases.cpp:202
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Slikts atribūta „version” vērtības tips failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr ""
+msgstr "Trūkst atribūta „version” failā „{}”"
 
 #: cmdline_aliases.cpp:220
 #, c++-format
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Nezināma atslēga „{}” failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:237
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Tukšs vai slikts elementa ID ceļš failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:256
 #, c++-format
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Vecākkomanda „{}” nav atrasta: {}: pieprasīts failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:285
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Nezināms tips „{}” elementam „{}” failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:296
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Trūkst atribūta „type” elementam „{}” failā „{}”"
 
 #: cmdline_aliases.cpp:315
 #, c++-format
@@ -87,22 +93,24 @@ msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
+"Nosauktais arguments „{}” jau ir reģistrēts. Pieprasīts failā „{}” rindā {}: "
+"{}"
 
 #: cmdline_aliases.cpp:331
 #, c++-format
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Komanda „{}” jau ir reģistrēta. Pieprasīts failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:359
 #, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Nezināms atribūts „{}” grupai „{}” failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:371
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Trūkst atribūta „header” elementam „{}” failā „{}”"
 
 #: cmdline_aliases.cpp:412 cmdline_aliases.cpp:522
 #, c++-format
@@ -110,16 +118,18 @@ msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
+"Nosauktā argumenta „{}” atribūtam „short_name” jābūt vienu rakstzīmi garam "
+"failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:430
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Avots „{}” nav atrasts: {}: pieprasīts failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:446 cmdline_aliases.cpp:547 cmdline_aliases.cpp:660
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Grupa „{}” nav atrasta: {}: pieprasīts failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:460 cmdline_aliases.cpp:563
 #, c++-format
@@ -127,11 +137,12 @@ msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Nezināms atribūts „{}” nosauktajam argumentam „{}” failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:473
 #, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Trūkst atribūta „source” nosauktajam argumentam „{}” failā „{}”"
 
 #: cmdline_aliases.cpp:482 cmdline_aliases.cpp:576
 #, c++-format
@@ -139,6 +150,8 @@ msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Nosauktajam argumentam „{}” failā „{}” jābūt iestatītam vismaz vienam no "
+"atribūtiem „long_name” un „short_name”"
 
 #: cmdline_aliases.cpp:641
 #, c++-format
@@ -146,6 +159,7 @@ msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Pievienotā komanda „{}” nav atrasta: {}: pieprasīts failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:675
 #, c++-format
@@ -153,6 +167,8 @@ msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"Izmantota konfigurācijas faila versija „1.0” atribūtam „{}” komandai „{}” "
+"failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:697
 #, c++-format
@@ -160,6 +176,8 @@ msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"Nezināms atribūts „{}” pieprasītajai vērtībai aizstājvārdam „{}” failā „{}” "
+"rindā {}: {}"
 
 #: cmdline_aliases.cpp:710
 #, c++-format
@@ -167,186 +185,206 @@ msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"Trūkst atribūta „value_help” pieprasītajai vērtībai aizstājvārdam „{}” failā "
+"„{}”"
 
 #: cmdline_aliases.cpp:724
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Nezināms atribūts „{}” komandai „{}” failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:740
 #, c++-format
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Trūkst atribūta „attached_command” komandai „{}” failā „{}”"
 
 #: cmdline_aliases.cpp:775
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Slikts vērtības tips failā „{}” rindā {}: {}"
 
 #: cmdline_aliases.cpp:788
 #, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr ""
+msgstr "Sintakses kļūda failā „{}” rindā {}:"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr ""
+msgstr "Pārvaldīt paziņojumus"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Drukāt informāciju par paziņojumiem"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr ""
+msgstr "Uzskaitīt paziņojumus"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
 msgid "No matches found: no repositories are enabled."
-msgstr ""
+msgstr "Nekas nav atrasts: neviens repozitorijs nav iespējots."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
-msgstr ""
+msgstr "Visi"
 
 #: commands/advisory/advisory_summary.cpp:48
 msgid "Installed"
-msgstr ""
+msgstr "Instalētie"
 
 #: commands/advisory/advisory_summary.cpp:52
 msgid "Updates"
-msgstr ""
+msgstr "Atjauninājumi"
 
 #: commands/advisory/advisory_summary.cpp:65
 msgid "Available"
-msgstr ""
+msgstr "Pieejamie"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "Drukāt paziņojumu kopsavilkumu"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "Rādīt paziņojumus, kas satur jebkuru instalēto pakotņu versiju."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Rādīt paziņojumus, kas satur instalēto pakotņu jaunākas versijas. Šī ir "
+"noklusējuma uzvedība."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Rādīt paziņojumus, kas satur instalēto pakotņu tādas pašas un vecākas "
+"versijas."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"Rādīt paziņojumus, kas satur jaunākas versijas tām instalētajām pakotnēm, "
+"kurām ir pieejama jaunāka versija."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Rādīt tikai paziņojumus, kas satur pakotnes ar norādītajiem nosaukumiem. "
+"Saraksta opcija, atbalsta aizstājējzīmes."
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "PAKOTNES_NOSAUKUMS,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "Šablonu saraksts, ko salīdzina ar paziņojumu nosaukumiem."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Rādīt tikai paziņojumus, kas atsaucas uz Bugzilla."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Rādīt tikai paziņojumus, kas atsaucas uz CVE."
 
 #: commands/advisory_shared.hpp:93
 #, c++-format
 msgid "No advisory found matching the requested name: \"{}\""
 msgstr ""
+"Nav atrasts neviens paziņojums, kas atbilst pieprasītajam nosaukumam: „{}”"
 
 #: commands/advisory_shared.hpp:132
 #, c++-format
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr ""
+msgstr "Nav atrasts neviens paziņojums, kas labo Bugzilla ID: „{}”"
 
 #: commands/advisory_shared.hpp:157
 #, c++-format
 msgid "No advisory found fixing the CVE ID: \"{}\""
-msgstr ""
+msgstr "Nav atrasts neviens paziņojums, kas labo CVE ID: „{}”"
 
 #: commands/advisory_shared.hpp:178
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "Nav atrasts neviens paziņojums, kas atbilst norādītajiem filtriem."
 
 #: commands/advisory_shared.hpp:193
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
+"Iekļaut saturu, kas ietverts paziņojumos ar norādīto nosaukumu. Saraksta "
+"opcija."
 
 #: commands/advisory_shared.hpp:194
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "PAZIŅOJUMA_NOSAUKUMS,..."
 
 #: commands/advisory_shared.hpp:201
 msgid "Include content contained in security advisories."
-msgstr ""
+msgstr "Iekļaut saturu, kas ietverts drošības paziņojumos."
 
 #: commands/advisory_shared.hpp:208
 msgid "Include content contained in bugfix advisories."
-msgstr ""
+msgstr "Iekļaut saturu, kas ietverts kļūdu labojumu paziņojumos."
 
 #: commands/advisory_shared.hpp:215
 msgid "Include content contained in enhancement advisories."
-msgstr ""
+msgstr "Iekļaut saturu, kas ietverts uzlabojumu paziņojumos."
 
 #: commands/advisory_shared.hpp:222
 msgid "Include content contained in newpackage advisories."
-msgstr ""
+msgstr "Iekļaut saturu, kas ietverts jaunu pakotņu paziņojumos."
 
 #: commands/advisory_shared.hpp:233
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Iekļaut saturu, kas ietverts paziņojumos ar norādīto nopietnību. Saraksta "
+"opcija. Var būt „critical”, „important”, „moderate”, „low”, „none”."
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "PAZIŅOJUMA_NOPIETNĪBA,..."
 
 #: commands/advisory_shared.hpp:247
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
+"Iekļaut saturu, kas ietverts paziņojumos, kuri labo Bugzilla ID, piemēram, "
+"123123. Saraksta opcija."
 
 #: commands/advisory_shared.hpp:248
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:258
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Iekļaut saturu, kas ietverts paziņojumos, kuri labo CVE (Common "
+"Vulnerabilities and Exposures) ID, piemēram, CVE-2201-0123. Saraksta opcija."
 
 #: commands/advisory_shared.hpp:260
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
 msgstr ""
+"Noņemt visas nevajadzīgās pakotnes, kas sākotnēji instalētas kā atkarības."
 
 #: commands/autoremove/autoremove.cpp:65
 #, c++-format
@@ -355,10 +393,13 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"Nevajadzīgu aizsargātu pakotni {0} (un tās atkarības) nevar noņemt — vai nu "
+"atzīmējiet to kā lietotāja instalētu, vai mainiet konfigurācijas opciju "
+"protected_packages."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
-msgstr ""
+msgstr "Pārbaudīt pieejamos pakotņu jauninājumus"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -367,235 +408,247 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"Ziņo zemākās pakotņu versijas, kas labo bugfix, enhancement, security vai "
+"newpackage tipa paziņojumos minēto. Ja tiek lietota kāda paziņojumus "
+"ierobežojoša opcija, ziņo zemākās pakotņu versijas, kas labo atlasītajām "
+"paziņojumu īpašībām atbilstošo"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr ""
+msgstr "Pārbaudīt pakotņu datubāzes problēmas"
 
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "Pārbaudē atklātas problēmas: {}; skartās pakotnes: {}"
 
 #: commands/clean/clean.cpp:91
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "Tīrāmo kešatmiņas tipu saraksts. Atbalstītie tipi: {0}"
 
 #: commands/clean/clean.cpp:109
 #, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr ""
+msgstr "Nezināms kešatmiņas tips „{0}”. Atbalstītie tipi: {1}"
 
 #: commands/clean/clean.cpp:166
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Neizdevās iztīrīt repozitorija kešatmiņu ceļā „{0}”: {1}"
 
 #: commands/clean/clean.cpp:176
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
+msgstr "Kešatmiņas direktorija „{}” neeksistē. Nav ko tīrīt."
 
 #: commands/clean/clean.cpp:181
 #, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr ""
+msgstr "Nevar pārlasīt kešatmiņas direktoriju „{}”: {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
-msgstr ""
+msgstr "Instalēt atkļūdošanas informācijas pakotnes."
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"Jaunināt vai pazemināt instalēto programmatūru uz jaunākajām pieejamajām "
+"versijām"
 
 #: commands/do/do.cpp:42
 msgid "Do transaction"
-msgstr ""
+msgstr "Veikt transakciju"
 
 #: commands/do/do.cpp:47
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "Darbība, kas jāveic ar šiem vienumiem."
 
 #: commands/do/do.cpp:61
 #, c++-format
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "Neatbalstīta darbība „{}”"
 
 #: commands/do/do.cpp:71
 msgid "Type of the following items."
-msgstr ""
+msgstr "Šo vienumu tips."
 
 #: commands/do/do.cpp:84
 #, c++-format
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "Neatbalstīts vienuma tips „{}”"
 
 #: commands/do/do.cpp:98
 msgid "List of items to take action on"
-msgstr ""
+msgstr "Vienumu saraksts, ar kuriem veikt darbību"
 
 #: commands/do/do.cpp:131 commands/do/do.cpp:135
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "Atbalstīta tikai pakotņu pazemināšana."
 
 #: commands/do/do.cpp:142 commands/do/do.cpp:146
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "Atbalstīta tikai pakotņu pārinstalēšana."
 
 #: commands/do/do.cpp:152
 msgid "Action was not defined"
-msgstr ""
+msgstr "Darbība nav definēta"
 
 #: commands/do/do.cpp:231
 #, c++-format
 msgid "Invalid Environment/Group specification: {}"
-msgstr ""
+msgstr "Nederīga vides/grupas specifikācija: {}"
 
 #: commands/do/do.cpp:317
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "Vides un grupu pazemināšana netiek atbalstīta."
 
 #: commands/do/do.cpp:332
 msgid "Reinstalling environments and groups is not supported."
-msgstr ""
+msgstr "Vides un grupu pārinstalēšana netiek atbalstīta."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "Pazemināt programmatūras versiju"
 
 #: commands/download/download.cpp:132
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "Ja palaists ar --url, drukā URL no visiem pieejamajiem spoguļserveriem"
 
 #: commands/download/download.cpp:148
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "Nederīga urlprotocol opcija: {}"
 
 #: commands/download/download.cpp:175 main.cpp:831
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "Neatbalstīta arhitektūra „{0}”. Izvēlieties kādu no {1}"
 
 #: commands/download/download.cpp:214
 msgid "Option \"--together\" should be used with \"--resolve\""
-msgstr ""
+msgstr "Opcija „--together” jālieto kopā ar „--resolve”"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:221
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr ""
+msgstr "Opcija „--alldeps” jālieto kopā ar „--resolve”"
 
 #: commands/download/download.cpp:275
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
+"Pakotne „{}” nav pieejama; iespējams, vēlaties lietot opciju --skip-"
+"unavailable."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "Rādīt tikai pieejamās vides."
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "Rādīt tikai instalētās vides."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment identifiers."
-msgstr ""
+msgstr "Šablons, ko salīdzina ar vides identifikatoriem."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
-msgstr ""
+msgstr "Pārvaldīt comps vides"
 
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "Nekas nav atrasts: neviena vide nav instalēta."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "Nekas nav atrasts: neviena vide nav pieejama."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
 msgid "No matches found: no environments exist."
-msgstr ""
+msgstr "Nekas nav atrasts: neviena vide neeksistē."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "Rādīt tikai pieejamās grupas."
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "Rādīt arī slēptās grupas."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "Rādīt tikai instalētās grupas."
 
 #: commands/group/arguments.hpp:59
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Rādīt tikai grupas, kas satur pakotnes ar norādītajiem nosaukumiem. Saraksta "
+"opcija, atbalsta aizstājējzīmes."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group identifiers."
-msgstr ""
+msgstr "Šablons, ko salīdzina ar grupu identifikatoriem."
 
 #: commands/group/arguments.hpp:77
 msgid "Pattern matching group or environment identifiers."
-msgstr ""
+msgstr "Šablons, ko salīdzina ar grupu vai vides identifikatoriem."
 
 #: commands/group/arguments.hpp:86
 msgid "Include optional packages from groups."
-msgstr ""
+msgstr "Iekļaut grupu neobligātās pakotnes."
 
 #: commands/group/arguments.hpp:97
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr ""
+msgstr "Darboties tikai ar vidēm un grupām, pakotnes netiek mainītas."
 
 #: commands/group/group_list.cpp:114
 msgid "No matches found: no groups are installed."
-msgstr ""
+msgstr "Nekas nav atrasts: neviena grupa nav instalēta."
 
 #: commands/group/group_list.cpp:116
 msgid "No matches found: no groups are available."
-msgstr ""
+msgstr "Nekas nav atrasts: neviena grupa nav pieejama."
 
 #: commands/group/group_list.cpp:118
 msgid "No matches found: no groups exist."
-msgstr ""
+msgstr "Nekas nav atrasts: neviena grupa neeksistē."
 
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "Grupas: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
 msgid "installed"
 msgid_plural "installed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "instalētas"
+msgstr[1] "instalēta"
+msgstr[2] "instalētas"
 
 #: commands/group/group_list.cpp:149
 msgid "available"
 msgid_plural "available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "pieejamas"
+msgstr[1] "pieejama"
+msgstr[2] "pieejamas"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr ""
+msgstr "Transakcijas ID"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "Apgriezt transakciju secību."
 
 #: commands/history/arguments.hpp:54
 msgid ""
@@ -603,47 +656,55 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"Neuzskatīt par kļūdām neatbilstības starp instalētajām un saglabātajām "
+"transakcijas pakotnēm. Tas var radīt tukšu transakciju, jo cita starpā šī "
+"opcija var ignorēt neveiksmīgas noņemšanas darbības."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "Neuzskatīt par kļūdām transakcijā papildus ievilktās pakotnes."
 
 #: commands/history/arguments.hpp:80
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
+"Rādīt tikai transakcijas, kas satur pakotnes ar norādītajiem nosaukumiem. "
+"Saraksta opcija, atbalsta aizstājējzīmes."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "Pārvaldīt transakciju vēsturi"
 
 #: commands/history/history_info.cpp:78
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Nekas nav atrasts; vēstures informācija pēc noklusējuma ņem vērā tikai "
+"pēdējo transakciju — lai meklētu visās transakcijās, norādiet diapazonu „"
+"1..last”."
 
 #: commands/history/history_redo.cpp:56
 #: commands/history/history_rollback.cpp:60
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:59
 msgid "No matching transaction ID found, exactly one required."
-msgstr ""
+msgstr "Nav atrasts atbilstošs transakcijas ID, nepieciešams tieši viens."
 
 #: commands/history/history_redo.cpp:60
 #: commands/history/history_rollback.cpp:64
 #: commands/history/history_undo.cpp:63
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
+msgstr "Atbilst vairāk nekā viens transakcijas ID, nepieciešams tieši viens."
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
+msgstr "Saglabāšanai atlasītas vairākas transakcijas, atļauta tikai viena."
 
 #: commands/history/history_store.cpp:80
 #, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "Fails „{}” jau eksistē, tas tiks pārrakstīts.\n"
 
 #: commands/history/transaction_id.cpp:32
 #, c++-format
@@ -651,144 +712,154 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"Nederīgs transakciju ID diapazons „{}”; tiek gaidīts „ID” vai „ID..ID”, kur "
+"ID ir „SKAITLIS”, „last” vai „last-SKAITLIS”."
 
 #: commands/install/install.cpp:41
 msgid "Install software"
-msgstr ""
+msgstr "Instalēt programmatūru"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
+"Uzskaitīt instalēto pakotņu grupas, ko neprasa citas instalētās pakotnes"
 
 #: commands/list/info.hpp:38
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr ""
+msgstr "Uzskaita pakotnes pēc to saistības ar sistēmu, ar papildu informāciju"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr ""
+msgstr "Salīdzināmo package-spec-NI saraksts (reģistrnejutīgi)"
 
 #: commands/list/list.cpp:61
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "Rādīt visas pakotņu versijas, ne tikai jaunākās."
 
 #: commands/list/list.cpp:69
 msgid "List installed packages."
-msgstr ""
+msgstr "Uzskaitīt instalētās pakotnes."
 
 #: commands/list/list.cpp:74
 msgid "List available packages."
-msgstr ""
+msgstr "Uzskaitīt pieejamās pakotnes."
 
 #: commands/list/list.cpp:81
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
+"Uzskaitīt papildu pakotnes, t. i., sistēmā instalētās pakotnes, kas nav "
+"pieejamas nevienā zināmā repozitorijā."
 
 #: commands/list/list.cpp:89
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
+"Uzskaitīt sistēmā instalētās pakotnes, kuras aizstāj pakotnes kādā zināmā "
+"repozitorijā."
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
-msgstr ""
+msgstr "Uzskaitīt repozitorijiem nesen pievienotās pakotnes."
 
 #: commands/list/list.cpp:98
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "Uzskaitīt instalētajām pakotnēm pieejamos jauninājumus."
 
 #: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "Uzskaitīt pakotnes, ko noņems komanda „dnf autoremove”."
 
 #: commands/list/list.cpp:214 commands/list/list.cpp:219
 msgid "Installed packages"
-msgstr ""
+msgstr "Instalētās pakotnes"
 
 #: commands/list/list.cpp:215 commands/list/list.cpp:228
 msgid "Available packages"
-msgstr ""
+msgstr "Pieejamās pakotnes"
 
 #: commands/list/list.cpp:236
 msgid "Available upgrades"
-msgstr ""
+msgstr "Pieejamie jauninājumi"
 
 #: commands/list/list.cpp:252
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "Aizstājošās pakotnes"
 
 #: commands/list/list.cpp:257
 msgid "Autoremove packages"
-msgstr ""
+msgstr "Automātiski noņemamās pakotnes"
 
 #: commands/list/list.cpp:261
 msgid "Extra packages"
-msgstr ""
+msgstr "Papildu pakotnes"
 
 #: commands/list/list.cpp:272
 msgid "Recently added packages"
-msgstr ""
+msgstr "Nesen pievienotās pakotnes"
 
 #: commands/list/list.hpp:48
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "Uzskaita pakotnes pēc to saistības ar sistēmu"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
-msgstr ""
+msgstr "Mainīt instalētas pakotnes iemeslu"
 
 #: commands/module/arguments.hpp:35
 msgid "Show enabled modules."
-msgstr ""
+msgstr "Rādīt iespējotos moduļus."
 
 #: commands/module/arguments.hpp:42
 msgid "Show disabled modules."
-msgstr ""
+msgstr "Rādīt atspējotos moduļus."
 
 #: commands/module/arguments.hpp:49
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "Šablons, ko salīdzina ar moduļu NSVCA."
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
-msgstr ""
+msgstr "Pārvaldīt moduļus"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "Nekas nav atrasts: neviena moduļa straume nav iespējota."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "Nekas nav atrasts: neviena moduļa straume nav atspējota."
 
 #: commands/module/module_list.cpp:92
 msgid "No matches found: no module streams exist."
-msgstr ""
+msgstr "Nekas nav atrasts: neviena moduļa straume neeksistē."
 
 #: commands/no_matches.cpp:14
 #, c++-format
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "Nekas nav atrasts vaicājumam „{}”."
 
 #: commands/no_matches.cpp:28
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"No installroot netika ielādēts neviens repozitorijs. Lai lietotu "
+"resursdatora sistēmas konfigurāciju un repozitorijus, norādiet --use-host-"
+"config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
 msgid "No matches found."
-msgstr ""
+msgstr "Nekas nav atrasts."
 
 #: commands/offline/offline.cpp:220
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "Pārvaldīt bezsaistes transakcijas"
 
 #: commands/offline/offline.cpp:254
 #, c++-format
@@ -796,11 +867,13 @@ msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Kļūda, nolasot stāvokli: {}. Palaidiet vēlreiz komandu, ar kuru sākāt "
+"bezsaistes transakciju, piemēram, `dnf5 system-upgrade download [OPTIONS]`."
 
 #: commands/offline/offline.cpp:267
 msgid ""
 "The system has been modified since the offline transaction was prepared."
-msgstr ""
+msgstr "Sistēma ir mainīta kopš bezsaistes transakcijas sagatavošanas."
 
 #: commands/offline/offline.cpp:271
 #, c++-format
@@ -808,202 +881,231 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
+"Sistēma ir mainīta kopš bezsaistes transakcijas sagatavošanas. Lai ieplānotu "
+"no jauna, palaidiet: {}"
 
 #: commands/offline/offline.cpp:293
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "Neizdevās savienoties ar D-Bus: {}"
 
 #: commands/offline/offline.cpp:333
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Gaida {0} procesus, kas bloķē izslēgšanu ({1}/{2} s)"
+msgstr[1] "Gaida {0} procesu, kas bloķē izslēgšanu ({1}/{2} s)"
+msgstr[2] "Gaida {0} procesus, kas bloķē izslēgšanu ({1}/{2} s)"
 
 #: commands/offline/offline.cpp:348
 msgid ""
 "Timed out waiting for processes blocking shutdown. Continuing shutdown "
 "request."
 msgstr ""
+"Iestājās noildze, gaidot procesus, kas bloķē izslēgšanu. Izslēgšanas "
+"pieprasījums tiek turpināts."
 
 #: commands/offline/offline.cpp:411
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"Sagatavot sistēmu bezsaistes transakcijas veikšanai un pārstartēt, lai sāktu "
+"transakciju."
 
 #: commands/offline/offline.cpp:418
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "Pēc darbības pabeigšanas izslēgt sistēmu"
 
 #: commands/offline/offline.cpp:429
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "Nav saglabātas bezsaistes transakcijas."
 
 #: commands/offline/offline.cpp:438
 msgid "System is not ready for offline transaction."
-msgstr ""
+msgstr "Sistēma nav gatava bezsaistes transakcijai."
 
 #: commands/offline/offline.cpp:441
 #, c++-format
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "Datu direktorija {} neeksistē."
 
 #: commands/offline/offline.cpp:466
 #, c++-format
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} nav pieprasīts no system-update.target."
 
 #: commands/offline/offline.cpp:476
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr ""
+msgstr "Sistēma tagad pārstartēsies, lai jauninātu uz laidiena versiju {}."
 
 #: commands/offline/offline.cpp:480
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"Sistēma tagad pārstartēsies, lai veiktu bezsaistes transakciju, kas sākta ar "
+"šo komandu:"
 
 #: commands/offline/offline.cpp:511
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Tikai iekšējai lietošanai, nav paredzēts lietotājam. Izpildīt transakciju "
+"bezsaistes vidē."
 
 #: commands/offline/offline.cpp:545
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "Trigera fails neeksistē. Iziet."
 
 #: commands/offline/offline.cpp:549
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "Darbojas cits bezsaistes transakciju rīks. Iziet."
 
 #: commands/offline/offline.cpp:581
 msgid "Starting offline transaction. This will take a while."
-msgstr ""
+msgstr "Sāk bezsaistes transakciju. Tas aizņems kādu laiku."
 
 #: commands/offline/offline.cpp:585
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Sāk sistēmas jaunināšanu. Tas aizņems kādu laiku."
 
 #: commands/offline/offline.cpp:597
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "Lai sāktu transakciju, lietojiet `dnf5 offline reboot`."
 
 #: commands/offline/offline.cpp:650
 msgid "Transaction failed: "
-msgstr ""
+msgstr "Transakcija neizdevās: "
 
 #: commands/offline/offline.cpp:720
 #, c++-format
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Kļūda, nolasot žurnālu: {}"
 
 #: commands/offline/offline.cpp:726
 #, c++-format
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Neizdevās pievienot žurnāla atbilsmi: {}"
 
 #: commands/offline/offline.cpp:754
 msgid "No logs were found."
-msgstr ""
+msgstr "Žurnāli netika atrasti."
 
 #: commands/offline/offline.cpp:758
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
+msgstr "Šķiet, ka šīs sāknēšanas satur bezsaistes transakciju žurnālus:"
 
 #: commands/offline/offline.cpp:775
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Nevar atrast žurnālus ar šo indeksu."
 
 #: commands/offline/offline.cpp:782
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "Nevar atrast atbilstošu systemd žurnāla ierakstu."
 
 #: commands/offline/offline.cpp:794
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Rādīt iepriekšējo bezsaistes transakciju žurnālus"
 
 #: commands/offline/offline.cpp:802
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Kuru žurnālu rādīt. Palaidiet bez argumentiem, lai iegūtu pieejamo žurnālu "
+"sarakstu."
 
 #: commands/offline/offline.cpp:817
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"Šajā DNF 5 būvējumā systemd netiek atbalstīts; apakškomanda `log` nav "
+"pieejama."
 
 #: commands/offline/offline.cpp:822
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Rādīt pašreizējās bezsaistes transakcijas statusu"
 
 #: commands/offline/offline.cpp:838
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
+"Sistēma ir mainīta kopš bezsaistes transakcijas sagatavošanas. Bezsaistes "
+"transakcija, kas sākta ar šo komandu, vairs nav derīga:"
 
 #: commands/offline/offline.cpp:842
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
+"Lai ieplānotu no jauna, palaidiet iepriekš minēto komandu. Lai iztīrītu, "
+"palaidiet `dnf5 offline clean`."
 
 #: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "Bezsaistes transakcija tika sākta ar šo komandu:"
 
 #: commands/offline/offline.cpp:848
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Palaidiet `dnf5 offline reboot`, lai pārstartētu un veiktu bezsaistes "
+"transakciju."
 
 #: commands/offline/offline.cpp:850
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"Bezsaistes transakcija tika sākta, bet netika pabeigta. Sīkāku informāciju "
+"skatiet ar `dnf5 offline log`. Transakcija tika sākta ar komandu:"
 
 #: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Nezināms bezsaistes transakcijas statuss: "
 
 #: commands/provides/provides.cpp:50
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "Atrast, kura pakotne nodrošina doto vērtību"
 
 #: commands/provides/provides.cpp:136
 msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
+"Ja meklējat failu, mēģiniet norādīt pilnu ceļu vai sākumā lietot "
+"aizstājējzīmes priedēkli („*/”)."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
-msgstr ""
+msgstr "Pārinstalēt programmatūru"
 
 #: commands/remove/remove.cpp:48
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Noņemt (atinstalēt) programmatūru"
 
 #: commands/remove/remove.cpp:129
 msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
+"Opcijai „--limit” jābūt vienādai ar 1 vai lielākai (lai paturētu vismaz "
+"jaunāko instalēto pakotni)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
-msgstr ""
+msgstr "Opciju „--limit” var lietot tikai kopā ar „--oldinstallonly”."
 
 #: commands/remove/remove.cpp:242
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
 msgstr ""
+"Komandai „remove” trūkst pozicionālo argumentu. Lai uzzinātu vairāk par "
+"argumentiem, pievienojiet „--help”."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1012,100 +1114,108 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"Brīdinājums: pašlaik darbojošais kodols „{}” nav jaunākā instalētā versija, "
+"un tas netika noņemts. Pārstartējiet ar jaunāko kodolu un palaidiet šo "
+"komandu vēlreiz, lai pabeigtu tīrīšanu."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "Atkārtot transakciju, kas iepriekš saglabāta direktorijā"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Rādīt visus repozitorijus."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Rādīt iespējotos repozitorijus (noklusējums)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Rādīt atspējotos repozitorijus."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "Šablons, ko salīdzina ar repozitoriju ID."
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "Pārvaldīt repozitorijus"
 
 #: commands/repoquery/repoquery.cpp:82
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "Meklēt pakotnes, kas atbilst dažādiem kritērijiem"
 
 #: commands/repoquery/repoquery.cpp:527
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"Opcija „--exactdeps” jālieto kopā ar „--whatrequires” vai „--whatdepends”"
 
 #: commands/repoquery/repoquery.cpp:532
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"Opcija „--recursive” jālieto kopā ar „--whatrequires” vai „--providers-"
+"of=requires”"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "Meklēt arī pakotnes aprakstā un URL."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Šabloni"
 
 #: commands/search/search.cpp:49
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "Meklēt programmatūru, kas atbilst visām norādītajām virknēm"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "Opcijas --name un --summary nevar lietot kopā."
 
 #: commands/search/search.cpp:74
 msgid "Option --all cannot be used with --name or --summary."
-msgstr ""
+msgstr "Opciju --all nevar lietot kopā ar --name vai --summary."
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "Noņemt programmatūru un instalēt citu vienā transakcijā"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Sagatavot sistēmu jaunināšanai uz jaunu laidienu"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Lejupielādēt visu, kas nepieciešams jaunināšanai uz jaunu laidienu"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"Neinstalēt jaunā laidiena pakotnes, ja tās ir vecākas par pašlaik "
+"instalētajām"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "Nepieciešama --releasever, kas lielāka par pašreizējo sistēmas versiju."
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "Saglabāt distro-sync transakciju veikšanai bezsaistē"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Saglabāt jaunināšanas transakciju veikšanai bezsaistē"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "Jaunināt programmatūru"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -1114,123 +1224,130 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Jaunināt pakotnes tikai līdz zemākajām versijām, kas labo bugfix, "
+"enhancement, security vai newpackage tipa paziņojumos minēto. Ja tiek "
+"lietota kāda paziņojumus ierobežojoša opcija, pakotnes tiek jauninātas tikai "
+"līdz zemākajām versijām, kas labo atlasītajām paziņojumu īpašībām atbilstošo"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Pievienots ar komandu „versionlock {}” {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "Pārvaldīt versionlock konfigurāciju"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Pievienot jaunu ierakstu versionlock konfigurācijai"
 
 #: commands/versionlock/versionlock_add.cpp:44
 msgid "List of packages to lock to their current versions"
-msgstr ""
+msgstr "Pakotņu saraksts, ko fiksēt pašreizējās versijās"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
 #, c++-format
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "Pakotne „{}” nav atrasta."
 
 #: commands/versionlock/versionlock_add.cpp:134
 #, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Pievieno versionlock „{0} = {1}”."
 
 #: commands/versionlock/versionlock_add.cpp:137
 #, c++-format
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "Pakotne „{}” jau ir fiksēta."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Noņemt visus ierakstus no versionlock konfigurācijas"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Noņemt visus atbilstošos versionlock konfigurācijas ierakstus"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Pakotņu specifikāciju saraksts, kurām noņemt versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Dzēš versionlock ierakstu:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Pievienot jaunu izslēgšanas ierakstu versionlock konfigurācijai"
 
 #: commands/versionlock/versionlock_exclude.cpp:45
 msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
+"Izslēdzamo pakotņu saraksts. Ja versija nav norādīta, tiks izslēgtas visas "
+"pieejamās pakotnes versijas."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
 #, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Pievieno versionlock izslēgšanu „{0} = {1}”."
 
 #: commands/versionlock/versionlock_exclude.cpp:142
 #, c++-format
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "Pakotne „{}” jau ir izslēgta."
 
 #: context.cpp:82
 #, c++-format
 msgid "{} day, {}:{:02}:{:02}"
 msgid_plural "{} days, {}:{:02}:{:02}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} dienas, {}:{:02}:{:02}"
+msgstr[1] "{} diena, {}:{:02}:{:02}"
+msgstr[2] "{} dienas, {}:{:02}:{:02}"
 
 #: context.cpp:97
 #, c++-format
 msgid "Command: {}"
-msgstr ""
+msgstr "Komanda: {}"
 
 #: context.cpp:105
 #, c++-format
 msgid "Process ID: {} (still running)"
-msgstr ""
+msgstr "Procesa ID: {} (joprojām darbojas)"
 
 #: context.cpp:107
 #, c++-format
 msgid "Process ID: {}"
-msgstr ""
+msgstr "Procesa ID: {}"
 
 #: context.cpp:116
 #, c++-format
 msgid "Started: {}"
-msgstr ""
+msgstr "Sākts: {}"
 
 #: context.cpp:123
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "Komentārs: {}"
 
 #: context.cpp:127
 msgid "Details about the currently running transaction:\n"
-msgstr ""
+msgstr "Informācija par pašlaik notiekošo transakciju:\n"
 
 #: context.cpp:145
 #, c++-format
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr ""
+msgstr "Importē OpenPGP atslēgu 0x{}:\n"
 
 #: context.cpp:147 context.cpp:172
 #, c++-format
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " Lietotāja ID   : „{}”\n"
 
 #: context.cpp:150
 #, c++-format
@@ -1238,52 +1355,55 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Pirkstu nospiedums: {}\n"
+" No             : {}\n"
 
 #: context.cpp:159
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "Atslēga veiksmīgi importēta."
 
 #: context.cpp:168
 #, c++-format
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "Tiks noņemta šī OpenPGP atslēga (0x{}):"
 
 #: context.cpp:170
 #, c++-format
 msgid " Reason     : {}\n"
-msgstr ""
+msgstr " Iemesls       : {}\n"
 
 #: context.cpp:174
 #, c++-format
 msgid " Fingerprint: {}\n"
-msgstr ""
+msgstr " Pirkstu nospiedums: {}\n"
 
 #: context.cpp:176
 msgid "As a result, installing packages signed with this key will fail."
-msgstr ""
+msgstr "Tā rezultātā ar šo atslēgu parakstītu pakotņu instalēšana neizdosies."
 
 #: context.cpp:177
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "Ieteicams noņemt beigušos atslēgu, lai varētu importēt"
 
 #: context.cpp:178
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"atjauninātu atslēgu. Tādēļ jau instalētās pakotnes var kļūt nepārbaudāmas."
 
 #: context.cpp:181
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "Sistēma tagad turpinās ar atslēgas noņemšanu."
 
 #: context.cpp:187
 #, c++-format
 msgid "Key 0x{} was successfully removed."
-msgstr ""
+msgstr "Atslēga 0x{} veiksmīgi noņemta."
 
 #: context.cpp:216
 #, c++-format
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: „{}.{}”: {}"
 
 #: context.cpp:226
 #, c++-format
@@ -1291,74 +1411,78 @@ msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"Nav atbilstošu repozitoriju {}. Lai lietotu resursdatora sistēmas "
+"repozitorijus, norādiet opciju --use-host-config"
 
 #: context.cpp:230
 #, c++-format
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "Nav atbilstošu repozitoriju {}"
 
 #: context.cpp:302
 msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
+"Gaida sistēmas repozitorija slēgumu; to pašlaik izmanto cits process. Lai "
+"apietu slēgumu, lietojiet opciju „--skip-file-locks”."
 
 #: context.cpp:306
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
-msgstr ""
+msgstr "Gaida sistēmas repozitorija slēgumu. To pašlaik izmanto šie procesi:"
 
 #: context.cpp:316
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
-msgstr ""
+msgstr "Lai apietu slēgumu, lietojiet opciju „--skip-file-locks”."
 
 #. If we're only loading the system repo, we can skip the message.
 #: context.cpp:324
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Atjaunina un ielādē repozitorijus:"
 
 #: context.cpp:371
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr ""
+msgstr "Pēdējā metadatu derīguma pārbaude: pirms {}, {}."
 
 #: context.cpp:378
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Repozitoriji ielādēti."
 
 #: context.cpp:385
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "Testē bezsaistes transakciju"
 
 #: context.cpp:389 context.cpp:588
 #, c++-format
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "Transakcija neizdevās: {}"
 
 #: context.cpp:402 context.cpp:601
 #, c++-format
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:504
 #, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr ""
+msgstr "Vietā „{}” jau ir saglabāta transakcija, tā tiks pārrakstīta."
 
 #: context.cpp:538
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
-msgstr ""
+msgstr "Rindā jau ir bezsaistes transakcija, kas sākta ar šo komandu:"
 
 #: context.cpp:540
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
-msgstr ""
+msgstr "Turpinot vecā bezsaistes transakcija tiks atcelta un aizstāta ar šo."
 
 #: context.cpp:559
 msgid ""
@@ -1366,139 +1490,142 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Transakcija saglabāta veikšanai bezsaistē. Palaidiet `dnf5 offline reboot`, "
+"lai pārstartētu un veiktu transakciju. Lai atceltu transakciju un dzēstu "
+"lejupielādētos failus, lietojiet `dnf5 offline clean`."
 
 #: context.cpp:565
 msgid "Running transaction"
-msgstr ""
+msgstr "Veic transakciju"
 
 #: context.cpp:614
 msgid "Warning: Pending offline transaction has been invalidated."
-msgstr ""
+msgstr "Brīdinājums: gaidošā bezsaistes transakcija ir padarīta nederīga."
 
 #: context.cpp:616
 #, c++-format
 msgid "To reschedule, run: {}"
-msgstr ""
+msgstr "Lai ieplānotu no jauna, palaidiet: {}"
 
 #: context.cpp:1034
 #, c++-format
 msgid "Upgrading {}"
-msgstr ""
+msgstr "Jaunina {}"
 
 #: context.cpp:1037
 #, c++-format
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Pazemina {}"
 
 #: context.cpp:1040
 #, c++-format
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "Pārinstalē {}"
 
 #: context.cpp:1053
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Negaidīta darbība TransactionPackage: {}"
 
 #: context.cpp:1059
 #, c++-format
 msgid "Installing {}"
-msgstr ""
+msgstr "Instalē {}"
 
 #: context.cpp:1080
 msgid "Prepare transaction"
-msgstr ""
+msgstr "Sagatavot transakciju"
 
 #: context.cpp:1100
 #, c++-format
 msgid "Removing {}"
-msgstr ""
+msgstr "Noņem {}"
 
 #: context.cpp:1103
 #, c++-format
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Tīra {}"
 
 #: context.cpp:1122
 #, c++-format
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Izpakošanas kļūda: {}"
 
 #: context.cpp:1131
 #, c++-format
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Cpio kļūda: {}"
 
 #: context.cpp:1141
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "Skriptleta izvade:"
 
 #: context.cpp:1164
 msgid "Running scriptlets"
-msgstr ""
+msgstr "Palaiž skriptletus"
 
 #: context.cpp:1170
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Palaiž {} skriptletu: {}"
 
 #: context.cpp:1186
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "Pabeigts {} skriptlets: {}"
 
 #: context.cpp:1193
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Nekritiska kļūda {} skriptletā: {}"
 
 #: context.cpp:1203
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Kļūda {} skriptletā: {}"
 
 #: context.cpp:1238
 msgid "Verify package files"
-msgstr ""
+msgstr "Pārbaudīt pakotnes failus"
 
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "Nevar ielādēt koplietojamo bibliotēku „{}”: {}"
 
 #: library.cpp:47
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "Nevar iegūt simbola „{}” adresi: {}"
 
 #: main.cpp:150
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Neizdevās padarīt novecojušu repozitorija kešatmiņu ceļā „{0}”: {1}"
 
 #: main.cpp:174
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Rīks pakotņu uzturēšanai"
 
 #: main.cpp:175
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 ir programma pakotņu uzturēšanai."
 
 #: main.cpp:176
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Neklasificētas opcijas:"
 
 #: main.cpp:179
 msgid "Global options:"
-msgstr ""
+msgstr "Globālās opcijas:"
 
 #: main.cpp:184
 msgid "Print help"
-msgstr ""
+msgstr "Drukāt palīdzību"
 
 #: main.cpp:191
 msgid "Configuration file location"
-msgstr ""
+msgstr "Konfigurācijas faila atrašanās vieta"
 
 #: main.cpp:199
 msgid ""
@@ -1506,33 +1633,37 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"Kopā ar neinteraktīvu komandu rāda tikai būtisko saturu. Apspiež ziņojumus "
+"par dnf5 pašreizējo stāvokli vai darbībām."
 
 #: main.cpp:214
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Darboties tikai no sistēmas kešatmiņas, neatjaunināt kešatmiņu un lietot to "
+"pat tad, ja tā ir novecojusi."
 
 #: main.cpp:223
 msgid "Control whether color is used."
-msgstr ""
+msgstr "Noteikt, vai lietot krāsas."
 
 #: main.cpp:229
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Pirms komandas palaišanas piespiedu kārtā atsvaidzināt metadatus."
 
 #: main.cpp:239
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "izveidot papildu repozitoriju, izmantojot id un ceļu"
 
 #: main.cpp:247
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: nepareiza repoid un ceļa specifikācija „{}”"
 
 #: main.cpp:259
 msgid "set arbitrary config and repo options"
-msgstr ""
+msgstr "iestatīt jebkuras konfigurācijas un repozitoriju opcijas"
 
 #: main.cpp:261
 msgid ""
@@ -1544,241 +1675,283 @@ msgid ""
 "              they do not override it. However, specifying an empty value "
 "(e.g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Pārrakstīt konfigurācijas faila konfigurācijas opciju. Lai pārrakstītu "
+"repozitoriju konfigurācijas opcijas, kā\n"
+"              <option> lietojiet repoid.option. Tādu konfigurācijas opciju "
+"kā excludepkgs, includepkgs, installonlypkgs un tsflags vērtības tiek "
+"pievienotas\n"
+"              sākotnējai vērtībai, nevis to aizstāj. Tomēr, norādot tukšu "
+"vērtību (piemēram, --setopt=tsflags=), opcija tiks notīrīta."
 
 #: main.cpp:270 main.cpp:309
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: slikti formatēta argumenta vērtība „{}”"
 
 #: main.cpp:277
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: slikti formatēta argumenta vērtība: atslēgas pēdējā rakstzīme nevar būt "
+"„.”: {}"
 
 #: main.cpp:290
 #, c++-format
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: „{0}”: {1}"
 
 #: main.cpp:302
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "iestatīt jebkuru mainīgo"
 
 #: main.cpp:316
 #, c++-format
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:325
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "automātiski atbildēt „jā” uz visiem jautājumiem"
 
 #: main.cpp:332
 msgid "automatically answer no for all questions"
-msgstr ""
+msgstr "automātiski atbildēt „nē” uz visiem jautājumiem"
 
 #: main.cpp:339
 msgid "try the best available package versions in transactions"
-msgstr ""
+msgstr "transakcijās mēģināt labākās pieejamās pakotņu versijas"
 
 #: main.cpp:346
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "neierobežot transakciju ar labāko kandidātu"
 
 #: main.cpp:355
 msgid "allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "atļaut automātisku pakotņu aizstāšanu no citiem ražotājiem"
 
 #: main.cpp:362
 msgid "do not allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "neatļaut automātisku pakotņu aizstāšanu no citiem ražotājiem"
 
 #: main.cpp:375
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
+"Atļaut pārslēgt jebkura ražotāja pakotnes uz VENDOR pakotnēm. Atbalsta "
+"aizstājējzīmes, var norādīt vairākas reizes."
 
 #: main.cpp:394
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
+"Atļaut aizstāt VENDOR pakotnes ar jebkura ražotāja pakotnēm. Atbalsta "
+"aizstājējzīmes, var norādīt vairākas reizes."
 
 #: main.cpp:413
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
+"Atļaut ražotāja maiņu pakotnēm, kas atbilst PKG_NAME (abos virzienos). "
+"Saraksta opcija. Atbalsta aizstājējzīmes, var norādīt vairākas reizes."
 
 #: main.cpp:442
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
+"Pievienot ražotāja maiņas politiku šai palaišanai. Var norādīt vairākas "
+"reizes."
 
 #: main.cpp:457
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"Noņemt visas ražotāja maiņas politikas. Var apvienot ar {}, lai tās aizstātu."
 
 #: main.cpp:476
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
+"Atspējot ražotāja maiņas politikas, kuru avots atbilst norādītajam šablonam. "
+"Atbalsta aizstājējzīmes, var norādīt vairākas reizes."
 
 #: main.cpp:493
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"Neinstalēt failus, kas atzīmēti kā dokumentācija (tostarp man lapas un "
+"texinfo dokumentus)"
 
 #: main.cpp:509
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "izslēgt pakotnes pēc nosaukuma vai aizstājējzīmju šablona"
 
 #: main.cpp:528
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Iespējot papildu repozitorijus. Saraksta opcija. Atbalsta aizstājējzīmes, "
+"var norādīt vairākas reizes."
 
 #: main.cpp:546
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
+"Atspējot repozitorijus. Saraksta opcija. Atbalsta aizstājējzīmes, var "
+"norādīt vairākas reizes."
 
 #: main.cpp:564
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Iespējot tikai noteiktus repozitorijus. Saraksta opcija. Atbalsta "
+"aizstājējzīmes, var norādīt vairākas reizes."
 
 #: main.cpp:586
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
-msgstr ""
+msgstr "atspējot OpenPGP parakstu pārbaudi (ja RPM politika to atļauj)"
 
 #: main.cpp:603
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "Atspējot visus libdnf5 spraudņus"
 
 #: main.cpp:613
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Iespējot libdnf5 spraudņus pēc nosaukuma. Saraksta opcija. Atbalsta "
+"aizstājējzīmes, var norādīt vairākas reizes."
 
 #: main.cpp:628
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Atspējot libdnf5 spraudņus pēc nosaukuma. Saraksta opcija. Atbalsta "
+"aizstājējzīmes, var norādīt vairākas reizes."
 
 #: main.cpp:645
 msgid "add a comment to transaction"
-msgstr ""
+msgstr "pievienot transakcijai komentāru"
 
 #: main.cpp:647
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
+"Pievieno darbībai komentāru. Ja notiek transakcija, komentārs tiek saglabāts "
+"tajā."
 
 #: main.cpp:660
 msgid "set install root"
-msgstr ""
+msgstr "iestatīt instalēšanas sakni"
 
 #: main.cpp:667
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
+"lietot resursdatora sistēmas konfigurāciju, reposdir un mainīgos, nevis "
+"installroot"
 
 #: main.cpp:676
 msgid "override the value of $releasever in config and repo files"
-msgstr ""
+msgstr "pārrakstīt $releasever vērtību konfigurācijas un repozitoriju failos"
 
 #: main.cpp:689
 msgid "override the value of $releasever_major in config and repo files"
 msgstr ""
+"pārrakstīt $releasever_major vērtību konfigurācijas un repozitoriju failos"
 
 #: main.cpp:702
 msgid "override the value of $releasever_minor in config and repo files"
 msgstr ""
+"pārrakstīt $releasever_minor vērtību konfigurācijas un repozitoriju failos"
 
 #: main.cpp:715
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Rādīt jaunās instalētās lapu pakotnes un pakotnes, kas pēc transakcijas "
+"kļuvušas par lapām."
 
 #: main.cpp:729
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Izmest detalizētus atrisināšanas rezultātus failos"
 
 #: main.cpp:738
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "Drukāt galvenās konfigurācijas vērtības uz stdout"
 
 #: main.cpp:755
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Drukāt repozitoriju konfigurācijas vērtības uz stdout. Saraksta opcija. "
+"Atbalsta aizstājējzīmes"
 
 #: main.cpp:770
 msgid "Print variable values to stdout"
-msgstr ""
+msgstr "Drukāt mainīgo vērtības uz stdout"
 
 #: main.cpp:784
 msgid "Print loaded vendor change policies to stdout"
-msgstr ""
+msgstr "Drukāt ielādētās ražotāja maiņas politikas uz stdout"
 
 #: main.cpp:798
 msgid "Show DNF5 version and exit"
-msgstr ""
+msgstr "Rādīt DNF5 versiju un iziet"
 
 #: main.cpp:812
 msgid "Force the use of a different architecture."
-msgstr ""
+msgstr "Piespiedu kārtā lietot citu arhitektūru."
 
 #: main.cpp:844
 msgid "Skip acquiring file locks, such as the lock on the system repository"
-msgstr ""
+msgstr "Neiegūt failu slēgumus, piemēram, sistēmas repozitorija slēgumu"
 
 #: main.cpp:859
 msgid "Software Management Commands:"
-msgstr ""
+msgstr "Programmatūras pārvaldības komandas:"
 
 #: main.cpp:866
 msgid "Query Commands:"
-msgstr ""
+msgstr "Vaicājumu komandas:"
 
 #: main.cpp:873
 msgid "Subcommands:"
-msgstr ""
+msgstr "Apakškomandas:"
 
 #: main.cpp:975
 #, c++-format
 msgid "{} version {}.{}.{}.{}"
-msgstr ""
+msgstr "{} versija {}.{}.{}.{}"
 
 #: main.cpp:978
 #, c++-format
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} spraudņu API versija {}.{}"
 
 #: main.cpp:983
 #, c++-format
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "libdnf5 versija {}.{}.{}.{}"
 
 #: main.cpp:986
 #, c++-format
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "libdnf5 spraudņu API versija {}.{}"
 
 #: main.cpp:993
 #, c++-format
@@ -1786,33 +1959,38 @@ msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"Ielādētie {} spraudņi:"
 
 #: main.cpp:998 main.cpp:1014
 #, c++-format
 msgid "  name: {}"
-msgstr ""
+msgstr "  nosaukums: {}"
 
 #: main.cpp:1001 main.cpp:1017
 #, c++-format
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  versija: {}.{}.{}"
 
 #: main.cpp:1003 main.cpp:1019
 #, c++-format
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  API versija: {}.{}"
 
 #: main.cpp:1010
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
 msgstr ""
+"\n"
+"Ielādētie libdnf5 spraudņi:"
 
 #: main.cpp:1057
 #, c++-format
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
+"Ienākošo pakotņu kopējais izmērs ir {:.0f} {:s}. Jālejupielādē {:.0f} {:s}."
 
 #: main.cpp:1074
 #, c++-format
@@ -1820,6 +1998,8 @@ msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
+"Pēc šīs darbības papildus tiks izmantoti {:.0f} {:s} (instalēt {:.0f} {:s}, "
+"noņemt {:.0f} {:s})."
 
 #: main.cpp:1085
 #, c++-format
@@ -1827,58 +2007,62 @@ msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
+"Pēc šīs darbības tiks atbrīvoti {:.0f} {:s} (instalēt {:.0f} {:s}, noņemt "
+"{:.0f} {:s})."
 
 #: main.cpp:1097
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "======== Galvenā konfigurācija: ========"
 
 #: main.cpp:1134
 #, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr ""
+msgstr "Nav atbilstoša repozitorija konfigurācijas izmešanai: „{}”"
 
 #: main.cpp:1139
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "======== Repozitorija „{}” konfigurācija: ========"
 
 #: main.cpp:1159
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== Mainīgie: ========"
 
 #: main.cpp:1167
 msgid "======== Vendor Change Policies: ========"
-msgstr ""
+msgstr "======== Ražotāja maiņas politikas: ========"
 
 #: main.cpp:1171
 #, c++-format
 msgid "Policy #{}: source: {}"
-msgstr ""
+msgstr "Politika #{}: avots: {}"
 
 #: main.cpp:1177
 msgid ""
 "allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
 "vendor change policies will be ignored."
 msgstr ""
+"allow_vendor_change ir iespējots. Pakotnes var aizstāt jebkurš ražotājs, un "
+"ražotāja maiņas politikas tiks ignorētas."
 
 #: main.cpp:1215
 msgid "New leaves:"
-msgstr ""
+msgstr "Jaunās lapas:"
 
 #: main.cpp:1217
 #, c++-format
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:1277
 #, c++-format
 msgid "{} to skip unavailable packages"
-msgstr ""
+msgstr "{}, lai izlaistu nepieejamās pakotnes"
 
 #: main.cpp:1285
 #, c++-format
 msgid "{} to allow extra packages in the transaction"
-msgstr ""
+msgstr "{}, lai atļautu transakcijā papildu pakotnes"
 
 #: main.cpp:1298
 #, c++-format
@@ -1887,50 +2071,53 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{}, lai atļautu neatbilstības starp instalētajām un saglabātajām "
+"transakcijas pakotnēm. Tas var radīt tukšu transakciju, jo cita starpā šī "
+"opcija var ignorēt neveiksmīgas noņemšanas darbības."
 
 #: main.cpp:1354
 #, c++-format
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "{}, lai neierobežotu transakciju ar labākajiem kandidātiem"
 
 #: main.cpp:1361
 #, c++-format
 msgid "{} to allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "{}, lai atļautu noņemt instalētās pakotnes problēmu atrisināšanai"
 
 #: main.cpp:1370
 #, c++-format
 msgid "{} to load additional filelists metadata"
-msgstr ""
+msgstr "{}, lai ielādētu papildu failu sarakstu metadatus"
 
 #: main.cpp:1377
 #, c++-format
 msgid "{} to skip uninstallable packages"
-msgstr ""
+msgstr "{}, lai izlaistu neinstalējamās pakotnes"
 
 #: main.cpp:1392
 #, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr ""
+msgstr "{}, lai atļautu pārslēgšanos uz VENDOR pakotnēm"
 
 #: main.cpp:1394
 #, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr ""
+msgstr "{}, lai atļautu aizstāt VENDOR pakotnes"
 
 #: main.cpp:1396
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "{}, lai pievienotu noteiktas ražotāja maiņas kārtulas"
 
 #: main.cpp:1397
 #, c++-format
 msgid "{} to allow all vendor changes"
-msgstr ""
+msgstr "{}, lai atļautu jebkuru ražotāja maiņu"
 
 #: main.cpp:1401
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "Komandrindai varat mēģināt pievienot:"
 
 #: main.cpp:1419
 #, c++-format
@@ -1938,6 +2125,8 @@ msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
+"Iespējojot libdnf spraudņus, šiem spraudņu nosaukumu šabloniem netika "
+"atrasta neviena atbilsme: {}"
 
 #: main.cpp:1420
 #, c++-format
@@ -1945,26 +2134,28 @@ msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
+"Atspējojot libdnf spraudņus, šiem spraudņu nosaukumu šabloniem netika "
+"atrasta neviena atbilsme: {}"
 
 #: main.cpp:1486
 #, c++-format
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr ""
+msgstr "--- DNF5 palaists ar argumentiem: „{}” ---"
 
 #: main.cpp:1522
 #, c++-format
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Nederīgs „index” opcijā „--complete=<index>[,...]”: {}"
 
 #: main.cpp:1561
 #, c++-format
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1564 main.cpp:1958
 #, c++-format
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr "{}. Lai uzzinātu vairāk par argumentiem, pievienojiet „--help”."
 
 #: main.cpp:1573
 #, c++-format
@@ -1972,17 +2163,19 @@ msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
+"Tā varētu būt spraudņa nodrošināta komanda, mēģiniet: dnf5 install 'dnf5-"
+"command({})'"
 
 #: main.cpp:1615
 #, c++-format
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
-msgstr ""
+msgstr "Arguments ir pieejams komandām: {}. (Tas jānorāda aiz komandas.)"
 
 #: main.cpp:1652
 msgid "No read/execute access in current directory, moving to /"
-msgstr ""
+msgstr "Pašreizējā direktorijā nav lasīšanas/izpildes piekļuves, pāriet uz /"
 
 #: main.cpp:1694
 #, c++-format
@@ -1990,6 +2183,8 @@ msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
+"{}. Visi žurnāli tiek atmesti. Lai mainītu žurnālfaila atrašanās vietu, "
+"lietojiet konfigurācijas opciju „logdir”."
 
 #: main.cpp:1759
 msgid ""
@@ -1997,11 +2192,14 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"Pieprasītajai darbībai nepieciešamas supervisora tiesības. Piesakieties kā "
+"lietotājs ar paaugstinātām tiesībām vai lietojiet opcijas „--assumeno” vai "
+"„--downloadonly”, lai palaistu komandu, nemainot sistēmas stāvokli."
 
 #: main.cpp:1773
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "Brīdinājums: {}"
 
 #: main.cpp:1786
 msgid ""
@@ -2009,6 +2207,9 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
+"Kļūda: /usr ir konfigurēts tikai lasīšanai. Iespējams, lietojat uz tēliem "
+"balstītu vai nemaināmu operētājsistēmu. Sīkāku informāciju skatiet savas "
+"distribūcijas dokumentācijā."
 
 #: main.cpp:1805
 msgid ""
@@ -2016,6 +2217,9 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
+"Kļūda: bootc sistēmās pastāvīgas transakcijas netiek atbalstītas. Norādiet --"
+"transient, lai veiktu šo darbību pagaidu pārklājumā, kas tiks atiestatīts, "
+"sistēmu pārstartējot."
 
 #: main.cpp:1815
 msgid ""
@@ -2023,29 +2227,34 @@ msgid ""
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
+"Kļūda: šī bootc sistēma ir konfigurēta tikai lasīšanai. Norādiet --"
+"transient, lai veiktu šo darbību pagaidu pārklājumā, kas tiks atiestatīts, "
+"sistēmu pārstartējot."
 
 #: main.cpp:1826
 msgid "Error: transient transactions are only supported on bootc systems."
-msgstr ""
+msgstr "Kļūda: pagaidu transakcijas tiek atbalstītas tikai bootc sistēmās."
 
 #: main.cpp:1867
 #, c++-format
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "Darbība tikai saglabās transakciju {}"
 
 #: main.cpp:1869
 msgid "The operation will only download packages for the transaction."
-msgstr ""
+msgstr "Darbība tikai lejupielādēs transakcijas pakotnes."
 
 #: main.cpp:1874
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
+"Iespējots testa režīms: tiks veikta tikai pakotņu lejupielāde, OpenPGP "
+"atslēgu instalēšana un transakcijas pārbaudes."
 
 #: main.cpp:1883
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr ""
+msgstr "Brīdinājums: gaidošā bezsaistes transakcija tiks padarīta nederīga."
 
 #: main.cpp:1886
 #, c++-format
@@ -2053,6 +2262,8 @@ msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
 msgstr ""
+"Brīdinājums: gaidošā bezsaistes transakcija, kas sākta ar šo komandu, tiks "
+"padarīta nederīga: {}"
 
 #: main.cpp:1911
 msgid ""
@@ -2060,12 +2271,17 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
+"Šī transakcija mainītu šos ceļus, un, atmetot pagaidu pārklājumu uz /usr, "
+"tas var radīt nekonsekvenci. Sīkāku informāciju skatiet konfigurācijas "
+"opcijā usr_drift_protected_paths."
 
 #: main.cpp:1922
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"Darbība pārtraukta. Norādiet --setopt=usr_drift_protected_paths=, lai "
+"atspējotu šo pārbaudi un tomēr turpinātu."
 
 #: main.cpp:1931
 msgid ""
@@ -2073,55 +2289,62 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
+"Uz /usr tiks izveidots pagaidu pārklājums, kas pārstartējot tiks atmests. "
+"Ņemiet vērā, ka izmaiņas /etc un /var saglabāsies, un pakotnes šīs "
+"direktorijas bieži maina."
 
 #: main.cpp:1968
 #, c++-format
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "Komanda atgrieza kļūdu: {}"
 
 #: main.cpp:1976
 msgid "DNF5 finished"
-msgstr ""
+msgstr "DNF5 beidza darbu"
 
 #: main.cpp:1980
 msgid "Complete!"
-msgstr ""
+msgstr "Pabeigts!"
 
 #: shared_options.cpp:31
 msgid "Allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "Atļaut noņemt instalētās pakotnes problēmu atrisināšanai"
 
 #: shared_options.cpp:41
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr ""
+msgstr "Atļaut atrisināt atkarību problēmas, izlaižot pakotnes"
 
 #: shared_options.cpp:53
 msgid "Allow skipping unavailable packages"
-msgstr ""
+msgstr "Atļaut izlaist nepieejamās pakotnes"
 
 #: shared_options.cpp:175
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"Šos vienumus var atlasīt tikai no norādītajiem repozitorijiem. Atkarību "
+"apmierināšanai joprojām tiks izmantoti visi iespējotie repozitoriji."
 
 #: shared_options.cpp:178 shared_options.cpp:211
 msgid "REPO_ID,..."
-msgstr ""
+msgstr "REPOZITORIJA_ID,..."
 
 #: shared_options.cpp:193
 msgid "\"--from_repo\" already defined with different value"
-msgstr ""
+msgstr "„--from_repo” jau ir definēts ar citu vērtību"
 
 #: shared_options.cpp:209
 msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
 msgstr ""
+"Filtrē instalētās pakotnes pēc tā repozitorija ID, no kura tās tika "
+"instalētas."
 
 #: shared_options.cpp:220
 msgid "\"--installed-from_repo\" already defined with different value"
-msgstr ""
+msgstr "„--installed-from_repo” jau ir definēts ar citu vērtību"
 
 #: shared_options.cpp:236
 msgid ""
@@ -2129,11 +2352,14 @@ msgid ""
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
+"Šos vienumus var atlasīt tikai no norādītajiem ražotājiem. Vienumiem, kas "
+"apmierina atkarības, ražotājs tiek ignorēts vai (ja allow_vendor_change=0) "
+"joprojām tiek lietotas ražotāja maiņas politikas."
 
 #: shared_options.cpp:239
 msgid "VENDOR,..."
-msgstr ""
+msgstr "RAŽOTĀJS,..."
 
 #: shared_options.cpp:248
 msgid "\"--from_vendor\" already defined with different value"
-msgstr ""
+msgstr "„--from_vendor” jau ir definēts ar citu vērtību"
