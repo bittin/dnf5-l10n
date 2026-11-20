@@ -7,94 +7,100 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 22:06+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-21 13:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5-plugin-deptree/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: deptree.cpp:31
 msgid "Display package dependency trees."
-msgstr ""
+msgstr "Rādīt pakotņu atkarību kokus."
 
 #: deptree.cpp:35
 msgid "Package names, NEVRAs, or glob patterns."
-msgstr ""
+msgstr "Pakotņu nosaukumi, NEVRA vai aizstājējzīmju šabloni."
 
 #: deptree.cpp:45
 msgid "Show packages requiring each package."
-msgstr ""
+msgstr "Rādīt pakotnes, kurām nepieciešama katra pakotne."
 
 #: deptree.cpp:47
 msgid "Print a sorted, deduplicated package list."
-msgstr ""
+msgstr "Drukāt sakārtotu pakotņu sarakstu bez dublikātiem."
 
 #: deptree.cpp:49
 msgid "Show requirement capability nodes."
-msgstr ""
+msgstr "Rādīt prasību spēju mezglus."
 
 #: deptree.cpp:52
 msgid "Include all matching package versions."
-msgstr ""
+msgstr "Iekļaut visas atbilstošās pakotņu versijas."
 
 #: deptree.cpp:54
 msgid "Display dependency trees for installed packages only."
-msgstr ""
+msgstr "Rādīt atkarību kokus tikai instalētajām pakotnēm."
 
 #: deptree.cpp:59
 msgid ""
 "Show only branches leading to packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Rādīt tikai zarus, kas ved uz pakotnēm ar norādītajiem nosaukumiem. Saraksta "
+"opcija, atbalsta aizstājējzīmes."
 
 #: deptree.cpp:64
 msgid "Limit to packages of the specified architectures."
-msgstr ""
+msgstr "Ierobežot ar norādīto arhitektūru pakotnēm."
 
 #: deptree.cpp:78
 msgid "Limit traversal to N dependency levels."
-msgstr ""
+msgstr "Ierobežot pārlūkošanu ar N atkarību līmeņiem."
 
 #: deptree.cpp:92
 msgid ""
 "Comma-separated dependency types: requires, recommends, suggests, "
 "supplements, enhances."
 msgstr ""
+"Ar komatiem atdalīti atkarību tipi: requires, recommends, suggests, "
+"supplements, enhances."
 
 #: deptree.cpp:125
 #, c++-format
 msgid "No match for argument \"{}\"."
-msgstr ""
+msgstr "Nav atbilsmes argumentam „{}”."
 
 #: deptree_graph.cpp:422
 #, c++-format
 msgid "choice: {}"
-msgstr ""
+msgstr "izvēle: {}"
 
 #: deptree_graph.cpp:424
 #, c++-format
 msgid "if {}:"
-msgstr ""
+msgstr "ja {}:"
 
 #: deptree_graph.cpp:426
 msgid "else:"
-msgstr ""
+msgstr "citādi:"
 
 #: deptree_graph.cpp:428
 #, c++-format
 msgid "requirement: {}"
-msgstr ""
+msgstr "prasība: {}"
 
 #: deptree_graph.cpp:430
 #, c++-format
 msgid "unsatisfied: {}"
-msgstr ""
+msgstr "neapmierināta: {}"
 
 #: deptree_graph.cpp:452
 #, c++-format
 msgid "{} [expanded elsewhere]"
-msgstr ""
+msgstr "{} [izvērsts citur]"
