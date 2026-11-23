@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 22:06+0000\n"
-"PO-Revision-Date: 2026-11-03 10:01+0000\n"
+"PO-Revision-Date: 2026-11-23 02:45+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/eo/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
 msgid ", "
@@ -536,10 +536,8 @@ msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Neregata arĥitekturo \"{0}\". Bonvolu elekti ian el {1}"
 
 #: commands/download/download.cpp:214
-#, fuzzy
-#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option \"--together\" should be used with \"--resolve\""
-msgstr "Konsilindas uzi la opcion \"--alldeps\" kun \"--resolve\""
+msgstr "Konsilindas uzi la opcion \"--together\" kun \"--resolve\""
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:221
