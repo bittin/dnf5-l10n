@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 22:06+0000\n"
+"POT-Creation-Date: 2026-11-23 14:41+0000\n"
 "PO-Revision-Date: 2026-11-21 13:18+0000\n"
 "Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -76,7 +76,8 @@ msgstr "Trūkst komandas"
 #: actions.cpp:946
 #, c++-format
 msgid "Syntax error: Missing equal sign (=) in action output line: {}"
-msgstr "Sintakses kļūda: darbības izvades rindā trūkst vienādības zīmes (=): {}"
+msgstr ""
+"Sintakses kļūda: darbības izvades rindā trūkst vienādības zīmes (=): {}"
 
 #: actions.cpp:957
 #, c++-format
