@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 22:06+0000\n"
+"POT-Creation-Date: 2026-11-23 14:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,17 +16,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: threads_manager.cpp:94
+#: threads_manager.cpp:100
 #, c++-format
 msgid "Invalid locale \"{}\"."
 msgstr ""
 
-#: threads_manager.cpp:100
+#: threads_manager.cpp:106
 #, c++-format
 msgid "Failed to create locale \"{}\"."
 msgstr ""
 
-#: threads_manager.cpp:105
+#: threads_manager.cpp:111
 #, c++-format
 msgid "Failed to use locale \"{}\"."
 msgstr ""

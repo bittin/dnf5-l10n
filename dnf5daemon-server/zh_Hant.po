@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 22:06+0000\n"
+"POT-Creation-Date: 2026-11-23 14:41+0000\n"
 "PO-Revision-Date: 2026-11-11 06:49+0000\n"
 "Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -19,17 +19,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2026.11.1\n"
 
-#: threads_manager.cpp:94
+#: threads_manager.cpp:100
 #, c++-format
 msgid "Invalid locale \"{}\"."
 msgstr "語系「{}」無效。"
 
-#: threads_manager.cpp:100
+#: threads_manager.cpp:106
 #, c++-format
 msgid "Failed to create locale \"{}\"."
 msgstr "無法建立語系「{}」。"
 
-#: threads_manager.cpp:105
+#: threads_manager.cpp:111
 #, c++-format
 msgid "Failed to use locale \"{}\"."
 msgstr "無法使用語系「{}」。"

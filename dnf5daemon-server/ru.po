@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 22:06+0000\n"
+"POT-Creation-Date: 2026-11-23 14:41+0000\n"
 "PO-Revision-Date: 2026-09-23 07:59+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -20,17 +20,17 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2026.9.1\n"
 
-#: threads_manager.cpp:94
+#: threads_manager.cpp:100
 #, c++-format
 msgid "Invalid locale \"{}\"."
 msgstr "Неверная локаль «{}»."
 
-#: threads_manager.cpp:100
+#: threads_manager.cpp:106
 #, c++-format
 msgid "Failed to create locale \"{}\"."
 msgstr "Не удалось создать локаль \"{}\"."
 
-#: threads_manager.cpp:105
+#: threads_manager.cpp:111
 #, c++-format
 msgid "Failed to use locale \"{}\"."
 msgstr "Не удалось использовать локаль \"{}\"."
