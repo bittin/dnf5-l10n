@@ -18,8 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-24 12:56+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Simon Hennig <simon@hennig030.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -672,7 +671,7 @@ msgstr "Keine Übereinstimmungen für „{}“ gefunden."
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "Gruppen: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
 msgid "installed"
@@ -908,10 +907,8 @@ msgstr ""
 "use-host-config hinzu."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found."
-msgstr "Keine Übereinstimmungen für „{}“ gefunden."
+msgstr "Keine Übereinstimmungen gefunden."
 
 #: commands/offline/offline.cpp:220
 msgid "Manage offline transactions"
