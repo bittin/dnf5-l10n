@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 22:06+0000\n"
+"POT-Creation-Date: 2026-11-23 14:41+0000\n"
 "PO-Revision-Date: 2026-11-21 13:18+0000\n"
 "Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -405,8 +405,8 @@ msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
-"Darbības rezultātā moduļa „{0}” straume „{1}” tiktu pārslēgta uz straumi „{2}"
-"”\n"
+"Darbības rezultātā moduļa „{0}” straume „{1}” tiktu pārslēgta uz straumi "
+"„{2}”\n"
 
 #: base/log_event.cpp:342
 msgid ""
@@ -774,8 +774,8 @@ msgstr "neizdevās nolasīt skriptleta izvadi no cauruļvada"
 #, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
 msgstr ""
-"Neizdevās iegūt sistēmas repozitorija slēgumu rakstīšanai, slēgums atrodas „"
-"{}”"
+"Neizdevās iegūt sistēmas repozitorija slēgumu rakstīšanai, slēgums atrodas "
+"„{}”"
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -896,7 +896,8 @@ msgstr "get_user_home_dir(): nevar noteikt lietotāja mājas direktoriju"
 
 #: common/xdg.cpp:98
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
-msgstr "get_user_runtime_dir(): nevar noteikt lietotāja izpildlaika direktoriju"
+msgstr ""
+"get_user_runtime_dir(): nevar noteikt lietotāja izpildlaika direktoriju"
 
 #: comps/environment/environment.cpp:361
 #, c++-format
@@ -1393,7 +1394,8 @@ msgstr "Neizdevās ierakstīt {} kešatmiņu repozitorijam „{}” uz „{}”:
 #: repo/solv_repo.cpp:721
 #, c++-format
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr "Neizdevās atkārtoti ielādēt {} kešatmiņu repozitorijam „{}” no „{}”: {}"
+msgstr ""
+"Neizdevās atkārtoti ielādēt {} kešatmiņu repozitorijam „{}” no „{}”: {}"
 
 #: repo/temp_files_memory.cpp:52
 #, c++-format
@@ -1613,14 +1615,15 @@ msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
 "Error in \"{}\" in table starting on line {}"
 msgstr ""
-"Filtrs „cmdline_repo” atļauts tikai sadaļā „incoming_packages”. Kļūda failā „"
-"{}” tabulā, kas sākas rindā {}"
+"Filtrs „cmdline_repo” atļauts tikai sadaļā „incoming_packages”. Kļūda failā "
+"„{}” tabulā, kas sākas rindā {}"
 
 #: solv/vendor_change_manager.cpp:467
 #, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
-msgstr "Trūkst pakotņu filtra definīcijas failā „{}” tabulā, kas sākas rindā {}"
+msgstr ""
+"Trūkst pakotņu filtra definīcijas failā „{}” tabulā, kas sākas rindā {}"
 
 #: solv/vendor_change_manager.cpp:498
 #, c++-format
@@ -1681,7 +1684,8 @@ msgstr "Nezināms „comparator” „{}” failā „{}” rindā {}"
 msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
-msgstr "Konfigurācija „{}” lieto versiju „{}”, kas neatbalsta „comparator” „{}”"
+msgstr ""
+"Konfigurācija „{}” lieto versiju „{}”, kas neatbalsta „comparator” „{}”"
 
 #: solv/vendor_change_manager.cpp:719
 #, c++-format
@@ -1706,8 +1710,8 @@ msgid ""
 "for this filter"
 msgstr ""
 "Filtrs „cmdline_repo” failā „{}” tabulā, kas sākas rindā {}, neatbalsta "
-"salīdzinātāju „{}”. Šim filtram atļauts tikai noklusējuma salīdzinātājs „"
-"EXACT”"
+"salīdzinātāju „{}”. Šim filtram atļauts tikai noklusējuma salīdzinātājs "
+"„EXACT”"
 
 #: solv/vendor_change_manager.cpp:769
 #, c++-format
@@ -1724,8 +1728,8 @@ msgid ""
 "Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
-"Filtrs „{}” failā „{}” tabulā, kas sākas rindā {}, neatbalsta salīdzinātāju „"
-"{}”"
+"Filtrs „{}” failā „{}” tabulā, kas sākas rindā {}, neatbalsta salīdzinātāju "
+"„{}”"
 
 #: solv/vendor_change_manager.cpp:806
 #, c++-format
@@ -1843,7 +1847,8 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:1317
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
-msgstr "Filtrs „{}” atbalsta tikai relāciju salīdzinātājus: =, !=, >, >=, <, <="
+msgstr ""
+"Filtrs „{}” atbalsta tikai relāciju salīdzinātājus: =, !=, >, >=, <, <="
 
 #: solv/vendor_change_manager.cpp:1321
 #, c++-format
@@ -1878,8 +1883,8 @@ msgstr "{} stāvoklis „{}” nav atrasts."
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
-"Sistēmas stāvokļa TOML faila {} ielāde neizdevās (skatiet dnf5-system-state"
-"(7)): {}"
+"Sistēmas stāvokļa TOML faila {} ielāde neizdevās (skatiet dnf5-system-"
+"state(7)): {}"
 
 #: system/state.cpp:650
 #, c++-format
@@ -1905,8 +1910,8 @@ msgid ""
 "Failed to insert record into table 'comps_environment_group' in history "
 "database"
 msgstr ""
-"Neizdevās ievietot ierakstu vēstures datubāzes tabulā „"
-"comps_environment_group”"
+"Neizdevās ievietot ierakstu vēstures datubāzes tabulā "
+"„comps_environment_group”"
 
 #: transaction/db/db.cpp:71
 msgid "Unable to get 'version' from table 'config'"
@@ -2017,8 +2022,8 @@ msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
-"Darbību „Upgrade” „{0}” nevar apvienot, jo tā tajā brīdī nav -> iestata „"
-"Install”."
+"Darbību „Upgrade” „{0}” nevar apvienot, jo tā tajā brīdī nav -> iestata "
+"„Install”."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 #, c++-format
@@ -2026,8 +2031,8 @@ msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
-"Darbību „Reinstall” „{0}” nevar apvienot, jo tā tajā brīdī nav -> iestata „"
-"Install”."
+"Darbību „Reinstall” „{0}” nevar apvienot, jo tā tajā brīdī nav -> iestata "
+"„Install”."
 
 #: transaction/transaction_merge.cpp:194
 #, c++-format
@@ -2057,8 +2062,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> setting 'INSTALL'."
 msgstr ""
-"Darbību „{0}” „{1}” nevar apvienot, jo tā tajā brīdī nav -> iestata „INSTALL"
-"”."
+"Darbību „{0}” „{1}” nevar apvienot, jo tā tajā brīdī nav -> iestata "
+"„INSTALL”."
 
 #: transaction/transaction_merge.cpp:266
 #, c++-format
@@ -2404,7 +2409,8 @@ msgstr "integer64 vērtības piesaiste SQL priekšrakstam neizdevās: „{}”"
 #: utils/sqlite3/sqlite3.cpp:35
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
-msgstr "Bezzīmes integer32 vērtības piesaiste SQL priekšrakstam neizdevās: „{}”"
+msgstr ""
+"Bezzīmes integer32 vērtības piesaiste SQL priekšrakstam neizdevās: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
