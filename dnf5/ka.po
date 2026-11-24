@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 22:06+0000\n"
+"POT-Creation-Date: 2026-11-23 14:41+0000\n"
 "PO-Revision-Date: 2026-11-19 21:57+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,7 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2026.11.2\n"
 
-#: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
+#: cmdline_aliases.cpp:68 commands/clean/clean.cpp:82 context.cpp:222
+#: main.cpp:1617
 msgid ", "
 msgstr ", "
 
@@ -437,6 +438,32 @@ msgstr "packagedb-ის პრობლემებზე შემოწმე
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr "შეამოწმეთ {} აღმოჩენილი პრობლემა {} პაკეტში"
 
+#: commands/clean/clean.cpp:52
+msgid "Delete all cached data from the repositories cache"
+msgstr ""
+
+#: commands/clean/clean.cpp:53
+#, fuzzy
+#| msgid "List packages recently added into the repositories."
+msgid "Delete packages from the repositories cache"
+msgstr "რეპოზიტორიებში ახლახან ჩამატებული პაკეტების ჩამონათვალი."
+
+#: commands/clean/clean.cpp:55
+msgid "Delete the metadata and dbcache from the repositories cache"
+msgstr ""
+
+#: commands/clean/clean.cpp:57
+msgid "Delete dbcache from the repositories cache"
+msgstr ""
+
+#: commands/clean/clean.cpp:58
+msgid "Mark the repositories cache as expired"
+msgstr ""
+
+#: commands/clean/clean.cpp:76
+msgid "Remove or expire cached data"
+msgstr ""
+
 #: commands/clean/clean.cpp:91
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
@@ -447,20 +474,53 @@ msgstr "გასასუფთავებელი კეშის ტიპ�
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr "უცნობი კეშის ტიპი \"{0}\". მხარდაჭერილი ტიპებია: {1}"
 
-#: commands/clean/clean.cpp:166
+#. Note for translators: This is a shell completion for "dnf5 clean" command.
+#: commands/clean/clean.cpp:123
+#, c++-format
+msgid "{:15} ({})"
+msgstr ""
+
+#: commands/clean/clean.cpp:167
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "რეპოზიტორიის კეშის გასუფთავება ჩავარდა ბილიკზე \"{0}\": {1}"
 
-#: commands/clean/clean.cpp:176
+#: commands/clean/clean.cpp:177
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr "კეშის საქაღალდე \"{}\" არ არსებობს. გასასუფთავებელი არაფერია."
 
-#: commands/clean/clean.cpp:181
+#: commands/clean/clean.cpp:182
 #, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "კეშის საქაღალდის \"{}\" იტერაცია შეუძლებელია: {}"
+
+#. Note for translators: The argument is a counter.
+#: commands/clean/clean.cpp:189
+#, c++-format
+msgid "{} file"
+msgid_plural "{} files"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Note for translators: The argument is a counter.
+#: commands/clean/clean.cpp:193
+#, c++-format
+msgid "{} directory"
+msgid_plural "{} directories"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Note for translators: The first two arguments are "{} files" and
+#. "{} directories" translated above. The third and forth arguments are
+#. a number and a unit of information amount (e.g. "0 B").
+#. The fifth argument is a counter of the errors.
+#: commands/clean/clean.cpp:200
+#, c++-format
+msgid "Removed {}, {} (total of {:.0f} {:s}). {} error occurred."
+msgid_plural "Removed {}, {} (total of {:.0f} {:s}). {} errors occurred."
+msgstr[0] ""
+msgstr[1] ""
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."

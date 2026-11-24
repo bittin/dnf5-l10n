@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 22:06+0000\n"
+"POT-Creation-Date: 2026-11-23 14:41+0000\n"
 "PO-Revision-Date: 2026-11-03 09:42+0000\n"
 "Last-Translator: Eskil Gerdrup <eskil.gerdrup@outlook.com>\n"
 "Language-Team: Norwegian Nynorsk <https://translate.fedoraproject.org/"
@@ -21,7 +21,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2026.11\n"
 
-#: cmdline_aliases.cpp:68 context.cpp:222 main.cpp:1617
+#: cmdline_aliases.cpp:68 commands/clean/clean.cpp:82 context.cpp:222
+#: main.cpp:1617
 msgid ", "
 msgstr ", "
 
@@ -429,6 +430,32 @@ msgstr "Sjå etter problem i packagedb"
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr "Sjå etter oppdaga {} problem i {} pakke(pakkar)"
 
+#: commands/clean/clean.cpp:52
+msgid "Delete all cached data from the repositories cache"
+msgstr ""
+
+#: commands/clean/clean.cpp:53
+#, fuzzy
+#| msgid "List packages recently added into the repositories."
+msgid "Delete packages from the repositories cache"
+msgstr "Syn pakkar som nyleg er lagde til i pakkebrunnen."
+
+#: commands/clean/clean.cpp:55
+msgid "Delete the metadata and dbcache from the repositories cache"
+msgstr ""
+
+#: commands/clean/clean.cpp:57
+msgid "Delete dbcache from the repositories cache"
+msgstr ""
+
+#: commands/clean/clean.cpp:58
+msgid "Mark the repositories cache as expired"
+msgstr ""
+
+#: commands/clean/clean.cpp:76
+msgid "Remove or expire cached data"
+msgstr ""
+
 #: commands/clean/clean.cpp:91
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
@@ -439,21 +466,54 @@ msgstr "Liste over cache-typar som skal verta rydda opp i. Stødde typar: {0}"
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr "Ukjend cache-type \"{0}\". Stødde typar: {1}"
 
-#: commands/clean/clean.cpp:166
+#. Note for translators: This is a shell completion for "dnf5 clean" command.
+#: commands/clean/clean.cpp:123
+#, c++-format
+msgid "{:15} ({})"
+msgstr ""
+
+#: commands/clean/clean.cpp:167
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr ""
 "Kunne ikkje rydda opp i cache-minnet for pakkebrunnen i stien «{0}»: {1}"
 
-#: commands/clean/clean.cpp:176
+#: commands/clean/clean.cpp:177
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr "Cache-katalog \"{}\" finst ikkje. Ingenting å rydde opp i."
 
-#: commands/clean/clean.cpp:181
+#: commands/clean/clean.cpp:182
 #, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Kan ikkje gjennomsøkja cache-katalogen \"{}\": {}"
+
+#. Note for translators: The argument is a counter.
+#: commands/clean/clean.cpp:189
+#, c++-format
+msgid "{} file"
+msgid_plural "{} files"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Note for translators: The argument is a counter.
+#: commands/clean/clean.cpp:193
+#, c++-format
+msgid "{} directory"
+msgid_plural "{} directories"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Note for translators: The first two arguments are "{} files" and
+#. "{} directories" translated above. The third and forth arguments are
+#. a number and a unit of information amount (e.g. "0 B").
+#. The fifth argument is a counter of the errors.
+#: commands/clean/clean.cpp:200
+#, c++-format
+msgid "Removed {}, {} (total of {:.0f} {:s}). {} error occurred."
+msgid_plural "Removed {}, {} (total of {:.0f} {:s}). {} errors occurred."
+msgstr[0] ""
+msgstr[1] ""
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
