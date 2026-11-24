@@ -17,8 +17,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 22:06+0000\n"
-"PO-Revision-Date: 2026-11-19 21:57+0000\n"
-"Last-Translator: Frank Büttner <frank-fedora@xn--familie-bttner-osb.de>\n"
+"PO-Revision-Date: 2026-11-24 12:56+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -674,20 +675,16 @@ msgid "Groups: {0} ({1} {2}, {3} {4})"
 msgstr ""
 
 #: commands/group/group_list.cpp:147
-#, fuzzy
-#| msgid "Installed"
 msgid "installed"
 msgid_plural "installed"
-msgstr[0] "Installiert"
-msgstr[1] "Installiert"
+msgstr[0] "installiert"
+msgstr[1] "installiert"
 
 #: commands/group/group_list.cpp:149
-#, fuzzy
-#| msgid "Available"
 msgid "available"
 msgid_plural "available"
-msgstr[0] "Verfügbar"
-msgstr[1] "Verfügbar"
+msgstr[0] "verfügbar"
+msgstr[1] "verfügbar"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -1407,7 +1404,7 @@ msgstr "setvar: {}"
 #: context.cpp:123
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "_Kommentar:"
 
 #: context.cpp:127
 #, fuzzy
