@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 22:06+0000\n"
+"POT-Creation-Date: 2026-11-23 14:41+0000\n"
 "PO-Revision-Date: 2026-11-21 13:18+0000\n"
 "Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -77,8 +77,8 @@ msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
 msgstr ""
-"Vienam no --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>"
-", --set=metalink=<URL> jābūt iestatītam uz netukšu URL"
+"Vienam no --from-repofile=<URL>, --set=baseurl=<URL>, --"
+"set=mirrorlist=<URL>, --set=metalink=<URL> jābūt iestatītam uz netukšu URL"
 
 #: addrepo.cpp:408
 #, c++-format
@@ -159,8 +159,8 @@ msgid ""
 "Policy file \"{path}\" already exists. Use \"{option}\" to allow replacing "
 "it."
 msgstr ""
-"Politikas fails „{path}” jau eksistē. Lai atļautu to aizstāt, lietojiet „"
-"{option}”."
+"Politikas fails „{path}” jau eksistē. Lai atļautu to aizstāt, lietojiet "
+"„{option}”."
 
 #: addvendorpolicy.cpp:150
 msgid ""
@@ -338,8 +338,8 @@ msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
 msgstr ""
-"Opcija „{}” repozitorijam „{}” tiek iestatīta vēlreiz ar citu vērtību: „{}” "
-"!= „{}”"
+"Opcija „{}” repozitorijam „{}” tiek iestatīta vēlreiz ar citu vērtību: „{}” !"
+"= „{}”"
 
 #: setopt.cpp:100
 #, c++-format
