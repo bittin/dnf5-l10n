@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 22:06+0000\n"
 "PO-Revision-Date: 2026-11-24 12:56+0000\n"
-"Last-Translator: Simon Hennig <simon@hennig030.de>\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -1373,14 +1373,13 @@ msgstr "Paket „{}“ ist bereits ausgenommen."
 #, c++-format
 msgid "{} day, {}:{:02}:{:02}"
 msgid_plural "{} days, {}:{:02}:{:02}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} Tag, {}:{:02}:{:02}"
+msgstr[1] "{} Tage, {}:{:02}:{:02}"
 
 #: context.cpp:97
-#, fuzzy, c++-format
-#| msgid "Query Commands:"
+#, c++-format
 msgid "Command: {}"
-msgstr "Abfragebefehle:"
+msgstr "Befehl: {}"
 
 #: context.cpp:105
 #, c++-format
@@ -1393,15 +1392,14 @@ msgid "Process ID: {}"
 msgstr ""
 
 #: context.cpp:116
-#, fuzzy, c++-format
-#| msgid "setvar: {}"
+#, c++-format
 msgid "Started: {}"
-msgstr "setvar: {}"
+msgstr "Gestartet: {}"
 
 #: context.cpp:123
 #, c++-format
 msgid "Comment: {}"
-msgstr "_Kommentar:"
+msgstr "Kommentar: {}"
 
 #: context.cpp:127
 #, fuzzy
